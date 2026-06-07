@@ -1,0 +1,11 @@
+﻿{
+	"name":	"Urban Rights",
+	"id":	"aga_urban_rights",
+	"version":	"1.0.0",
+	"supported_game_version":	"1.2.*",
+	"short_description":	"Adds more unique urban rights.",
+	"tags":	["Balance"],
+	"relationships":	[],
+	"game_custom_data":	{
+}
+}

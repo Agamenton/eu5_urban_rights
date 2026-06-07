@@ -1,0 +1,213 @@
+﻿# -----------------------------
+# Ottomans
+
+# -----------------------------
+# Russian/Muscovy
+
+# -----------------------------
+# Venice
+
+# -----------------------------
+# Japan (Shogunate)
+
+# -----------------------------
+# Egypt
+
+# -----------------------------
+# Teutons/Prussia
+
+# -----------------------------
+# Mali
+
+# -----------------------------
+# China
+
+# -----------------------------
+# Kyiv/Ruthenia
+
+# -----------------------------
+# Somalia
+
+# -----------------------------
+# Dai Viet
+
+# -----------------------------
+# Goryeo
+
+# -----------------------------
+# Khmer
+
+# -----------------------------
+# Vijayanagara
+
+# -----------------------------
+# Bulgaria
+
+# -----------------------------
+# Serbia
+
+# -----------------------------
+# Wallachia, Moldavia, Romania
+
+# -----------------------------
+# Georgia
+
+# -----------------------------
+# Persia (persian culture)
+
+# -----------------------------
+# Moroco
+
+# -----------------------------
+# Tunis
+
+# -----------------------------
+# Ethiopia
+
+# -----------------------------
+# Sultanate of Delhi
+
+
+
+# +++++++++++++++++++++++++++++
+# ++++ Unique per City ++++++++
+# +++++++++++++++++++++++++++++
+
+# -----------------------------
+# Notable Cities (literacy, religion, culture)
+Hormuz
+Rome
+Venice
+Novo Brdo
+Alexandria
+Cairo
+Hangzhou
+Suzhou
+Kyoto
+Sakai
+
+# -----------------------------
+# Mining Cities
+Kutna Hora
+Banská Štiavnica (HUN)
+Falun
+Schwaz
+Potosí
+
+# -----------------------------
+# Trading Cities
+Bruges
+Antwerp
+Amsterdam
+Genoa
+Malacca
+Aden
+Mogadishu
+Kilwa
+Calicut
+Goa
+Samarkand
+Tabriz
+
+
+# -----------------------------
+# Manufacturing Cities
+Florence
+Milan
+Nuremberg
+Toledo
+Damascus
+Jingdezhen
+Kashan
+Bologna
+Oxford
+Paris
+Prague
+Nalanda
+Timbuktu
+
+
+# -----------------------------
+# Agricultural Cities
+Kyiv
+Angkor
+Fayyum
+Mocha
+Shiraz
+
+# -----------------------------
+# MORE
+Moscow
+Novgorod
+Pskov
+Arkhangelsk
+
+Oslo
+Bergen
+Stockholm
+Visby
+Trondheim
+
+London
+York
+Bristol
+Norwich
+Edinburgh
+Dublin
+
+Kraków
+Gdańsk
+Vilnius
+Lviv
+
+Frankfurt
+Cologne
+Augsburg
+Leipzig
+Hamburg
+
+Florence
+Naples
+Palermo
+
+Seville
+Toledo
+Barcelona
+Valencia
+Lisbon
+
+Tarnovo
+Belgrade
+Ragusa
+Sarajevo
+
+Bursa
+Edirne
+Aleppo
+
+Jerusalem
+Tunis
+Fez
+Marrakesh
+
+Isfahan
+Shiraz
+Bukhara
+
+Delhi
+Agra
+Surat
+Ahmedabad
+Masulipatnam
+
+Beijing
+Nanjing
+Hangzhou
+Suzhou
+Jingdezhen
+Kaifeng
+
+Timbuktu
+Gao
+Harar
+Gondar
