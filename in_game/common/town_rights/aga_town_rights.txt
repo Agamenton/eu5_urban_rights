@@ -1,213 +1,3479 @@
-﻿# -----------------------------
-# Ottomans
-
-# -----------------------------
-# Russian/Muscovy
-
-# -----------------------------
-# Venice
-
-# -----------------------------
-# Japan (Shogunate)
-
-# -----------------------------
-# Egypt
-
-# -----------------------------
-# Teutons/Prussia
-
-# -----------------------------
-# Mali
-
-# -----------------------------
-# China
-
-# -----------------------------
-# Kyiv/Ruthenia
-
-# -----------------------------
-# Somalia
-
-# -----------------------------
-# Dai Viet
-
-# -----------------------------
-# Goryeo
-
-# -----------------------------
-# Khmer
-
-# -----------------------------
-# Vijayanagara
-
-# -----------------------------
-# Bulgaria
-
-# -----------------------------
-# Serbia
-
-# -----------------------------
-# Wallachia, Moldavia, Romania
-
-# -----------------------------
-# Georgia
-
-# -----------------------------
-# Persia (persian culture)
-
-# -----------------------------
-# Moroco
-
-# -----------------------------
-# Tunis
-
-# -----------------------------
-# Ethiopia
-
-# -----------------------------
-# Sultanate of Delhi
+﻿# =============================================================
+# UNIQUE URBAN RIGHTS MOD
+# Europa Universalis 5 - Town Rights
+# Thematic scope: 14th–17th century, global
+# =============================================================
 
 
+# =============================================================
+# OTTOMAN EMPIRE
+# =============================================================
 
-# +++++++++++++++++++++++++++++
-# ++++ Unique per City ++++++++
-# +++++++++++++++++++++++++++++
+# Ottoman commercial institution
+aga_tr_tur_iskele = {
+    kept_at_conquest = no
 
-# -----------------------------
-# Notable Cities (literacy, religion, culture)
-Hormuz
-Rome
-Venice
-Novo Brdo
-Alexandria
-Cairo
-Hangzhou
-Suzhou
-Kyoto
-Sakai
+    location_modifier = {
+		local_maritime_presence = 0.1
+		local_trades_per_burgher = 0.25
+		local_marketplace_building_levels = 10
+        local_burghers_estate_power = 1.0
+    }
 
-# -----------------------------
-# Mining Cities
-Kutna Hora
-Banská Štiavnica (HUN)
-Falun
-Schwaz
-Potosí
+    country_modifier = {
+    }
 
-# -----------------------------
-# Trading Cities
-Bruges
-Antwerp
-Amsterdam
-Genoa
-Malacca
-Aden
-Mogadishu
-Kilwa
-Calicut
-Goa
-Samarkand
-Tabriz
+    potential = {
+        has_or_had_tag = TUR # Ottoman
+    }
+
+    allow = {
+        scope:target = {
+			is_port = yes
+			NOT = {
+				has_town_rights = town_rights_type:staple_port
+            }
+        }
+    }
+
+    color = map_dene
+}
+
+aga_tr_ottoman_vakif_endowment = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_monthly_literacy = 0.02
+        local_pop_promotion_speed_modifier = 0.1
+        local_clergy_desired_pop_scaled = 0.05
+    }
+    country_modifier = {
+    }
+    potential = {
+        has_or_had_tag = TUR
+    }
+    allow = {
+        scope:target = {
+            OR = {
+                location_rank = location_rank:city
+                location_rank = location_rank:megalopolis
+            }
+        }
+    }
+    color = goods_paper
+}
+
+aga_tr_ottoman_timar_garrison = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_garrison_growth = 0.15
+        local_defensive = 0.1
+        local_nobles_estate_power = 0.5
+        local_manpower = 0.005
+    }
+    country_modifier = {
+        tax_income_efficiency = -0.005  # 0.5% less tax
+    }
+    potential = {
+        has_or_had_tag = TUR
+    }
+    allow = {
+        scope:target = {
+		    modifier:fort_level > 1
+        }
+    }
+    color = map_gravel_road
+}
 
 
-# -----------------------------
-# Manufacturing Cities
-Florence
-Milan
-Nuremberg
-Toledo
-Damascus
-Jingdezhen
-Kashan
-Bologna
-Oxford
-Paris
-Prague
-Nalanda
-Timbuktu
+# =============================================================
+# RUSSIA / MUSCOVY
+# =============================================================
+
+# Pomor fishing settlements
+aga_tr_rus_pomor = {
+    kept_at_conquest = no
+
+    location_modifier = {
+        local_fish_output_modifier = 0.25
+        local_max_rgo_size_modifier = 1.0
+    }
+
+    country_modifier = {
+    }
+
+    potential = {
+        OR = {
+            has_or_had_tag = RUS
+            has_or_had_tag = MOS
+            has_or_had_tag = NOV
+        }
+    }
+
+    allow = {
+        scope:target = {
+			raw_material = goods:fish
+        }
+    }
+
+    color = goods_fish
+}
+
+aga_tr_russian_sloboda = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_burghers_desired_pop_scaled = 0.1
+        local_production_efficiency = 0.08
+        local_pop_promotion_speed_modifier = 0.1
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:east_slavic
+        }
+    }
+    allow = {
+        scope:target = {
+            
+        }
+    }
+    color = map_dakelh
+}
+
+aga_tr_russian_posad = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_merchant_capacity = 1
+        local_burghers_desired_pop = 500
+        local_trade_protection_factor = 0.05
+    }
+    country_modifier = {
+        trade_income = 0.03
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:east_slavic
+        }
+    }
+    allow = {
+        scope:target = {
+            is_market_center = yes
+        }
+    }
+    color = map_wetsuweten
+}
+
+aga_tr_russian_oprichnina_district = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_nobles_estate_power = -0.15
+        local_crown_estate_power = 0.1
+        local_unrest = 0.05
+    }
+    country_modifier = {
+    }
+    potential = {
+        has_or_had_tag = MOS
+    }
+    allow = {
+        scope:target = {
+            OR = {
+                location_rank = location_rank:city
+                location_rank = location_rank:megalopolis
+            }
+        }
+    }
+    color = map_MOS
+}
 
 
-# -----------------------------
-# Agricultural Cities
-Kyiv
-Angkor
-Fayyum
-Mocha
-Shiraz
+# =============================================================
+# VENICE
+# =============================================================
 
-# -----------------------------
-# MORE
-Moscow
-Novgorod
-Pskov
-Arkhangelsk
+aga_tr_venetian_contrada = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_burghers_desired_pop_scaled = 0.1
+        local_merchant_capacity = 0.5
+        local_cultural_tradition = 0.1
+        local_merchant_power = 2
+    }
+    country_modifier = {
+    }
+    potential = {
+        has_or_had_tag = VEN
+    }
+    allow = {
+        scope:target = {
+            
+            OR = {
+                location_rank = location_rank:city
+                location_rank = location_rank:megalopolis
+            }
+            OR = {
+                has_building = building_type:marketplace
+                has_building = building_type:merchants_quarters
+                has_building = building_type:grand_marketplace
+                has_building = building_type:commerce_center
+            }
+        }
+    }
+    color = map_venetian
+}
 
-Oslo
-Bergen
-Stockholm
-Visby
-Trondheim
+aga_tr_venetian_arsenal_quarter = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_ship_build_speed = 0.2
+        max_ships_built_at_same_time = 2
+        local_sailors_modifier = 0.1
+    }
+    country_modifier = {
+    }
+    potential = {
+        has_or_had_tag = VEN
+    }
+    allow = {
+        scope:target = {
+            
+            OR = {
+                location_rank = location_rank:city
+                location_rank = location_rank:megalopolis
+            }
+            is_port = yes
+        }
+    }
+    color = map_sekani
+}
 
-London
-York
-Bristol
-Norwich
-Edinburgh
-Dublin
+aga_tr_venetian_rialto_exchange = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_merchant_capacity = 1
+        local_market_access = 0.015
+        local_trade_protection_factor = 0.1
+    }
+    country_modifier = {
+    }
+    potential = {
+        has_or_had_tag = VEN
+    }
+    allow = {
+        scope:target = {
+            
+            OR = {
+                location_rank = location_rank:city
+                location_rank = location_rank:megalopolis
+            }
+            OR = {
+                has_building = building_type:marketplace
+                has_building = building_type:merchants_quarters
+                has_building = building_type:grand_marketplace
+                has_building = building_type:commerce_center
+            }
+        }
+    }
+    color = map_dunezza
+}
 
-Kraków
-Gdańsk
-Vilnius
-Lviv
 
-Frankfurt
-Cologne
-Augsburg
-Leipzig
-Hamburg
+# =============================================================
+# JAPAN (SHOGUNATE)
+# =============================================================
 
-Florence
-Naples
-Palermo
+aga_tr_japanese_za_guild = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_production_efficiency = 0.1
+        local_burghers_desired_pop_scaled = 0.08
+        local_merchant_capacity = 1
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:japanese_group
+        }
+    }
+    allow = {
+        scope:target = {
+            
+        }
+    }
+    color = map_JAP
+}
 
-Seville
-Toledo
-Barcelona
-Valencia
-Lisbon
+aga_tr_japanese_jinaimachi = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_clergy_desired_pop_scaled = 0.1
+        local_max_control = 0.05
+        local_burghers_desired_pop_scaled = 0.05
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:japanese_group
+        }
+    }
+    allow = {
+        scope:target = {
+            
+        }
+    }
+    color = map_tsimshian_c
+}
 
-Tarnovo
-Belgrade
-Ragusa
-Sarajevo
+aga_tr_japanese_castle_town = {
+    kept_at_conquest = yes
+    location_modifier = {
+        fort_level = 1
+        local_garrison_size = 0.2
+        local_nobles_desired_pop_scaled = 0.08
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:japanese_group
+        }
+    }
+    allow = {
+        scope:target = {
+		    modifier:fort_level > 1
+        }
+    }
+    color = map_haida_c
+}
 
-Bursa
-Edirne
-Aleppo
 
-Jerusalem
-Tunis
-Fez
-Marrakesh
+# =============================================================
+# Arabs
+# =============================================================
 
-Isfahan
-Shiraz
-Bukhara
+aga_tr_arab_funduq = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 2
+        local_market_access = 0.1
+        local_trade_protection_factor = 0.1
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:arabic_group
+        }
+    }
+    allow = {
+        scope:target = {
+            has_building = building_type:funduq
+        }
+    }
+    color = map_egypt
+}
 
-Delhi
-Agra
-Surat
-Ahmedabad
-Masulipatnam
+aga_tr_arab_waqf_hospital = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_life_expectancy = 2
+        local_disease_resistance = 0.1
+        local_pop_promotion_speed_modifier = 0.15
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:arabic_group
+        }
+    }
+    allow = {
+    }
+    color = map_ingalik
+}
 
-Beijing
-Nanjing
-Hangzhou
-Suzhou
-Jingdezhen
-Kaifeng
+aga_tr_egy_mamluk_garrison = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_garrison_size = 0.20
+        local_defensive = 0.10
+        local_crown_estate_power = 0.5
+    }
+    country_modifier = {
+        global_slaves_food_consumption = 0.05
+    }
+    potential = {
+        modifier:can_build_mamluk_barracks = yes
+    }
+    allow = {
+        scope:target = {
+            has_building = building_type:mamluk_barracks
+		    modifier:fort_level > 0
+        }
+    }
+    color = map_ingalik
+}
 
-Timbuktu
-Gao
-Harar
-Gondar
+aga_tr_egy_nile_cultivation = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_food_modifier = 0.15
+        local_population_growth = 0.0001
+        local_monthly_prosperity = 0.0025
+    }
+    country_modifier = {
+    }
+    potential = {
+        OR = {
+            has_or_had_tag = EGY
+            has_or_had_tag = MAM
+            original_capital ?= {
+                region = region:egypt_region
+            }
+        }
+    }
+    allow = {
+        scope:target = {
+            raw_material = { goods_method = farming }
+            has_river = yes
+            region = region:egypt_region
+        }
+    }
+    color = map_ingalik
+}
+
+aga_tr_arab_mellah = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_burghers_desired_pop_scaled = 0.08
+        local_merchant_capacity = 1
+        local_monthly_literacy = 0.1
+    }
+    country_modifier = {
+        trade_income = 0.015
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:arabic_group
+        }
+    }
+    allow = {
+    }
+    color = map_morocco
+}
+
+aga_tr_maghrebi_corsairs = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_slaves_desired_pop_scaled = 0.1
+        local_maritime_presence = 0.25
+    }
+    country_modifier = {
+        privateer_maintenance_cost_modifier = -0.05
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:maghrebi_group
+        }
+        modifier:allow_privateers_slave_raid = yes
+    }
+    allow = {
+        is_port = yes
+    }
+    color = map_morocco
+}
+
+# integration of tribesmen
+aga_tr_maghrebi_tribes = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_tribal_promotion = 5.0
+        local_pop_assimilation_speed = 0.020
+        local_tribes_estate_unrest = 0.25
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:maghrebi_group
+        }
+		num_pop_type_in_country:tribesmen > 0
+    }
+    allow = {
+        scope:target = {
+			num_pop_type:tribesmen > 0
+        }
+    }
+    color = map_morocco
+}
+# =============================================================
+# TEUTONIC ORDER / PRUSSIA
+# =============================================================
+
+aga_tr_teutonic_komturei = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_clergy_estate_power = 0.5
+        local_manpower = 0.005
+        local_defensive = 0.1
+    }
+    country_modifier = {
+        monthly_religious_influence = 0.01
+    }
+    potential = {
+        OR = {
+            has_or_had_tag = TEU
+            has_or_had_tag = PRU
+        }
+        religion.group = religion_group:christian
+    }
+    allow = {
+        scope:target = {
+		    modifier:fort_level > 1       
+        }
+    }
+    color = map_PRU
+}
+
+aga_tr_teutonic_hanseatic_privilege = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_merchant_capacity = 1
+        local_burghers_desired_pop_scaled = 0.1
+        local_trade_protection_factor = 0.08
+    }
+    country_modifier = {
+    }
+    potential = {
+        has_or_had_tag = TEU
+    }
+    allow = {
+        scope:target = {
+            
+            OR = {
+                location_rank = location_rank:city
+                location_rank = location_rank:megalopolis
+            }
+            has_building = building_type:port
+        }
+    }
+    color = map_nahani
+}
+
+# =============================================================
+# MALI EMPIRE
+# =============================================================
+
+aga_tr_mali_dyula_market = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 2
+        local_market_access = 0.1
+        local_burghers_desired_pop_scaled = 0.08
+    }
+    country_modifier = {
+    }
+    potential = {
+        OR = {
+            culture = {
+                has_culture_group = culture_group:west_african_group
+            }
+            has_or_had_tag = MAL
+        }
+    }
+    allow = {
+        scope:target = {
+            
+        }
+    }
+    color = map_mali
+}
+
+aga_tr_mali_griot_quarter = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_cultural_tradition = 0.1
+        local_monthly_literacy = 0.1
+        local_migration_attraction = 0.5
+    }
+    country_modifier = {
+    }
+    potential = {
+        OR = {
+            culture = {
+                has_culture_group = culture_group:west_african_group
+            }
+            has_or_had_tag = MAL
+        }
+    }
+    allow = {
+        scope:target = {
+            
+            OR = {
+                location_rank = location_rank:city
+                location_rank = location_rank:megalopolis
+            }
+        }
+    }
+    color = map_kaska
+}
+
+aga_tr_mali_gold_town = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_goods_gold_output_modifier = 0.25
+        local_production_efficiency = town_right_efficiency_penalty
+        local_jewelry_output_modifier = 0.25
+    }
+    country_modifier = {
+    }
+    potential = {
+        OR = {
+            culture = {
+                has_culture_group = culture_group:west_african_group
+            }
+            has_or_had_tag = MAL
+        }
+    }
+    allow = {
+        scope:target = {
+            raw_material = goods:goods_gold
+        }
+    }
+    color = map_kaska
+}
+
+# =============================================================
+# CHINA
+# =============================================================
+
+aga_tr_china_lijia_system = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_monthly_control = 0.1
+        local_pop_promotion_speed_modifier = 0.05
+        local_peasants_desired_pop_scaled = 0.1
+    }
+    country_modifier = {
+    }
+    potential = {
+        has_or_had_tag = CHI
+    }
+    allow = {
+        scope:target = {
+            
+        }
+    }
+    color = map_chinese
+}
+
+# generic literacy focused city for all confucian cultures, not just chinese tag 
+aga_tr_china_examination_school = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_monthly_literacy = 0.03
+        local_max_literacy = 5
+        local_pop_promotion_speed_modifier = 0.1
+		local_production_efficiency = town_right_efficiency_penalty
+    }
+    country_modifier = {
+    }
+    potential = {
+        OR = {
+            has_or_had_tag = CHI
+            culture = {
+                has_culture_group = culture_group:confucian_group
+            }
+        }
+    }
+    allow = {
+        scope:target = {
+            OR = {
+                has_building = building_type:university
+                has_building = building_type:confucian_school
+            }
+            OR = {
+                location_rank = location_rank:city
+                location_rank = location_rank:megalopolis
+            }
+        }
+    }
+    color = map_chinese
+}
+
+aga_tr_china_silk_guild = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_silk_output_modifier = 0.2
+        local_fine_cloth_output_modifier = 0.15
+        local_production_efficiency = 0.1
+    }
+    country_modifier = {
+    }
+    potential = {
+        has_or_had_tag = CHI
+    }
+    allow = {
+        scope:target = {
+			raw_material = goods:silk            
+            OR = {
+                location_rank = location_rank:city
+                location_rank = location_rank:megalopolis
+            }
+        }
+    }
+    color = map_chinese
+}
+
+
+# =============================================================
+# KYIV / RUTHENIA
+# =============================================================
+
+aga_tr_ruthenian_magdeburg = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_burghers_desired_pop_scaled = 0.1
+        local_merchant_capacity = 1
+        local_burghers_estate_power = 0.5
+        local_pop_promotion_speed_modifier = 0.1
+    }
+    country_modifier = {
+    }
+    potential = {
+        OR = {
+            culture.language = language:ruthenian_language  # Because game does not have a ruthenian culture group
+            has_or_had_tag = KIE
+            has_or_had_tag = RUT
+        }
+    }
+    allow = {
+    }
+    color = map_ruthenian
+}
+
+aga_tr_ruthenian_cossack_suburb = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_cossacks_estate_unrest = -0.5
+        local_cossacks_estate_power = 1
+    }
+    country_modifier = {
+        cossacks_estate_levy_size = 0.1
+    }
+    potential = {
+        country_has_estate = estate_type:cossacks_estate
+    }
+    allow = {
+        scope:target = {
+            "culture_percentage(culture:cossack_culture)" > 0
+        }
+    }
+    color = map_cossack
+}
+
+aga_tr_ruthenian_chernozem = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_monthly_food_modifier = 0.2
+        local_population_growth = 0.0001
+        local_monthly_development = 0.0025
+		local_production_efficiency = town_right_efficiency_penalty        
+    }
+    country_modifier = {
+    }
+    potential = {
+        OR = {
+            culture.language = language:ruthenian_language  # Because game does not have a ruthenian culture group
+            has_or_had_tag = KIE
+            has_or_had_tag = RUT
+        }
+    }
+    allow = {
+        scope:target = {
+            raw_material = { goods_method = farming }
+            OR = {
+                vegetation = farmland
+                vegetation = grasslands
+            }
+        }
+    }
+    color = map_cossack
+}
+
+# =============================================================
+# SOMALIA / EAST AFRICAN COAST
+# =============================================================
+
+aga_tr_somali_banaadir_port = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 2
+        local_maritime_presence = 0.25
+        local_sailors_modifier = 0.1
+    }
+    country_modifier = {
+    }
+    potential = {
+        has_or_had_tag = SOI
+    }
+    allow = {
+        scope:target = {
+            is_port = yes
+        }
+    }
+    color = map_ajuran
+}
+
+
+# =============================================================
+# DAI VIET
+# =============================================================
+
+aga_tr_viet_lang_bang_market = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_merchant_capacity = 1
+        local_production_efficiency = 0.1
+        local_pop_food_consumption = 0.05
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = culture:vietnamese_culture
+    }
+    allow = {
+        scope:target = {
+            
+        }
+    }
+    color = map_DAI
+}
+
+aga_tr_rice_farm = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_rice_output_modifier = 0.25
+        local_monthly_prosperity = 0.0025
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = culture:vietnamese_culture
+    }
+    allow = {
+        scope:target = {
+            raw_material = goods:rice
+        }
+    }
+    color = map_DAI
+}
+
+# =============================================================
+# GORYEO / JOSEON (KOREA)
+# =============================================================
+
+aga_tr_korean_celadon = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_pottery_output_modifier = 0.2
+        local_porcelain_output_modifier = 0.2
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = culture:korean_culture
+    }
+    allow = {
+    }
+    color = map_KOR
+}
+
+aga_tr_korean_weaponry = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_weaponry_output_modifier = 0.3
+        local_firearms_output_modifier = 0.3
+        local_cannons_output_modifier = 0.3
+		local_production_efficiency = town_right_efficiency_penalty
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = culture:korean_culture
+    }
+    allow = {
+        scope:target = {
+            NOT = { has_town_rights = town_rights_type:royal_weaponry_rights }
+        }
+    }
+    color = map_atka
+}
+
+
+# =============================================================
+# KHMER
+# =============================================================
+
+aga_tr_khmer_prasat_quarter = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_clergy_desired_pop_scaled = 0.1
+        local_monthly_literacy = 0.02
+        local_cultural_tradition = 0.05
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = culture:khmer_culture
+    }
+    allow = {
+        scope:target = {
+            OR = {
+                location_rank = location_rank:city
+                location_rank = location_rank:megalopolis
+            }
+        }
+    }
+    color = map_khmer
+}
+
+aga_tr_khmer_baray_district = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_monthly_food = 1
+        local_population_capacity = 0.5
+        local_population_growth = 0.0001
+		local_production_efficiency = town_right_efficiency_penalty
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = culture:khmer_culture
+    }
+    allow = {
+        scope:target = {
+            has_building = building_type:irrigation_systems
+        }
+    }
+    color = map_khmer
+}
+
+
+# =============================================================
+# VIJAYANAGARA
+# =============================================================
+
+aga_tr_vijayanagara_nayaka_fort = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_garrison_size = 0.15
+        local_defensive = 0.1
+        local_pop_food_consumption = 0.1
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:dravidian_group
+        }
+    }
+    allow = {
+        scope:target = {
+		    modifier:fort_level > 1
+        }
+    }
+    color = map_kannadiga
+}
+
+aga_tr_vijayanagara_diamond_market = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_gems_output_modifier = 0.25
+        local_merchant_capacity = 1
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:dravidian_group
+        }
+    }
+    allow = {
+        scope:target = {
+            raw_material = goods:gems
+        }
+    }
+    color = map_kannadiga
+}
+
+# =============================================================
+# BULGARIA
+# =============================================================
+
+aga_tr_bul_tarnovo_privilege = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_clergy_estate_power = 0.25
+        local_max_literacy = 5
+    }
+    country_modifier = {
+        monthly_religious_influence = 0.01
+    }
+    potential = {
+        has_or_had_tag = BUL
+		religion = religion:orthodox
+    }
+    allow = {
+        scope:target = {
+            
+            OR = {
+                location_rank = location_rank:city
+                location_rank = location_rank:megalopolis
+            }
+        }
+    }
+    color = map_bulgarian
+}
+
+aga_tr_bul_rose_valley = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_monthly_food_modifier = 0.1
+        local_food_decay_modifier = -0.1
+    }
+    country_modifier = {
+    }
+    potential = {
+        has_or_had_tag = BUL
+    }
+    allow = {
+        scope:target = {
+            vegetation = farmland
+        }
+    }
+    color = map_bulgarian
+}
+
+
+aga_tr_bul_bogomil_suppression = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_heretic_pop_conversion_speed_modifier = 0.25
+        local_heathen_pop_conversion_speed_modifier = 0.1
+        local_unrest = 0.05
+    }
+    country_modifier = {
+    }
+    potential = {
+        religion = religion:orthodox
+        has_or_had_tag = BUL
+    }
+    allow = {
+        scope:target = {
+            "religion_percentage(religion:orthodox)" < 50
+        }
+    }
+    color = map_bulgarian
+}
+
+# =============================================================
+# SERBIA
+# =============================================================
+
+aga_tr_ser_sasski_mining = {
+    kept_at_conquest = no
+    location_modifier = {
+		local_max_rgo_size_modifier = 0.5
+		local_burghers_estate_power =  0.5
+    }
+    country_modifier = {
+    }
+    potential = {
+        has_or_had_tag = SER
+    }
+    allow = {
+        scope:target = {
+            OR = {
+				raw_material = goods:silver
+				raw_material = goods:goods_gold
+            }
+        }
+    }
+    color = map_bulgarian
+}
+
+aga_tr_ser_nemanjic_grant = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_clergy_estate_power = 0.25
+        local_cultural_influence = 0.1
+    }
+    country_modifier = {
+        monthly_religious_influence = 0.01
+    }
+    potential = {
+        has_or_had_tag = SER
+		religion = religion:orthodox
+    }
+    allow = {
+        scope:target = {
+            has_building = building_type:monastery
+        }
+    }
+    color = map_bulgarian
+}
+
+aga_tr_ser_vlach_right = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_levy_size_modifier = 0.2
+        local_monthly_food_modifier = 0.1
+    }
+    country_modifier = {
+    }
+    potential = {
+        has_or_had_tag = SER
+    }
+    allow = {
+        scope:target = {
+            OR = {
+                topography = mountains
+                topography = hills
+            }
+        }
+    }
+    color = map_bulgarian
+}
+
+
+# =============================================================
+# GEORGIA
+# =============================================================
+
+aga_tr_geo_tamar_patent = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_merchant_power = 2.5
+        local_merchant_capacity = 5
+        local_trade_center_power = 0.1
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:caucasian_group
+        }
+    }
+    allow = {
+        scope:target = {
+            is_market_center = yes
+        }
+    }
+    color = map_GEO
+}
+
+aga_tr_geo_catholic_charter = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_clergy_desired_pop_scaled = 0.1
+        local_monthly_literacy = 0.02
+        local_pop_conversion_speed_modifier = 0.25
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:caucasian_group
+        }
+    }
+    allow = {
+        scope:target = {
+            OR = {
+                has_building = building_type:monastery
+                has_building = building_type:cathedral
+            }
+        }
+    }
+    color = map_GEO
+}
+
+# TODO: something for the mountainous nature of Georgia, like proximity speed through mountain
+
+# =============================================================
+# WALLACHIA / MOLDAVIA / ROMANIA
+# =============================================================
+aga_tr_rom_voivodas = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_levy_size_modifier = 0.2
+        local_max_control = 0.05
+    }
+    country_modifier = {
+        global_nobles_estate_power = 0.05
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:romanian_group
+        }
+    }
+    allow = {
+    }
+    color = map_GEO
+}
+
+aga_tr_rom_danubian_staple = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_raw_material_output = 0.25
+    }
+    country_modifier = {
+        expand_rgo_farming_cost_modifier = 0.025
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:romanian_group
+        }
+    }
+    allow = {
+        scope:target = {
+            raw_material = { goods_method = farming }
+            has_river = yes
+        }
+    }
+    color = map_GEO
+}
+
+# =============================================================
+# PERSIA (PERSIAN CULTURE GROUP)
+# =============================================================
+
+aga_tr_ira_caravanserai = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 2
+        local_market_access = 0.1
+        local_burghers_estate_power = 0.25
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:iranian_group
+        }
+    }
+    allow = {
+        scope:target = {
+            
+        }
+    }
+    color = map_persian
+}
+
+aga_tr_ira_silk_loom = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_max_rgo_size_modifier = 0.25
+		local_cloth_output_modifier = 0.15
+		local_fine_cloth_output_modifier = 0.15
+		local_dyes_output_modifier = 0.1
+
+		local_production_efficiency = town_right_efficiency_penalty
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:iranian_group
+        }
+    }
+    allow = {
+        scope:target = {
+            OR = {
+                raw_material = goods:silk
+                raw_material = goods:dyes
+                raw_material = goods:cotton
+            }
+        }
+    }
+    color = map_persian
+}
+
+aga_tr_ira_shia = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_clergy_desired_pop_scaled = 0.1
+        local_monthly_literacy = 0.02
+        local_max_literacy = 5
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:iranian_group
+        }
+    }
+    allow = {
+        scope:target = {
+            has_building = building_type:temple
+        }
+    }
+    color = map_persian
+}
+
+aga_tr_ira_sufi = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_clergy_estate_power = 0.3
+        local_pop_conversion_speed = 0.01
+        local_unrest = 0.05
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:iranian_group
+        }
+    }
+    allow = {
+        scope:target = {
+            has_building = building_type:temple
+        }
+    }
+    color = map_persian
+}
+
+aga_tr_ira_ghulam_garrison = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_garrison_size = 0.2
+        local_manpower = 0.005
+        local_crown_estate_power = 0.5
+    }
+    country_modifier = {
+	    nobles_estate_target_satisfaction = small_permanent_target_satisfaction_penalty
+	    burghers_estate_target_satisfaction = small_permanent_target_satisfaction_penalty
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:iranian_group
+        }
+    }
+    allow = {
+        scope:target = {
+            modifier:fort_level > 0
+        }
+    }
+    color = map_persian
+}
+# =============================================================
+# ETHIOPIA
+# =============================================================
+
+aga_tr_ethiopian_negad_market = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 1.5
+        local_market_access = 0.1
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:ethiopian_group
+        }
+    }
+    allow = {
+        scope:target = {
+            
+        }
+    }
+    color = map_ethiopia
+}
+
+aga_tr_ethiopian_debre_monastery = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_clergy_desired_pop_scaled = 0.1
+        local_monthly_literacy = 0.02
+        local_cultural_tradition = 0.1
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:ethiopian_group
+        }
+    }
+    allow = {
+        scope:target = {
+            OR = {
+                has_building = building_type:monastery
+                has_building = building_type:cathedral
+            }            
+        }
+    }
+    color = map_ethiopia
+}
+
+
+aga_tr_cawa_muster = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_manpower_modifier = 0.2
+        local_crown_estate_power = 0.5
+        local_nobles_estate_power = -0.5
+    }
+    country_modifier = {
+	    nobles_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:ethiopian_group
+        }
+    }
+    allow = {
+        scope:target = {
+            has_building = building_type:cawa_barracks
+        }
+    }
+    color = map_ethiopia
+}
+
+aga_tr_gult_grant = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_levy_size_modifier = 0.2
+        local_nobles_estate_power = 0.5
+    }
+    country_modifier = {
+        nobles_estate_levy_size = 0.05
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:ethiopian_group
+        }
+    }
+    allow = {
+    }
+    color = map_ethiopia
+}
+
+# =============================================================
+# SULTANATE OF DELHI
+# =============================================================
+
+# TODO: idk
+
+# =============================================================
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# UNIQUE PER CITY
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# =============================================================
+
+
+# -------------------------------------------------------------
+# HORMUZ — Persian Gulf entrepôt
+# -------------------------------------------------------------
+aga_tr_city_hormuz = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 5
+        local_trade_center_power = 0.2
+        local_pearls_output_modifier = 0.2
+        local_maritime_presence = 1
+    }
+    country_modifier = {
+        export_efficiency = 0.1
+        import_efficiency = 0.1
+    }
+    potential = {
+        owns = location:hormuz
+    }
+    allow = {
+        scope:target = {
+            this = location:hormuz
+        }
+    }
+    color = map_persian
+}
+
+
+# -------------------------------------------------------------
+# ROME — Papal city
+# -------------------------------------------------------------
+aga_tr_city_rome = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_clergy_desired_pop_scaled = 0.2
+        local_monthly_literacy = 0.005
+        local_cultural_tradition = 15
+        local_monthly_development_modifier = 0.05
+    }
+    country_modifier = {
+        monthly_prestige = 0.3
+        monthly_legitimacy = 0.2
+        cultural_tradition_modifier = 0.1
+    }
+    potential = {
+        owns = location:rome
+    }
+    allow = {
+        scope:target = {
+            this = location:rome
+        }
+    }
+    color = map_ROM
+}
+
+
+# -------------------------------------------------------------
+# VENICE — Queen of the Adriatic
+# -------------------------------------------------------------
+aga_tr_city_venice = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_merchant_capacity = 4
+        local_market_access = 0.25
+        local_trade_center_power = 0.2
+        max_ships_built_at_same_time = 3
+        local_maritime_presence = 15
+    }
+    country_modifier = {
+        global_merchant_capacity_modifier = 0.1
+        ship_build_speed = 0.15
+        naval_range_modifier = 0.1
+        trade_income = 0.1
+    }
+    potential = {
+            owns = location:venice
+    }
+    allow = {
+        scope:target = {
+            this = location:venice
+        }
+    }
+    color = map_venetian
+}
+
+
+# -------------------------------------------------------------
+# NOVO BRDO — Balkan silver mining capital
+# -------------------------------------------------------------
+aga_tr_city_novo_brdo = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_silver_output_modifier = 0.35
+        local_lead_output_modifier = 0.2
+        local_production_efficiency = 0.15
+        local_merchant_capacity = 2
+    }
+    country_modifier = {
+        global_silver_output_modifier = 0.08
+        trade_income = 0.05
+    }
+    potential = {
+        owns = location:novo_brdo
+    }
+    allow = {
+        scope:target = {
+            this = location:novo_brdo
+        }
+    }
+    color = map_serbian
+}
+
+
+# -------------------------------------------------------------
+# ALEXANDRIA — Gateway between Mediterranean and the East
+# -------------------------------------------------------------
+aga_tr_city_alexandria = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 4
+        local_market_access = 0.2
+        local_trade_center_power = 0.2
+        local_maritime_presence = 15
+        local_monthly_literacy = 0.003
+    }
+    country_modifier = {
+        trade_income = 0.1
+        export_efficiency = 0.08
+        import_efficiency = 0.08
+        naval_range_modifier = 0.1
+    }
+    potential = {
+        owns = location:alexandria
+    }
+    allow = {
+        scope:target = {
+            this = location:alexandria
+        }
+    }
+    color = map_egypt
+}
+
+
+# -------------------------------------------------------------
+# CAIRO — City of a thousand minarets
+# -------------------------------------------------------------
+aga_tr_city_cairo = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_clergy_desired_pop_scaled = 0.15
+        local_monthly_literacy = 0.004
+        local_max_literacy = 0.08
+        local_merchant_capacity = 3
+        local_population_capacity = 1000
+    }
+    country_modifier = {
+        research_speed_modifier = 0.05
+        global_monthly_literacy = 0.002
+        monthly_prestige = 0.2
+    }
+    potential = {
+        owns = location:cairo
+    }
+    allow = {
+        scope:target = {
+            this = location:cairo
+        }
+    }
+    color = map_egypt
+}
+
+
+# -------------------------------------------------------------
+# HANGZHOU — Silk and canal city
+# -------------------------------------------------------------
+aga_tr_city_hangzhou = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_silk_output_modifier = 0.3
+        local_fine_cloth_output_modifier = 0.2
+        local_merchant_capacity = 3
+        local_trade_center_power = 0.15
+        local_production_efficiency = 0.12
+    }
+    country_modifier = {
+        global_silk_output_modifier = 0.08
+        trade_income = 0.08
+    }
+    potential = {
+        owns = location:hangzhou
+    }
+    allow = {
+        scope:target = {
+            this = location:hangzhou
+        }
+    }
+    color = map_chinese
+}
+
+
+# -------------------------------------------------------------
+# SUZHOU — Gardens and silk weaving
+# -------------------------------------------------------------
+aga_tr_city_suzhou = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_silk_output_modifier = 0.3
+        local_cloth_output_modifier = 0.2
+        local_cultural_tradition = 10
+        local_monthly_development_modifier = 0.03
+    }
+    country_modifier = {
+        global_silk_output_modifier = 0.06
+        cultural_tradition_modifier = 0.05
+    }
+    potential = {
+        owns = location:suzhou
+    }
+    allow = {
+        scope:target = {
+            this = location:suzhou
+        }
+    }
+    color = map_chinese
+}
+
+
+# -------------------------------------------------------------
+# KYOTO — Imperial capital of Japan
+# -------------------------------------------------------------
+aga_tr_city_kyoto = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_cultural_tradition = 15
+        local_clergy_desired_pop_scaled = 0.15
+        local_monthly_literacy = 0.003
+        local_nobles_desired_pop_scaled = 0.1
+    }
+    country_modifier = {
+        monthly_legitimacy = 0.3
+        monthly_prestige = 0.2
+        cultural_tradition_modifier = 0.1
+    }
+    potential = {
+            owns = location:kyoto
+    }
+    allow = {
+        scope:target = {
+            this = location:kyoto
+        }
+    }
+    color = map_JAP
+}
+
+
+# -------------------------------------------------------------
+# SAKAI — Free trading city of Japan
+# -------------------------------------------------------------
+aga_tr_city_sakai = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_burghers_desired_pop_scaled = 0.15
+        local_trade_center_power = 0.2
+        local_nobles_estate_power = -0.1
+    }
+    country_modifier = {
+        trade_income = 0.08
+        global_merchant_power = 0.05
+    }
+    potential = {
+        owns = location:sakai
+    }
+    allow = {
+        scope:target = {
+            this = location:sakai
+        }
+    }
+    color = map_JAP
+}
+
+
+# =============================================================
+# MINING CITIES
+# =============================================================
+
+# -------------------------------------------------------------
+# KUTNÁ HORA — Bohemian silver
+# -------------------------------------------------------------
+aga_tr_city_kutna_hora = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_silver_output_modifier = 0.4
+        local_iron_output_modifier = 0.15
+        local_production_efficiency = 0.15
+        local_merchant_capacity = 2
+    }
+    country_modifier = {
+        global_silver_output_modifier = 0.1
+        minting_income_factor = 0.1
+    }
+    potential = {
+        owns = location:kutna_hora
+    }
+    allow = {
+        scope:target = {
+            this = location:kutna_hora
+        }
+    }
+    color = map_BOH
+}
+
+
+# -------------------------------------------------------------
+# BANSKÁ ŠTIAVNICA — Hungarian mining town
+# -------------------------------------------------------------
+aga_tr_city_banska_stiavnica = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_silver_output_modifier = 0.3
+        local_copper_output_modifier = 0.2
+        local_production_efficiency = 0.12
+    }
+    country_modifier = {
+        global_silver_output_modifier = 0.06
+        global_copper_output_modifier = 0.06
+    }
+    potential = {
+        owns = location:banska_stiavnica
+    }
+    allow = {
+        scope:target = {
+            this = location:banska_stiavnica
+        }
+    }
+    color = map_hungarian
+}
+
+
+# -------------------------------------------------------------
+# FALUN — Swedish copper mountain
+# -------------------------------------------------------------
+aga_tr_city_falun = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_copper_output_modifier = 0.4
+        local_iron_output_modifier = 0.2
+        local_production_efficiency = 0.15
+    }
+    country_modifier = {
+        global_copper_output_modifier = 0.1
+    }
+    potential = {
+        owns = location:falun
+    }
+    allow = {
+        scope:target = {
+            this = location:falun
+        }
+    }
+    color = map_swedish
+}
+
+
+# -------------------------------------------------------------
+# SCHWAZ — Tyrolean silver
+# -------------------------------------------------------------
+aga_tr_city_schwaz = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_silver_output_modifier = 0.4
+        local_copper_output_modifier = 0.2
+        local_production_efficiency = 0.12
+    }
+    country_modifier = {
+        global_silver_output_modifier = 0.08
+        minting_income_factor = 0.08
+    }
+    potential = {
+        owns = location:sterzing
+    }
+    allow = {
+        scope:target = {
+            this = location:sterzing
+        }
+    }
+    color = map_austrian
+}
+
+
+# -------------------------------------------------------------
+# POTOSÍ — The Mountain of Silver (New World)
+# -------------------------------------------------------------
+aga_tr_city_potosi = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_silver_output_modifier = 0.8
+        local_production_efficiency = 0.2
+        local_slaves_desired_pop_scaled = 0.2
+        local_slaves_food_consumption = 0.1
+    }
+    country_modifier = {
+        global_silver_output_modifier = 0.15
+        minting_income_factor = 0.2
+        monthly_inflation = 0.02
+    }
+    potential = {
+        owns = location:potosi
+    }
+    allow = {
+        scope:target = {
+            this = location:potosi
+        }
+    }
+    color = map_quechuan
+}
+
+
+# =============================================================
+# TRADING CITIES
+# =============================================================
+
+# -------------------------------------------------------------
+# BRUGES — Flanders wool entrepôt
+# -------------------------------------------------------------
+aga_tr_city_bruges = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_market_access = 0.2
+        local_trade_center_power = 0.15
+        local_wool_output_modifier = 0.15
+        local_cloth_output_modifier = 0.15
+    }
+    country_modifier = {
+        trade_income = 0.08
+        import_efficiency = 0.05
+        export_efficiency = 0.05
+    }
+    potential = {
+        owns = location:bruges
+    }
+    allow = {
+        scope:target = {
+            this = location:bruges
+        }
+    }
+    color = map_dutch
+}
+
+
+# -------------------------------------------------------------
+# ANTWERP — Commercial capital of Northern Europe
+# -------------------------------------------------------------
+aga_tr_city_antwerp = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 4
+        local_market_access = 0.25
+        local_trade_center_power = 0.2
+        local_burghers_desired_pop_scaled = 0.15
+    }
+    country_modifier = {
+        trade_income = 0.1
+        bank_interest = -0.03
+        global_merchant_capacity_modifier = 0.08
+    }
+    potential = {
+        owns = location:antwerp
+    }
+    allow = {
+        scope:target = {
+            this = location:antwerp
+        }
+    }
+    color = map_dutch
+}
+
+
+# -------------------------------------------------------------
+# AMSTERDAM — Dutch staple market
+# -------------------------------------------------------------
+aga_tr_city_amsterdam = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 4
+        local_market_access = 0.2
+        local_trade_center_power = 0.2
+        local_maritime_presence = 10
+        local_ship_build_speed = 0.15
+    }
+    country_modifier = {
+        trade_income = 0.1
+        bank_interest = -0.04
+        naval_range_modifier = 0.1
+        ship_build_speed = 0.1
+    }
+    potential = {
+        owns = location:amsterdam
+    }
+    allow = {
+        scope:target = {
+            this = location:amsterdam
+        }
+    }
+    color = map_dutch
+}
+
+
+# -------------------------------------------------------------
+# GENOA — Galley power and banking
+# -------------------------------------------------------------
+aga_tr_city_genoa = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_market_access = 0.2
+        local_trade_center_power = 0.15
+        local_maritime_presence = 10
+    }
+    country_modifier = {
+        trade_income = 0.08
+        bank_interest = -0.03
+        navy_galley_build_cost_modifier = -0.1
+    }
+    potential = {
+        owns = location:genoa
+    }
+    allow = {
+        scope:target = {
+            this = location:genoa
+        }
+    }
+    color = map_ligurian
+}
+
+
+# -------------------------------------------------------------
+# MALACCA — Spice trade nexus
+# -------------------------------------------------------------
+aga_tr_city_malacca = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 4
+        local_market_access = 0.25
+        local_trade_center_power = 0.25
+        local_maritime_presence = 15
+        local_spices_output_modifier = 0.2
+    }
+    country_modifier = {
+        trade_income = 0.12
+        naval_range_modifier = 0.1
+        export_efficiency = 0.08
+    }
+    potential = {
+            owns = location:malacca
+    }
+    allow = {
+        scope:target = {
+            this = location:malacca
+        }
+    }
+    color = map_malay
+}
+
+
+# -------------------------------------------------------------
+# ADEN — Gateway to the Indian Ocean
+# -------------------------------------------------------------
+aga_tr_city_aden = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_market_access = 0.2
+        local_trade_center_power = 0.2
+        local_maritime_presence = 12
+    }
+    country_modifier = {
+        trade_income = 0.1
+        naval_range_modifier = 0.1
+        export_efficiency = 0.08
+    }
+    potential = {
+        owns = location:aden
+    }
+    allow = {
+        scope:target = {
+            this = location:aden
+        }
+    }
+    color = map_hadhrami
+}
+
+
+# -------------------------------------------------------------
+# MOGADISHU — East African ocean trading hub
+# -------------------------------------------------------------
+aga_tr_city_mogadishu = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 2
+        local_trade_center_power = 0.15
+        local_maritime_presence = 10
+        local_market_access = 0.1
+    }
+    country_modifier = {
+        trade_income = 0.08
+        naval_range_modifier = 0.08
+    }
+    potential = {
+        owns = location:mogadishu
+    }
+    allow = {
+        scope:target = {
+            this = location:mogadishu
+        }
+    }
+    color = map_ajuran
+}
+
+
+# -------------------------------------------------------------
+# KILWA — Swahili gold and ivory port
+# -------------------------------------------------------------
+aga_tr_city_kilwa = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_trade_center_power = 0.2
+        local_maritime_presence = 12
+        local_gold_output_modifier = 0.15
+        local_ivory_output_modifier = 0.2
+    }
+    country_modifier = {
+        trade_income = 0.1
+        export_efficiency = 0.08
+    }
+    potential = {
+        owns = location:kilwa_kisiwani
+    }
+    allow = {
+        scope:target = {
+            this = location:kilwa_kisiwani
+        }
+    }
+    color = map_bantu
+}
+
+
+# -------------------------------------------------------------
+# KOLLYAM — Malabar pepper capital
+# -------------------------------------------------------------
+aga_tr_city_kollam = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_trade_center_power = 0.2
+        local_maritime_presence = 12
+        local_pepper_output_modifier = 0.25
+        local_spices_output_modifier = 0.15
+    }
+    country_modifier = {
+        trade_income = 0.1
+        export_efficiency = 0.08
+        naval_range_modifier = 0.08
+    }
+    potential = {
+        owns = location:kollam
+    }
+    allow = {
+        scope:target = {
+            this = location:kollam
+        }
+    }
+    color = map_malayali
+}
+
+
+# -------------------------------------------------------------
+# GOA — Portuguese jewel of the Indian coast
+# -------------------------------------------------------------
+aga_tr_city_goa = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_trade_center_power = 0.2
+        local_maritime_presence = 12
+        local_ship_build_speed = 0.15
+        local_spices_output_modifier = 0.15
+    }
+    country_modifier = {
+        trade_income = 0.1
+        colonial_range_modifier = 0.1
+        naval_range_modifier = 0.1
+    }
+    potential = {
+        owns = location:goa
+    }
+    allow = {
+        scope:target = {
+            this = location:goa
+        }
+    }
+    color = map_POR
+}
+
+
+# -------------------------------------------------------------
+# SAMARKAND — Crossroads of the Silk Road
+# -------------------------------------------------------------
+aga_tr_city_samarkand = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 4
+        local_market_access = 0.2
+        local_trade_center_power = 0.2
+        local_monthly_literacy = 0.004
+        local_silk_output_modifier = 0.2
+    }
+    country_modifier = {
+        trade_income = 0.1
+        trade_range_modifier = 0.1
+        research_speed_modifier = 0.05
+    }
+    potential = {
+        owns = location:samarkand
+    }
+    allow = {
+        scope:target = {
+            this = location:samarkand
+        }
+    }
+    color = map_uzbek
+}
+
+
+# -------------------------------------------------------------
+# TABRIZ — Safavid and Ilkhanid crossroads
+# -------------------------------------------------------------
+aga_tr_city_tabriz = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_market_access = 0.2
+        local_trade_center_power = 0.15
+        local_silk_output_modifier = 0.25
+        local_gems_output_modifier = 0.2
+    }
+    country_modifier = {
+        trade_income = 0.08
+        global_silk_output_modifier = 0.06
+    }
+    potential = {
+        owns = location:tabriz
+    }
+    allow = {
+        scope:target = {
+            this = location:tabriz
+        }
+    }
+    color = map_azeri
+}
+
+
+# =============================================================
+# MANUFACTURING CITIES
+# =============================================================
+
+# -------------------------------------------------------------
+# FLORENCE — Wool, banking, and Renaissance arts
+# -------------------------------------------------------------
+aga_tr_city_florence = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_fine_cloth_output_modifier = 0.3
+        local_wool_output_modifier = 0.2
+        local_cultural_tradition = 15
+        local_monthly_literacy = 0.004
+        local_merchant_capacity = 3
+    }
+    country_modifier = {
+        cultural_tradition_modifier = 0.1
+        bank_interest = -0.04
+        trade_income = 0.08
+        num_possible_artists = 1
+    }
+    potential = {
+        owns = location:florence
+    }
+    allow = {
+        scope:target = {
+            this = location:florence
+        }
+    }
+    color = map_tuscan
+}
+
+
+# -------------------------------------------------------------
+# MILAN — Arms and armour capital
+# -------------------------------------------------------------
+aga_tr_city_milan = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_steel_output_modifier = 0.25
+        local_weaponry_output_modifier = 0.3
+        local_armor_output_modifier = 0.3
+        local_production_efficiency = 0.15
+    }
+    country_modifier = {
+        global_weaponry_output_modifier = 0.08
+        army_heavy_infantry_build_cost_modifier = -0.1
+    }
+    potential = {
+        owns = location:milan
+    }
+    allow = {
+        scope:target = {
+            this = location:milan
+        }
+    }
+    color = map_lombard
+}
+
+
+# -------------------------------------------------------------
+# NUREMBERG — Imperial free city of craftsmen
+# -------------------------------------------------------------
+aga_tr_city_nuremberg = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_tools_output_modifier = 0.25
+        local_glass_output_modifier = 0.2
+        local_production_efficiency = 0.12
+        local_burghers_desired_pop_scaled = 0.1
+    }
+    country_modifier = {
+        global_tools_output_modifier = 0.06
+        global_glass_output_modifier = 0.06
+    }
+    potential = {
+        owns = location:nuremberg
+    }
+    allow = {
+        scope:target = {
+            this = location:nuremberg
+        }
+    }
+    color = map_SAX
+}
+
+
+# -------------------------------------------------------------
+# TOLEDO — Blades and craft
+# -------------------------------------------------------------
+aga_tr_city_toledo = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_steel_output_modifier = 0.25
+        local_weaponry_output_modifier = 0.3
+        local_production_efficiency = 0.12
+        local_monthly_literacy = 0.002
+    }
+    country_modifier = {
+        global_weaponry_output_modifier = 0.06
+        global_steel_output_modifier = 0.05
+    }
+    potential = {
+        owns = location:toledo
+    }
+    allow = {
+        scope:target = {
+            this = location:toledo
+        }
+    }
+    color = map_CAS
+}
+
+
+# -------------------------------------------------------------
+# DAMASCUS — Blades, silk, and glass
+# -------------------------------------------------------------
+aga_tr_city_damascus = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_steel_output_modifier = 0.3
+        local_glass_output_modifier = 0.25
+        local_silk_output_modifier = 0.2
+        local_production_efficiency = 0.12
+    }
+    country_modifier = {
+        global_weaponry_output_modifier = 0.05
+        global_glass_output_modifier = 0.06
+        global_steel_output_modifier = 0.06
+    }
+    potential = {
+        owns = location:damascus
+    }
+    allow = {
+        scope:target = {
+            this = location:damascus
+        }
+    }
+    color = map_TUR
+}
+
+
+# -------------------------------------------------------------
+# JINGDEZHEN — Porcelain capital of the world
+# -------------------------------------------------------------
+aga_tr_city_jingdezhen = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_porcelain_output_modifier = 0.5
+        local_production_efficiency = 0.2
+        local_clay_output_modifier = 0.2
+    }
+    country_modifier = {
+        global_porcelain_output_modifier = 0.12
+        trade_income = 0.06
+    }
+    potential = {
+        owns = location:jingdezhen
+    }
+    allow = {
+        scope:target = {
+            this = location:jingdezhen
+        }
+    }
+    color = map_chinese
+}
+
+
+# -------------------------------------------------------------
+# KASHAN — Persian carpets and ceramics
+# -------------------------------------------------------------
+aga_tr_city_kashan = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_fine_cloth_output_modifier = 0.25
+        local_pottery_output_modifier = 0.3
+        local_production_efficiency = 0.12
+    }
+    country_modifier = {
+        global_fine_cloth_output_modifier = 0.06
+        global_pottery_output_modifier = 0.08
+    }
+    potential = {
+        owns = location:kashan
+    }
+    allow = {
+        scope:target = {
+            this = location:kashan
+        }
+    }
+    color = map_persian
+}
+
+
+# -------------------------------------------------------------
+# BOLOGNA — Law and learning
+# -------------------------------------------------------------
+aga_tr_city_bologna = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_literacy = 0.005
+        local_max_literacy = 0.1
+        local_clergy_desired_pop_scaled = 0.1
+        local_cultural_tradition = 10
+    }
+    country_modifier = {
+        research_speed_modifier = 0.08
+        global_monthly_literacy = 0.002
+        legislative_efficiency = 0.05
+    }
+    potential = {
+        owns = location:bologna
+    }
+    allow = {
+        scope:target = {
+            this = location:bologna
+        }
+    }
+    color = map_emilian
+}
+
+
+# -------------------------------------------------------------
+# OXFORD — English seat of learning
+# -------------------------------------------------------------
+aga_tr_city_oxford = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_literacy = 0.005
+        local_max_literacy = 0.1
+        local_clergy_desired_pop_scaled = 0.1
+        local_cultural_tradition = 8
+    }
+    country_modifier = {
+        research_speed_modifier = 0.08
+        global_monthly_literacy = 0.002
+    }
+    potential = {
+            owns = location:oxford
+    }
+    allow = {
+        scope:target = {
+            this = location:oxford
+        }
+    }
+    color = map_ENG
+}
+
+
+# -------------------------------------------------------------
+# PARIS — Heart of French learning and crown power
+# -------------------------------------------------------------
+aga_tr_city_paris = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_literacy = 0.005
+        local_max_literacy = 0.1
+        local_cultural_tradition = 15
+        local_clergy_desired_pop_scaled = 0.12
+        local_monthly_development_modifier = 0.05
+    }
+    country_modifier = {
+        research_speed_modifier = 0.08
+        global_monthly_literacy = 0.002
+        monthly_prestige = 0.2
+        monthly_legitimacy = 0.2
+        cultural_tradition_modifier = 0.1
+    }
+    potential = {
+        owns = location:paris
+    }
+    allow = {
+        scope:target = {
+            this = location:paris
+        }
+    }
+    color = map_FRA
+}
+
+
+# -------------------------------------------------------------
+# PRAGUE — Bohemian imperial city
+# -------------------------------------------------------------
+aga_tr_city_prague = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_literacy = 0.004
+        local_max_literacy = 0.08
+        local_cultural_tradition = 10
+        local_merchant_capacity = 2
+    }
+    country_modifier = {
+        research_speed_modifier = 0.06
+        monthly_prestige = 0.15
+        monthly_legitimacy = 0.15
+    }
+    potential = {
+        owns = location:prague
+    }
+    allow = {
+        scope:target = {
+            this = location:prague
+        }
+    }
+    color = map_BOH
+}
+
+
+# -------------------------------------------------------------
+# NALANDA — Ancient seat of Buddhist learning
+# -------------------------------------------------------------
+aga_tr_city_nalanda = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_literacy = 0.005
+        local_max_literacy = 0.1
+        local_clergy_desired_pop_scaled = 0.15
+        local_cultural_tradition = 12
+    }
+    country_modifier = {
+        research_speed_modifier = 0.08
+        global_monthly_literacy = 0.003
+        cultural_tradition_modifier = 0.08
+    }
+    potential = {
+        owns = location:nalanda
+    }
+    allow = {
+        scope:target = {
+            this = location:nalanda
+        }
+    }
+    color = map_delhi
+}
+
+
+# -------------------------------------------------------------
+# TIMBUKTU — Saharan crossroads of faith and trade
+# -------------------------------------------------------------
+aga_tr_city_timbuktu = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_literacy = 0.005
+        local_max_literacy = 0.1
+        local_clergy_desired_pop_scaled = 0.15
+        local_merchant_capacity = 2
+        local_trade_center_power = 0.15
+    }
+    country_modifier = {
+        research_speed_modifier = 0.06
+        global_monthly_literacy = 0.002
+        trade_income = 0.06
+    }
+    potential = {
+        owns = location:timbuktu
+    }
+    allow = {
+        scope:target = {
+            this = location:timbuktu
+        }
+    }
+    color = map_mali
+}
+
+
+# =============================================================
+# AGRICULTURAL CITIES
+# =============================================================
+
+# -------------------------------------------------------------
+# KYIV — Breadbasket of the east
+# -------------------------------------------------------------
+aga_tr_city_kyiv = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_wheat_output_modifier = 0.3
+        local_livestock_output_modifier = 0.2
+        local_monthly_food = 10
+        local_population_growth = 0.05
+    }
+    country_modifier = {
+        global_wheat_output_modifier = 0.06
+        global_monthly_food_modifier = 0.04
+    }
+    potential = {
+        owns = location:kyiv
+    }
+    allow = {
+        scope:target = {
+            this = location:kyiv
+        }
+    }
+    color = map_ruthenian
+}
+
+
+# -------------------------------------------------------------
+# ANGKOR — Hydraulic rice civilization
+# -------------------------------------------------------------
+aga_tr_city_angkor = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_rice_output_modifier = 0.4
+        local_monthly_food = 15
+        local_population_capacity = 2000
+        local_population_growth = 0.08
+        local_cultural_tradition = 12
+    }
+    country_modifier = {
+        global_rice_output_modifier = 0.1
+        global_monthly_food_modifier = 0.05
+        monthly_legitimacy = 0.2
+    }
+    potential = {
+        owns = location:angkor
+    }
+    allow = {
+        scope:target = {
+            this = location:angkor
+        }
+    }
+    color = map_khmer
+}
+
+
+# -------------------------------------------------------------
+# FAYYUM — Egyptian garden of the Nile
+# -------------------------------------------------------------
+# TODO: does not exist
+aga_tr_city_fayyum = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_wheat_output_modifier = 0.35
+        local_fruit_output_modifier = 0.2
+        local_monthly_food = 12
+        local_population_capacity = 1000
+    }
+    country_modifier = {
+        global_wheat_output_modifier = 0.08
+        global_monthly_food_modifier = 0.04
+    }
+    potential = {
+        owns = location:fayyum
+    }
+    allow = {
+        scope:target = {
+            this = location:fayyum
+        }
+    }
+    color = map_egypt
+}
+
+
+# -------------------------------------------------------------
+# MOCHA — Coffee and spice trade
+# -------------------------------------------------------------
+# TODO: does not exist
+aga_tr_city_mocha = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_coffee_output_modifier = 0.5
+        local_merchant_capacity = 2
+        local_trade_center_power = 0.15
+        local_maritime_presence = 8
+    }
+    country_modifier = {
+        global_coffee_output_modifier = 0.15
+        trade_income = 0.06
+    }
+    potential = {
+        owns = location:mocha
+    }
+    allow = {
+        scope:target = {
+            this = location:mocha
+        }
+    }
+    color = map_hadhrami
+}
+
+
+# -------------------------------------------------------------
+# SHIRAZ — Vineyards and poetry
+# -------------------------------------------------------------
+aga_tr_city_shiraz = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_wine_output_modifier = 0.4
+        local_fruit_output_modifier = 0.2
+        local_cultural_tradition = 12
+    }
+    country_modifier = {
+        global_wine_output_modifier = 0.1
+        cultural_tradition_modifier = 0.06
+        monthly_prestige = 0.1
+    }
+    potential = {
+        owns = location:shiraz
+    }
+    allow = {
+        scope:target = {
+            this = location:shiraz
+        }
+    }
+    color = map_persian
+}
+
+
+# =============================================================
+# ADDITIONAL NOTABLE CITIES
+# =============================================================
+
+aga_tr_city_moscow = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_control = 0.15
+        local_nobles_desired_pop_scaled = 0.1
+        local_monthly_literacy = 0.003
+        local_merchant_capacity = 2
+    }
+    country_modifier = {
+        monthly_legitimacy = 0.2
+        global_monthly_control = 0.05
+        tax_income_efficiency = 0.05
+    }
+    potential = {
+        owns = location:moscow
+    }
+    allow = {
+        scope:target = {
+            this = location:moscow
+        }
+    }
+    color = map_MOS
+}
+
+aga_tr_city_novgorod = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_market_access = 0.2
+        local_trade_center_power = 0.15
+        local_fur_output_modifier = 0.2
+        local_burghers_desired_pop_scaled = 0.1
+    }
+    country_modifier = {
+        trade_income = 0.08
+        global_fur_output_modifier = 0.06
+    }
+    potential = {
+        owns = location:novgorod
+    }
+    allow = {
+        scope:target = {
+            this = location:novgorod
+        }
+    }
+    color = map_NOV
+}
+
+aga_tr_city_london = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 4
+        local_market_access = 0.2
+        local_trade_center_power = 0.2
+        local_maritime_presence = 12
+        local_wool_output_modifier = 0.15
+    }
+    country_modifier = {
+        trade_income = 0.1
+        naval_range_modifier = 0.08
+        bank_interest = -0.03
+    }
+    potential = {
+        owns = location:london
+    }
+    allow = {
+        scope:target = {
+            this = location:london
+        }
+    }
+    color = map_ENG
+}
+
+aga_tr_city_krakow = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_literacy = 0.003
+        local_cultural_tradition = 8
+        local_merchant_capacity = 2
+        local_trade_center_power = 0.1
+    }
+    country_modifier = {
+        research_speed_modifier = 0.05
+        monthly_legitimacy = 0.1
+        trade_income = 0.05
+    }
+    potential = {
+        owns = location:krakow
+    }
+    allow = {
+        scope:target = {
+            this = location:krakow
+        }
+    }
+    color = map_lesser_polish
+}
+
+aga_tr_city_gdansk = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_market_access = 0.15
+        local_trade_center_power = 0.15
+        local_maritime_presence = 10
+        local_lumber_output_modifier = 0.2
+    }
+    country_modifier = {
+        trade_income = 0.08
+        naval_range_modifier = 0.08
+        global_lumber_output_modifier = 0.05
+    }
+    potential = {
+        owns = location:danzig
+    }
+    allow = {
+        scope:target = {
+            this = location:danzig
+        }
+    }
+    color = map_kashubian
+}
+
+aga_tr_city_hamburg = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_market_access = 0.15
+        local_trade_center_power = 0.15
+        local_maritime_presence = 8
+        local_burghers_desired_pop_scaled = 0.1
+    }
+    country_modifier = {
+        trade_income = 0.08
+        bank_interest = -0.02
+        global_beer_output_modifier = 0.08
+    }
+    potential = {
+        owns = location:hamburg
+    }
+    allow = {
+        scope:target = {
+            this = location:hamburg
+        }
+    }
+    color = map_hansa
+}
+
+aga_tr_city_cologne = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 2
+        local_trade_center_power = 0.12
+        local_monthly_literacy = 0.003
+        local_clergy_desired_pop_scaled = 0.1
+    }
+    country_modifier = {
+        trade_income = 0.06
+        monthly_prestige = 0.1
+    }
+    potential = {
+        owns = location:cologne
+    }
+    allow = {
+        scope:target = {
+            this = location:cologne
+        }
+    }
+    color = map_KOL
+}
+
+aga_tr_city_seville = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_market_access = 0.15
+        local_trade_center_power = 0.15
+        local_maritime_presence = 10
+        local_olives_output_modifier = 0.2
+    }
+    country_modifier = {
+        trade_income = 0.08
+        colonial_range_modifier = 0.1
+        colonial_migration_size_modifier = 0.1
+    }
+    potential = {
+        owns = location:seville
+    }
+    allow = {
+        scope:target = {
+            this = location:seville
+        }
+    }
+    color = map_CAS
+}
+
+aga_tr_city_lisbon = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_market_access = 0.15
+        local_trade_center_power = 0.15
+        local_maritime_presence = 12
+        local_ship_build_speed = 0.15
+    }
+    country_modifier = {
+        trade_income = 0.08
+        colonial_range_modifier = 0.15
+        naval_range_modifier = 0.12
+        ship_build_speed = 0.1
+    }
+    potential = {
+        owns = location:lisbon
+    }
+    allow = {
+        scope:target = {
+            this = location:lisbon
+        }
+    }
+    color = map_POR
+}
+
+aga_tr_city_ragusa = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_market_access = 0.15
+        local_trade_center_power = 0.15
+        local_maritime_presence = 8
+    }
+    country_modifier = {
+        trade_income = 0.08
+        diplomatic_range_modifier = 0.1
+        improve_relation_impact = 0.05
+    }
+    potential = {
+        owns = location:ragusa
+    }
+    allow = {
+        scope:target = {
+            this = location:ragusa
+        }
+    }
+    color = map_DAL
+}
+
+aga_tr_city_bursa = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_silk_output_modifier = 0.3
+        local_fine_cloth_output_modifier = 0.2
+        local_merchant_capacity = 2
+        local_trade_center_power = 0.12
+    }
+    country_modifier = {
+        global_silk_output_modifier = 0.06
+        trade_income = 0.06
+    }
+    potential = {
+        owns = location:bursa
+    }
+    allow = {
+        scope:target = {
+            this = location:bursa
+        }
+    }
+    color = map_TUR
+}
+
+aga_tr_city_edirne = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_control = 0.15
+        local_nobles_desired_pop_scaled = 0.1
+        local_garrison_size = 500
+        local_monthly_literacy = 0.002
+    }
+    country_modifier = {
+        monthly_legitimacy = 0.15
+        global_garrison_size_modifier = 0.05
+    }
+    potential = {
+        owns = location:edirne
+    }
+    allow = {
+        scope:target = {
+            this = location:edirne
+        }
+    }
+    color = map_TUR
+}
+
+# TODO: cotton RGO
+aga_tr_city_aleppo = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_market_access = 0.15
+        local_trade_center_power = 0.15
+        local_silk_output_modifier = 0.2
+        local_cotton_output_modifier = 0.15
+    }
+    country_modifier = {
+        trade_income = 0.08
+        global_silk_output_modifier = 0.05
+    }
+    potential = {
+        owns = location:aleppo
+    }
+    allow = {
+        scope:target = {
+            this = location:aleppo
+        }
+    }
+    color = map_TUR
+}
+
+aga_tr_city_jerusalem = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_clergy_desired_pop_scaled = 0.2
+        local_monthly_literacy = 0.003
+        local_cultural_tradition = 15
+        local_pop_conversion_speed_modifier = 0.1
+    }
+    country_modifier = {
+        monthly_prestige = 0.3
+        monthly_legitimacy = 0.2
+        monthly_religious_influence = 2
+    }
+    potential = {
+        owns = location:jerusalem
+    }
+    allow = {
+        scope:target = {
+            this = location:jerusalem
+        }
+    }
+    color = map_ISR
+}
+
+aga_tr_city_fez = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_literacy = 0.004
+        local_max_literacy = 0.08
+        local_clergy_desired_pop_scaled = 0.15
+        local_leather_output_modifier = 0.25
+        local_cultural_tradition = 10
+    }
+    country_modifier = {
+        research_speed_modifier = 0.06
+        global_monthly_literacy = 0.002
+        global_leather_output_modifier = 0.06
+    }
+    potential = {
+        owns = location:fez
+    }
+    allow = {
+        scope:target = {
+            this = location:fez
+        }
+    }
+    color = map_morocco
+}
+
+# TODO: silk RGO
+aga_tr_city_isfahan = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_market_access = 0.15
+        local_trade_center_power = 0.15
+        local_cultural_tradition = 12
+        local_monthly_literacy = 0.003
+    }
+    country_modifier = {
+        monthly_prestige = 0.2
+        monthly_legitimacy = 0.15
+        cultural_tradition_modifier = 0.08
+        trade_income = 0.06
+    }
+    potential = {
+        owns = location:isfahan
+    }
+    allow = {
+        scope:target = {
+            this = location:isfahan
+        }
+    }
+    color = map_persian
+}
+
+aga_tr_city_bukhara = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_literacy = 0.004
+        local_clergy_desired_pop_scaled = 0.15
+        local_cultural_tradition = 12
+        local_merchant_capacity = 2
+    }
+    country_modifier = {
+        research_speed_modifier = 0.06
+        global_monthly_literacy = 0.002
+        trade_income = 0.05
+    }
+    potential = {
+        owns = location:bukhara
+    }
+    allow = {
+        scope:target = {
+            this = location:bukhara
+        }
+    }
+    color = map_uzbek
+}
+
+aga_tr_city_delhi_city = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_control = 0.15
+        local_nobles_desired_pop_scaled = 0.1
+        local_merchant_capacity = 3
+        local_monthly_literacy = 0.003
+    }
+    country_modifier = {
+        monthly_legitimacy = 0.2
+        global_monthly_control = 0.05
+        tax_income_efficiency = 0.05
+    }
+    potential = {
+        owns = location:delhi
+    }
+    allow = {
+        scope:target = {
+            this = location:delhi
+        }
+    }
+    color = map_delhi
+}
+
+# TODO: does not exist
+aga_tr_city_beijing = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_control = 0.2
+        local_nobles_desired_pop_scaled = 0.15
+        local_monthly_literacy = 0.004
+        local_cultural_tradition = 15
+    }
+    country_modifier = {
+        monthly_legitimacy = 0.3
+        global_monthly_control = 0.06
+        tax_income_efficiency = 0.06
+        monthly_prestige = 0.2
+    }
+    potential = {
+        owns = location:beijing
+    }
+    allow = {
+        scope:target = {
+            this = location:beijing
+        }
+    }
+    color = map_chinese
+}
+
+# TODO: does not exist
+aga_tr_city_nanjing = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_control = 0.15
+        local_nobles_desired_pop_scaled = 0.1
+        local_merchant_capacity = 3
+        local_monthly_literacy = 0.003
+        local_population_capacity = 1500
+    }
+    country_modifier = {
+        monthly_legitimacy = 0.2
+        global_monthly_control = 0.04
+        trade_income = 0.05
+    }
+    potential = {
+        owns = location:nanjing
+    }
+    allow = {
+        scope:target = {
+            this = location:nanjing
+        }
+    }
+    color = map_chinese
+}
+
+# TODO: does not exist
+aga_tr_city_gondar = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_control = 0.1
+        local_clergy_desired_pop_scaled = 0.15
+        local_monthly_literacy = 0.003
+        local_cultural_tradition = 10
+    }
+    country_modifier = {
+        monthly_legitimacy = 0.15
+        monthly_devotion = 0.2
+        cultural_tradition_modifier = 0.06
+    }
+    potential = {
+        owns = location:gondar
+    }
+    allow = {
+        scope:target = {
+            this = location:gondar
+        }
+    }
+    color = map_ethiopia
+}
+
+aga_tr_city_visby = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_market_access = 0.15
+        local_trade_center_power = 0.15
+        local_maritime_presence = 8
+    }
+    country_modifier = {
+        trade_income = 0.08
+        naval_range_modifier = 0.06
+    }
+    potential = {
+        owns = location:visby
+    }
+    allow = {
+        scope:target = {
+            this = location:visby
+        }
+    }
+    color = map_gutnish
+}
+
+aga_tr_city_tarnovo = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_control = 0.12
+        local_clergy_desired_pop_scaled = 0.12
+        local_cultural_tradition = 10
+        local_monthly_literacy = 0.003
+    }
+    country_modifier = {
+        monthly_legitimacy = 0.15
+        monthly_prestige = 0.15
+        cultural_tradition_modifier = 0.06
+    }
+    potential = {
+        owns = location:tarnovo
+    }
+    allow = {
+        scope:target = {
+            this = location:tarnovo
+        }
+    }
+    color = map_bulgarian
+}
+
+aga_tr_city_belgrad = {
+    kept_at_conquest = yes
+    location_modifier = {
+        fort_level = 1
+        local_garrison_size = 600
+        local_defensive = 0.15
+        local_monthly_control = 0.1
+    }
+    country_modifier = {
+        global_defensive = 0.05
+        global_garrison_growth = 0.05
+    }
+    potential = {
+        owns = location:belgrad
+    }
+    allow = {
+        scope:target = {
+            this = location:belgrad
+        }
+    }
+    color = map_serbian
+}
+
+aga_tr_city_naples_city = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 2
+        local_trade_center_power = 0.12
+        local_maritime_presence = 8
+        local_population_capacity = 1000
+        local_monthly_literacy = 0.002
+    }
+    country_modifier = {
+        trade_income = 0.06
+        monthly_prestige = 0.1
+    }
+    potential = {
+        owns = location:naples
+    }
+    allow = {
+        scope:target = {
+            this = location:naples
+        }
+    }
+    color = map_naples
+}
+
+aga_tr_city_palermo = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 2
+        local_trade_center_power = 0.1
+        local_maritime_presence = 8
+        local_wheat_output_modifier = 0.15
+    }
+    country_modifier = {
+        trade_income = 0.06
+        global_wheat_output_modifier = 0.04
+    }
+    potential = {
+        owns = location:palermo
+    }
+    allow = {
+        scope:target = {
+            this = location:palermo
+        }
+    }
+    color = map_sicilian
+}
+
+aga_tr_city_barcelona = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_market_access = 0.15
+        local_trade_center_power = 0.12
+        local_maritime_presence = 8
+    }
+    country_modifier = {
+        trade_income = 0.08
+        naval_range_modifier = 0.06
+    }
+    potential = {
+        owns = location:barcelona
+    }
+    allow = {
+        scope:target = {
+            this = location:barcelona
+        }
+    }
+    color = map_ACC
+}
+
+aga_tr_city_marrakesh = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_control = 0.1
+        local_clergy_desired_pop_scaled = 0.1
+        local_cultural_tradition = 8
+        local_merchant_capacity = 2
+    }
+    country_modifier = {
+        monthly_legitimacy = 0.15
+        trade_income = 0.05
+    }
+    potential = {
+        owns = location:marrakesh
+    }
+    allow = {
+        scope:target = {
+            this = location:marrakesh
+        }
+    }
+    color = map_morocco
+}
+
+aga_tr_city_gao = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 2
+        local_trade_center_power = 0.12
+        local_market_access = 0.1
+        local_monthly_control = 0.1
+    }
+    country_modifier = {
+        trade_income = 0.06
+        monthly_legitimacy = 0.1
+    }
+    potential = {
+        owns = location:gao
+    }
+    allow = {
+        scope:target = {
+            this = location:gao
+        }
+    }
+    color = map_songhai
+}
+
+# TODO: is only a village at game start
+aga_tr_city_harar = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_literacy = 0.003
+        local_clergy_desired_pop_scaled = 0.12
+        local_merchant_capacity = 2
+        local_coffee_output_modifier = 0.3
+    }
+    country_modifier = {
+        global_coffee_output_modifier = 0.08
+        trade_income = 0.05
+        monthly_religious_influence = 1
+    }
+    potential = {
+        owns = location:harar
+    }
+    allow = {
+        scope:target = {
+            this = location:harar
+        }
+    }
+    color = map_afar
+}
