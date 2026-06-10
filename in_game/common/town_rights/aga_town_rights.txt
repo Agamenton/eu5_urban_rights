@@ -78,7 +78,7 @@ aga_tr_ottoman_timar_garrison = {
         local_garrison_growth = 0.15
         local_defensive = 0.1
         local_nobles_estate_power = 0.5
-        local_levy_size_modifier = 0.2
+        local_manpower = 0.005
     }
     country_modifier = {
         tax_income_efficiency = -0.005  # 0.5% less tax
