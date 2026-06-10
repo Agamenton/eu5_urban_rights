@@ -1744,27 +1744,27 @@ aga_tr_city_kutna_hora = {
 # -------------------------------------------------------------
 # TODO: double check, there seems to be more options around the location
 # TODO: also only banska_bystrica exists and it is a copper RGO village
-aga_tr_city_banska_stiavnica = {
-    kept_at_conquest = yes
-    location_modifier = {
-        local_silver_output_modifier = 0.3
-        local_copper_output_modifier = 0.2
-        local_production_efficiency = 0.12
-    }
-    country_modifier = {
-        global_silver_output_modifier = 0.06
-        global_copper_output_modifier = 0.06
-    }
-    potential = {
-        owns = location:banska_stiavnica
-    }
-    allow = {
-        scope:target = {
-            this = location:banska_stiavnica
-        }
-    }
-    color = map_hungarian
-}
+#aga_tr_city_banska_stiavnica = {
+#    kept_at_conquest = yes
+#    location_modifier = {
+#        local_silver_output_modifier = 0.3
+#        local_copper_output_modifier = 0.2
+#        local_production_efficiency = 0.12
+#    }
+#    country_modifier = {
+#        global_silver_output_modifier = 0.06
+#        global_copper_output_modifier = 0.06
+#    }
+#    potential = {
+#        owns = location:banska_stiavnica
+#    }
+#    allow = {
+#        scope:target = {
+#            this = location:banska_stiavnica
+#        }
+#    }
+#    color = map_hungarian
+#}
 
 
 # -------------------------------------------------------------
@@ -1823,6 +1823,7 @@ aga_tr_city_falun = {
 # CERRO RICO del POTOSI — The Mountain of Silver (New World)
 # -------------------------------------------------------------
 # TODO: alredy has silver output modifier baked into the location
+# TODO: gfx icon missing
 aga_tr_city_ccantumarcani = {
     kept_at_conquest = yes
     location_modifier = {
@@ -1953,7 +1954,6 @@ aga_tr_city_genoa = {
     color = map_ligurian
 }
 
-# TODO: continue from here
 # -------------------------------------------------------------
 # MALACCA — Spice trade nexus
 # -------------------------------------------------------------
@@ -2056,6 +2056,7 @@ aga_tr_city_kilwa = {
 # -------------------------------------------------------------
 # KOLLYAM — Malabar pepper capital
 # -------------------------------------------------------------
+# TODO: gfx icon missing
 aga_tr_city_kollam = {
     kept_at_conquest = yes
     location_modifier = {
@@ -2080,6 +2081,7 @@ aga_tr_city_kollam = {
 # -------------------------------------------------------------
 # GOA — Portuguese jewel of the Indian coast
 # -------------------------------------------------------------
+# TODO: gfx icon missing
 aga_tr_city_goa = {
     kept_at_conquest = yes
     location_modifier = {
@@ -2130,6 +2132,7 @@ aga_tr_city_samarkand = {
 # -------------------------------------------------------------
 # TABRIZ — Safavid and Ilkhanid crossroads
 # -------------------------------------------------------------
+# TODO: gfx icon missing
 aga_tr_city_tabriz = {
     kept_at_conquest = yes
     location_modifier = {
@@ -2468,6 +2471,7 @@ aga_tr_city_prague = {
 # -------------------------------------------------------------
 # TIMBUKTU — Saharan crossroads of faith and trade
 # -------------------------------------------------------------
+# TODO: gfx icon missing
 aga_tr_city_timbuktu = {
     kept_at_conquest = yes
     location_modifier = {
@@ -2521,6 +2525,7 @@ aga_tr_city_kyiv = {
 # -------------------------------------------------------------
 # ANGKOR — Hydraulic rice civilization
 # -------------------------------------------------------------
+# TODO: gfx icon missing
 aga_tr_city_angkor = {
     kept_at_conquest = yes
     location_modifier = {
@@ -2575,6 +2580,7 @@ aga_tr_city_angkor = {
 # MOCHA (al_mukha) — Coffee and spice trade
 # -------------------------------------------------------------
 # TODO: already has coffee output modifier baked into the location, also not a town at game start
+# TODO: gfx icon missing
 aga_tr_city_al_mukha = {
     kept_at_conquest = yes
     location_modifier = {
@@ -2599,6 +2605,7 @@ aga_tr_city_al_mukha = {
 # -------------------------------------------------------------
 # SHIRAZ — Vineyards and poetry
 # -------------------------------------------------------------
+# TODO: gfx icon missing
 aga_tr_city_shiraz = {
     kept_at_conquest = yes
     location_modifier = {
@@ -2837,6 +2844,7 @@ aga_tr_city_dubrovnik = {
     color = map_DAL
 }
 
+# TODO: gfx icon missing
 aga_tr_city_bursa = {
     kept_at_conquest = yes
     location_modifier = {
@@ -2857,6 +2865,7 @@ aga_tr_city_bursa = {
     color = map_TUR
 }
 
+# TODO: gfx icon missing
 aga_tr_city_edirne = {
     kept_at_conquest = yes
     location_modifier = {
@@ -2917,6 +2926,7 @@ aga_tr_city_jerusalem = {
     color = map_ISR
 }
 
+# TODO: gfx icon missing
 aga_tr_city_fez = {
     kept_at_conquest = yes
     location_modifier = {
@@ -2937,7 +2947,6 @@ aga_tr_city_fez = {
     color = map_morocco
 }
 
-# TODO: silk RGO
 aga_tr_city_isfahan = {
     kept_at_conquest = yes
     location_modifier = {
@@ -2959,6 +2968,7 @@ aga_tr_city_isfahan = {
     color = map_persian
 }
 
+# TODO: gfx icon missing
 aga_tr_city_bukhara = {
     kept_at_conquest = yes
     location_modifier = {
@@ -2980,6 +2990,7 @@ aga_tr_city_bukhara = {
     color = map_uzbek
 }
 
+# TODO: gfx icon missing
 aga_tr_city_delhi_city = {
     kept_at_conquest = yes
     location_modifier = {
@@ -3001,6 +3012,7 @@ aga_tr_city_delhi_city = {
     color = map_delhi
 }
 
+# TODO: gfx icon missing
 # Beijing
 aga_tr_city_dadu = {
     kept_at_conquest = yes
@@ -3024,6 +3036,7 @@ aga_tr_city_dadu = {
 }
 
 
+# TODO: gfx icon missing
 # Nanjing
 aga_tr_city_shangyuan = {
     kept_at_conquest = yes
@@ -3045,6 +3058,7 @@ aga_tr_city_shangyuan = {
     color = map_chinese
 }
 
+# TODO: gfx icon missing
 # Second capital of Ethiopia
 aga_tr_city_gonder = {
     kept_at_conquest = yes
@@ -3093,6 +3107,7 @@ aga_tr_city_gonder = {
 #    color = map_gutnish
 #}
 
+# TODO: gfx icon missing
 aga_tr_city_tarnovo = {
     kept_at_conquest = yes
     location_modifier = {
@@ -3223,6 +3238,7 @@ aga_tr_city_marrakesh = {
 }
 
 
+# TODO: gfx icon missing
 aga_tr_city_mecca = {
     kept_at_conquest = yes
     location_modifier = {
@@ -3267,6 +3283,7 @@ aga_tr_city_mecca = {
 #    color = map_songhai
 #}
 
+# TODO: gfx icon missing
 # TODO: is only a village at game start
 aga_tr_city_harar = {
     kept_at_conquest = yes
