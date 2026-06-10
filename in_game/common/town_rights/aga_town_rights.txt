@@ -24,7 +24,12 @@ aga_tr_tur_iskele = {
     }
 
     potential = {
-        has_or_had_tag = TUR # Ottoman
+        OR = {
+            has_or_had_tag = TUR
+            culture = {
+                has_culture_group = culture_group:turkic_group
+            }
+        }
     }
 
     allow = {
@@ -49,7 +54,12 @@ aga_tr_ottoman_vakif_endowment = {
     country_modifier = {
     }
     potential = {
-        has_or_had_tag = TUR
+        OR = {
+            has_or_had_tag = TUR
+            culture = {
+                has_culture_group = culture_group:turkic_group
+            }
+        }
     }
     allow = {
         scope:target = {
@@ -74,7 +84,12 @@ aga_tr_ottoman_timar_garrison = {
         tax_income_efficiency = -0.005  # 0.5% less tax
     }
     potential = {
-        has_or_had_tag = TUR
+        OR = {
+            has_or_had_tag = TUR
+            culture = {
+                has_culture_group = culture_group:turkic_group
+            }
+        }
     }
     allow = {
         scope:target = {
