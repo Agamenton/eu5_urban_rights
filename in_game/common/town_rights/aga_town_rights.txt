@@ -1364,6 +1364,7 @@ aga_tr_ira_ghulam_garrison = {
     allow = {
         scope:target = {
             modifier:fort_level > 0
+			num_pop_type:slaves > 0.2
         }
     }
     color = map_persian
