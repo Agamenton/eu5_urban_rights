@@ -3588,7 +3588,7 @@ aga_tr_city_vijayanagar = {
     color = map_vijayanagar
 }
 
-aga_tr_city_wien = {
+aga_tr_city_vienna = {
     kept_at_conquest = yes
     location_modifier = {
         local_trade_center_power = 0.1
@@ -3599,11 +3599,11 @@ aga_tr_city_wien = {
 		global_merchant_power = 0.2
     }
     potential = {
-        owns = location:wien
+        owns = location:vienna
     }
     allow = {
         scope:target = {
-            this = location:wien
+            this = location:vienna
         }
     }
     color = map_volhynian
