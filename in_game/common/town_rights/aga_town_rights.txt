@@ -230,7 +230,7 @@ aga_tr_russian_oprichnina_district = {
 
 
 # =============================================================
-# VENICE
+# VENICE / ITALIAN
 # =============================================================
 
 aga_tr_venetian_contrada = {
@@ -239,12 +239,14 @@ aga_tr_venetian_contrada = {
         local_burghers_desired_pop_scaled = 0.1
         local_merchant_capacity = 0.5
         local_cultural_tradition = 0.1
-        local_merchant_power = 2
+        local_burghers_estate_power = 0.5
     }
     country_modifier = {
     }
     potential = {
-        has_or_had_tag = VEN
+        culture = {
+            has_culture_group = culture_group:italian_group
+        }
     }
     allow = {
         scope:target = {
@@ -270,11 +272,14 @@ aga_tr_venetian_arsenal_quarter = {
         local_ship_build_speed = 0.2
         max_ships_built_at_same_time = 2
         local_sailors_modifier = 0.1
+        local_production_efficiency = town_right_efficiency_penalty        
     }
     country_modifier = {
     }
     potential = {
-        has_or_had_tag = VEN
+        culture = {
+            has_culture_group = culture_group:italian_group
+        }
     }
     allow = {
         scope:target = {
@@ -295,11 +300,15 @@ aga_tr_venetian_rialto_exchange = {
         local_merchant_capacity = 1
         local_market_access = 0.15
         local_trade_protection_factor = 0.1
+        local_burghers_estate_power = 0.5
     }
     country_modifier = {
     }
     potential = {
-        has_or_had_tag = VEN
+		has_reform = government_reform:merchant_republic
+        culture = {
+            has_culture_group = culture_group:italian_group
+        }
     }
     allow = {
         scope:target = {

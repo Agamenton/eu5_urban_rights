@@ -30,16 +30,16 @@
  aga_tr_russian_oprichnina_district_desc: "The Oprichnina was Ivan the Terrible's instrument for breaking boyar power, carving out crown-controlled territories administered by his personal agents. Towns placed under this right fall directly under the Tsar's black-robed enforcers, weakening local nobility at the price of considerable unrest."
 
  # =============================================================
- # VENICE
+ # VENICE / ITALIAN
  # =============================================================
- aga_tr_venetian_contrada: "Venetian Contrada"
- aga_tr_venetian_contrada_desc: "A contrada is one of Venice's ancient civic parishes, each with its own identity, merchant guilds, and communal institutions. This right extends the Venetian model of organized urban self-governance to a subject town, formalizing its merchant community under Serenissima's commercial law."
+ aga_tr_venetian_contrada: "Civic Parish Charter"
+ aga_tr_venetian_contrada_desc: "The contrada system divided Italian cities into distinct civic parishes, each with its own merchant guilds, communal institutions, and neighborhood identity that organized urban life below the level of the state. Formalizing this right gives the city's burgher community a structured self-governing framework."
 
  aga_tr_venetian_arsenal_quarter: "Arsenal Quarter"
- aga_tr_venetian_arsenal_quarter_desc: "The Arsenale of Venice was the largest industrial complex in the medieval world, capable of producing a fully outfitted war galley in a single day. Establishing an arsenal quarter in a subject port brings Venetian shipbuilding discipline and organization to bear on the town's maritime capacity."
+ aga_tr_venetian_arsenal_quarter_desc: "The great Italian maritime cities developed specialized shipbuilding districts where carpenters, caulkers, ropemakers, and sailmakers worked in organized proximity under state supervision, producing warships and merchant galleys with an efficiency unmatched in the medieval world."
 
- aga_tr_venetian_rialto_exchange: "Rialto Exchange"
- aga_tr_venetian_rialto_exchange_desc: "The Rialto was the commercial and financial heart of Venice, where merchants of every nation gathered to trade goods, exchange currencies, and negotiate contracts. Granting a town Rialto Exchange status integrates it into Venice's unparalleled commercial network."
+ aga_tr_venetian_rialto_exchange: "Merchant Exchange"
+ aga_tr_venetian_rialto_exchange_desc: "The Italian merchant exchange was the institutional heart of the most sophisticated commercial civilization in the medieval world, where bills of exchange, insurance contracts, and commodity prices were negotiated by merchants whose banking networks stretched from London to Alexandria."
 
  # =============================================================
  # JAPAN

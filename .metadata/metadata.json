@@ -1,6 +1,6 @@
 ﻿{
-	"name":	"More Urban Rights DEV",
-	"id":	"aga_urban_rights_dev",
+	"name":	"More Unique Urban Rights (DEV)",
+	"id":	"aga_urban_rights_dev_branch",
 	"version":	"1.1.0",
 	"supported_game_version":	"1.2.*",
 	"short_description":	"Adds more unique urban rights.",
