@@ -72,16 +72,42 @@ aga_tr_ottoman_vakif_endowment = {
     color = goods_paper
 }
 
-aga_tr_ottoman_timar_garrison = {
-    kept_at_conquest = yes
+#aga_tr_ottoman_timar_garrison = {
+#    kept_at_conquest = yes
+#    location_modifier = {
+#        local_garrison_growth = 0.15
+#        local_defensive = 0.1
+#        local_nobles_estate_power = 0.5
+#        local_manpower = 0.005
+#    }
+#    country_modifier = {
+#        tax_income_efficiency = -0.005  # 0.5% less tax
+#    }
+#    potential = {
+#        OR = {
+#            has_or_had_tag = TUR
+#            culture = {
+#                has_culture_group = culture_group:turkic_group
+#            }
+#        }
+#    }
+#    allow = {
+#        scope:target = {
+#		    modifier:fort_level > 1
+#        }
+#    }
+#    color = map_gravel_road
+#}
+
+aga_tr_tur_janissary_garrison = {
+    kept_at_conquest = no
     location_modifier = {
-        local_garrison_growth = 0.15
-        local_defensive = 0.1
-        local_nobles_estate_power = 0.5
-        local_manpower = 0.005
+        local_garrison_size = 0.2
+        local_max_control = 0.05
+        local_crown_estate_power = 0.5
     }
     country_modifier = {
-        tax_income_efficiency = -0.005  # 0.5% less tax
+	    nobles_estate_target_satisfaction = small_permanent_target_satisfaction_penalty
     }
     potential = {
         OR = {
@@ -93,12 +119,13 @@ aga_tr_ottoman_timar_garrison = {
     }
     allow = {
         scope:target = {
-		    modifier:fort_level > 1
+            has_building = building_type:janissary_barracks
+            modifier:fort_level > 0
+			num_pop_type:slaves > 0.2
         }
     }
     color = map_gravel_road
 }
-
 
 # =============================================================
 # RUSSIA / MUSCOVY
@@ -266,7 +293,7 @@ aga_tr_venetian_rialto_exchange = {
     kept_at_conquest = no
     location_modifier = {
         local_merchant_capacity = 1
-        local_market_access = 0.015
+        local_market_access = 0.15
         local_trade_protection_factor = 0.1
     }
     country_modifier = {
@@ -302,7 +329,7 @@ aga_tr_japanese_za_guild = {
     location_modifier = {
         local_production_efficiency = 0.1
         local_burghers_desired_pop_scaled = 0.08
-        local_merchant_capacity = 1
+        local_pop_food_consumption = 0.2
     }
     country_modifier = {
     }
@@ -319,27 +346,27 @@ aga_tr_japanese_za_guild = {
     color = map_JAP
 }
 
-aga_tr_japanese_jinaimachi = {
-    kept_at_conquest = no
-    location_modifier = {
-        local_clergy_desired_pop_scaled = 0.1
-        local_max_control = 0.05
-        local_burghers_desired_pop_scaled = 0.05
-    }
-    country_modifier = {
-    }
-    potential = {
-        culture = {
-            has_culture_group = culture_group:japanese_group
-        }
-    }
-    allow = {
-        scope:target = {
-            
-        }
-    }
-    color = map_tsimshian_c
-}
+#aga_tr_japanese_jinaimachi = {
+#    kept_at_conquest = no
+#    location_modifier = {
+#        local_clergy_desired_pop_scaled = 0.1
+#        local_max_control = 0.05
+#        local_burghers_desired_pop_scaled = 0.05
+#    }
+#    country_modifier = {
+#    }
+#    potential = {
+#        culture = {
+#            has_culture_group = culture_group:japanese_group
+#        }
+#    }
+#    allow = {
+#        scope:target = {
+#            
+#        }
+#    }
+#    color = map_tsimshian_c
+#}
 
 aga_tr_japanese_castle_town = {
     kept_at_conquest = yes
@@ -347,6 +374,7 @@ aga_tr_japanese_castle_town = {
         fort_level = 1
         local_garrison_size = 0.2
         local_nobles_desired_pop_scaled = 0.08
+        local_nobles_estate_power = 0.5
     }
     country_modifier = {
     }
@@ -372,7 +400,7 @@ aga_tr_arab_funduq = {
     kept_at_conquest = yes
     location_modifier = {
         local_merchant_capacity = 2
-        local_market_access = 0.01
+        local_market_access = 0.1
         local_trade_protection_factor = 0.1
     }
     country_modifier = {
@@ -462,12 +490,11 @@ aga_tr_egy_nile_cultivation = {
 aga_tr_arab_mellah = {
     kept_at_conquest = no
     location_modifier = {
-        local_burghers_desired_pop_scaled = 0.08
-        local_merchant_capacity = 1
+        local_cultural_tradition = 0.1
         local_monthly_literacy = 0.1
+        local_pop_promotion_speed_modifier = 0.1
     }
     country_modifier = {
-        trade_income = 0.015
     }
     potential = {
         culture = {
@@ -486,7 +513,7 @@ aga_tr_maghrebi_corsairs = {
         local_maritime_presence = 0.25
     }
     country_modifier = {
-        privateer_maintenance_cost_modifier = -0.05
+        privateer_maintenance_cost_modifier = -0.01
     }
     potential = {
         culture = {
@@ -585,7 +612,7 @@ aga_tr_mali_dyula_market = {
     kept_at_conquest = yes
     location_modifier = {
         local_merchant_capacity = 2
-        local_market_access = 0.01
+        local_market_access = 0.1
         local_burghers_desired_pop_scaled = 0.08
     }
     country_modifier = {
@@ -751,7 +778,7 @@ aga_tr_ruthenian_magdeburg = {
     kept_at_conquest = yes
     location_modifier = {
         local_burghers_desired_pop_scaled = 0.1
-        local_merchant_capacity = 1
+		local_merchant_capacity_modifier = 0.25
         local_burghers_estate_power = 0.5
         local_pop_promotion_speed_modifier = 0.1
     }
@@ -1007,7 +1034,8 @@ aga_tr_vijayanagara_diamond_market = {
     kept_at_conquest = yes
     location_modifier = {
         local_gems_output_modifier = 0.25
-        local_merchant_capacity = 1
+        local_market_access = 0.1
+        local_burghers_estate_power = 0.5
     }
     country_modifier = {
     }
@@ -1022,6 +1050,31 @@ aga_tr_vijayanagara_diamond_market = {
         }
     }
     color = map_kannadiga
+}
+
+aga_tr_vijaya_devasthana = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_clergy_estate_power = 0.5
+        local_pop_conversion_speed_modifier = 0.15
+		local_trades_per_burgher = 0.25
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:dravidian_group
+        }
+        religion.group = religion_group:dharmic
+    }
+    allow = {
+        scope:target = {
+            OR = {
+                has_building = building_type:temple
+            }
+        }
+    }
+    color = map_cossack
 }
 
 # =============================================================
@@ -1069,7 +1122,7 @@ aga_tr_bul_rose_valley = {
             vegetation = farmland
         }
     }
-    color = map_bulgarian
+    color = map_GOL
 }
 
 
@@ -1091,7 +1144,7 @@ aga_tr_bul_bogomil_suppression = {
             "religion_percentage(religion:orthodox)" < 50
         }
     }
-    color = map_bulgarian
+    color = map_NOG
 }
 
 # =============================================================
@@ -1117,7 +1170,7 @@ aga_tr_ser_sasski_mining = {
             }
         }
     }
-    color = map_bulgarian
+    color = map_slovene
 }
 
 aga_tr_ser_nemanjic_grant = {
@@ -1138,7 +1191,7 @@ aga_tr_ser_nemanjic_grant = {
             has_building = building_type:monastery
         }
     }
-    color = map_bulgarian
+    color = map_serbian
 }
 
 aga_tr_ser_vlach_right = {
@@ -1146,6 +1199,7 @@ aga_tr_ser_vlach_right = {
     location_modifier = {
         local_levy_size_modifier = 0.2
         local_monthly_food_modifier = 0.1
+        local_max_control = -0.02
     }
     country_modifier = {
     }
@@ -1160,9 +1214,65 @@ aga_tr_ser_vlach_right = {
             }
         }
     }
-    color = map_bulgarian
+    color = map_sclavene
 }
 
+
+# =============================================================
+# Poladn-Lithuania
+# =============================================================
+aga_tr_pol_ruthenian_orthodoxy = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_clergy_estate_power = 0.25
+        local_max_literacy = 5
+		local_clergy_conversion_blocked = yes
+    }
+    country_modifier = {
+    }
+    potential = {
+        OR = {
+            has_or_had_tag = POL
+            has_or_had_tag = LIT
+            has_or_had_tag = PLC
+        }
+        NOT = { religion = religion:orthodox }
+    }
+    allow = {
+        scope:target = {
+            "religion_percentage(religion:orthodox)" > 25
+        }
+    }
+    color = map_polatskian
+}
+
+aga_tr_pol_magnate = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_nobles_estate_power = 0.5
+        local_levy_size_modifier = 0.25
+        local_max_control = 0.05
+        local_crown_estate_power = -0.5
+    }
+    country_modifier = {
+    }
+    potential = {
+        OR = {
+            has_or_had_tag = POL
+            has_or_had_tag = LIT
+            has_or_had_tag = PLC
+        }
+    }
+    allow = {
+        scope:target = {
+            OR = {
+                location_rank = location_rank:city
+                location_rank = location_rank:megalopolis
+            }
+        }
+    }
+    color = map_volhynian
+}
 
 # =============================================================
 # GEORGIA
@@ -1212,7 +1322,7 @@ aga_tr_geo_catholic_charter = {
             }
         }
     }
-    color = map_GEO
+    color = map_kumyk
 }
 
 # TODO: something for the mountainous nature of Georgia, like proximity speed through mountain
@@ -1258,7 +1368,7 @@ aga_tr_rom_danubian_staple = {
             has_river = yes
         }
     }
-    color = map_GEO
+    color = map_karachay
 }
 
 # =============================================================
@@ -1269,7 +1379,7 @@ aga_tr_ira_caravanserai = {
     kept_at_conquest = yes
     location_modifier = {
         local_merchant_capacity = 2
-        local_market_access = 0.01
+        local_market_access = 0.1
         local_burghers_estate_power = 0.25
     }
     country_modifier = {
@@ -1361,7 +1471,7 @@ aga_tr_ira_sufi = {
 }
 
 aga_tr_ira_ghulam_garrison = {
-    kept_at_conquest = yes
+    kept_at_conquest = no
     location_modifier = {
         local_garrison_size = 0.2
         local_manpower = 0.005
@@ -1369,7 +1479,6 @@ aga_tr_ira_ghulam_garrison = {
     }
     country_modifier = {
 	    nobles_estate_target_satisfaction = small_permanent_target_satisfaction_penalty
-	    burghers_estate_target_satisfaction = small_permanent_target_satisfaction_penalty
     }
     potential = {
         culture = {
@@ -1392,7 +1501,7 @@ aga_tr_ethiopian_negad_market = {
     kept_at_conquest = yes
     location_modifier = {
         local_merchant_capacity = 1.5
-        local_market_access = 0.01
+        local_market_access = 0.1
     }
     country_modifier = {
     }
@@ -1502,8 +1611,7 @@ aga_tr_city_hormuz = {
         local_maritime_presence = 1
     }
     country_modifier = {
-        export_efficiency = 0.1
-        import_efficiency = 0.1
+        export_efficiency = 0.25
     }
     potential = {
         owns = location:hormuz
@@ -2006,7 +2114,7 @@ aga_tr_city_adan = {
         local_maritime_presence = 1
     }
     country_modifier = {
-        export_efficiency = 0.1
+        import_efficiency = 0.25
     }
     potential = {
         owns = location:adan
@@ -3262,7 +3370,7 @@ aga_tr_city_mecca = {
         local_cultural_tradition = 1
     }
     country_modifier = {
-        tolerance_own = 1.5
+        tolerance_own = 2
     }
     potential = {
         owns = location:mecca
@@ -3320,4 +3428,156 @@ aga_tr_city_harar = {
         }
     }
     color = map_afar
+}
+
+
+aga_tr_city_smolensk = {
+    kept_at_conquest = yes
+    location_modifier = {
+		local_firearms_output_modifier = 0.2
+		local_cannons_output_modifier = 0.2
+    }
+    country_modifier = {
+        army_artillery_maintenance_cost_modifier = -0.2
+    }
+    potential = {
+        owns = location:smolensk
+    }
+    allow = {
+        scope:target = {
+            this = location:smolensk
+            NOT = { has_town_rights = town_rights_type:royal_weaponry_rights }
+        }
+    }
+    color = map_ruthenian
+}
+
+aga_tr_city_tunis = {
+    kept_at_conquest = yes
+    location_modifier = {
+        max_ships_built_at_same_time = 2
+        local_maritime_presence = 1
+    }
+    country_modifier = {
+        hire_privateer_cost_modifier = -0.2
+    }
+    potential = {
+        owns = location:tunis
+    }
+    allow = {
+        scope:target = {
+            this = location:tunis
+            NOT = { has_town_rights = town_rights_type:royal_weaponry_rights }
+        }
+    }
+    color = map_ruthenian
+}
+
+# TODO
+# cultural city
+aga_tr_city_thessaloniki = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_cloth_output_modifier = 0.25
+        local_cultural_tradition = 1
+        local_migration_attraction = 0.2
+    }
+    country_modifier = {
+        global_cloth_output_modifier = 0.05
+    }
+    potential = {
+        owns = location:thessaloniki
+    }
+    allow = {
+        scope:target = {
+            this = location:thessaloniki
+        }
+    }
+    color = map_TUR
+}
+
+
+aga_tr_city_trebizond = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_silk_output_modifier = 0.3
+        local_fine_cloth_output_modifier = 0.2
+        local_merchant_power = 2
+    }
+    country_modifier = {
+        global_fine_cloth_output_modifier = 0.05
+    }
+    potential = {
+        owns = location:trebizond
+    }
+    allow = {
+        scope:target = {
+            this = location:trebizond
+        }
+    }
+    color = map_TUR
+}
+
+# lifestock and horses from steppe
+aga_tr_city_kaffa = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_leather_output_modifier = 0.25
+        local_cultural_tradition = 1
+        local_migration_attraction = 0.2
+    }
+    country_modifier = {
+        global_leather_output_modifier = 0.05
+    }
+    potential = {
+        owns = location:kaffa
+    }
+    allow = {
+        scope:target = {
+            this = location:kaffa
+        }
+    }
+    color = map_TUR
+}
+
+
+aga_tr_city_vijayanagar = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_population_capacity = 100
+        local_trade_center_power = 0.1
+        local_migration_attraction = 0.5
+    }
+    country_modifier = {
+    }
+    potential = {
+        owns = location:vijayanagar
+    }
+    allow = {
+        scope:target = {
+            this = location:vijayanagar
+        }
+    }
+    color = map_vijayanagar
+}
+
+aga_tr_city_wien = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_trade_center_power = 0.1
+		local_trades_per_burgher = 0.5
+        local_cultural_influence = 1
+    }
+    country_modifier = {
+		global_merchant_power = 0.2
+    }
+    potential = {
+        owns = location:wien
+    }
+    allow = {
+        scope:target = {
+            this = location:wien
+        }
+    }
+    color = map_volhynian
 }
