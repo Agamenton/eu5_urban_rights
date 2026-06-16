@@ -3661,6 +3661,7 @@ aga_tr_city_constantinople_ottoman = {
         NOT = { religion = religion:orthodox }
         NOT = { has_or_had_tag = BYZ }
         NOT = { has_or_had_tag = ROM }
+        has_or_had_tag = TUR
     }
     allow = {
         scope:target = {
