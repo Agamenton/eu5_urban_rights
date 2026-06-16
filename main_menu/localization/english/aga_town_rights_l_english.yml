@@ -438,9 +438,6 @@
  aga_tr_city_harar: "City of Saints"
  aga_tr_city_harar_desc: "Harar is one of the holiest cities in Islam, its ancient walled medina housing ninety-nine mosques and the shrines of hundreds of saints venerated across the Horn of Africa. Its market also sits at the crossroads of the Ethiopian highland trade and the routes to the Somali coast, making it as commercially vital as it is spiritually significant."
 
- aga_tr_city_vijayanagara: "City of Victory"
- aga_tr_city_vijayanagara_desc: "Vijayanagara was one of the largest cities in the world at its height, its granite streets lined with bazaars trading diamonds, horses, and spices from across the Indian Ocean world, all dominated by the towering gopurams of the Virupaksha temple complex. The city was the sacred and political heart of the last great Hindu empire of the south."
-
  aga_tr_city_smolensk: "Foundry of the East"
  aga_tr_city_smolensk_desc: "Smolensk's metalworking tradition made it the premier cannon-founding center of Eastern Europe, its forges supplying artillery to whichever great power happened to be holding the city at the time — Lithuanians, Muscovites, and Poles alike recognized that Smolensk's foundries were too valuable to destroy."
  
@@ -456,3 +453,8 @@
  aga_tr_city_kaffa: "Gateway to the Steppe"
  aga_tr_city_kaffa_desc: "Kaffa was the Genoese Republic's greatest Black Sea colony, the city through which the furs, leather, grain, and slaves of the Pontic steppe flowed into Mediterranean markets for two centuries before the Ottomans ended its independence."
  
+ aga_tr_city_vijayanagara: "City of Victory"
+ aga_tr_city_vijayanagara_desc: "Vijayanagara was one of the largest cities in the world at its height, its granite streets lined with bazaars trading diamonds, horses, and spices from across the Indian Ocean world, all dominated by the towering gopurams of the Virupaksha temple complex. The city was the sacred and political heart of the last great Hindu empire of the south."
+ 
+ aga_tr_city_wien: "The Great Staple of the Danube"
+ aga_tr_city_wien_desc: "Vienna's Stapelrecht was among the most powerful staple rights in Central Europe, compelling every merchant navigating the Danube to unload their goods and offer them for sale in the city before continuing their journey."
