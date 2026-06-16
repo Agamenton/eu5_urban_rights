@@ -3681,7 +3681,7 @@ aga_tr_city_constantinople = {
     }
     country_modifier = {
         monthly_prestige = 0.2
-        merchant_maintenance_efficiency = 0.5
+        merchant_maintenance_efficiency = 0.3
     }
     potential = {
         owns = location:constantinople
