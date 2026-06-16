@@ -1274,6 +1274,34 @@ aga_tr_pol_magnate = {
     color = map_volhynian
 }
 
+aga_tr_pol_folwark = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_food_modifier = 0.25
+        local_nobles_estate_power = 0.5
+        local_peasant_enfranchisement = -0.15
+    }
+    country_modifier = {
+    }
+    potential = {
+        OR = {
+            has_or_had_tag = POL
+            has_or_had_tag = LIT
+            has_or_had_tag = PLC
+        }
+    }
+    allow = {
+        scope:target = {
+            raw_material = { goods_method = farming }
+            OR = {
+                vegetation = farmland
+                vegetation = grasslands
+            }
+        }
+    }
+    color = map_polish
+}
+
 # =============================================================
 # GEORGIA
 # =============================================================
@@ -3473,7 +3501,6 @@ aga_tr_city_tunis = {
     color = map_ruthenian
 }
 
-# TODO
 # cultural city
 aga_tr_city_thessaloniki = {
     kept_at_conquest = yes
