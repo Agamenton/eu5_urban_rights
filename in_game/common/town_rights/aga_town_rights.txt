@@ -3504,7 +3504,6 @@ aga_tr_city_tunis = {
     allow = {
         scope:target = {
             this = location:tunis
-            NOT = { has_town_rights = town_rights_type:royal_weaponry_rights }
         }
     }
     color = map_ruthenian
@@ -3613,6 +3612,86 @@ aga_tr_city_vienna = {
     allow = {
         scope:target = {
             this = location:vienna
+        }
+    }
+    color = map_volhynian
+}
+
+# constantinople for Orthodox conquerer
+aga_tr_city_constantinople_orthodox = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_trade_center_power = 0.15
+        local_cultural_tradition = 2
+        local_max_literacy = 5
+    }
+    country_modifier = {
+        monthly_religious_influence = 0.2
+        tolerance_own = 2
+    }
+    potential = {
+        owns = location:constantinople
+        religion = religion:orthodox
+        NOT = { has_or_had_tag = TUR }
+        NOT = { has_or_had_tag = BYZ }
+        NOT = { has_or_had_tag = ROM }
+    }
+    allow = {
+        scope:target = {
+            this = location:constantinople
+        }
+    }
+    color = map_volhynian
+}
+
+# constantinople for Ottoman conquerer
+aga_tr_city_constantinople_ottoman = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_trade_center_power = 0.25
+        local_merchant_capacity = 5
+        local_maritime_presence = 2
+    }
+    country_modifier = {
+        monthly_legitimacy = 0.1
+        ship_build_speed = 0.15
+    }
+    potential = {
+        owns = location:constantinople
+        NOT = { religion = religion:orthodox }
+        NOT = { has_or_had_tag = BYZ }
+        NOT = { has_or_had_tag = ROM }
+    }
+    allow = {
+        scope:target = {
+            this = location:constantinople
+        }
+    }
+    color = map_volhynian
+}
+
+# constantinople for any other conquerer
+aga_tr_city_constantinople = {
+    kept_at_conquest = no
+    location_modifier = {
+		local_trades_per_burgher = 0.5
+        local_trade_center_power = 0.1
+        local_cultural_tradition = 1
+    }
+    country_modifier = {
+        monthly_prestige = 0.2
+        merchant_maintenance_efficiency = 0.5
+    }
+    potential = {
+        owns = location:constantinople
+        NOT = { religion = religion:orthodox }
+        NOT = { has_or_had_tag = TUR }
+        NOT = { has_or_had_tag = BYZ }
+        NOT = { has_or_had_tag = ROM }
+    }
+    allow = {
+        scope:target = {
+            this = location:constantinople
         }
     }
     color = map_volhynian
