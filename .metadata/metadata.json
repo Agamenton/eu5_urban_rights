@@ -1,10 +1,10 @@
 ﻿{
 	"name":	"More Unique Urban Rights (DEV)",
-	"id":	"aga_urban_rights_dev_branch",
-	"version":	"1.1.0",
+	"id":	"aga_urban_rights_dev",
+	"version":	"1.0.2",
 	"supported_game_version":	"1.2.*",
-	"short_description":	"Adds more unique urban rights.",
-	"tags":	["Balance"],
+	"short_description":	"Adds aprox 150 unique urban rights to nations, cultures and specific cities.",
+	"tags":	["Balance", "Culture & Art"],
 	"relationships":	[],
 	"game_custom_data":	{
 }

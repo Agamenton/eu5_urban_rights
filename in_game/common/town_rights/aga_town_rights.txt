@@ -531,7 +531,9 @@ aga_tr_maghrebi_corsairs = {
         modifier:allow_privateers_slave_raid = yes
     }
     allow = {
-        is_port = yes
+        scope:target = {
+            is_port = yes
+        }
     }
     color = map_morocco
 }
@@ -3617,6 +3619,7 @@ aga_tr_city_vienna = {
     color = map_volhynian
 }
 
+
 # constantinople for Orthodox conquerer
 aga_tr_city_constantinople_orthodox = {
     kept_at_conquest = no
@@ -3696,4 +3699,211 @@ aga_tr_city_constantinople = {
         }
     }
     color = map_volhynian
+}
+
+aga_tr_city_tetzcoco = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_cultural_tradition = 1
+        local_monthly_literacy = 0.02
+        local_max_control = 0.05
+    }
+    country_modifier = {
+        legislative_efficiency = 0.1
+    }
+    potential = {
+        owns = location:tetzcoco
+    }
+    allow = {
+        scope:target = {
+            this = location:tetzcoco
+        }
+    }
+    color = map_aztec
+}
+
+# TODO: gfx icon missing
+aga_tr_city_mani = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_lumber_output_modifier = 0.3
+        local_nobles_estate_power = 0.3
+		local_build_buildings_efficiency = 0.1
+    }
+    country_modifier = {
+		global_build_buildings_efficiency = 0.1
+    }
+    potential = {
+        owns = location:mani
+    }
+    allow = {
+        scope:target = {
+            this = location:mani
+        }
+    }
+    color = map_maya
+}
+
+aga_tr_city_tenochtitlan_aztec = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_maize_output_modifier = 0.25
+        local_population_capacity = 250
+        local_cultural_tradition = 2
+        local_nobles_desired_pop_scaled = 0.10
+    }
+    country_modifier = {
+        monthly_legitimacy = 0.1
+    }
+    potential = {
+        owns = location:tenochtitlan
+        OR = {
+            culture = culture:nahua_culture
+            has_or_had_tag = AZT
+        }
+    }
+    allow = {
+        scope:target = {
+            this = location:tenochtitlan
+        }
+    }
+    color = map_aztec
+}
+
+# TODO: modify icon to represent colonization
+aga_tr_city_tenochtitlan_colonial = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 5
+        local_market_access = 0.15
+        local_migration_attraction = 0.5
+    }
+    country_modifier = {
+        colonial_migration_size_modifier = 0.1
+    }
+    potential = {
+        owns = location:tenochtitlan
+        NOT = { religion.group = religion_group:tonal_group } # Assuming colonies will copy religion of the colonizer
+    }
+    allow = {
+        scope:target = {
+            this = location:tenochtitlan
+        }
+    }
+    color = map_spanish
+}
+
+# TODO: gfx icon missing
+aga_tr_city_tzintzuntzan = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_dyes_output_modifier = 0.2
+        local_production_efficiency = 0.1
+        local_cultural_tradition = 1
+    }
+    country_modifier = {
+        global_production_efficiency = 0.025
+    }
+    potential = {
+        owns = location:tzintzuntzan
+    }
+    allow = {
+        scope:target = {
+            this = location:tzintzuntzan
+        }
+    }
+    color = map_purepecha
+}
+
+# TODO: gfx icon missing
+aga_tr_city_chucuito = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_fish_output_modifier = 0.3
+        local_population_capacity = 250
+        local_cultural_tradition = 1
+        local_clergy_desired_pop_scaled = 0.10
+    }
+    country_modifier = {
+        change_religious_aspect_inti_cost_modifier = -0.25
+    }
+    potential = {
+        owns = location:chucuito
+        culture = {
+            has_culture_group = culture_group:andean_group
+        }
+        religion = religion:inti
+    }
+    allow = {
+        scope:target = {
+            this = location:chucuito
+        }
+    }
+    color = map_aymara
+}
+
+# TODO: gfx icon missing
+aga_tr_city_hatunqulla = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_potato_output_modifier = 0.3
+        local_population_growth = 0.0001
+        local_nobles_estate_power = 0.3
+    }
+    country_modifier = {
+        global_potato_output_modifier = 0.1
+    }
+    potential = {
+        owns = location:hatunqulla
+    }
+    allow = {
+        scope:target = {
+            this = location:hatunqulla
+        }
+    }
+    color = map_aymara
+}
+
+# TODO: gfx icon missing
+aga_tr_city_sana = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_production_efficiency = 0.1
+        local_cultural_tradition = 1
+        local_clergy_desired_pop_scaled = 0.08
+    }
+    country_modifier = {
+        global_production_efficiency = 0.025
+    }
+    potential = {
+        owns = location:sana
+    }
+    allow = {
+        scope:target = {
+            this = location:sana
+        }
+    }
+    color = map_lambayeque
+}
+
+# TODO: gfx icon missing
+aga_tr_city_chinchay = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_salt_output_modifier = 0.25
+        local_merchant_capacity = 3
+        local_maritime_presence = 0.5
+    }
+    country_modifier = {
+        trade_income = 0.025
+    }
+    potential = {
+        owns = location:chinchay
+    }
+    allow = {
+        scope:target = {
+            this = location:chinchay
+        }
+    }
+    color = map_chincha
 }
