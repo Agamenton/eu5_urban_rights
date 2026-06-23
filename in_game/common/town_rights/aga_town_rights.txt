@@ -909,7 +909,7 @@ aga_tr_viet_lang_bang_market = {
 }
 
 aga_tr_rice_farm = {
-    kept_at_conquest = no
+    kept_at_conquest = yes
     location_modifier = {
         local_rice_output_modifier = 0.25
         local_monthly_prosperity = 0.0025
@@ -4036,7 +4036,6 @@ aga_tr_city_tenochtitlan_aztec = {
     color = map_aztec
 }
 
-# TODO: modify icon to represent colonization
 aga_tr_city_tenochtitlan_colonial = {
     kept_at_conquest = yes
     location_modifier = {
