@@ -1060,7 +1060,7 @@ aga_tr_vijayanagara_diamond_market = {
             raw_material = goods:gems
         }
     }
-    color = map_kannadiga
+    color = map_moxo
 }
 
 aga_tr_vijaya_devasthana = {
@@ -1095,8 +1095,8 @@ aga_tr_indo_war_elephants = {
     kept_at_conquest = no
     location_modifier = {
         local_elephants_output_modifier = 0.25
-        local_unrest = -0.05
         local_pop_food_consumption = 0.1
+        local_crown_estate_power = 0.2
     }
     country_modifier = {
     }
@@ -1116,12 +1116,12 @@ aga_tr_indo_war_elephants = {
 aga_tr_indo_iqta_assignment = {
     kept_at_conquest = no
     location_modifier = {
+        local_crown_estate_power = -0.5
         local_nobles_estate_power = 0.5
         local_levy_size_modifier = 0.25
         local_max_control = 0.02
     }
     country_modifier = {
-        legislative_efficiency = -0.025
     }
     potential = {
         culture = {
@@ -1139,6 +1139,7 @@ aga_tr_indo_conversion = {
     location_modifier = {
         local_clergy_estate_power = 0.5
         local_pop_conversion_speed_modifier = 0.3
+        local_pop_assimilation_speed_modifier = 0.2
         local_unrest = 0.05
     }
     country_modifier = {
