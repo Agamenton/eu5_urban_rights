@@ -1089,6 +1089,146 @@ aga_tr_vijaya_devasthana = {
 }
 
 # =============================================================
+# INDO-ARYAN
+# =============================================================
+aga_tr_indo_war_elephants = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_elephants_output_modifier = 0.25
+        local_unrest = -0.05
+        local_pop_food_consumption = 0.1
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:indian_group
+        }
+    }
+    allow = {
+        scope:target = {
+            raw_material = goods:elephants
+        }
+    }
+    color = map_bulgarian
+}
+
+aga_tr_indo_iqta_assignment = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_nobles_estate_power = 0.5
+        local_levy_size_modifier = 0.25
+    }
+    country_modifier = {
+        legislative_efficiency = -0.025
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:indian_group
+        }
+        religion.group = religion_group:muslim
+    }
+    allow = {
+    }
+    color = map_croatian
+}
+
+aga_tr_indo_conversion = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_clergy_estate_power = 0.5
+        local_pop_conversion_speed_modifier = 0.25
+        local_unrest = 0.05
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:indian_group
+        }
+        religion.group = religion_group:muslim
+    }
+    allow = {
+        scope:target = {
+            OR = {
+                has_building = building_type:temple
+                has_building = building_type:mandrasa
+                has_building = building_type:sufi_lodge
+            }
+        }
+    }
+    color = map_slovak
+}
+
+aga_tr_indo_dhimmi_protection = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_pop_promotion_speed_modifier = 0.1
+        local_pop_conversion_speed_modifier = -0.4
+        local_unrest = -0.05
+    }
+    country_modifier = {
+        dhimmi_estate_target_satisfaction = tiny_permanent_target_satisfaction
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:indian_group
+        }
+        religion.group = religion_group:muslim
+        country_has_estate = estate_type:dhimmi_estate
+    }
+    allow = {
+        scope:target = {
+        }
+    }
+    color = map_aztec
+}
+
+aga_tr_indo_stepwells = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_food_modifier = 0.1
+        local_population_growth = 0.0001
+        local_disease_resistance = 0.1
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:indo_aryan_group
+        }
+    }
+    allow = {
+        scope:target = {
+            vegetation = sparse
+        }
+    }
+    color = map_munda
+}
+
+aga_tr_indo_mandi_markets = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_market_access = 0.05
+        local_raw_material_output = 0.1
+        local_peasants_estate_power = 0.5
+        local_peasant_enfranchisement = 0.1        
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:indo_aryan_group
+        }
+    }
+    allow = {
+        scope:target = {
+            raw_material = { goods_method = farming }
+        }
+    }
+    color = map_zuni
+}
+# =============================================================
 # BULGARIA
 # =============================================================
 
