@@ -1215,9 +1215,9 @@ aga_tr_indo_mandi_markets = {
         local_market_access = 0.05
         local_raw_material_output = 0.1
         local_peasants_estate_power = 0.5
+        local_peasant_enfranchisment = 0.1
     }
     country_modifier = {
-        peasant_enfranchisement = 0.01
     }
     potential = {
         culture = {
@@ -1433,9 +1433,9 @@ aga_tr_pol_folwark = {
     location_modifier = {
         local_monthly_food_modifier = 0.25
         local_nobles_estate_power = 0.5
+        local_peasant_enfranchisment = -0.2
     }
     country_modifier = {
-        peasant_enfranchisement = -0.015
     }
     potential = {
         OR = {
