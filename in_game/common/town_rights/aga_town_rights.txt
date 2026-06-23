@@ -4,6 +4,9 @@
 # Thematic scope: 14th–17th century, global
 # =============================================================
 
+# TODO:
+# 1. A lot of these would benefit from "local_income_modifier" but it does not exist
+# 2. patch vanilla rights to be exclusive with some of these new rights, e.g. royal textile rights and bengali textile rights
 
 # =============================================================
 # OTTOMAN EMPIRE
@@ -1232,6 +1235,124 @@ aga_tr_indo_mandi_markets = {
     }
     color = map_zuni
 }
+
+aga_tr_indo_agrahara = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_clergy_estate_power = 0.5
+        local_nobles_estate_power = 0.25
+        local_max_literacy = 5
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:indian_group
+        }
+        NOT = { religion.group = religion_group:muslim }
+    }
+    allow = {
+        scope:target = {
+            OR = {
+                has_building = building_type:temple
+            }
+        }
+    }
+    color = map_acaxee
+}
+
+aga_tr_bengal_muslin = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_cotton_output_modifier = 0.25
+        local_cloth_output_modifier = 0.25
+        local_fine_cloth_output_modifier = 0.25
+        local_production_efficiency = town_right_efficiency_penalty
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = culture:bengali
+    }
+    allow = {
+        scope:target = {
+            raw_material = goods:cotton
+            NOT = { has_town_rights = town_rights_type:royal_textile_rights }
+            NOT = { has_town_rights = town_rights_type:aga_tr_indoaryan_jamdani }
+        }
+    }
+    color = map_bulgarian
+}
+
+aga_tr_bengal_rice_delta = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_monthly_food_modifier = 0.25
+        local_population_growth = 0.0001
+		local_production_efficiency = town_right_efficiency_penalty
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = culture:bengali
+    }
+    allow = {
+        scope:target = {
+            has_river = yes
+            raw_material = { goods_method = farming }
+        }
+    }
+    color = map_bengal
+}
+
+aga_tr_indoaryan_jamdani = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_cotton_output_modifier = 0.2
+		local_cloth_output_modifier = 0.2
+		local_fine_cloth_output_modifier = 0.2
+        local_production_efficiency = town_right_efficiency_penalty
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:indo_aryan_group
+        }
+    }
+    allow = {
+        scope:target = {
+            raw_material = goods:cotton
+            NOT = { has_town_rights = town_rights_type:royal_textile_rights }
+            NOT = { has_town_rights = town_rights_type:aga_tr_bengal_muslin }
+        }
+    }
+    color = map_delhi
+}
+
+aga_tr_indo_rajput_garhi = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_garrison_size = 0.15
+        local_nobles_estate_power = 0.5
+        local_levy_size_modifier = 0.2
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:indo_aryan_group
+        }
+        NOT = { religion.group = religion_group:muslim }
+    }
+    allow = {
+        scope:target = {
+            modifier:fort_level > 0
+        }
+    }
+    color = map_kong
+}
+
 # =============================================================
 # BULGARIA
 # =============================================================
