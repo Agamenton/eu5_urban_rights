@@ -3729,6 +3729,7 @@ aga_tr_city_vijayanagar = {
         local_migration_attraction = 0.5
     }
     country_modifier = {
+        monthly_legitimacy = 0.1
     }
     potential = {
         owns = location:vijayanagar
