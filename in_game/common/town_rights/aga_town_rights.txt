@@ -1118,6 +1118,7 @@ aga_tr_indo_iqta_assignment = {
     location_modifier = {
         local_nobles_estate_power = 0.5
         local_levy_size_modifier = 0.25
+        local_max_control = 0.02
     }
     country_modifier = {
         legislative_efficiency = -0.025
@@ -1137,7 +1138,7 @@ aga_tr_indo_conversion = {
     kept_at_conquest = no
     location_modifier = {
         local_clergy_estate_power = 0.5
-        local_pop_conversion_speed_modifier = 0.25
+        local_pop_conversion_speed_modifier = 0.3
         local_unrest = 0.05
     }
     country_modifier = {
@@ -1152,9 +1153,10 @@ aga_tr_indo_conversion = {
         scope:target = {
             OR = {
                 has_building = building_type:temple
-                has_building = building_type:mandrasa
+                has_building = building_type:madrasa
                 has_building = building_type:sufi_lodge
             }
+            NOT = { has_town_rights = town_rights_type:aga_tr_indo_dhimmi_protection }
         }
     }
     color = map_slovak
@@ -1176,6 +1178,7 @@ aga_tr_indo_dhimmi_protection = {
         }
         religion.group = religion_group:muslim
         country_has_estate = estate_type:dhimmi_estate
+        NOT = { has_town_rights = town_rights_type:aga_tr_indo_conversion }
     }
     allow = {
         scope:target = {
@@ -1212,9 +1215,9 @@ aga_tr_indo_mandi_markets = {
         local_market_access = 0.05
         local_raw_material_output = 0.1
         local_peasants_estate_power = 0.5
-        local_peasant_enfranchisement = 0.1        
     }
     country_modifier = {
+        peasant_enfranchisement = 0.01
     }
     potential = {
         culture = {
@@ -1430,9 +1433,9 @@ aga_tr_pol_folwark = {
     location_modifier = {
         local_monthly_food_modifier = 0.25
         local_nobles_estate_power = 0.5
-        local_peasant_enfranchisement = -0.15
     }
     country_modifier = {
+        peasant_enfranchisement = -0.015
     }
     potential = {
         OR = {
