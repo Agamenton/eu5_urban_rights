@@ -500,3 +500,36 @@
  
  aga_tr_city_shiraz: "City of Wine and Poetry"
  aga_tr_city_shiraz_desc: "Shiraz's vineyards have produced celebrated wine since antiquity, their reputation woven inseparably into the verses of Hafez and Saadi, whose poetry made the city as renowned for its cultural refinement as for its orchards and gardens. To hold Shiraz is to hold a place where Persian artistic identity and agricultural abundance have grown together for centuries."
+ 
+ aga_tr_indo_war_elephants: "War Elephant Stables"
+ aga_tr_indo_war_elephants_desc: "The war elephant has been the decisive weapon of Indian warfare since antiquity, its sheer mass and psychological impact capable of shattering enemy formations and trampling fortifications that no cavalry charge could breach. Towns granted stables for capturing and training these animals supply the crown with a weapon that has terrified armies from the Indus to the Deccan for two thousand years."
+ 
+ aga_tr_indo_iqta_assignment: "Iqta Assignment"
+ aga_tr_indo_iqta_assignment_desc: "The iqta system grants a town's revenue to a military commander in exchange for maintaining troops in the sultan's service, a practical solution to paying an army without a developed treasury but one that steadily erodes the crown's direct authority over its own territory."
+ 
+ aga_tr_indo_conversion: "Active Conversion Policy"
+ aga_tr_indo_conversion_desc: "Some rulers see the temples, madrasas, and Sufi lodges of their towns not merely as places of worship but as instruments of religious transformation, pressing the machinery of conversion to bring the population into the fold of the true faith. The clergy oversee this work, but forced conversion leaves resentment that lingers."
+ 
+ aga_tr_indo_dhimmi_protection: "Dhimmi Protection Charter"
+ aga_tr_indo_dhimmi_protection_desc: "Rather than press for conversion, this charter formally recognizes the right of non-Muslim subjects to practice their faith undisturbed in exchange for their loyalty and taxes, a pragmatic accommodation that has allowed Hindu, Jain, and other communities to flourish under Muslim rule for generations."
+ 
+ aga_tr_indo_stepwells: "Bawari Stepwells"
+ aga_tr_indo_stepwells_desc: "The great stepwells of the Indo-Gangetic plain descend in terraced steps far below the parched earth to reach water that sustains a town through the harshest dry season, their carved galleries doubling as cool gathering places and informal sanctuaries from the heat. These monuments of practical engineering have kept settlements alive in country where the monsoon is the only reliable promise of rain."
+ 
+ aga_tr_indo_mandi_markets: "Mandi Grain Market"
+ aga_tr_indo_mandi_markets_desc: "The mandi is the great agricultural wholesale market of the Indo-Gangetic plain, where cultivators bring their grain directly to be weighed, priced, and sold without the mediation of urban merchant guilds that dominate commerce elsewhere. This direct relationship between farmer and market gives the peasantry of a mandi town a bargaining power over crop prices."
+ 
+ aga_tr_indo_agrahara: "Agrahara Land Grant"
+ aga_tr_indo_agrahara_desc: "The agrahara grants a town's land and revenue to learned Brahmins and temple institutions in exchange for ritual, educational, and administrative service to the community. Generations of Sanskrit scholarship, astronomy, and legal learning accumulate wherever an agrahara has taken root, making such towns centers of intellectual prestige as much as religious devotion."
+ 
+ aga_tr_bengal_muslin: "Dhaka Muslin Workshops"
+ aga_tr_bengal_muslin_desc: "Bengali muslin is woven so fine that an entire garment can be drawn through a ring, a craft so renowned that merchants carried it from Dhaka to the courts of Rome in antiquity and to the fashion houses of Europe in this very age. No other cloth in the world commands the price or the reputation of the gossamer cotton produced in these delta workshops."
+ 
+ aga_tr_bengal_rice_delta: "Ganges-Brahmaputra Rice Delta"
+ aga_tr_bengal_rice_delta_desc: "The delta where the Ganges and Brahmaputra rivers meet the sea is among the most fertile farmland on earth, its annual floods depositing silt that sustains rice harvests of an abundance unmatched anywhere else in the subcontinent. This extraordinary agricultural wealth has made Bengal the most densely populated and most fought-over region of India."
+ 
+ aga_tr_indoaryan_jamdani: "Jamdani Weaving Tradition"
+ aga_tr_indoaryan_jamdani_desc: "The weavers of the Gangetic plain produce cotton cloth of extraordinary delicacy, their patterned jamdani technique passed down through generations of craft families whose skill has made the region's textiles prized far beyond India's borders. The looms of these towns hum with a tradition of fine weaving that rivals even the famed muslin of Bengal."
+ 
+ aga_tr_indo_rajput_garhi: "Rajput Garhi Stronghold"
+ aga_tr_indo_rajput_garhi_desc: "The garhi is the fortified clan-hold of the Rajput warrior lineages, a stronghold where loyalty flows not from religious obligation or sultanic appointment but from the bonds of kinship and martial honor that bind a clan to its chieftain."
