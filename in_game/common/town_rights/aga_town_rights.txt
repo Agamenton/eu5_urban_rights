@@ -3603,7 +3603,9 @@ aga_tr_city_palermo = {
     kept_at_conquest = yes
     location_modifier = {
         local_nobles_estate_power = 0.2
-        local_monthly_prosperity = 0.005
+        local_monthly_prosperity = 0.001
+		local_construction_speed = 0.20
+        local_maritime_presence = 1
     }
     country_modifier = {
         global_sugar_output_modifier = 0.1
