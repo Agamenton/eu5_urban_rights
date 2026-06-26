@@ -1910,7 +1910,7 @@ aga_tr_city_hormuz = {
     kept_at_conquest = yes
     location_modifier = {
         local_merchant_capacity = 5
-        local_trade_center_power = 0.2
+        local_trade_center_power = 0.1
         local_pearls_output_modifier = 0.2
         local_maritime_presence = 1
     }
@@ -1963,7 +1963,7 @@ aga_tr_city_venice = {
     kept_at_conquest = no
     location_modifier = {
         local_merchant_capacity = 5
-        local_trade_center_power = 0.2
+        local_trade_center_power = 0.1
         max_ships_built_at_same_time = 3
         local_maritime_presence = 1
     }
@@ -2015,7 +2015,7 @@ aga_tr_city_alexandria = {
     kept_at_conquest = yes
     location_modifier = {
         local_merchant_capacity = 5
-        local_trade_center_power = 0.2
+        local_trade_center_power = 0.1
         local_maritime_presence = 1
         max_ships_built_at_same_time = 3
     }
@@ -2069,7 +2069,7 @@ aga_tr_city_hangzhou = {
         local_silk_output_modifier = 0.3
         local_fine_cloth_output_modifier = 0.2
         local_monthly_prosperity = 0.0025
-        local_trade_center_power = 0.15
+        local_trade_center_power = 0.1
     }
     country_modifier = {
         global_silk_output_modifier = 0.1
@@ -2312,7 +2312,7 @@ aga_tr_city_antwerp = {
     location_modifier = {
         local_merchant_capacity = 4
         local_market_access = 0.25
-        local_trade_center_power = 0.2
+        local_trade_center_power = 0.1
         local_burghers_desired_pop_scaled = 0.15
     }
     country_modifier = {
@@ -2338,7 +2338,7 @@ aga_tr_city_amsterdam = {
     location_modifier = {
         local_merchant_capacity = 4
         local_market_access = 0.2
-        local_trade_center_power = 0.2
+        local_trade_center_power = 0.1
         local_maritime_presence = 2
         local_ship_build_speed = 0.15
     }
@@ -2365,7 +2365,7 @@ aga_tr_city_genoa = {
     location_modifier = {
         local_ship_build_speed = 0.15        
         local_market_access = 0.2
-        local_trade_center_power = 0.15
+        local_trade_center_power = 0.1
         local_maritime_presence = 1
     }
     country_modifier = {
@@ -2414,7 +2414,7 @@ aga_tr_city_malacca = {
 aga_tr_city_adan = {
     kept_at_conquest = yes
     location_modifier = {
-        local_trade_center_power = 0.2
+        local_trade_center_power = 0.1
         local_maritime_presence = 1
     }
     country_modifier = {
@@ -2439,7 +2439,7 @@ aga_tr_city_mogadishu = {
     kept_at_conquest = yes
     location_modifier = {
         local_merchant_capacity = 5
-        local_trade_center_power = 0.15
+        local_trade_center_power = 0.1
     }
     country_modifier = {
         trade_income = 0.1
@@ -2463,7 +2463,7 @@ aga_tr_city_kilwa = {
     kept_at_conquest = yes
     location_modifier = {
         local_merchant_capacity = 3
-        local_trade_center_power = 0.2
+        local_trade_center_power = 0.1
         local_maritime_presence = 1
     }
     country_modifier = {
@@ -3084,7 +3084,7 @@ aga_tr_city_novgorod = {
     kept_at_conquest = yes
     location_modifier = {
 		local_trades_per_burgher = 0.5
-        local_trade_center_power = 0.15
+        local_trade_center_power = 0.1
         local_leather_output_modifier = 0.25
     }
     country_modifier = {
@@ -3256,7 +3256,7 @@ aga_tr_city_dubrovnik = {
     location_modifier = {
         local_merchant_capacity = 3
         local_market_access = 0.15
-        local_trade_center_power = 0.15
+        local_trade_center_power = 0.1
     }
     country_modifier = {
         improve_relation_impact = 0.05
@@ -3517,7 +3517,7 @@ aga_tr_city_gonder = {
 #    location_modifier = {
 #        local_merchant_capacity = 3
 #        local_market_access = 0.15
-#        local_trade_center_power = 0.15
+#        local_trade_center_power = 0.1
 #        local_maritime_presence = 8
 #    }
 #    country_modifier = {
@@ -3582,7 +3582,7 @@ aga_tr_city_naples_city = {
     kept_at_conquest = yes
     location_modifier = {
         local_migration_attraction = 0.5
-        local_trade_center_power = 0.12
+        local_trade_center_power = 0.1
         local_maritime_presence = 1
     }
     country_modifier = {
@@ -3627,7 +3627,7 @@ aga_tr_city_palermo = {
 #    location_modifier = {
 #        local_merchant_capacity = 3
 #        local_market_access = 0.15
-#        local_trade_center_power = 0.12
+#        local_trade_center_power = 0.1
 #        local_maritime_presence = 8
 #    }
 #    country_modifier = {
@@ -3694,7 +3694,7 @@ aga_tr_city_mecca = {
 #    kept_at_conquest = yes
 #    location_modifier = {
 #        local_merchant_capacity = 2
-#        local_trade_center_power = 0.12
+#        local_trade_center_power = 0.1
 #        local_market_access = 0.1
 #        local_monthly_control = 0.1
 #    }
@@ -3892,7 +3892,7 @@ aga_tr_city_vienna = {
 aga_tr_city_constantinople_orthodox = {
     kept_at_conquest = no
     location_modifier = {
-        local_trade_center_power = 0.15
+        local_trade_center_power = 0.1
         local_cultural_tradition = 2
         local_max_literacy = 5
     }
@@ -3919,7 +3919,7 @@ aga_tr_city_constantinople_orthodox = {
 aga_tr_city_constantinople_ottoman = {
     kept_at_conquest = no
     location_modifier = {
-        local_trade_center_power = 0.25
+        local_trade_center_power = 0.1
         local_merchant_capacity = 5
         local_maritime_presence = 2
     }
