@@ -1891,10 +1891,56 @@ aga_tr_gult_grant = {
 }
 
 # =============================================================
-# SULTANATE OF DELHI
+# SWITZERLAND
 # =============================================================
 
-# TODO: idk
+aga_tr_swi_markets = {
+    kept_at_conquest = yes
+    location_modifier = {
+    }
+    country_modifier = {
+		local_trades_per_burgher = 1.0
+		local_merchant_capacity_modifier = 0.25
+
+		local_rgo_build_time = 1.0
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:swiss_group
+        }
+    }
+    allow = {
+        scope:target = {
+        }
+    }
+    color = map_susu
+}
+
+aga_tr_swi_mountain_self_ctrl = {
+    kept_at_conquest = no
+    location_modifier = {
+		local_peasant_enfranchisment = 0.2
+		local_nobles_estate_power = -0.5
+        local_max_control = 0.05
+    }
+    country_modifier = {
+        nobles_estate_target_satisfaction = small_privilege_target_satisfaction_penalty
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:swiss_group
+        }
+    }
+    allow = {
+        scope:target = {
+            OR = {
+                topography = mountains
+                topography = hills
+            }
+        }
+    }
+    color = map_susu
+}
 
 # =============================================================
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -4173,4 +4219,47 @@ aga_tr_city_chinchay = {
         }
     }
     color = map_chincha
+}
+
+aga_tr_city_geneva = {
+	kept_at_conquest = yes
+	location_modifier = {
+		local_marketplace_building_levels = 5
+		local_merchant_capacity = 3
+		local_trade_protection_factor = 0.1
+	}
+	country_modifier = {
+		bank_interest = -0.02
+	}
+	potential = {
+		owns = location:geneva
+	}
+	allow = {
+		scope:target = {
+			this = location:geneva
+		}
+	}
+	color = map_swiss
+}
+
+aga_tr_city_zurich = {
+	kept_at_conquest = yes
+	location_modifier = {
+		local_burghers_estate_power = 0.5
+		local_trades_per_burgher = 0.5
+		local_monthly_literacy = 0.02
+		local_merchant_capacity = 3
+	}
+	country_modifier = {
+		legislative_efficiency = 0.2
+	}
+	potential = {
+		owns = location:zurich
+	}
+	allow = {
+		scope:target = {
+			this = location:zurich
+		}
+	}
+	color = map_swiss
 }
