@@ -1961,7 +1961,7 @@ aga_tr_city_hormuz = {
         local_maritime_presence = 1
     }
     country_modifier = {
-        export_efficiency = 0.25
+        export_efficiency = 0.025
     }
     potential = {
         owns = location:hormuz
@@ -2464,7 +2464,7 @@ aga_tr_city_adan = {
         local_maritime_presence = 1
     }
     country_modifier = {
-        import_efficiency = 0.25
+        import_efficiency = 0.025
     }
     potential = {
         owns = location:adan
