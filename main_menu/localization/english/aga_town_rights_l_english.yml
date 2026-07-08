@@ -262,6 +262,12 @@
  aga_tr_swi_mountain_self_ctrl_desc: "In the high valleys of the Confederacy, free peasants and herdsmen gather in open assembly to govern themselves directly, a tradition born of isolation and necessity in terrain too rugged for any distant lord to truly control. The mountain communes answer to their own councils long before they answer to any duke or bishop."
  
  # =============================================================
+ # IRELAND and SCOTLAND
+ # =============================================================
+ aga_tr_celt_livestock: "Grazing Commons"
+ aga_tr_celt_livestock_desc: "Special privileges protect the drovers who drive great herds to market across the Highlands and Ireland. Their trade fills the town with livestock, merchants, and seasonal wealth."
+
+ # =============================================================
  # UNIQUE PER CITY
  # =============================================================
  aga_tr_city_hormuz: "Gateway of the Gulf"
@@ -548,3 +554,9 @@
  
  aga_tr_city_zurich: "Guildhall of the Limmat"
  aga_tr_city_zurich_desc: "Zürich's guilds wrested control of the city from its old patrician families and built one of the most fiercely independent burgher governments north of the Alps, their craft and merchant halls dictating the city's laws as much as any council of nobles ever could. Literacy and civic record-keeping flourish under a government that answers first to its own tradesmen."
+ 
+ aga_tr_city_edinburgh: "Castle on the Crag"
+ aga_tr_city_edinburgh_desc: "Edinburgh's fortress crowns a volcanic crag above the Firth of Forth, and from its halls the Stewart kings have governed a realm that has resisted every English attempt at conquest for generations. The city's royal mile links castle to abbey, binding crown and kingdom together in a single strip of stone and memory."
+
+ aga_tr_city_dublin: "Seat of the Pale"
+ aga_tr_city_dublin_desc: "Dublin has stood as the administrative heart of English rule in Ireland. The city's harbor and garrison anchor a colonial foothold that every English governor has depended upon to project power into the island beyond."

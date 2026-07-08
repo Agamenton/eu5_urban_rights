@@ -1942,6 +1942,44 @@ aga_tr_swi_mountain_self_ctrl = {
     color = map_susu
 }
 
+
+# =============================================================
+# IRELAND and SCOTLAND
+# =============================================================
+aga_tr_celt_livestock = {
+	kept_at_conquest = no
+
+	location_modifier = {
+		local_monthly_food_modifier = 0.1
+        local_raw_material_output = 0.33
+		
+		local_peasant_enfranchisment = 0.1
+	}
+
+	country_modifier = {
+		
+	}
+
+	potential = {
+        culture = {
+            OR = {
+                has_culture_group = culture_group:celtic_group
+                has_culture_group = culture_group:scottish_group
+            }
+        }
+	}
+
+	allow = {
+		scope:target = {
+			NOT = { has_town_rights = town_rights_type:borough_customals }
+			raw_material = goods:livestock
+			raw_material = goods:wool
+		}
+	}
+
+	color = map_GBR
+}
+
 # =============================================================
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # UNIQUE PER CITY
@@ -1987,8 +2025,8 @@ aga_tr_city_rome = {
         local_monthly_development_modifier = 0.25
     }
     country_modifier = {
-        monthly_prestige = 0.3
-        monthly_legitimacy = 0.2
+        monthly_prestige = 0.15
+        monthly_legitimacy = 0.1
     }
     potential = {
         owns = location:rome
@@ -2171,7 +2209,7 @@ aga_tr_city_kyoto = {
         local_nobles_desired_pop_scaled = 0.1
     }
     country_modifier = {
-        monthly_prestige = 0.25
+        monthly_prestige = 0.2
     }
     potential = {
             owns = location:kyoto
@@ -3496,7 +3534,7 @@ aga_tr_city_dadu = {
         local_migration_attraction = 0.5
     }
     country_modifier = {
-        monthly_prestige = 0.2
+        monthly_prestige = 0.1
     }
     potential = {
         owns = location:dadu
@@ -3997,7 +4035,7 @@ aga_tr_city_constantinople = {
         local_cultural_tradition = 1
     }
     country_modifier = {
-        monthly_prestige = 0.2
+        monthly_prestige = 0.1
         merchant_maintenance_efficiency = 0.3
     }
     potential = {
@@ -4262,4 +4300,46 @@ aga_tr_city_zurich = {
 		}
 	}
 	color = map_swiss
+}
+
+aga_tr_city_edinburgh = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_crown_estate_power = 0.5
+        local_nobles_desired_pop_scaled = 0.08
+        local_defensive = 0.1
+    }
+    country_modifier = {
+        monthly_prestige = 0.1
+    }
+    potential = {
+        owns = location:edinburgh
+    }
+    allow = {
+        scope:target = {
+            this = location:edinburgh
+        }
+    }
+    color = map_scottish
+}
+
+aga_tr_city_dublin = {
+    kept_at_conquest = yes
+    location_modifier = {
+		local_ship_build_speed = 0.2
+        local_garrison_size = 0.15
+        local_market_access = 0.1
+    }
+    country_modifier = {
+        colonial_migration_size_modifier = 0.05
+    }
+    potential = {
+        owns = location:dublin
+    }
+    allow = {
+        scope:target = {
+            this = location:dublin
+        }
+    }
+    color = map_irish
 }
