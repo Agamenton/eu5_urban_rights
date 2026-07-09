@@ -174,7 +174,7 @@ aga_tr_russian_sloboda = {
     }
     potential = {
         culture = {
-            has_culture_group = culture_group:east_slavic
+            has_culture_group = culture_group:russian_group
         }
     }
     allow = {
@@ -197,7 +197,7 @@ aga_tr_russian_posad = {
     }
     potential = {
         culture = {
-            has_culture_group = culture_group:east_slavic
+            has_culture_group = culture_group:russian_group
         }
     }
     allow = {
@@ -612,7 +612,7 @@ aga_tr_teutonic_hanseatic_privilege = {
                 location_rank = location_rank:city
                 location_rank = location_rank:megalopolis
             }
-            has_building = building_type:port
+            is_port = yes
         }
     }
     color = map_nahani
@@ -1182,10 +1182,10 @@ aga_tr_indo_dhimmi_protection = {
         }
         religion.group = religion_group:muslim
         country_has_estate = estate_type:dhimmi_estate
-        NOT = { has_town_rights = town_rights_type:aga_tr_indo_conversion }
     }
     allow = {
         scope:target = {
+            NOT = { has_town_rights = town_rights_type:aga_tr_indo_conversion }
         }
     }
     color = map_aztec
