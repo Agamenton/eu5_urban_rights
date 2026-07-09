@@ -2827,34 +2827,6 @@ aga_tr_city_nuremberg = {
 
 
 # -------------------------------------------------------------
-# TOLEDO — Blades and craft
-# -------------------------------------------------------------
-# TODO: 
-#aga_tr_city_toledo = {
-#    kept_at_conquest = yes
-#    location_modifier = {
-#        local_steel_output_modifier = 0.25
-#        local_weaponry_output_modifier = 0.3
-#        local_production_efficiency = 0.12
-#        local_monthly_literacy = 0.002
-#    }
-#    country_modifier = {
-#        global_weaponry_output_modifier = 0.06
-#        global_steel_output_modifier = 0.05
-#    }
-#    potential = {
-#        owns = location:toledo
-#    }
-#    allow = {
-#        scope:target = {
-#            this = location:toledo
-#        }
-#    }
-#    color = map_CAS
-#}
-
-
-# -------------------------------------------------------------
 # DAMASCUS — Blades, silk, and glass
 # -------------------------------------------------------------
 # TODO: already has weapon output modifier
@@ -4444,4 +4416,70 @@ aga_tr_city_rodos = {
         }
     }
     color = map_zapotec
+}
+
+aga_tr_city_granada_islamic = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_cultural_tradition = 2
+        local_migration_attraction = 1
+        local_monthly_food_modifier = 0.15
+    }
+    country_modifier = {
+		global_migration_speed_modifier = 0.1
+    }
+    potential = {
+        owns = location:granada
+        religion.group = religion_group:muslim
+    }
+    allow = {
+        scope:target = {
+            this = location:granada
+        }
+    }
+    color = map_granada
+}
+
+aga_tr_city_granada_christian = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_clergy_desired_pop_scaled = 0.15
+        local_pop_conversion_speed_modifier = 0.2
+        local_nobles_desired_pop_scaled = 0.08
+        local_crown_estate_power = 0.5
+    }
+    country_modifier = {
+        monthly_legitimacy = 0.1
+    }
+    potential = {
+        owns = location:granada
+        NOT = { religion.group = religion_group:muslim }
+    }
+    allow = {
+        scope:target = {
+            this = location:granada
+        }
+    }
+    color = map_CAS
+}
+
+aga_tr_city_toledo = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_steel_output_modifier = 0.2
+        local_iron_output_modifier = 0.2
+        local_production_efficiency = 0.1
+    }
+    country_modifier = {
+        global_weaponry_output_modifier = 0.1
+    }
+    potential = {
+        owns = location:toledo
+    }
+    allow = {
+        scope:target = {
+            this = location:toledo
+        }
+    }
+    color = map_CAS
 }
