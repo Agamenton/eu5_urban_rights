@@ -1981,6 +1981,86 @@ aga_tr_celt_livestock = {
 }
 
 # =============================================================
+# MILITARY ORDERS
+# =============================================================
+# generic military order conversion
+aga_tr_order_proselytizer = {
+	kept_at_conquest = no
+
+	location_modifier = {
+        local_pop_conversion_speed = 0.01
+        local_pop_assimilation_speed = 0.01
+		local_unrest = 0.1
+	}
+
+	country_modifier = {
+	}
+
+	potential = {
+		modifier:target_of_military_sponsorships = yes
+	}
+
+	allow = {
+		scope:target = {
+		}
+	}
+
+	color = map_makassarese
+}
+
+# generic military order garrison
+aga_tr_order_military = {
+	kept_at_conquest = no
+
+	location_modifier = {
+		local_garrison_size = 0.3
+		local_defensive = 0.3
+		local_manpower = 0.01
+		local_soldiers_desired_pop_scaled = 0.2
+	}
+
+	country_modifier = {
+	}
+
+	potential = {
+		modifier:target_of_military_sponsorships = yes
+	}
+
+	allow = {
+		scope:target = {
+            has_building = building_type:order_stronghold
+		}
+	}
+
+	color = map_maltese
+}
+
+# Knights Hospitaler Medici regiment
+aga_tr_hos_medici = {
+	kept_at_conquest = no
+
+	location_modifier = {
+        local_disease_resistance = 0.1
+        local_monthly_literacy = 0.01
+        local_monthly_prosperity = 0.001
+	}
+
+	country_modifier = {
+	}
+
+	potential = {
+        has_or_had_tag = KNI
+	}
+
+	allow = {
+		scope:target = {
+		}
+	}
+
+	color = map_nsenga
+}
+
+# =============================================================
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # UNIQUE PER CITY
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -4342,4 +4422,26 @@ aga_tr_city_dublin = {
         }
     }
     color = map_irish
+}
+
+aga_tr_city_rodos = {
+    kept_at_conquest = yes
+    location_modifier = {
+		local_defensive = 0.3
+		local_soldiers_desired_pop_scaled = 0.25
+		local_navy_attrition = -5
+        local_ship_build_speed = 0.25
+    }
+    country_modifier = {
+	    global_defensive = 0.2
+    }
+    potential = {
+        owns = location:rodos
+    }
+    allow = {
+        scope:target = {
+            this = location:rodos
+        }
+    }
+    color = map_zapotec
 }

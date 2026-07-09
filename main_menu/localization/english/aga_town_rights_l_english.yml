@@ -266,7 +266,19 @@
  # =============================================================
  aga_tr_celt_livestock: "Grazing Commons"
  aga_tr_celt_livestock_desc: "Special privileges protect the drovers who drive great herds to market across the Highlands and Ireland. Their trade fills the town with livestock, merchants, and seasonal wealth."
-
+ 
+ # =============================================================
+ # MILITARY ORDERS
+ # =============================================================
+ aga_tr_order_proselytizer: "Missionary Crusade"
+ aga_tr_order_proselytizer_desc: "The military orders combined the sword with the cross, using conquered towns as instruments of religious transformation as much as fortified outposts. Local populations subjected to this zealous campaign of conversion often chafe under the pressure, even as the faith of the order takes deeper root."
+ 
+ aga_tr_order_military: "Order Stronghold Garrison"
+ aga_tr_order_military_desc: "The military orders built their power on permanent garrisons of warrior-monks, disciplined and celibate brothers who held their fortresses as sacred trusts rather than feudal fiefs. A town anchoring one of these strongholds becomes a bastion whose defense is bound as much to holy vow as to military necessity."
+ 
+ aga_tr_hos_medici: "Hospital of the Order"
+ aga_tr_hos_medici_desc: "The Knights Hospitaller trace their very origin to the care of the sick and the poor, and even as the order grew into a formidable naval and military power, its hospitals and infirmaries never ceased operating in the towns under its protection. Physicians trained in the order's tradition are counted among the finest in Christendom."
+ 
  # =============================================================
  # UNIQUE PER CITY
  # =============================================================
@@ -560,3 +572,6 @@
 
  aga_tr_city_dublin: "Seat of the Pale"
  aga_tr_city_dublin_desc: "Dublin has stood as the administrative heart of English rule in Ireland. The city's harbor and garrison anchor a colonial foothold that every English governor has depended upon to project power into the island beyond."
+
+ aga_tr_city_rodos: "Bastion of the Hospitallers"
+ aga_tr_city_rodos_desc: "Rhodes served as the Hospitaller Knights' island fortress for over two centuries, its harbor and walls withstanding repeated Mamluk and Ottoman sieges before finally falling in 1522. The order's engineers transformed the city into one of the most formidable fortifications in the Mediterranean, a symbol of Christian resistance at the edge of the Islamic world."
