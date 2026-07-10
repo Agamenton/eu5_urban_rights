@@ -279,6 +279,9 @@
  aga_tr_hos_medici: "Hospital of the Order"
  aga_tr_hos_medici_desc: "The Knights Hospitaller trace their very origin to the care of the sick and the poor, and even as the order grew into a formidable naval and military power, its hospitals and infirmaries never ceased operating in the towns under its protection. Physicians trained in the order's tradition are counted among the finest in Christendom."
  
+ aga_tr_hos_naval_base: "Order Shipyard"
+ aga_tr_hos_naval_base_desc: "The Knights Hospitaller built their reputation as much on the sea as on the battlefield, their galleys patrolling the Mediterranean to harry Muslim shipping and protect Christian pilgrims bound for the Holy Land. A port dedicated to the order's fleet becomes a shipyard of holy war, its slipways never idle for long."
+ 
  # =============================================================
  # UNIQUE PER CITY
  # =============================================================

@@ -2060,6 +2060,32 @@ aga_tr_hos_medici = {
 	color = map_nsenga
 }
 
+# knights hospitaler naval base
+aga_tr_hos_naval_base = {
+	kept_at_conquest = no
+
+	location_modifier = {
+        local_maritime_presence = 0.2
+        local_ship_build_speed = 0.1
+		local_repair_speed = 0.05
+	}
+
+	country_modifier = {
+	}
+
+	potential = {
+        has_or_had_tag = KNI
+	}
+
+	allow = {
+		scope:target = {
+            is_port = yes
+		}
+	}
+
+	color = map_FRA
+}
+
 # =============================================================
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # UNIQUE PER CITY
