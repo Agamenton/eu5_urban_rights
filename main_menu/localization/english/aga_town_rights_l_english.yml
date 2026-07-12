@@ -283,6 +283,24 @@
  aga_tr_hos_naval_base_desc: "The Knights Hospitaller built their reputation as much on the sea as on the battlefield, their galleys patrolling the Mediterranean to harry Muslim shipping and protect Christian pilgrims bound for the Holy Land. A port dedicated to the order's fleet becomes a shipyard of holy war, its slipways never idle for long."
  
  # =============================================================
+ # LIQOUR BREWERS
+ # =============================================================
+ aga_tr_fra_clos_monastique: "Monastic Clos"
+ aga_tr_fra_clos_monastique_desc: "The monks of Burgundy have spent generations studying every subtle variation of soil and slope, walling off their finest vineyard plots into clos tended with an almost scriptural devotion. Their patient cultivation has made French wine synonymous with refinement long before any noble table in Europe learned to ask for it by name."
+ 
+ aga_tr_ita_appassimento: "Appassimento Method"
+ aga_tr_ita_appassimento_desc: "Italian vintners lay their finest grapes out to dry on straw mats through the autumn air, patiently concentrating their sugars and flavor before the fruit ever touches the press. The wine that results from this slow transformation carries a richness and strength that no ordinary harvest can match."
+ 
+ aga_tr_ger_beer: "Brauhaus Tradition"
+ aga_tr_ger_beer_desc: "German towns have refined the craft of brewing into a matter of civic pride, their brauhauses producing beer of a consistency and quality that draws drinkers from every corner of the Empire. Where German artisans set the standard, every neighboring land measures its own beer against it."
+ 
+ aga_tr_boh_beer: "Pilsner Heritage"
+ aga_tr_boh_beer_desc: "Bohemia's brewers have elevated beer-making beyond mere craft into something approaching alchemy, their mastery of malt, hops, and water yielding a beer so celebrated that towns across Central Europe seek to imitate the Bohemian method rather than compete with it. Few crowns anywhere prize their brewing tradition as fiercely as the Bohemian kings."
+ 
+ aga_tr_geo_wine: "Qvevri Vintners"
+ aga_tr_geo_wine_desc: "Georgian winemakers ferment their harvest in massive clay qvevri buried beneath the earth, a method practiced unbroken since before the memory of any living dynasty. The wine that emerges carries the taste of a tradition older than Christianity itself in a land where wine and faith have grown together since antiquity."
+ 
+ # =============================================================
  # UNIQUE PER CITY
  # =============================================================
  aga_tr_city_hormuz: "Gateway of the Gulf"

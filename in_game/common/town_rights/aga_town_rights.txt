@@ -2086,11 +2086,150 @@ aga_tr_hos_naval_base = {
 	color = map_FRA
 }
 
-# =============================================================
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# French wine making
+aga_tr_fra_clos_monastique = {
+	kept_at_conquest = no
+
+	location_modifier = {
+		local_wine_output_modifier = 0.25
+        local_cultural_tradition = 0.25
+        local_clergy_desired_pop_scaled = 0.05
+	}
+
+	country_modifier = {
+	}
+
+	potential = {
+        culture = {
+            has_culture_group = culture_group:french_group
+        }
+	}
+
+	allow = {
+		scope:target = {
+		}
+	}
+
+	color = map_PRU
+}
+
+
+# Italian wine making
+aga_tr_ita_appassimento = {
+	kept_at_conquest = no
+
+	location_modifier = {
+		local_wine_output_modifier = 0.25
+        local_fruit_output_modifier = 0.2
+        local_market_access = 0.05
+	}
+
+	country_modifier = {
+	}
+
+	potential = {
+        culture = {
+            has_culture_group = culture_group:italian_group
+        }
+	}
+
+	allow = {
+		scope:target = {
+		}
+	}
+
+	color = map_ITA
+}
+
+# German beer
+aga_tr_ger_beer = {
+	kept_at_conquest = no
+
+	location_modifier = {
+        local_beer_output_modifier = 0.2
+        local_liquor_output_modifier = 0.2
+        local_cultural_tradition = 0.25
+	}
+
+	country_modifier = {
+	}
+
+	potential = {
+        culture = {
+            has_culture_group = culture_group:german_group
+        }
+        NOT = {
+            culture = {
+                has_culture_group = culture_group:bohemian_group
+            }
+        }
+	}
+
+	allow = {
+		scope:target = {
+		}
+	}
+
+	color = map_GER
+}
+
+# Bohemian beer
+aga_tr_boh_beer = {
+	kept_at_conquest = no
+
+	location_modifier = {
+        local_beer_output_modifier = 0.25
+        local_liquor_output_modifier = 0.25
+        local_cultural_tradition = 0.5
+	}
+
+	country_modifier = {
+	}
+
+	potential = {
+        culture = {
+            has_culture_group = culture_group:bohemian_group
+        }
+	}
+
+	allow = {
+		scope:target = {
+		}
+	}
+
+	color = map_BOH
+}
+
+# Georgian Qvevri Wine
+aga_tr_geo_wine = {
+	kept_at_conquest = no
+
+	location_modifier = {
+		local_wine_output_modifier = 0.25
+        local_fruit_output_modifier = 0.2
+        local_pottery_output_modifier = 0.2
+	}
+
+	country_modifier = {
+	}
+
+	potential = {
+        culture = culture:georgian_culture
+	}
+
+	allow = {
+		scope:target = {
+		}
+	}
+
+	color = map_GEO
+}
+
+# ============================================================= =============================================================
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # UNIQUE PER CITY
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# =============================================================
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ============================================================= =============================================================
 
 
 # -------------------------------------------------------------
