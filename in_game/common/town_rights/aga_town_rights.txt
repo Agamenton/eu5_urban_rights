@@ -189,7 +189,7 @@ aga_tr_russian_posad = {
     kept_at_conquest = no
     location_modifier = {
         local_merchant_capacity = 1
-        local_burghers_desired_pop = 500
+        local_market_access = 0.1
         local_trade_protection_factor = 0.05
     }
     country_modifier = {
@@ -564,6 +564,30 @@ aga_tr_maghrebi_tribes = {
     }
     color = map_morocco
 }
+
+aga_tr_slave_town = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_slaves_migration_allowed = yes
+		building_enslavement_power = 0.01
+        local_slaves_max_literacy = 2
+        local_raw_material_output = 0.35
+        local_slaves_food_consumption = 0.05
+    }
+    country_modifier = {
+		monthly_slave_rebel_growth = 0.0002
+    }
+    potential = {
+        modifier:allow_rgo_slave_demand = yes
+    }
+    allow = {
+        scope:target = {
+        }
+    }
+    color = goods_slaves
+}
+
+
 # =============================================================
 # TEUTONIC ORDER / PRUSSIA
 # =============================================================
@@ -1629,7 +1653,118 @@ aga_tr_geo_catholic_charter = {
     color = map_kumyk
 }
 
-# TODO: something for the mountainous nature of Georgia, like proximity speed through mountain
+aga_tr_arm_merchant_diaspora = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_trade_protection_factor = 0.1
+        local_market_access = 0.1
+        local_trades_per_burgher = 0.25
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:caucasian_group
+        }
+    }
+    allow = {
+        scope:target = {
+        }
+    }
+    color = map_ARM
+}
+
+
+aga_tr_cac_mountain_towers = {
+    kept_at_conquest = yes # any conquerer would keep a series of watchtowers
+    location_modifier = {
+        local_max_control = 0.10
+        local_hostile_attrition = 0.1 
+        local_nobles_estate_power = 0.2
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:caucasian_group
+        }
+    }
+    allow = {
+        scope:target = {
+            OR = {
+                topography = mountains
+                topography = hills
+            }
+        }
+    }
+    color = map_PRU
+}
+
+
+# =============================================================
+# HUNGARY
+# =============================================================
+aga_tr_hun_gold_mining = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_max_rgo_size_modifier = 0.4
+        local_crown_estate_power = 0.5
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = culture:hungarian
+    }
+    allow = {
+        scope:target = {
+            raw_material = goods:goods_gold
+        }
+    }
+    color = map_HUN
+}
+
+aga_tr_hun_black_army = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_garrison_size = 0.15
+        local_soldiers_desired_pop_scaled = 0.1
+        local_manpower = 0.005
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = culture:hungarian
+    }
+    allow = {
+        scope:target = {
+            modifier:fort_level > 0
+        }
+    }
+    color = map_HUN
+}
+
+aga_tr_hun_corvinian_court = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_cultural_tradition = 0.25
+        local_max_literacy = 5
+        local_nobles_desired_pop_scaled = 0.08
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = culture:hungarian
+    }
+    allow = {
+        scope:target = {
+            OR = {
+                location_rank = location_rank:city
+                location_rank = location_rank:megalopolis
+            }
+        }
+    }
+    color = map_HUN
+}
 
 # =============================================================
 # WALLACHIA / MOLDAVIA / ROMANIA
@@ -1827,7 +1962,7 @@ aga_tr_ethiopian_debre_monastery = {
     location_modifier = {
         local_clergy_desired_pop_scaled = 0.1
         local_monthly_literacy = 0.02
-        local_cultural_tradition = 0.1
+        local_cultural_tradition = 0.25
     }
     country_modifier = {
     }
@@ -2086,6 +2221,9 @@ aga_tr_hos_naval_base = {
 	color = map_FRA
 }
 
+# =============================================================
+# LIQUOR LIGHTS
+# =============================================================
 # French wine making
 aga_tr_fra_clos_monastique = {
 	kept_at_conquest = no
@@ -2219,6 +2357,37 @@ aga_tr_geo_wine = {
 
 	allow = {
 		scope:target = {
+		}
+	}
+
+	color = map_GEO
+}
+
+# =============================================================
+# OCEANIA
+# =============================================================
+aga_tr_maj_pasisir_port = {
+	kept_at_conquest = no
+
+	location_modifier = {
+        local_market_access = 0.1
+        local_merchant_capacity_modifier = 0.25
+        local_trades_per_burgher = 0.75
+		local_burghers_estate_power = 0.5
+	}
+
+	country_modifier = {
+	}
+
+	potential = {
+        culture = {
+            has_culture_group = culture_group:austronesian_group
+        }
+	}
+
+	allow = {
+		scope:target = {
+            is_port = yes
 		}
 	}
 
@@ -4566,7 +4735,7 @@ aga_tr_city_rodos = {
     location_modifier = {
 		local_defensive = 0.3
 		local_soldiers_desired_pop_scaled = 0.25
-		local_navy_attrition = -5
+		hostile_fleet_attrition = 2
         local_ship_build_speed = 0.25
     }
     country_modifier = {
@@ -4648,3 +4817,6 @@ aga_tr_city_toledo = {
     }
     color = map_CAS
 }
+
+
+# TODO: Lithuania unique city that gives tolerance_heathen

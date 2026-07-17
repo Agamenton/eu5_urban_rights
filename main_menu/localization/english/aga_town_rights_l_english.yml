@@ -209,6 +209,24 @@
 
  aga_tr_geo_catholic_charter: "Catholicos Charter"
  aga_tr_geo_catholic_charter_desc: "The Catholicos of the Georgian Orthodox Church wielded authority that rivaled secular rulers, issuing charters that governed the religious and educational life of towns from cave monasteries to cathedral cities. This right places the town under Catholicos patronage, binding its civic identity to the Georgian church."
+ 
+ aga_tr_arm_merchant_diaspora: "Armenian Merchant Diaspora"
+ aga_tr_arm_merchant_diaspora_desc: "The Armenian merchant diaspora was a network of trading communities that spanned the Near East, linking the markets of Persia, Anatolia, and the Levant. This right formalizes the town's role as a center of Armenian commerce, attracting merchants whose capital and connections enrich the local economy."
+ 
+ aga_tr_cac_mountain_towers: "Highland Watchtowers"
+ aga_tr_cac_mountain_towers_desc: "The stone towers that rise from the crags of the Caucasus were built by highland clans to watch every approach through terrain too broken for any distant ruler to govern directly. Where these towers stand sentinel, a lord's authority reaches further into the mountains than it otherwise ever could."
+
+ # =============================================================
+ # HUNGARY
+ # =============================================================
+ aga_tr_hun_black_army: "Fekete Sereg Garrison"
+ aga_tr_hun_black_army_desc: "Matthias Corvinus built one of the first permanent professional armies in Europe, its mercenary companies paid year-round through direct taxation rather than assembled and disbanded with each campaign season. A town garrisoning the Black Army stands ready for war at a moment's notice, its soldiers loyal to the crown's coin rather than to any noble banner."
+ 
+ aga_tr_hun_corvinian_court: "Corvinian Renaissance"
+ aga_tr_hun_corvinian_court_desc: "Matthias Corvinus filled his court at Buda with Italian scholars, artists, and the manuscripts of his legendary Bibliotheca Corviniana, transforming Hungary into a genuine outpost of the Renaissance north of the Alps. A city touched by this patronage becomes a place where humanist learning and courtly splendor rival anything found in Florence or Rome."
+ 
+ aga_tr_hun_gold_mining: "Hungarian Gold Florin"
+ aga_tr_hun_gold_mining_desc: "Hungary's mines have made the kingdom the greatest source of gold in Christendom, its florins trusted and traded from Italy to the Baltic on the strength of their consistent purity. The gold that flows from Kremnica and Transylvania has made the Hungarian crown's coinage a benchmark against which lesser currencies are measured."
 
  # =============================================================
  # WALLACHIA / MOLDAVIA
@@ -300,6 +318,18 @@
  aga_tr_geo_wine: "Qvevri Vintners"
  aga_tr_geo_wine_desc: "Georgian winemakers ferment their harvest in massive clay qvevri buried beneath the earth, a method practiced unbroken since before the memory of any living dynasty. The wine that emerges carries the taste of a tradition older than Christianity itself in a land where wine and faith have grown together since antiquity."
  
+ # =============================================================
+ # OCEANIA
+ # =============================================================
+ aga_tr_maj_pasisir_port: "Pasisir Port"
+ aga_tr_maj_pasisir_port_desc: "The Pasisir coast of Java was a string of trading towns that connected the spice-producing islands of the archipelago to the markets of India, China, and Arabia. This right establishes the town as a formal entrepôt in the Pasisir network, drawing monsoon traders from across the Indian Ocean."
+
+ # =============================================================
+ # EXTRAS
+ # =============================================================
+ aga_tr_slave_town: "Slave Labor Town"
+ aga_tr_slave_town_desc: "This town has been reorganized entirely around forced labor, its fields and workshops worked by the enslaved under the constant watch of overseers who answer only to their profit ledgers. Output climbs under this brutal discipline, but so does the ever-present risk of revolt among those who have nothing left to lose."
+
  # =============================================================
  # UNIQUE PER CITY
  # =============================================================
