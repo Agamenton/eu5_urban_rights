@@ -627,7 +627,7 @@
  aga_tr_city_rodos: "Bastion of the Hospitallers"
  aga_tr_city_rodos_desc: "Rhodes served as the Hospitaller Knights' island fortress for over two centuries, its harbor and walls withstanding repeated Mamluk and Ottoman sieges before finally falling in 1522. The order's engineers transformed the city into one of the most formidable fortifications in the Mediterranean, a symbol of Christian resistance at the edge of the Islamic world."
 
- aga_tr_city_granada_islamic: "Jewel of the Nasrids"
+ aga_tr_city_granada_islamic: "Last Sanctuary"
  aga_tr_city_granada_islamic_desc: "Granada is the last bastion of Islamic Iberia, its Alhambra palace rising above the city as one of the most exquisite achievements of Islamic architecture in the world. The city's acequias carry mountain water down through terraced gardens and silk orchards, sustaining a refined court culture that has drawn Muslim refugees fleeing the advancing Reconquista from every corner of the peninsula."
  
  aga_tr_city_granada_christian: "Crown of the Reconquista"
@@ -635,3 +635,24 @@
  
  aga_tr_city_toledo: "Blades of the Tagus"
  aga_tr_city_toledo_desc: "Toledo's swordsmiths have forged blades of legendary quality for centuries, their steel tempered in the waters of the Tagus and prized by knights and monarchs across Christendom and beyond. The city's forges combine inherited Moorish metallurgical skill with Castilian craftsmanship to produce weapons that no rival workshop in Iberia can match."
+
+ aga_tr_city_baghdad: "Bestowed by God"
+ aga_tr_city_baghdad_desc: "Baghdad's name still carries the weight of the great caliphate that once ruled from its walls, its House of Wisdom having drawn scholars, poets, and philosophers from every corner of the Islamic world at the height of its glory. Ottoman and Safavid armies have fought over the city again and again, each conqueror understanding that whoever holds Baghdad holds a claim to the legacy of the caliphs themselves."
+ 
+ aga_tr_city_basra: "Gate to the Gulf"
+ aga_tr_city_basra_desc: "Basra sits where the Tigris and Euphrates meet the Persian Gulf, funneling the trade of India and Arabia up the rivers toward Baghdad and beyond. It is also a home to the first Mosque that was built outside the Arabian peninsula."
+ 
+ aga_tr_city_augsburg: "House of the Fugger"
+ aga_tr_city_augsburg_desc: "Augsburg is home to the Fugger banking dynasty, whose loans have financed emperors, funded papal indulgences, and underwritten wars across half of Europe. No city in the Empire wields financial power to rival what flows through Augsburg's counting houses."
+ 
+ aga_tr_city_vilnius: "Seat of the Gediminids"
+ aga_tr_city_vilnius_desc: "Vilnius rose to become the capital of a Grand Duchy that grew, under Gediminas and his heirs, into the largest state in Europe, ruling over vast stretches of the former Rus lands from the banks of the Neris. Here in 1387 the old pagan gods of Lithuania, the last in Europe to hold their ground against Christendom, gave way at last to the cross, binding the fate of the Grand Duchy to Poland and the wider Catholic world."
+
+ aga_tr_city_great_zimbabwe: "Houses of Stone"
+ aga_tr_city_great_zimbabwe_desc: "Great Zimbabwe's dry-stone walls rise without mortar or cement, a feat of engineering that anchors a kingdom grown wealthy on cattle and the gold trade flowing down to the Swahili coast. The stone enclosures where its rulers once held court stand as one of the great architectural achievements of the African interior."
+ 
+ aga_tr_city_targoviste: "Voivode's Justice"
+ aga_tr_city_targoviste_desc: "Târgoviște has served as the princely seat of Wallachia for generations, its court hall the place from which voivodes have dispensed a justice as feared as it is effective in holding the boyars to heel. Vlad III ruled from these halls with a reputation for severity that outlived him by centuries."
+ 
+ aga_tr_city_buda: "Royal Seat on the Danube"
+ aga_tr_city_buda_desc: "Buda's royal palace crowns the hill above the Danube, the seat from which Hungarian kings have ruled since the days of the Árpáds and where Matthias Corvinus later built a court to rival any in Renaissance Italy. Whoever holds Buda holds the throne of Hungary in more than name alone."

@@ -4818,5 +4818,152 @@ aga_tr_city_toledo = {
     color = map_CAS
 }
 
+aga_tr_city_baghdad = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_cultural_tradition = 1
+        local_production_efficiency = 0.1
+        local_trade_protection_factor = 0.1
+        local_crown_estate_power = 0.5
+    }
+    country_modifier = {
+        monthly_prestige = 0.1
+    }
+    potential = {
+        owns = location:baghdad
+    }
+    allow = {
+        scope:target = {
+            this = location:baghdad
+        }
+    }
+    color = map_MOL
+}
 
-# TODO: Lithuania unique city that gives tolerance_heathen
+aga_tr_city_basra = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_market_access = 0.1
+        local_cultural_influence = 1
+        local_max_literacy = 5
+    }
+    country_modifier = {
+        trade_income = 0.03
+    }
+    potential = {
+        owns = location:basra
+    }
+    allow = {
+        scope:target = {
+            this = location:basra
+        }
+    }
+    color = map_TUR
+}
+
+aga_tr_city_augsburg = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_burghers_estate_power = 0.5
+		local_trades_per_burgher = 0.5
+        local_trade_protection_factor = 0.1
+    }
+    country_modifier = {
+        total_loan_capacity_modifier = 0.5
+    }
+    potential = {
+        owns = location:augsburg
+    }
+    allow = {
+        scope:target = {
+            this = location:augsburg
+        }
+    }
+    color = map_SAX
+}
+
+aga_tr_city_vilnius = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_cultural_tradition = 1
+        local_nobles_desired_pop_scaled = 0.10
+        local_max_control = 0.05
+    }
+    country_modifier = {
+        tolerance_heathen = 1
+    }
+    potential = {
+        owns = location:vilnius
+    }
+    allow = {
+        scope:target = {
+            this = location:vilnius
+        }
+    }
+    color = map_LIT
+}
+
+aga_tr_city_great_zimbabwe = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_livestock_output_modifier = 0.25
+        local_cultural_tradition = 1
+        local_defensive = 0.15
+        local_market_access = 0.1
+    }
+    country_modifier = {
+		global_build_buildings_efficiency = 0.1
+    }
+    potential = {
+        owns = location:great_zimbabwe
+    }
+    allow = {
+        scope:target = {
+            this = location:great_zimbabwe
+        }
+    }
+    color = map_bantu
+}
+
+aga_tr_city_targoviste = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_nobles_desired_pop_scaled = 0.08
+        local_garrison_size = 0.15
+        local_max_control = 0.05
+    }
+    country_modifier = {
+	    monthly_rebel_growth = -0.0005
+    }
+    potential = {
+        owns = location:targoviste
+    }
+    allow = {
+        scope:target = {
+            this = location:targoviste
+        }
+    }
+    color = map_GEO
+}
+
+aga_tr_city_buda = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_crown_estate_power = 0.5
+        local_nobles_desired_pop_scaled = 0.10
+        local_cultural_influence = 1
+    }
+    country_modifier = {
+        monthly_prestige = 0.1
+    }
+    potential = {
+        owns = location:buda
+    }
+    allow = {
+        scope:target = {
+            this = location:buda
+        }
+    }
+    color = map_hungarian
+}
