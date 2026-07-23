@@ -1,0 +1,657 @@
+﻿l_french:
+
+ # =============================================================
+ # OTTOMAN EMPIRE
+ # =============================================================
+ aga_tr_tur_iskele: "Quai de débarquement ottoman"
+ aga_tr_tur_iskele_desc: "Un iskele est un quartier portuaire ottoman désigné où les marchandises sont déchargées, taxées et redistribuées sous la supervision impériale. L'octroi de ce droit officialise le rôle de la ville en tant que nœud du réseau commercial maritime du sultan."
+ 
+ aga_tr_ottoman_vakif_endowment: "Fondation vakıf"
+ aga_tr_ottoman_vakif_endowment_desc: "Un vakıf est une fondation pieuse ottomane qui finance des mosquées, des écoles et des bains publics grâce à des revenus affectés à cet effet. Les villes auxquelles ce droit a été accordé deviennent des centres de la vie civique islamique, soutenus par des fondations religieuses perpétuelles."
+
+ #aga_tr_ottoman_timar_garrison: "Garnison de timar"
+ #aga_tr_ottoman_timar_garrison_desc: "Le système du timar attribue les revenus d'une ville à un cavalier sipahi en échange de son service militaire. Ce droit militarise la ville sous l'autorité du détenteur local du timar, renforçant ainsi ses défenses au détriment des recettes directes de la Couronne."
+ aga_tr_tur_janissary_garrison: "Garnison des janissaires"
+ aga_tr_tur_janissary_garrison_desc: "Les janissaires formaient l'infanterie d'élite composée de soldats-esclaves au service du sultan ottoman. Ils étaient cantonnés dans des casernes fortifiées à travers tout l'empire et relevaient de la Porte plutôt que d'un seigneur ou d'un noble local. Leur présence dans une ville est un gage de la confiance impériale et un avertissement à la noblesse que la main du sultan s'étend directement jusqu'ici."
+
+ # =============================================================
+ # RUSSIA / MUSCOVY
+ # =============================================================
+ aga_tr_rus_pomor: "Village de pêcheurs pomors"
+ aga_tr_rus_pomor_desc: "Les Pomors sont des marins russes robustes qui se sont installés sur les côtes de la mer Blanche et de l'Arctique, vivant de la pêche et du commerce avec l'arrière-pays. Ce droit reconnaît l'identité de la ville en tant que communauté de pêcheurs de frontière opérant hors du champ d'application de l'impôt agricole ordinaire."
+
+ aga_tr_russian_sloboda: "Sloboda"
+ aga_tr_russian_sloboda_desc: "Une sloboda est une colonie exonérée d'impôts, accordée pour attirer des artisans, des marchands ou des serfs affranchis vers des régions sous-peuplées. Ce droit transforme la ville en un quartier libre et productif, attirant des travailleurs qualifiés grâce à la promesse d'obligations réduites."
+
+ aga_tr_russian_posad: "Marchand Posad"
+ aga_tr_russian_posad_desc: "Le posad est la banlieue commerciale d'une ville russe, où réside la population de marchands et d'artisans assujettis à l'impôt et enregistrés auprès de la couronne. La formalisation de ce droit consolide les fonctions marchandes de la ville et ses obligations envers le système commercial moscovite."
+
+ aga_tr_russian_oprichnina_district: "District de l'Oprichnina"
+ aga_tr_russian_oprichnina_district_desc: "L'Oprichnina était l'instrument utilisé par Ivan le Terrible pour briser le pouvoir des boyards et créer des territoires contrôlés par la couronne et administrés par ses agents personnels. Les villes placées sous ce régime relèvent directement de l'autorité des agents du tsar, vêtus de robes noires, ce qui affaiblit la noblesse locale au prix de troubles considérables."
+ 
+ # =============================================================
+ # VENICE / ITALIAN
+ # =============================================================
+ aga_tr_venetian_contrada: "Charte paroissiale civique"
+ aga_tr_venetian_contrada_desc: "Le système des contradas divisait les villes italiennes en paroisses civiques distinctes, chacune dotée de ses propres corporations de marchands, de ses institutions communales et d'une identité de quartier qui organisait la vie urbaine à un niveau inférieur à celui de l'État. La formalisation de ce droit confère à la communauté bourgeoise de la ville un cadre structuré d'autonomie administrative."
+
+ aga_tr_venetian_arsenal_quarter: "Quartier de l'Arsenal"
+ aga_tr_venetian_arsenal_quarter_desc: "Les grandes cités maritimes italiennes ont développé des quartiers spécialisés dans la construction navale où charpentiers, calfeutreurs, cordiers et voiliers travaillaient en étroite collaboration sous la supervision de l'État, produisant des navires de guerre et des galères marchandes avec une efficacité inégalée dans le monde médiéval."
+
+ aga_tr_venetian_rialto_exchange: "Bourse marchande"
+ aga_tr_venetian_rialto_exchange_desc: "La bourse marchande italienne constituait le cœur institutionnel de la civilisation commerciale la plus sophistiquée du monde médiéval, où les lettres de change, les contrats d'assurance et les cours des matières premières étaient négociés par des marchands dont les réseaux bancaires s'étendaient de Londres à Alexandrie."
+ 
+ # =============================================================
+ # JAPAN
+ # =============================================================
+ aga_tr_japanese_za_guild: "Charte de la guilde Za"
+ aga_tr_japanese_za_guild_desc: "Les Za étaient des guildes japonaises de marchands et d'artisans opérant sous le patronage de nobles ou de temples, qui contrôlaient la production et la vente de marchandises spécifiques en échange de redevances et de loyauté. Ce droit officialisait la structure de la guilde au sein de la communauté artisanale de la ville, organisant la production dans le cadre d'un monopole accordé par charte."
+
+ aga_tr_japanese_castle_town: "Ville-château"
+ aga_tr_japanese_castle_town_desc: "Le jōkamachi est une ville qui se développe à l'ombre du château d'un seigneur, ses rues étant organisées pour approvisionner, protéger et servir la forteresse qui la surplombe. Ce droit lie l'identité et l'économie de la ville aux besoins militaires de son seigneur féodal."
+ 
+ # =============================================================
+ # ARABS
+ # =============================================================
+ aga_tr_arab_funduq: "Charte du funduq"
+ aga_tr_arab_funduq_desc: "Un funduq est à la fois une auberge, un entrepôt et une halle commerciale où les marchands étrangers mènent leurs activités dans des conditions réglementées. L'octroi de ce droit fait de la ville un pôle reconnu du commerce interrégional, attirant des commerçants venus de loin de tout le monde islamique."
+
+ aga_tr_arab_waqf_hospital: "Hôpital waqf"
+ aga_tr_arab_waqf_hospital_desc: "Le bimaristan, financé par des dotations islamiques (waqf), dispensait des soins médicaux aux malades, indépendamment de leur confession ou de leurs moyens. Ce droit permet d'établir dans la ville une institution médicale caritative permanente, financée par des revenus religieux dédiés."
+
+ aga_tr_egy_mamluk_garrison: "Garnison mamelouke"
+ aga_tr_egy_mamluk_garrison_desc: "Le système mamelouk mobilise des soldats-esclaves bénéficiant d'un entraînement exceptionnel, cantonnés et financés par des villes spécifiques en tant que prolongement direct de la maison militaire du sultan. Ce droit installe une caserne mamelouke dans la ville, fournissant des troupes d'élite fidèles à la couronne plutôt qu'aux notables locaux."
+
+ aga_tr_egy_nile_cultivation: "Droit d'inondation du Nil"
+ aga_tr_egy_nile_cultivation_desc: "L'agriculture égyptienne dépend entièrement des crues annuelles du Nil, qui déposent un limon riche dans le delta et la vallée. Ce droit officialise la gestion par la ville de l'agriculture de crue et de décrue, l'un des systèmes agricoles les plus productifs au monde."
+
+ aga_tr_arab_mellah: "Quartier du mellah"
+ aga_tr_arab_mellah_desc: "Le mellah est un quartier juif désigné dans les villes d'Afrique du Nord et d'Andalousie, où les communautés juives vivent sous la protection des autorités au pouvoir en échange de taxes et de services commerciaux. Ce droit établit un mellah officiel, attirant des communautés de marchands lettrés dont les compétences enrichissent l'économie de la ville."
+
+ aga_tr_maghrebi_corsairs: "Port des corsaires"
+ aga_tr_maghrebi_corsairs_desc: "Les corsaires barbaresques opéraient depuis des ports désignés le long de la côte maghrébine, attaquant les navires chrétiens en vertu de lettres de marque délivrées par les souverains locaux. Ce droit officialise le rôle de la ville en tant que base de course, attirant marins et investisseurs vers l'économie lucrative de la chasse aux esclaves."
+
+ aga_tr_maghrebi_tribes: "Charte d'intégration tribale"
+ aga_tr_maghrebi_tribes_desc: "Les villes du Maghreb vivaient dans une négociation constante avec les confédérations tribales environnantes, intégrant les populations nomades à la vie sédentaire grâce à l'accès aux marchés et à une reconnaissance juridique. Ce droit établit des mécanismes formels pour intégrer les migrants tribaux à la population de la ville."
+ 
+ # =============================================================
+ # TEUTONIC ORDER
+ # =============================================================
+ aga_tr_teutonic_komturei: "Commanderie de Komturei"
+ aga_tr_teutonic_komturei_desc: "Une Komturei est une unité administrative fortifiée de l'Ordre teutonique, alliant une garnison militaire à une administration ecclésiastique sous l'autorité d'un commandant relevant du Grand Maître. Ce droit place la ville sous l'autorité militaire et spirituelle directe de l'Ordre."
+
+ aga_tr_teutonic_hanseatic_privilege: "Privilège hanséatique"
+ aga_tr_teutonic_hanseatic_privilege_desc: "Les ports baltes de l'Ordre teutonique constituaient un maillon essentiel du réseau commercial de la Ligue hanséatique, échangeant des céréales, de l'ambre et du bois de la Baltique contre des étoffes flamandes et de la laine anglaise. Ce droit accorde à la ville les protections commerciales hanséatiques, attirant ainsi les marchands du nord vers ses marchés."
+ 
+ # =============================================================
+ # MALI EMPIRE
+ # =============================================================
+ aga_tr_mali_dyula_market: "Marché dyula"
+ aga_tr_mali_dyula_market_desc: "Les Dyula constituent une diaspora commerciale musulmane très répandue en Afrique de l'Ouest, qui a mis en place des réseaux de marchés à travers le Sahel et les zones forestières. Ce droit consacre la ville comme un nœud du réseau commercial dyula, attirant des commerçants de longue distance spécialisés dans le commerce de l'or, du kola et des tissus."
+
+ aga_tr_mali_griot_quarter: "Quartier des griots"
+ aga_tr_mali_griot_quarter_desc: "Les griots sont les gardiens héréditaires de la tradition orale dans la société ouest-africaine ; ils font office d'historiens, de musiciens et de conseillers auprès des lignées au pouvoir. Une ville dotée d'un quartier des griots reconnu devient un centre de mémoire culturelle et de légitimité politique dans le monde mandé."
+
+ aga_tr_mali_gold_town: "Charte de la ville de l'or"
+ aga_tr_mali_gold_town_desc: "Les villes productrices d'or de l'ouest du Soudan comptaient parmi les lieux les plus riches de la planète, attirant vers leurs marchés des marchands sahariens et des négociants nord-africains. Ce droit désigne la ville comme un centre officiel de commerce de l'or, canalisant à travers ses marchés l'extraordinaire richesse des gisements aurifères du Mali."
+ 
+ # =============================================================
+ # CHINA
+ # =============================================================
+ aga_tr_china_lijia_system: "Administration Lijia"
+ aga_tr_china_lijia_system_desc: "Le système Lijia organisait les communautés chinoises en unités hiérarchiques de ménages chargées de la perception des impôts, des corvées et du maintien de l'ordre local pour le compte de l'administration impériale. Ce droit officialisait l'autogestion de la ville selon les principes civiques confucéens, améliorant ainsi le contrôle et le bien-être des paysans."
+
+ aga_tr_china_examination_school: "École des examens impériaux"
+ aga_tr_china_examination_school_desc: "Le système des examens impériaux constituait l'épine dorsale de la gouvernance chinoise, sélectionnant les fonctionnaires au moyen d'épreuves rigoureuses portant sur la littérature classique et l'art de gouverner. Une ville se voyant accorder le statut d'école des examens devenait un centre d'enseignement dont les diplômés alimentaient l'appareil bureaucratique de l'empire."
+
+ aga_tr_china_silk_guild: "Guilde impériale de la soie"
+ aga_tr_china_silk_guild_desc: "La production chinoise de soie constituait l'industrie textile la plus sophistiquée au monde, les guildes contrôlant chaque étape, de la sériciculture au tissage, sous la supervision impériale. Ce droit officialise l'industrie de la soie de la ville en vertu d'une charte de guilde, garantissant la qualité et orientant la production vers les marchés impériaux."
+ 
+ # =============================================================
+ # KYIV / RUTHENIA
+ # =============================================================
+ aga_tr_ruthenian_magdeburg: "Charte du droit de Magdebourg"
+ aga_tr_ruthenian_magdeburg_desc: "Le droit de Magdebourg accordait aux villes une forme d'autonomie issue de l'Allemagne mais largement adoptée en Pologne-Lituanie et en Ruthénie, permettant aux bourgeois de contrôler leurs propres tribunaux et marchés. Ce droit fait de la ville une commune autonome au sein de ce cadre juridique prestigieux."
+
+ aga_tr_ruthenian_cossack_suburb: "Banlieue cosaque"
+ aga_tr_ruthenian_cossack_suburb_desc: "Les colonies cosaques qui se sont formées à la périphérie des villes ruthènes ont donné naissance à une sous-culture martiale d'hommes libres qui devaient allégeance à leur hetman plutôt qu'à la noblesse. Ce droit officialise la présence de la communauté cosaque aux abords de la ville, lui accordant une autonomie en échange d'un service militaire."
+
+ aga_tr_ruthenian_chernozem: "Culture du tchernoziem"
+ aga_tr_ruthenian_chernozem_desc: "La terre noire de la steppe ukrainienne compte parmi les sols les plus fertiles au monde, capable de produire des rendements agricoles qui éclipsent ceux de l'Europe occidentale. Ce droit officialise la gestion par la ville des terres agricoles de tchernoziem qui l'entourent, maximisant ainsi l'extraordinaire productivité de la frontière steppique."
+ 
+ # =============================================================
+ # SOMALIA
+ # =============================================================
+ aga_tr_somali_banaadir_port: "Charte du port de Banaadir"
+ aga_tr_somali_banaadir_port_desc: "La côte somalienne de Banaadir était autrefois une succession d'anciennes cités marchandes de l'océan Indien reliant l'Afrique de l'Est à l'Arabie, à la Perse et à l'Inde. Ce document consacre la ville comme entrepôt officiel au sein du réseau de Banaadir, attirant ainsi les marchands de la mousson venus de tout l'océan Indien occidental."
+ 
+ # =============================================================
+ # DAI VIET
+ # =============================================================
+aga_tr_viet_lang_bang_market: "Marché de Làng Bàng"
+ aga_tr_viet_lang_bang_market_desc: "Les marchés périodiques du Đại Việt permettaient l'échange de produits forestiers des hautes terres contre du riz des plaines et des produits manufacturés à travers les divers reliefs du pays. Ce droit officialise le rôle de la ville en tant que plaque tournante du marché de Làng Bàng, intégrant ainsi les économies des hautes terres et des plaines."
+
+ aga_tr_rice_farm: "Culture du riz en rizières inondées"
+ aga_tr_rice_farm_desc: "L'agriculture vietnamienne du riz en rizières inondées, perfectionnée au fil des millénaires dans les deltas du fleuve Rouge et du Mékong, a permis de subvenir aux besoins de certaines des populations rurales les plus denses d'Asie. Ce droit officialise la gestion par la ville des rizières irriguées, fondement de la prospérité vietnamienne et de sa main-d'œuvre militaire."
+ 
+ # =============================================================
+ # KOREA
+ # =============================================================
+ aga_tr_korean_celadon: "Charte des fours à céladon"
+ aga_tr_korean_celadon_desc: "La poterie céladon coréenne, avec sa glaçure vert jade caractéristique, comptait parmi les produits de luxe les plus prisés d'Asie de l'Est, convoitée tant par les empereurs chinois que par les nobles japonais. Ce droit établit les fours de la ville en vertu d'une charte royale, officialisant ainsi la production du produit d'exportation artistique le plus célèbre de Goryeo."
+
+ aga_tr_korean_weaponry: "Charte de l'armurerie royale"
+ aga_tr_korean_weaponry_desc: "Le royaume de Joseon disposait d'une industrie d'armement d'État sophistiquée produisant des arcs, des épées et, plus tard, des armes à feu pour équiper ses armées face aux menaces japonaises et jurchen. Ce droit désigne la ville comme armurerie royale, obligeant ses artisans à répondre aux besoins militaires de la couronne en échange d'un statut protégé."
+
+ # =============================================================
+ # KHMER
+ # =============================================================
+  aga_tr_khmer_prasat_quarter: "Quartier du temple prasat"
+ aga_tr_khmer_prasat_quarter_desc: "Le prasat, ou tour de temple en pierre, était le centre de la vie urbaine khmère, servant à la fois de sanctuaire religieux, de centre administratif et de symbole de l'autorité cosmique royale. Cette disposition établit un quartier du temple officiel au sein de la ville, liant ainsi la vie civique aux rythmes de la royauté rituelle khmère."
+
+ aga_tr_khmer_baray_district: "District d'irrigation du baray"
+ aga_tr_khmer_baray_district_desc: "Les grands barays d'Angkor étaient des réservoirs artificiels qui alimentaient l'agriculture hydraulique de l'Empire khmer, permettant plusieurs récoltes de riz par an dans un climat par ailleurs saisonnier. Ce droit officialise la gestion par la ville de ses infrastructures d'irrigation par baray, fondement de l'abondance agricole khmère."
+ 
+ # =============================================================
+ # VIJAYANAGARA
+ # =============================================================
+ aga_tr_vijayanagara_nayaka_fort: "Forteresse des Nayakas"
+ aga_tr_vijayanagara_nayaka_fort_desc: "Les Nayakas étaient des gouverneurs militaires nommés par Vijayanagara pour administrer les territoires conquis ; chacun était chargé d'entretenir une forteresse et de disposer des troupes nécessaires à sa défense. Ce droit militarise la ville sous l'administration des Nayakas, donnant la priorité à la défense de la frontière du Deccan plutôt qu'au commerce civil."
+
+ aga_tr_vijayanagara_diamond_market: "Charte du marché aux diamants"
+ aga_tr_vijayanagara_diamond_market_desc: "Les mines de diamants de Golconda et de Kollur, dans le Deccan, constituaient la seule source importante de diamants au monde avant les découvertes brésiliennes, faisant de Vijayanagara le centre du commerce mondial des pierres précieuses. Ce droit officialise le rôle de la ville dans la chaîne d'approvisionnement en diamants, attirant des marchands venus de Perse, d'Arabie et d'Europe."
+
+ aga_tr_vijaya_devasthana: "Charte du temple Devasthana"
+ aga_tr_vijaya_devasthana_desc: "Les grands temples de Vijayanagara étaient bien plus que de simples lieux de culte: ils constituaient les moteurs économiques des villes du sud de l'Inde, jouant à la fois le rôle de propriétaires fonciers, de prêteurs, d'employeurs et d'organisateurs de marchés pour les communautés qui se développaient autour d'eux. Cette charte reconnaît officiellement l'autorité civile du temple sur la ville."
+ 
+ # =============================================================
+ # BULGARIA
+ # =============================================================
+ aga_tr_bul_tarnovo_privilege: "Charte de Tarnovo"
+ aga_tr_bul_tarnovo_privilege_desc: "Tarnovo, capitale du Second Empire bulgare, a promulgué des chartes régissant les droits de l'Église orthodoxe, de la noblesse et des communautés marchandes sur l'ensemble des territoires bulgares. Ce droit étend la prestigieuse tradition juridique de Tarnovo à la ville, rehaussant ainsi le prestige de son clergé et de ses institutions civiques."
+
+ aga_tr_bul_rose_valley: "Culture de la vallée des roses"
+ aga_tr_bul_rose_valley_desc: "Les vallées des contreforts des Balkans produisent des roses et des herbes médicinales d'une qualité exceptionnelle, commercialisées dans tout le monde de la mer Noire en tant que produits de luxe. Ce droit officialise la culture de ces plantes aromatiques par la ville, soutenant ainsi une économie agricole prospère distincte de la culture céréalière."
+
+ aga_tr_bul_bogomil_suppression: "Répression des bogomiles"
+ aga_tr_bul_bogomil_suppression_desc: "L'hérésie bogomile, qui rejetait le monde matériel et l'autorité de l'Église orthodoxe, s'est répandue avec persistance dans la société rurale bulgare malgré des condamnations répétées. Ce droit habilite les autorités ecclésiastiques de la ville à éradiquer les communautés hétérodoxes, renforçant ainsi la conformité orthodoxe au prix de troubles locaux."
+
+ # =============================================================
+ # SERBIA
+ # =============================================================
+ aga_tr_ser_sasski_mining: "Droit minier de Sašski"
+ aga_tr_ser_sasski_mining_desc: "Les colons saxons, invités par les souverains serbes à exploiter les mines d'argent et d'or de Novo Brdo et de Srebrenica, ont apporté un savoir-faire minier d'Europe centrale qui a fait de la Serbie l'une des régions minières les plus riches de l'Europe médiévale. Ce droit officialise leur statut privilégié, leur accordant des droits d'extraction étendus en échange de leurs connaissances techniques."
+
+ aga_tr_ser_nemanjic_grant: "Concession foncière des Nemanjić"
+ aga_tr_ser_nemanjic_grant_desc: "La dynastie des Nemanjić a fondé sa légitimité sur un mécénat généreux envers les monastères orthodoxes, leur accordant des terres, des serfs et des immunités juridiques qui ont fait des cités monastiques serbes certaines des institutions les plus puissantes des Balkans. Ce droit étend cette tradition à une ville ancrée autour d'un monastère, rehaussant ainsi le prestige de son clergé et son rayonnement culturel."
+
+ aga_tr_ser_vlach_right: "Droit pastoral valaque"
+ aga_tr_ser_vlach_right_desc: "Les communautés semi-nomades valaques des hautes terres serbes versaient un tribut en bétail et fournissaient des contingents de cavalerie légère en échange du droit de faire paître librement leurs troupeaux sur les terres nobiliaires. Ce droit officialise leur relation avec la ville, intégrant ainsi l'économie pastorale des montagnes au système militaire serbe."
+ 
+ # =============================================================
+ # POLAND-LITHUANIA
+ # =============================================================
+ aga_tr_pol_folwark: "Folwark"
+ aga_tr_pol_folwark_desc: "Le folwark est le grand domaine céréalier seigneurial de la noblesse polonaise, exploité par des paysans serfs dont les libertés juridiques ont été systématiquement supprimées afin de répondre à la demande insatiable du commerce céréalier de la Baltique."
+
+ aga_tr_pol_ruthenian_orthodoxy: "Tolérance orthodoxe ruthène"
+ aga_tr_pol_ruthenian_orthodoxy_desc: "Reconnaître officiellement l'autorité de l'Église orthodoxe dans les villes où ses fidèles constituent une part importante de la population, échangeant ainsi l'autonomie religieuse contre la loyauté de communautés qui, sans cela, pourraient se tourner vers l'Est, vers Moscou, pour y trouver protection."
+
+ aga_tr_pol_magnate: "Dominion des magnats"
+ aga_tr_pol_magnate_desc: "Les grandes familles de magnats de la Pologne-Lituanie exerçaient un pouvoir plus important que celui de la petite noblesse européenne: elles entretenaient des armées privées, rendaient leur propre justice et réduisaient la couronne à un simple rôle de figure de proue dans les territoires qu'elles contrôlaient."
+
+ # =============================================================
+ # GEORGIA
+ # =============================================================
+ aga_tr_geo_tamar_patent: "Brevet royal de Tamar"
+ aga_tr_geo_tamar_patent_desc: "Le règne de la reine Tamar a marqué l'âge d'or de la Géorgie, époque durant laquelle Tbilissi comptait parmi les grandes villes commerçantes du Caucase, reliant la mer Noire à la Route de la Soie. Ce brevet désigne la ville comme un centre commercial reconnu par la couronne, invoquant le prestige de la monarque la plus célèbre de Géorgie pour attirer les marchands."
+
+ aga_tr_geo_catholic_charter: "Charte du Catholicos"
+ aga_tr_geo_catholic_charter_desc: "Le catholicos de l'Église orthodoxe géorgienne exerçait une autorité qui rivalisait avec celle des souverains laïques, émettant des chartes qui régissaient la vie religieuse et éducative des villes, des monastères troglodytes aux cités cathédrales. Ce droit place la ville sous le patronage du catholicos, liant son identité civique à l'Église géorgienne."
+
+ aga_tr_arm_merchant_diaspora: "Diaspora marchande arménienne"
+ aga_tr_arm_merchant_diaspora_desc: "La diaspora marchande arménienne constituait un réseau de communautés commerciales s'étendant à travers le Proche-Orient, reliant les marchés de la Perse, de l'Anatolie et du Levant. Ce droit officialise le rôle de la ville en tant que centre du commerce arménien, attirant des marchands dont le capital et les relations enrichissent l'économie locale." 
+ 
+ aga_tr_cac_mountain_towers: "Tours de guet des hautes terres"
+ aga_tr_cac_mountain_towers_desc: "Les tours de pierre qui s'élèvent des rochers du Caucase ont été construites par les clans des hautes terres afin de surveiller toute approche à travers un terrain trop accidenté pour qu'un souverain lointain puisse le gouverner directement. Là où ces tours montent la garde, l'autorité d'un seigneur s'étend plus loin dans les montagnes qu'elle ne le pourrait autrement."
+ 
+ # =============================================================
+ # HUNGARY
+ # =============================================================
+ aga_tr_hun_black_army: "Garnison de l'Armée noire"
+ aga_tr_hun_black_army_desc: "Matthias Corvinus a mis en place l'une des premières armées professionnelles permanentes d'Europe ; ses compagnies de mercenaires étaient rémunérées toute l'année grâce à un impôt direct, plutôt que d'être rassemblées puis dissoutes à chaque saison de campagne. Une ville gardée par l'Armée noire est prête à entrer en guerre à tout moment, ses soldats étant fidèles à la monnaie de la couronne plutôt qu'à l'étendard d'un noble quelconque."
+
+ aga_tr_hun_corvinian_court: "Renaissance corvinienne"
+ aga_tr_hun_corvinian_court_desc: "Matthias Corvinus a rempli sa cour de Buda d'érudits et d'artistes italiens, ainsi que des manuscrits de sa légendaire Bibliotheca Corviniana, transformant la Hongrie en un véritable avant-poste de la Renaissance au nord des Alpes. Une ville bénéficiant de ce mécénat devient un lieu où l'érudition humaniste et la splendeur de la cour rivalisent avec tout ce que l'on peut trouver à Florence ou à Rome."
+
+ aga_tr_hun_gold_mining: "Florin d'or hongrois"
+ aga_tr_hun_gold_mining_desc: "Les mines hongroises ont fait du royaume la plus grande source d'or de la chrétienté ; ses florins, réputés pour leur pureté constante, étaient acceptés et échangés de l'Italie à la Baltique. L'or provenant de Kremnica et de Transylvanie a fait de la monnaie de la couronne hongroise une référence à laquelle se mesurent les monnaies de moindre valeur."
+
+ # =============================================================
+ # WALLACHIA / MOLDAVIA
+ # =============================================================
+ aga_tr_rom_voivodas: "Privilège du voïvode"
+ aga_tr_rom_voivodas_desc: "Le voïvode exerçait à la fois le commandement militaire et l'autorité civile sur les villes roumaines, délivrant des privilèges qui définissaient les droits et les obligations de la noblesse locale en échange de services militaires. Ce privilège officialisait la place de la ville dans la hiérarchie militaire du voïvode, renforçant ainsi les levées nobiliaires."
+
+ aga_tr_rom_danubian_staple: "Droit de monopole danubien"
+ aga_tr_rom_danubian_staple_desc: "Les villes valaques situées le long du Danube contrôlaient l'exportation de céréales et de bétail en aval vers la mer Noire et les marchés ottomans, tirant profit de chaque péniche qui traversait leurs eaux. Ce droit de monopole oblige les marchands de passage à vendre d'abord leurs marchandises sur place, concentrant ainsi les bénéfices du commerce fluvial sur les marchés de la ville."
+ 
+ # =============================================================
+ # PERSIA
+ # =============================================================
+ aga_tr_ira_caravanserai: "Charte du caravansérail"
+ aga_tr_ira_caravanserai_desc: "Le réseau de caravansérails du plateau iranien a permis de maintenir le commerce terrestre à travers certains des terrains les plus inhospitaliers d'Asie, en fournissant de l'eau, un abri et une protection aux marchands voyageant entre la Méditerranée et l'Asie centrale. Cette charte désigne la ville comme une étape officielle de caravansérail, l'intégrant ainsi au réseau routier royal perse."
+
+ aga_tr_ira_silk_loom: "Droit de tissage de la soie"
+ aga_tr_ira_silk_loom_desc: "La soie perse comptait parmi les textiles de luxe les plus prisés au monde ; tissée dans des ateliers situés le long du littoral de la mer Caspienne, elle était commercialisée de Venise à Pékin. Ce droit officialise l'industrie du tissage de la soie de la ville, reliant ses métiers à tisser aux grandes artères commerciales des réseaux commerciaux safavides et timourides."
+
+ aga_tr_ira_shia: "Droit de dotation chiite"
+ aga_tr_ira_shia_desc: "La conversion de la Perse à l'islam chiite duodécimain sous les Safavides a donné naissance à un vaste réseau de sanctuaires, de séminaires et de fondations qui finançaient la vie religieuse urbaine grâce aux revenus royaux. Ce droit établit une fondation chiite officielle dans la ville, renforçant ainsi le pouvoir du clergé et approfondissant l'identité confessionnelle de la communauté."
+ 
+ aga_tr_ira_sufi: "Charte de la loge soufie"
+ aga_tr_ira_sufi_desc: "Les loges soufies constituaient le cœur social et spirituel des villes perses: elles pratiquaient la charité, jouaient le rôle de médiateurs dans les litiges et faisaient le lien entre l'ouléma orthodoxe et les pratiques religieuses populaires. Cette charte reconnaît l'autorité de la loge au sein de la ville, accordant à l'ordre soufi un rôle officiel dans la gouvernance civique."
+
+ aga_tr_ira_ghulam_garrison: "Droit de garnison des ghulams"
+ aga_tr_ira_ghulam_garrison_desc: "Le corps des ghulams safavides, composé de soldats-esclaves géorgiens, arméniens et circassiens, fournissait au shah une force militaire loyale, indépendante de la noblesse tribale turbulente des Qizilbash. Ce droit permet d'installer une garnison de ghulams dans la ville, étendant ainsi l'emprise militaire directe de la couronne au détriment de l'autonomie des nobles et des bourgeois."
+
+ # =============================================================
+ # ETHIOPIA
+ # =============================================================
+ aga_tr_ethiopian_negad_market: "Charte du marché des Negadras"
+ aga_tr_ethiopian_negad_market_desc: "Le negadras, ou chef des marchands, était un fonctionnaire nommé par la couronne éthiopienne pour superviser le commerce dans les principales villes marchandes, percevoir les droits de douane et régler les litiges commerciaux. Cette charte officialise le marché de la ville sous la supervision du negadras, l'intégrant ainsi dans l'administration commerciale salomonienne."
+
+ aga_tr_ethiopian_debre_monastery: "Charte du monastère de Debre"
+ aga_tr_ethiopian_debre_monastery_desc: "Les grandes cités monastiques éthiopiennes dont le nom commence par "Debre", de Debre Libanos à Debre Damo, servaient de centres d'enseignement du ge'ez, de production de manuscrits et d'autorité spirituelle orthodoxe. Cette charte reconnaît le rôle du monastère dans la vie civique de la ville, valorisant ainsi son clergé et sa tradition culturelle."
+ 
+ aga_tr_cawa_muster: "Droit de rassemblement des Cawa"
+ aga_tr_cawa_muster_desc: "Les Cawa formaient une cavalerie royale d'élite servant directement sous les ordres de l'empereur éthiopien, distincte des troupes levées parmi la noblesse féodale dans le cadre du système du gult. Ce droit désigne la ville comme point de rassemblement des Cawa, étendant ainsi l'autorité militaire directe du Négus à la région, au détriment délibéré du pouvoir de la noblesse locale."
+
+ aga_tr_gult_grant: "Concession foncière du gult"
+ aga_tr_gult_grant_desc: "Le système du gult attribuait à la noblesse et au clergé éthiopiens le droit de percevoir un tribut auprès des paysans en échange de services militaires et administratifs, constituant ainsi le fondement de la gouvernance féodale salomonienne. Cette concession officialise l'autorité noble sur les excédents agricoles de la ville, renforçant les levées locales tout en approfondissant l'autonomie aristocratique."
+ 
+ # =============================================================
+ # SWITZERLAND
+ # =============================================================
+ aga_tr_swi_markets: "Les relais suisses"
+ aga_tr_swi_markets_desc: "Les cantons suisses sont situés de part et d'autre des grands cols alpins reliant l'Italie à l'Allemagne et à la France ; leurs villes se sont enrichies en servant de relais aux marchands qui n'avaient d'autre choix que de les traverser pour franchir les montagnes. Chaque ville de foire et de marché située le long de ces routes tire profit du simple fait de se trouver là où elle est."
+
+ aga_tr_swi_mountain_self_ctrl: "L'autonomie de la Landsgemeinde"
+ aga_tr_swi_mountain_self_ctrl_desc: "Dans les hautes vallées de la Confédération, les paysans et les bergers libres se réunissent en assemblée publique pour se gouverner directement, une tradition née de l'isolement et de la nécessité, sur un terrain trop accidenté pour qu'un seigneur lointain puisse véritablement l'exercer. Les communes de montagne rendent compte à leurs propres conseils bien avant de rendre des comptes à un duc ou à un évêque."
+ 
+ # =============================================================
+ # IRELAND and SCOTLAND
+ # =============================================================
+ aga_tr_celt_livestock: "Pâturages communaux"
+ aga_tr_celt_livestock_desc: "Des privilèges spéciaux protègent les bouviers qui conduisent de grands troupeaux vers les marchés à travers les Highlands et l'Irlande. Leur activité remplit la ville de bétail, de marchands et d'une richesse saisonnière."
+ 
+ # =============================================================
+ # MILITARY ORDERS
+ # =============================================================
+ aga_tr_order_proselytizer: "Croisade missionaire"
+ aga_tr_order_proselytizer_desc: "Les ordres militaires alliaient l'épée à la croix, utilisant les villes conquises autant comme instruments de conversion religieuse que comme avant-postes fortifiés. Les populations locales soumises à cette campagne de conversion zélée souffraient souvent de cette pression, alors même que la foi de l'ordre s'enracinait de plus en plus profondément."
+
+ aga_tr_order_military: "Garnison d'une forteresse de l'ordre"
+ aga_tr_order_military_desc: "Les ordres militaires ont bâti leur puissance sur des garnisons permanentes de moines-guerriers, des frères disciplinés et célibataires qui considéraient leurs forteresses comme des missions sacrées plutôt que comme des fiefs féodaux. Une ville abritant l'une de ces forteresses devient un bastion dont la défense relève autant d'un vœu sacré que d'une nécessité militaire."
+ 
+ aga_tr_hos_medici: "Hôpital de l'Ordre"
+ aga_tr_hos_medici_desc: "Les Chevaliers Hospitaliers tirent leur origine même des soins prodigués aux malades et aux pauvres, et même lorsque l'Ordre est devenu une formidable puissance navale et militaire, ses hôpitaux et infirmeries n'ont jamais cessé de fonctionner dans les villes placées sous sa protection. Les médecins formés selon la tradition de l'Ordre comptent parmi les meilleurs de la chrétienté."
+
+ aga_tr_hos_naval_base: "Chantier naval de l'Ordre"
+ aga_tr_hos_naval_base_desc: "Les Chevaliers de l'Ordre de Saint-Jean ont bâti leur réputation autant en mer que sur le champ de bataille ; leurs galères patrouillaient la Méditerranée pour harceler la marine musulmane et protéger les pèlerins chrétiens en route vers la Terre Sainte. Un port dédié à la flotte de l'Ordre devient un chantier naval de la guerre sainte, dont les cales ne restent jamais inactives très longtemps."
+ 
+ # =============================================================
+ # LIQOUR BREWERS
+ # =============================================================
+ aga_tr_fra_clos_monastique: "Clos monastique"
+ aga_tr_fra_clos_monastique_desc: "Depuis des générations, les moines de Bourgogne étudient chaque nuance du sol et de la pente, clôturant leurs meilleures parcelles pour en faire des "clos" entretenus avec une dévotion quasi sacrée. Leur culture patiente a fait du vin français un synonyme de raffinement bien avant que les tables nobles d'Europe n'apprennent à le demander par son nom."
+
+ aga_tr_ita_appassimento: "Méthode de l'appassimento"
+ aga_tr_ita_appassimento_desc: "Les vignerons italiens étalent leurs meilleurs raisins sur des nattes de paille pour les faire sécher à l'air libre tout au long de l'automne, concentrant patiemment leurs sucres et leurs arômes avant même que le fruit ne touche le pressoir. Le vin issu de cette lente transformation possède une richesse et une puissance qu'aucune récolte ordinaire ne peut égaler."
+ 
+ aga_tr_ger_beer: "Brauhaus Tradition"
+ aga_tr_ger_beer_desc: "Les villes allemandes ont élevé l'art du brassage au rang de fierté civique ; leurs brauhaus produisent une bière dont la constance et la qualité attirent les amateurs des quatre coins de l'Empire. Là où les artisans allemands ont établi la norme, chaque contrée voisine mesure sa propre bière à cette aune."
+
+ aga_tr_boh_beer: "L'héritage de la pilsner"
+ aga_tr_boh_beer_desc: "Les brasseurs de Bohême ont élevé l'art du brassage au-delà du simple métier pour en faire quelque chose qui s'apparente à de l'alchimie ; leur maîtrise du malt, du houblon et de l'eau donne naissance à une bière si réputée que les villes d'Europe centrale cherchent à imiter la méthode bohémienne plutôt qu'à la concurrencer. Rares sont les couronnes qui chérissent leur tradition brassicole aussi farouchement que les rois de Bohême."
+
+ aga_tr_geo_wine: "Les vignerons du qvevri"
+ aga_tr_geo_wine_desc: "Les vignerons géorgiens font fermenter leur récolte dans d'immenses qvevris en argile enfouis sous terre, une méthode pratiquée sans interruption depuis bien avant la mémoire de toute dynastie actuelle. Le vin qui en résulte porte en lui le goût d'une tradition plus ancienne que le christianisme lui-même, dans une terre où le vin et la foi se sont développés ensemble depuis l'Antiquité."
+ 
+ # =============================================================
+ # OCEANIA
+ # =============================================================
+ aga_tr_maj_pasisir_port: "Port de Pasisir"
+ aga_tr_maj_pasisir_port_desc: "La côte de Pasisir, à Java, était une succession de villes marchandes qui reliait les îles productrices d'épices de l'archipel aux marchés de l'Inde, de la Chine et de l'Arabie. Ce droit fait de la ville un entrepôt officiel du réseau de Pasisir, attirant les marchands de la mousson venus de tout l'océan Indien."
+ 
+ # =============================================================
+ # EXTRAS
+ # =============================================================
+ aga_tr_slave_town: "Ville esclavagiste"
+ aga_tr_slave_town_desc: "Cette ville a été entièrement réorganisée autour du travail forcé ; ses champs et ses ateliers sont exploités par des esclaves sous la surveillance constante de contremaîtres qui ne rendent de comptes qu'à leurs registres de bénéfices. La production augmente sous cette discipline brutale, mais il en va de même pour le risque omniprésent de révolte parmi ceux qui n'ont plus rien à perdre."
+ 
+ # =============================================================
+ # UNIQUE PER CITY
+ # =============================================================
+ aga_tr_city_hormuz: "Porte du Golfe"
+ aga_tr_city_hormuz_desc: "Hormuz domine le détroit étroit qui sépare le golfe Persique de l'océan Indien, ce qui en fait un point de passage incontournable pour tous les échanges commerciaux entre l'Arabie, la Perse et les marchés indiens. Tout navire transportant des épices, des perles ou des chevaux doit traverser ses eaux et verser un tribut à son souverain."
+
+ aga_tr_city_rome: "La Ville éternelle"
+ aga_tr_city_rome_desc: "Rome est le siège de la papauté et la capitale spirituelle de la chrétienté latine, attirant pèlerins, érudits et artistes des quatre coins de l'Europe. Sa possession confère un prestige qu'aucune autre ville au monde ne peut égaler."
+
+ aga_tr_city_venice: "Reine de l'Adriatique"
+ aga_tr_city_venice_desc: "Venise est la plus grande république commerciale maritime du monde ; sa lagune fourmille de galères et son Rialto est envahi par des marchands venus d'Alexandrie jusqu'à Londres. La ville qui contrôle la mer contrôle le commerce de la Méditerranée."
+ 
+ aga_tr_city_novo_brdo: "La Montagne d'Argent"
+ aga_tr_city_novo_brdo_desc: "Novo Brdo se dresse au sommet de l'un des gisements d'argent les plus riches de l'Europe médiévale ; ses mines produisaient l'argent qui finançait l'État serbe et attiraient des mineurs saxons venus de tout le continent. Celui qui contrôle cette montagne détient les clés de la prospérité des Balkans."
+
+ aga_tr_city_alexandria: "Porte entre les mondes"
+ aga_tr_city_alexandria_desc: "Alexandrie se dresse à la jonction de la Méditerranée et du delta du Nil, canalisant le commerce de l'océan Indien vers les marchés égyptiens, puis vers les flottes européennes avides d'épices et de soie. C'est le pivot autour duquel s'articule le commerce de l'Ancien Monde."
+
+ aga_tr_city_cairo: "La ville aux mille minarets"
+ aga_tr_city_cairo_desc: "Le Caire est la plus grande ville du monde islamique et le cœur intellectuel de la civilisation sunnite. Il abrite Al-Azhar, la plus grande madrasa au monde, ainsi que des marchés qui attirent des marchands de Tombouctou à Samarcande. Sa richesse et son savoir en font la métropole incontestée de l'Afrique et du Proche-Orient."
+ 
+ aga_tr_city_hangzhou: "Le paradis sur terre"
+ aga_tr_city_hangzhou_desc: "Marco Polo qualifiait Hangzhou de ville la plus belle et la plus somptueuse du monde, une ville de canaux, d'ateliers de soierie et de jardins qui abritait une population plus nombreuse que n'importe quelle ville d'Europe. Ses métiers à tisser produisaient la soie qui habillait les cours d'une douzaine de royaumes."
+
+ aga_tr_city_wuxian: "Ville des jardins et de la soie"
+ aga_tr_city_wuxian_desc: "Wuxian, près de Suzhou, est célèbre dans toute la Chine pour sa culture raffinée, ses jardins privés somptueux et ses ateliers de tissage de soie qui fournissent à la cour impériale les textiles les plus raffinés de l'empire. C'est une ville où richesse et sens de l'esthétique vont de pair."
+
+ aga_tr_city_kyoto: "Capitale impériale du Ciel"
+ aga_tr_city_kyoto_desc: "Kyoto est depuis des siècles le siège de l'empereur japonais ; ses rues sont disposées en damier, sur le modèle de la capitale chinoise de la dynastie Tang, et ses temples renferment le patrimoine artistique et spirituel d'une civilisation. Même si le shogunat détient le pouvoir réel ailleurs, Kyoto reste le centre sacré du Japon."
+ 
+ aga_tr_city_kutna_hora: "La ville de l'argent"
+ aga_tr_city_kutna_hora_desc: "À l'apogée du royaume de Bohême, les mines de Kutná Hora produisaient plus d'argent que n'importe quel autre site d'Europe centrale, ce qui a permis de financer la construction de la cathédrale Sainte-Barbe et a fait de la ville l'une des plus riches du continent. Son hôtel des monnaies frappait le groschen de Prague, qui devint la monnaie standard du commerce médiéval européen."
+
+ aga_tr_city_falun: "La montagne de cuivre"
+ aga_tr_city_falun_desc: "La mine de Falun est la plus grande source de cuivre d'Europe ; elle produit le métal qui recouvre les toits des églises, équipe les armées et alimente les ateliers de tout un continent. L'émergence de la Suède en tant que grande puissance repose autant sur le cuivre de Dalarna que sur la vaillance de ses soldats."
+
+ aga_tr_city_ccantumarcani: "Cerro Rico del Potosí"
+ aga_tr_city_ccantumarcani_desc: "La montagne de Potosí recèle des gisements d'argent si vastes que sa découverte a transformé l'économie mondiale, inondant les marchés européens de lingots américains et redéfinissant l'équilibre des pouvoirs entre les nations. La richesse qu'elle génère s'accompagne d'un terrible coût humain, supporté par les personnes contraintes de travailler dans ses profondeurs."
+ 
+ aga_tr_city_bruges: "Joyau de la Flandre"
+ aga_tr_city_bruges_desc: "Bruges fut pendant deux siècles la capitale commerciale de l'Europe du Nord, où les tissus de laine flamands côtoyaient la finance italienne et les fourrures hanséatiques sur un marché qui fixait les prix de Londres à Lübeck. Bien qu'Anvers lui fasse désormais concurrence, les halles aux draps et les entrepôts au bord des canaux de la ville vibrent encore au rythme du commerce international."
+
+ aga_tr_city_antwerp: "Emporium du monde"
+ aga_tr_city_antwerp_desc: "Anvers s'est hissée au rang de plus grande ville commerciale d'Europe du Nord: sa bourse fixe des taux d'intérêt qui influencent tous les monarques du continent, et ses quais déchargent des marchandises en provenance des Amériques, d'Afrique et d'Asie. Celui qui contrôle Anvers contrôle le système nerveux financier du monde atlantique."
+
+ aga_tr_city_amsterdam: "Le barrage de l'Amstel"
+ aga_tr_city_amsterdam_desc: "Le port abrité d'Amsterdam et sa capacité de construction navale inégalée en ont fait la puissance commerciale montante de la mer du Nord, ses entrepôts se remplissant de céréales de la Baltique, de sel ibérique et d'épices coloniales. La ville qui maîtrisera ces eaux maîtrisera le commerce du siècle à venir."
+ 
+ aga_tr_city_genoa: "La Superba"
+ aga_tr_city_genoa_desc: "Les flottes de galères de Gênes et ses audacieux banquiers marchands ont bâti un empire commercial s'étendant de la mer Noire à l'Atlantique, finançant des rois et colonisant des îles avec la même assurance. Ses marins ont sillonné les côtes inconnues de l'Afrique et ses financiers ont prêté de l'argent à la couronne espagnole elle-même."
+
+ aga_tr_city_malacca: "Carrefour du monde des épices"
+ aga_tr_city_malacca_desc: "Malacca contrôle le détroit par lequel doit passer tout le commerce entre l'océan Indien et la mer de Chine méridionale, ce qui en fait le point d'étranglement le plus précieux d'Asie. Son sultanat s'est enrichi en prélevant des taxes sur les clous de girofle, la noix de muscade et le poivre qui affluaient dans ses quais en provenance des îles lointaines."
+
+ aga_tr_city_adan: "Porte des larmes et de la fortune"
+ aga_tr_city_adan_desc: "Aden garde l'entrée de la mer Rouge, percevant des droits de douane sur chaque navire transportant des épices indiennes vers Le Caire et les marchés méditerranéens. Son port a été un enjeu disputé tant par les Mamelouks que par les Ottomans et les Portugais, car celui qui détient Aden détient la clé du commerce de l'océan Indien."
+ 
+ aga_tr_city_genoa: "La Superba"
+ aga_tr_city_genoa_desc: "Les flottes de galères de Gênes et ses audacieux banquiers marchands ont bâti un empire commercial s'étendant de la mer Noire à l'Atlantique, finançant des rois et colonisant des îles avec la même assurance. Ses marins ont sillonné les côtes inconnues de l'Afrique et ses financiers ont prêté de l'argent à la couronne espagnole elle-même."
+
+ aga_tr_city_malacca: "Carrefour du monde des épices"
+ aga_tr_city_malacca_desc: "Malacca contrôle le détroit par lequel doit passer tout le commerce entre l'océan Indien et la mer de Chine méridionale, ce qui en fait le point d'étranglement le plus précieux d'Asie. Son sultanat s'est enrichi en prélevant des taxes sur les clous de girofle, la noix de muscade et le poivre qui affluaient dans ses quais en provenance des îles lointaines."
+
+ aga_tr_city_adan: "Porte des larmes et de la fortune"
+ aga_tr_city_adan_desc: "Aden garde l'entrée de la mer Rouge, percevant des droits de douane sur chaque navire transportant des épices indiennes vers Le Caire et les marchés méditerranéens. Son port a été un enjeu disputé tant par les Mamelouks que par les Ottomans et les Portugais, car celui qui détient Aden détient la clé du commerce de l'océan Indien."
+ 
+ aga_tr_city_goa: "Le joyau du Konkan"
+ aga_tr_city_goa_desc: "Le port naturel de Goa, situé sur la côte du Konkan, en a fait le principal port du Deccan occidental avant que les Portugais ne le transforment en capitale de leur Estado da India. Celui qui contrôle Goa domine les voies maritimes entre le golfe Persique et la côte des épices du Malabar."
+
+ aga_tr_city_samarkand: "Carrefour de la Route de la Soie"
+ aga_tr_city_samarkand_desc: "Samarcande se dresse au carrefour des grandes routes commerciales terrestres reliant la Chine, l'Inde, la Perse et la Méditerranée ; ses bazars regorgent de soie, de jade et de tous les produits de luxe que le monde peut offrir. Tamerlan en a fait la ville la plus somptueuse d'Asie centrale, et sa renommée attire tant les marchands que les érudits."
+
+ aga_tr_city_tabriz: "Joyau de l'Azerbaïdjan"
+ aga_tr_city_tabriz_desc: "Tabriz a été la capitale d'empires successifs, des Ilkhanides aux Safavides ; sa situation sur les routes reliant l'Anatolie, la Perse et le Caucase en a fait l'une des grandes villes commerçantes du Moyen-Orient. Son bazar est réputé pour ses pierres précieuses, sa soie et les produits de luxe issus du commerce oriental."
+
+ aga_tr_city_florence: "Berceau de la Renaissance"
+ aga_tr_city_florence_desc: "Florence a donné au monde la Renaissance: ses familles de marchands ont financé les peintres, les sculpteurs et les architectes qui ont redéfini les limites de ce que la civilisation humaine pouvait accomplir. La ville de Dante, de Brunelleschi et des Médicis est le cœur battant de la vie artistique et intellectuelle européenne."
+
+ aga_tr_city_milano: "L'armurerie de l'Italie"
+ aga_tr_city_milano_desc: "Les armuriers milanais produisaient les meilleures armures de plaques d'Europe ; leurs ateliers fournissaient aux chevaliers et aux condottieri, de la Baltique à la Méditerranée, un acier capable de repousser aussi bien les lances que les carreaux d'arbalète. La ville qui fournit les armes de guerre détient un pouvoir qui survit à toute victoire sur un champ de bataille."
+
+ aga_tr_city_nuremberg: "L'atelier de l'Empire"
+ aga_tr_city_nuremberg_desc: "Les artisans de Nuremberg sont célèbres dans toute l'Europe pour leur travail de précision des métaux ; ils produisent aussi bien des instruments scientifiques et des mécanismes d'horlogerie que des armes à feu et des vitraux. En tant que ville libre impériale, Nuremberg ne rend de comptes à aucun seigneur si ce n'est à l'Empereur lui-même, et sa fierté civique n'a d'égale que l'excellence de son artisanat."
+ 
+ aga_tr_city_damascus: "La ville des lames"
+ aga_tr_city_damascus_desc: "Damas a donné son nom à l'acier le plus célèbre du monde médiéval ; ses forgerons forgeaient des lames d'une netteté et d'une beauté extraordinaires, dont les motifs secrets faisaient l'admiration de tous les armuriers de la chrétienté et du monde islamique. La ville est également un grand centre de tissage de la soie et de soufflage du verre, ses artisans étant aussi légendaires que ses forgerons d'épées."
+
+ aga_tr_city_fuliang: "Capitale mondiale de la porcelaine"
+ aga_tr_city_fuliang_desc: "Jingdezhen, connue des marchands médiévaux comme la ville aux dix mille fours, produit une porcelaine d'une telle perfection que les empereurs chinois réservaient des ateliers entiers à la seule cour impériale. Le secret de ses céramiques d'un blanc translucide était le secret industriel le plus convoité au monde, ayant plus de valeur aux yeux des monarques européens que l'or."
+
+ aga_tr_city_bologna: "Mère des études"
+ aga_tr_city_bologna_desc: "L'université de Bologne est la plus ancienne du monde ; ses facultés de droit forment les juristes et les administrateurs qui occupent les fonctions au sein des tribunaux et des chancelleries de tous les États italiens. Une ville où l'on enseigne le droit devient une ville où le droit est respecté."
+ 
+ aga_tr_city_paris: "Le cœur du royaume"
+ aga_tr_city_paris_desc: "Paris est le centre incontesté du pouvoir royal français: l'île de la Cité abrite la monarchie capétienne et la rive gauche accueille la plus grande université d'Europe du Nord. Ce que fait la France, Paris le fait aussi ; ce que fait Paris, la France le fait aussi."
+
+ aga_tr_city_prague: "La ville aux cent clochers"
+ aga_tr_city_prague_desc: "Prague fut la capitale du Saint-Empire romain germanique sous Charles IV, qui lui offrit une université, une magnifique cathédrale et le statut de l'une des plus grandes villes de toute l'Europe. Ses clochers témoignent de l'ambition de la Bohême."
+
+ aga_tr_city_timbuktu: "Carrefour saharien des religions"
+ aga_tr_city_timbuktu_desc: "Tombouctou est à la fois le terminus méridional du grand commerce saharien de l'or et du sel, et le centre le plus important de l'enseignement islamique en Afrique de l'Ouest ; ses mosquées et ses madrasas abritent des centaines de milliers de manuscrits. Une ville qui fait le commerce à la fois de l'or et du savoir est une ville dont la puissance transcende toute dynastie particulière."
+ 
+ aga_tr_city_kyiv: "La mère des villes de la Rus'"
+ aga_tr_city_kyiv_desc: "Kiev est la capitale ancestrale des peuples de la Rus' ; ses églises aux dômes dorés et sa situation sur le Dniepr en font le cœur spirituel et historique du monde slave oriental, même après les ravages mongols. Quiconque détient Kiev revendique la mémoire et la légitimité de toutes les principautés de la Rus'."
+
+ aga_tr_city_angkor: "Cœur du royaume hydraulique"
+ aga_tr_city_angkor_desc: "Angkor a subvenu aux besoins d'une population plus nombreuse que celle de n'importe quelle ville médiévale européenne grâce à son extraordinaire réseau de réservoirs et de canaux, permettant plusieurs récoltes de riz par an dans les plaines inondables cambodgiennes. Bien que l'empire se soit rétréci, l'infrastructure hydraulique de la ville reste le fondement de l'abondance agricole khmère."
+
+ aga_tr_city_moscow: "Troisième Rome"
+ aga_tr_city_moscow_desc: "Après la chute de Constantinople, les ecclésiastiques de Moscou proclamèrent la ville "Troisième Rome", dernière gardienne du véritable christianisme orthodoxe et héritière légitime de la tradition impériale romaine. Les grands princes de Moscovie ont fondé leur légitimité sur ce socle d'histoire sacrée."
+ 
+ aga_tr_city_novgorod: "Seigneur de Novgorod la Grande"
+ aga_tr_city_novgorod_desc: "Novgorod s'est gouvernée pendant des siècles comme une république aristocratique ; son assemblée, le veche, et ses oligarques marchands ont bâti un empire commercial qui s'étendait de la Baltique aux montagnes de l'Oural. Même sous la domination moscovite, le commerce de la fourrure et du cuir de la ville assure une prospérité que le grand-prince ne peut se permettre de détruire."
+
+ aga_tr_city_london: "La couronne de la Tamise"
+ aga_tr_city_london_desc: "Londres est la capitale commerciale et politique de l'Angleterre ; ses quais sur la Tamise gèrent les exportations de laine et de tissus qui constituent l'épine dorsale de l'économie anglaise, tandis que sa Tour abrite l'arsenal royal et le trésor. La ville qui contrôle la Tamise contrôle l'accès de l'Angleterre au reste du monde."
+
+ aga_tr_city_gdansk: "La Cité d'ambre de la Baltique"
+ aga_tr_city_gdansk_desc: "Gdańsk domine l'embouchure de la Vistule, percevant des droits de péage sur les céréales, le bois et les fourrures acheminés depuis l'arrière-pays polonais vers les marchés hanséatiques de toute l'Europe du Nord. Ses chantiers navals construisent les navires qui transportent les excédents agricoles de la Pologne jusqu'aux tables d'Amsterdam et de Londres."
+ 
+ aga_tr_city_hamburg: "Porte d'entrée sur la mer du Nord"
+ aga_tr_city_hamburg_desc: "Située à l'embouchure de l'Elbe, Hambourg est devenue le principal point d'entrée du commerce atlantique vers l'arrière-pays allemand ; son statut de port franc a attiré les marchands qui souhaitaient échapper aux droits de péage et aux restrictions imposées par les seigneurs territoriaux. L'indépendance de la ville constitue son atout commercial le plus précieux."
+
+ aga_tr_city_sevilla: "La porte des Amériques"
+ aga_tr_city_sevilla_desc: "La Casa de Contratación de Séville détient le monopole légal sur l'ensemble du commerce avec les Amériques espagnoles, ce qui en fait le canal par lequel l'argent de Potosí et le sucre des Caraïbes affluent vers les marchés européens. Aucune ville de la chrétienté ne s'est enrichie aussi rapidement que Séville à l'ère des grandes découvertes."
+
+ aga_tr_city_lisbon: "Capitale des routes maritimes"
+ aga_tr_city_lisbon_desc: "Les navigateurs lisboètes ont ouvert les routes maritimes contournant l'Afrique vers l'Inde et au-delà, transformant la ville, qui n'était qu'un modeste port atlantique, en capitale du premier empire maritime mondial. Les richesses de Goa, d'Ormuz et de Malacca affluent vers le Tage."
+ 
+ aga_tr_city_dubrovnik: "La perle de l'Adriatique"
+ aga_tr_city_dubrovnik_desc: "Raguse a conservé son indépendance grâce à un savant mélange d'habileté diplomatique, de neutralité prudente et de prospérité générée par sa flotte marchande faisant le commerce entre les Balkans ottomans et l'Occident latin. Ses émissaires sont les bienvenus dans toutes les cours précisément parce que Raguse ne menace personne et commerce avec tout le monde."
+
+ aga_tr_city_bursa: "Cité de la soie et des caravanes"
+ aga_tr_city_bursa_desc: "Bursa fut la première capitale ottomane et le terminus occidental des caravanes de la Route de la Soie en provenance de Perse et d'Asie centrale ; ses bazars étaient réputés pour les tissus de soie les plus raffinés d'Anatolie. Même après avoir été éclipsée politiquement par Constantinople, Bursa resta le centre du commerce ottoman de la soie."
+
+ aga_tr_city_edirne: "Porte de l'Europe"
+ aga_tr_city_edirne_desc: "Edirne fut la capitale ottomane avant la conquête de Constantinople et resta l'un des points de rassemblement militaires les plus importants de l'empire pour les campagnes menées dans les Balkans et en Hongrie. Sa situation dans la plaine de Thrace en fait la porte d'entrée incontournable entre l'Anatolie et l'Europe."
+
+ aga_tr_city_aleppo: "Carrefour du Levant"
+ aga_tr_city_aleppo_desc: "Alep se trouve au carrefour des routes reliant la côte méditerranéenne à la Mésopotamie et à la Perse ; ses grands bazars couverts font le commerce du coton, des tissus et des épices qui affluent de l'océan Indien vers les marchés européens. C'est la capitale commerciale de l'arrière-pays syrien et l'un des grands entrepôts du monde ottoman."
+ 
+ aga_tr_city_jerusalem: "Ville sainte de trois religions"
+ aga_tr_city_jerusalem_desc: "Jérusalem est une ville sacrée pour l'islam, le christianisme et le judaïsme ; ses lieux saints attirent des pèlerins venus de trois continents et sa possession revêt une portée symbolique qu'aucune autre ville au monde ne saurait égaler. Quiconque détient Jérusalem détient une part de la conscience de la moitié du monde."
+
+ aga_tr_city_fez: "L'Athènes de l'Afrique"
+ aga_tr_city_fez_desc: "L'université Al-Qarawiyyin de Fès compte parmi les plus anciens établissements d'enseignement supérieur au monde encore en activité, et les madrasas de la ville ont formé, durant des siècles, les érudits et les juristes du monde islamique occidental. Ses tanneries, ses teintureries et ses ateliers de métallurgie en font tout à la fois une cité du savoir et un haut lieu de l'artisanat d'excellence."
+
+ aga_tr_city_isfahan: "La moitié du monde"
+ aga_tr_city_isfahan_desc: "Le proverbe persan qualifie Ispahan de *nisf-e jahan* — la moitié du monde — ; une réputation que justifient ses magnifiques bazars, ses mosquées et ses places royales. Sous la dynastie safavide, elle devint l'une des grandes capitales impériales de l'époque moderne, véritable vitrine du génie artistique et du dynamisme commercial de la Perse."
+
+ aga_tr_city_bukhara: "La noble Boukhara"
+ aga_tr_city_bukhara_desc: "Boukhara fut l'un des grands foyers de la civilisation islamique ; ses bibliothèques et ses madrasas formèrent des érudits en mathématiques, en médecine et en théologie dont les œuvres furent lues de l'Espagne jusqu'à l'Inde. Sa situation géographique sur la Route de la soie en fit un carrefour aussi bien commercial qu'intellectuel."
+
+ aga_tr_city_delhi_city: "Trône de l'Hindoustan"
+ aga_tr_city_delhi_city_desc: "Delhi fut la capitale d'empires successifs dominant la plaine du Gange ; ses forteresses en grès rouge et ses grandes mosquées témoignent des ambitions des dynasties qui y exercèrent le pouvoir. Quiconque détient Delhi possède la clé symbolique de la domination sur tout l'Hindoustan."
+
+ aga_tr_city_dadu: "Capitale du Nord"
+ aga_tr_city_dadu_desc: "Pékin, connue sous le nom de Dadu sous la dynastie mongole des Yuan, devint la capitale impériale permanente sous les Ming ; ces derniers la reconstruisirent selon un plan d'urbanisme d'une envergure exceptionnelle, articulé autour de la Cité interdite. Sa position lui permet de contrôler les cols par lesquels les nomades des steppes du Nord ont de tout temps menacé le cœur du territoire chinois."
+
+ aga_tr_city_shangyuan: "Capitale du Sud"
+ aga_tr_city_shangyuan_desc: "Nankin fut la première capitale de la dynastie Ming ; elle possédait les plus longues murailles du monde et comptait, au XIVe siècle, parmi les villes les plus peuplées. Bien que la cour ait été transférée au nord, à Pékin, la ville conserve son statut de centre administratif du delta du Yangtsé."
+
+ aga_tr_city_gonder: "Cité des rois"
+ aga_tr_city_gonder_desc: "Gondar devint la capitale fixe de l'Empire éthiopien au XVIIe siècle ; ses châteaux royaux et sa proximité avec les monastères insulaires du lac Tana en firent le cœur de la vie politique et religieuse de la dynastie salomonide. Sa fondation marqua la transition de l'Éthiopie d'une cour itinérante vers une administration impériale sédentaire."
+
+ aga_tr_city_tarnovo: "La Couronne des Balkans"
+ aga_tr_city_tarnovo_desc: "Tarnovo fut la glorieuse capitale du Second Empire bulgare ; sa forteresse de Tsarevets, perchée au-dessus de la rivière Yantra, abritait une cour rivalisant avec Constantinople par ses ambitions artistiques et ecclésiastiques. Même après la conquête ottomane, le patriarcat orthodoxe de la ville perpétue le souvenir de la grandeur impériale bulgare."
+
+ aga_tr_city_belgrad: "La Clé de la Hongrie"
+ aga_tr_city_belgrad_desc: "Belgrade domine le confluent de la Save et du Danube, véritable porte naturelle entre la plaine de Pannonie et la péninsule balkanique, que toute armée faisant route vers le nord ou le sud se doit de conquérir ou de contourner. Sa forteresse a subi plus de sièges que toute autre dans la région, et ses remparts ont été bâtis en conséquence."
+
+ aga_tr_city_naples_city: "Le Royaume au bord de la mer"
+ aga_tr_city_naples_city_desc: "Naples est l'une des plus grandes villes d'Europe ; sa baie compte parmi les plus beaux ports naturels de la Méditerranée et son royaume est le plus riche d'Italie, en dépit des troubles politiques qui accompagnent chaque changement de dynastie. La taille de la ville, sa position stratégique et son arrière-pays agricole en font une proie que toutes les grandes puissances convoitent."
+
+ aga_tr_city_palermo: "La Perle normande de la Méditerranée"
+ aga_tr_city_palermo_desc: "Les rois normands de Palerme ont édifié une cour mêlant les cultures arabe, byzantine et latine pour créer un ensemble unique en son genre ; l'héritage de cette gouvernance multiculturelle raffinée a perduré bien après la disparition des Normands eux-mêmes. Les plaines fertiles de Sicile assurent au royaume de Palerme une richesse suffisante pour attiser les convoitises de toutes les dynasties européennes."
+
+ aga_tr_city_marrakesh: "La Ville rouge de l'Atlas"
+ aga_tr_city_marrakesh_desc: "Marrakech fut fondée par les Almoravides pour servir de capitale à un empire saharien s'étendant du Sénégal à l'Espagne ; ses palais, ses souks et le minaret de la Koutoubia demeurent parmi les grands monuments de l'architecture islamique en Méditerranée occidentale. Porte d'accès aux cols de l'Atlas et aux routes sahariennes qui s'étendent au-delà, elle contrôle le commerce du nord-ouest de l'Afrique."
+
+ aga_tr_city_mecca: "Le Nombril du monde"
+ aga_tr_city_mecca_desc: "La Mecque est la ville la plus sainte de l'islam, destination du pèlerinage du Hajj qui attire des musulmans des quatre coins du monde et site de la Kaaba, vers laquelle tout musulman se tourne pour prier. Quiconque détient La Mecque exerce sur les fidèles une autorité spirituelle qu'aucun pouvoir politique ne saurait égaler."
+
+ aga_tr_city_harar: "La Cité des saints"
+ aga_tr_city_harar_desc: "Harar est l'une des villes les plus saintes de l'islam ; sa médina fortifiée abrite quatre-vingt-dix-neuf mosquées ainsi que les sanctuaires de centaines de saints vénérés dans toute la Corne de l'Afrique. Son marché se trouve également au carrefour du commerce des hauts plateaux éthiopiens et des routes menant à la côte somalienne, ce qui lui confère une importance aussi bien commerciale que spirituelle."
+
+ aga_tr_city_smolensk: "La Fonderie de l'Est"
+ aga_tr_city_smolensk_desc: "La tradition métallurgique de Smolensk en a fait le principal centre de fonte de canons d'Europe de l'Est ; ses forges fournissaient de l'artillerie à la grande puissance qui occupait la ville à un moment donné — Lituaniens, Moscovites et Polonais reconnaissaient tous que les fonderies de Smolensk étaient trop précieuses pour être détruites."
+
+ aga_tr_city_tunis: "Port des corsaires"
+ aga_tr_city_tunis_desc: "Tunis était la plus importante base corsaire de la côte nord-africaine ; son port abritait les flottes barbaresques qui terrorisaient la navigation chrétienne en Méditerranée et alimentaient les marchés aux esclaves du Maghreb en captifs venus d'Espagne, d'Italie et d'au-delà."
+
+ aga_tr_city_thessaloniki: "Carrefour de la mer Égée"
+ aga_tr_city_thessaloniki_desc: "Thessalonique était la deuxième ville de Byzance et demeura, après la conquête ottomane, l'une des cités les plus cosmopolites de la Méditerranée orientale, sa population mêlant Grecs, Juifs expulsés de la péninsule Ibérique, Turcs et marchands venus de tout le monde égéen. Ses ateliers textiles produisaient des étoffes renommées dans tout le Levant, et sa position à l'extrémité de la Via Egnatia en faisait la porte d'entrée naturelle entre l'Adriatique et Constantinople."
+
+ aga_tr_city_trebizond: "Ultime lueur de Byzance"
+ aga_tr_city_trebizond_desc: "L'Empire de Trébizonde survécut huit ans à la chute de Constantinople ; sa cour comnène perpétua les traditions de la civilisation byzantine sur les rives de la mer Noire alors que le reste du monde grec tombait aux mains des Ottomans. Même après sa conquête, le commerce de la soie et sa position à l'extrémité occidentale des routes caravanières perses firent de la ville l'un des ports les plus vitaux de tout le bassin de la mer Noire."
+
+ aga_tr_city_kaffa: "Porte de la steppe"
+ aga_tr_city_kaffa_desc: "Kaffa était la plus importante colonie de la république de Gênes en mer Noire ; c'est par cette ville que transitaient fourrures, cuirs, céréales et esclaves issus de la steppe pontique vers les marchés méditerranéens, et ce durant deux siècles, jusqu'à ce que les Ottomans mettent fin à son indépendance."
+
+ aga_tr_city_vijayan agar: "La Cité de la Victoire"
+ aga_tr_city_vijayan agar_desc: "À son apogée, Vijayanagara comptait parmi les plus grandes villes du monde ; ses rues de granit étaient bordées de bazars où l'on échangeait diamants, chevaux et épices venus de tout l'espace de l'océan Indien, le tout dominé par les imposants *gopurams* du complexe du temple de Virupaksha. La cité constituait le cœur sacré et politique du dernier grand empire hindou du Sud."
+
+ aga_tr_city_vienna: "Le grand entrepôt du Danube"
+ aga_tr_city_vienna_desc: "Le Stapelrecht de Vienne figurait parmi les plus importants d'Europe centrale ; il obligeait tout marchand naviguant sur le Danube à décharger ses marchandises et à les proposer à la vente dans la ville avant de poursuivre son voyage."
+
+ aga_tr_city_constantinople_orthodox: "La Reine des cités restaurée"
+ aga_tr_city_constantinople_orthodox_desc: "Restituer Constantinople au monde orthodoxe, c'est panser une plaie qui suppurait en Orient chrétien depuis 1453: le patriarcat est rétabli, Sainte-Sophie consacrée à nouveau et la capitale spirituelle du monde orthodoxe arrachée à ceux qui avaient mis fin au règne du dernier empereur romain."
+
+ aga_tr_city_constantinople_ottoman: "Kostantiniyye — Trône de la Sublime Porte"
+ aga_tr_city_constantinople_ottoman_desc: "Le sultan qui règne depuis le palais de Topkapi gouverne une cité dont la richesse et la position stratégique sont inégalées par aucune capitale rivale. Sous l'administration ottomane, Istanbul est à la fois le plus grand marché du monde et le quartier général de la force navale la plus puissante de la Méditerranée ; sa Corne d'Or abrite, côte à côte, galères de guerre et marchands d'épices."
+
+ aga_tr_city_constantinople: "La ville que désirait le monde"
+ aga_tr_city_constantinople_desc: "Durant un millénaire, Constantinople fut la ville la plus convoitée au monde. Tout conquérant qui s'en empare hérite de la gloire brute de son emplacement et suscite l'envie de tous les souverains qui ne la possèdent pas. Cité désirée par le monde entier et plaque tournante du commerce, ses murailles dorées ont survécu à une douzaine d'empires et en verront bien d'autres s'effondrer."
+
+ aga_tr_city_tetzcoco: "La Cité des rois-poètes"
+ aga_tr_city_tetzcoco_desc: "Tetzcoco était le cœur intellectuel de la Triple-Alliance et la demeure du grand roi-philosophe Nezahualcoyotl, dont les réformes juridiques et la poésie façonnèrent la vie politique et culturelle de toute la vallée de Mexico. Ses scribes et juristes perpétuaient des traditions de gouvernance si respectées que même les souverains étrangers cherchaient à imiter la sagesse juridique émanant de ses tribunaux."
+
+ aga_tr_city_mani: "La Cité de bois des Xiu"
+ aga_tr_city_mani_desc: "Mani se dressait au cœur des forêts denses de l'ouest du Yucatán ; son bois alimentait les besoins en construction de la puissante lignée des Xiu, qui y établit son pouvoir après la chute de Mayapán. Les charpentiers et bâtisseurs de la ville étaient renommés dans toute la péninsule, leur art soutenu par une réserve inépuisable de bois provenant des forêts environnantes."
+
+ aga_tr_city_tenochtitlan_aztec: "Le Cœur du lac"
+ aga_tr_city_tenochtitlan_aztec_desc: "Tenochtitlan émerge des eaux du lac Texcoco, bâtie sur une île transformée par des générations de culture sur *chinampas* en l'un des paysages agricoles les plus productifs des Amériques. Ses chaussées, ses canaux et ses jardins flottants soutiennent une population et une autorité politique dont le rayonnement s'étend sur toute la vallée de Mexico."
+
+ aga_tr_city_tenochtitlan_colonial: "L'essor de Mexico"
+ aga_tr_city_tenochtitlan_colonial_desc: "Sur les ruines de la capitale insulaire déchue s'élève une nouvelle cité ; ses canaux sont comblés et ses temples remplacés par des églises et des bâtiments administratifs, marquant sa transformation en cœur administratif d'un nouvel ordre colonial. La richesse du bassin lacustre et sa position au carrefour des routes commerciales reliant le Pacifique à la côte du Golfe en font un lieu qu'aucun conquérant ne saurait ignorer."
+
+ aga_tr_city_tzintzuntzan: "Le lieu des colibris"
+ aga_tr_city_tzintzuntzan_desc: "Les ateliers de Tzintzuntzan produisaient les ouvrages métalliques les plus raffinés de Mésoamérique ; ses artisans maîtrisaient des techniques de fonte du bronze qu'aucune autre cité de la région ne pouvait reproduire. La ville témoigne d'une tradition artisanale si avancée qu'elle permit à l'État purépecha de s'armer contre tous les empires ayant tenté de le conquérir."
+
+ aga_tr_city_chucuito: "Rivage du lac sacré"
+ aga_tr_city_chucuito_desc: "Chucuito se dresse sur les rives du lac Titicaca, une étendue d'eau considérée comme le berceau de la création elle-même ; ses eaux soutiennent à la fois une économie de pêche florissante et une autorité religieuse majeure. Pèlerins et prêtres sont attirés par une cité dont l'importance spirituelle égale l'immensité du lac qu'elle domine."
+
+ aga_tr_city_hatunqulla: "Le grenier des hautes terres"
+ aga_tr_city_hatunqulla_desc: "Les champs en terrasses de Hatunqolla produisent des pommes de terre en telle abondance que la cité devint la colonne vertébrale agricole du royaume Lupaqa, bien avant que les Incas ne foulent le sol du bassin du Titicaca. Ses familles nobles ont bâti leur puissance sur la gestion rigoureuse de techniques agricoles de haute altitude, perfectionnées au fil d'innombrables générations."
+
+ aga_tr_city_sana: "Atelier des héritiers de Naylamp"
+ aga_tr_city_sana_desc: "Sana a hérité des traditions métallurgiques extraordinaires de la civilisation Sicán ; ses artisans y produisaient des ouvrages en or et des pièces d'une finesse remarquable, suscitant l'admiration dans toute la côte nord. Les ateliers de la ville perpétuent un savoir-faire qui, dit-on, remonte à la divinité fondatrice légendaire dont le peuple tire sa foi."
+
+ aga_tr_city_chinchay: "Port des marchands de radeaux"
+ aga_tr_city_chinchay_desc: "Les marchands de Chinchay ont bâti leur fortune en naviguant sur des radeaux de balsa le long de la côte du Pacifique, en quête de coquillages Spondylus — une ressource plus précieuse aux yeux du monde andin que l'or lui-même. Les cargaisons qu'ils rapportaient firent du royaume l'une des grandes puissances commerciales de la côte. Cette tradition commerciale était si précieuse que même les conquérants jugèrent plus sage de préserver les réseaux d'échange de la ville plutôt que de les démanteler."
+
+ aga_tr_city_al_mukha: "Port du commerce du café"
+ aga_tr_city_al_mukha_desc: "Le port d'Al-Mukha, sur la mer Rouge, devint la principale porte d'entrée mondiale du café. Cultivé dans les hautes terres du Yémen, le grain était expédié depuis ces quais vers des marchés s'étendant du Caire à Istanbul, et finalement jusqu'en Europe. Chaque navire marchand faisant escale à ses quais emportait une cargaison devenue l'une des denrées les plus prisées de l'époque."
+
+ aga_tr_city_shiraz: "Ville du vin et de la poésie"
+ aga_tr_city_shiraz_desc: "Les vignobles de Shiraz produisent un vin célèbre depuis l'Antiquité ; leur réputation est indissociable des vers de Hafez et de Saadi, dont la poésie a rendu la ville aussi renommée pour son raffinement culturel que pour ses vergers et ses jardins. Posséder Shiraz, c'est détenir un lieu où l'identité artistique perse et l'abondance agricole se sont développées de concert pendant des siècles."  
+ 
+ aga_tr_indo_war_elephants: "Écuries d'éléphants de guerre"
+ aga_tr_indo_war_elephants_desc: "L'éléphant de guerre est une arme décisive de la tactique indienne depuis l'Antiquité ; sa masse imposante et son impact psychologique permettent de briser les formations ennemies et de piétiner des fortifications qu'aucune charge de cavalerie ne saurait forcer. Les villes dotées d'écuries destinées à la capture et au dressage de ces animaux fournissent à la Couronne une arme qui, depuis deux millénaires, sème la terreur dans les armées, de l'Indus jusqu'au Deccan."
+
+ aga_tr_indo_iqta_assignment: "Attribution d'iqta"
+ aga_tr_indo_iqta_assignment_desc: "Le système de l'iqta confie les revenus d'une ville à un commandant militaire en échange de l'entretien de troupes au service du sultan. C'est une solution pratique pour rémunérer une armée en l'absence d'un trésor centralisé, mais elle érode progressivement l'autorité directe de la Couronne sur son propre territoire."
+
+ aga_tr_indo_conversion: "Politique de conversion active"
+ aga_tr_indo_conversion_desc: "Certains souverains considèrent les temples, les madrasas et les loges soufies de leurs villes non seulement comme des lieux de culte, mais aussi comme des instruments de transformation religieuse, mobilisant les mécanismes de conversion pour rallier la population à la vraie foi. Le clergé supervise cette entreprise, mais les conversions forcées laissent derrière elles un ressentiment tenace."
+
+ aga_tr_indo_dhimmi_protection: "Charte de protection des dhimmis"
+ aga_tr_indo_dhimmi_protection_desc: "Plutôt que d'imposer la conversion, cette charte reconnaît officiellement aux sujets non musulmans le droit de pratiquer leur foi sans entrave, en échange de leur loyauté et du paiement de l'impôt. Il s'agit d'un accommodement pragmatique qui a permis aux communautés hindoues, jaïnes et autres de prospérer sous domination musulmane pendant des générations."
+
+ aga_tr_indo_stepwells: "Puits à degrés Bawari"
+ aga_tr_indo_stepwells_desc: "Les grands puits à degrés de la plaine indo-gangétique s'enfoncent en terrasses bien en dessous de la terre aride pour atteindre l'eau qui permet à une ville de survivre durant la saison sèche la plus rude ; leurs galeries sculptées servent également de lieux de rassemblement frais et de refuges informels contre la chaleur. Ces monuments d'ingénierie pratique ont permis aux établissements humains de perdurer dans une région où la mousson constitue la seule promesse fiable de pluie."
+
+ aga_tr_indo_mandi_markets: "Marché aux céréales Mandi"
+ aga_tr_indo_mandi_markets_desc: "Le *mandi* est le grand marché de gros agricole de la plaine indo-gangétique, où les cultivateurs apportent directement leurs céréales pour les faire peser, fixer leur prix et les vendre, sans passer par l'intermédiaire des guildes de marchands urbains qui dominent le commerce ailleurs. Ce lien direct entre l'agriculteur et le marché confère à la paysannerie d'une ville dotée d'un *mandi* un pouvoir de négociation sur le prix des récoltes."
+
+ aga_tr_indo_agrahara: "Concession foncière Agrahara"
+ aga_tr_indo_agrahara_desc: "L'agrahara consiste en l'octroi des terres et des revenus d'une ville à des brahmanes érudits et à des institutions religieuses (temples) en échange de services rituels, éducatifs et administratifs rendus à la communauté. Des générations de savoirs liés au sanskrit, à l'astronomie et au droit s'accumulent là où un agrahara s'est implanté, faisant de ces villes des foyers de prestige intellectuel tout autant que de ferveur religieuse."
+
+ aga_tr_bengal_muslin: "Ateliers de mousseline de Dhaka"
+ aga_tr_bengal_muslin_desc: "La mousseline du Bengale est tissée si finement qu'un vêtement entier peut passer à travers une bague ; c'est un artisanat si renommé que les marchands l'ont transporté de Dhaka jusqu'aux cours de Rome dans l'Antiquité et vers les maisons de couture d'Europe à notre époque. Aucun autre tissu au monde n'atteint le prix ou la réputation de ce coton d'une finesse extrême, produit dans les ateliers du delta."
+
+ aga_tr_bengal_rice_delta: "Delta rizicole du Gange et du Brahmapoutre"
+ aga_tr_bengal_rice_delta_desc: "Le delta où les fleuves Gange et Brahmapoutre rejoignent la mer compte parmi les terres agricoles les plus fertiles au monde ; ses crues annuelles y déposent un limon qui nourrit des récoltes de riz d'une abondance inégalée ailleurs sur le sous-continent. Cette richesse agricole exceptionnelle a fait du Bengale la région la plus densément peuplée et la plus disputée de l'Inde."
+
+ aga_tr_indoaryan_jamdani: "Tradition du tissage Jamdani"
+ aga_tr_indoaryan_jamdani_desc: "Les tisserands de la plaine du Gange produisent des étoffes de coton d'une finesse extraordinaire grâce à la technique du *jamdani* à motifs, transmise de génération en génération au sein de familles d'artisans dont le savoir-faire a rendu les textiles de la région prisés bien au-delà des frontières de l'Inde. Dans ces villes, les métiers à tisser perpétuent une tradition de tissage raffiné qui rivalise même avec la célèbre mousseline du Bengale."
+
+ aga_tr_indo_rajput_garhi: "Forteresse Rajput Garhi"
+ aga_tr_indo_rajput_garhi_desc: "La *garhi* est la place forte clanique des lignées guerrières rajputes ; c'est une forteresse où la loyauté ne découle ni d'une obligation religieuse ni d'une nomination sultanienne, mais des liens de parenté et de l'honneur martial qui unissent un clan à son chef."
+
+ aga_tr_city_geneve: "Comptoir des Alpes"
+ aga_tr_city_geneve_desc: "La situation de Genève, au carrefour des routes commerciales reliant la France, l'Italie et les terres germaniques, en a fait un lieu de prédilection pour les marchands, les changeurs et les banquiers depuis les grandes foires de la fin du Moyen Âge. Ses comptoirs accordent des crédits et négocient des transactions qui profitent à des marchands bien au-delà des modestes murailles de la ville."
+ 
+ aga_tr_city_zurich: "Maison des corporations de la Limmat"
+ aga_tr_city_zurich_desc: "Les corporations de Zurich arrachèrent le contrôle de la ville aux anciennes familles patriciennes et instaurèrent l'un des gouvernements bourgeois les plus farouchement indépendants au nord des Alpes ; leurs maisons de métiers et de marchands dictaient les lois de la cité tout autant que n'importe quel conseil de nobles. L'alphabétisation et la tenue de registres civiques prospérèrent sous un gouvernement qui rendait d'abord compte à ses propres artisans."
+
+ aga_tr_city_edinburgh: "Château sur le rocher"
+ aga_tr_city_edinburgh_desc: "La forteresse d'Édimbourg couronne un éperon volcanique dominant le Firth of Forth ; depuis ses salles, les rois de la dynastie Stuart ont gouverné un royaume qui a résisté à toutes les tentatives de conquête anglaises durant des générations. Le "Royal Mile" de la ville relie le château à l'abbaye, unissant la couronne et le royaume en une unique voie de pierre et de mémoire."
+
+ aga_tr_city_dublin: "Siège du Pale"
+ aga_tr_city_dublin_desc: "Dublin a constitué le cœur administratif de la domination anglaise en Irlande. Le port et la garnison de la ville ancrent une tête de pont coloniale dont chaque gouverneur anglais a dépendu pour projeter sa puissance sur le reste de l'île."
+
+ aga_tr_city_rodos: "Bastion des Hospitaliers"
+ aga_tr_city_rodos_desc: "Rhodes servit de forteresse insulaire aux chevaliers Hospitaliers pendant plus de deux siècles ; son port et ses remparts résistèrent à des sièges répétés des Mamelouks et des Ottomans avant de finalement tomber en 1522. Les ingénieurs de l'Ordre transformèrent la ville en l'une des fortifications les plus redoutables de la Méditerranée, symbole de la résistance chrétienne aux confins du monde islamique." 
+ 
+ aga_tr_city_granada_islamic: "Joyau des Nasrides"
+ aga_tr_city_granada_islamic_desc: "Grenade est le dernier bastion de l'Ibérie islamique ; son palais de l'Alhambra domine la ville, véritable chef-d'œuvre de l'architecture islamique mondiale. Les *acequias* (canaux d'irrigation) de la ville acheminent l'eau des montagnes à travers des jardins en terrasses et des vergers de mûriers, soutenant une culture de cour raffinée qui a attiré des réfugiés musulmans fuyant la progression de la Reconquista depuis tous les coins de la péninsule."
+
+ aga_tr_city_granada_christian: "Couronne de la Reconquista"
+ aga_tr_city_granada_christian_desc: "La chute de Grenade en 1492 a marqué la fin de près de huit siècles de domination islamique en Ibérie. Depuis lors, les Rois catholiques ont conféré à la ville une dimension religieuse et dynastique majeure, transformant l'Alhambra en résidence royale et érigeant la Capilla Real pour y trouver leur dernière demeure. Aucune conquête dans l'histoire de l'Espagne chrétienne ne revêt une portée symbolique aussi grande que la prise de cette ville."
+
+ aga_tr_city_toledo: "Lames du Tage"
+ aga_tr_city_toledo_desc: "Depuis des siècles, les maîtres armuriers de Tolède forgent des lames d'une qualité légendaire ; leur acier, trempé dans les eaux du Tage, est prisé des chevaliers et des monarques de toute la chrétienté et au-delà. Les forges de la ville allient le savoir-faire métallurgique hérité des Maures à l'artisanat castillan pour produire des armes qu'aucun atelier rival en Ibérie ne saurait égaler."
+
+ aga_tr_city_baghdad: "Don de Dieu"
+ aga_tr_city_baghdad_desc: "Le nom de Bagdad porte encore le poids du grand califat qui régna jadis depuis ses murs ; sa Maison de la Sagesse attira savants, poètes et philosophes de tous les coins du monde islamique à l'apogée de sa gloire. Les armées ottomanes et safavides se sont disputé la ville à maintes reprises, chaque conquérant comprenant que quiconque détient Bagdad peut revendiquer l'héritage des califes eux-mêmes."
+
+ aga_tr_city_basra: "Porte du Golfe"
+ aga_tr_city_basra_desc: "Bassora se dresse là où le Tigre et l'Euphrate rejoignent le golfe Persique, canalisant le commerce de l'Inde et de l'Arabie le long des fleuves vers Bagdad et au-delà. C'est également là que fut bâtie la première mosquée en dehors de la péninsule arabique."
+
+ aga_tr_city_augsburg: "Demeure des Fugger"
+ aga_tr_city_augsburg_desc: "Augsbourg est le berceau de la dynastie bancaire des Fugger, dont les prêts ont financé des empereurs, permis l'achat d'indulgences papales et soutenu des guerres à travers la moitié de l'Europe. Aucune ville de l'Empire ne possède une puissance financière capable de rivaliser avec celle qui transite par les comptoirs d'Augsbourg."
+
+ aga_tr_city_vilnius: "Siège des Gediminides"
+ aga_tr_city_vilnius_desc: "Vilnius devint la capitale d'un grand-duché qui, sous Gediminas et ses héritiers, s'étendit pour devenir le plus vaste État d'Europe, régnant depuis les rives de la Neris sur de vastes territoires de l'ancienne Rus'. C'est ici qu'en 1387, les anciens dieux païens de Lituanie — les derniers d'Europe à avoir résisté à la chrétienté — cédèrent enfin la place à la croix, liant ainsi le destin du grand-duché à celui de la Pologne et du monde catholique dans son ensemble."  
+
+ aga_tr_city_great_zimbabwe: "Maisons de pierre"
+ aga_tr_city_great_zimbabwe_desc: "Les murs en pierre sèche du Grand Zimbabwe s'élèvent sans mortier ni ciment, prouesse d'ingénierie ancrant un royaume enrichi par l'élevage bovin et le commerce de l'or vers la côte swahilie. Les enceintes de pierre où siégeaient autrefois les souverains constituent l'une des plus grandes prouesses architecturales de l'intérieur des terres africaines."
+
+ aga_tr_city_targoviste: "La justice du voïvode"
+ aga_tr_city_targoviste_desc: "Târgoviște est depuis des générations le siège princier de la Valachie ; c'est depuis sa salle d'audience que les voïvodes rendaient une justice aussi redoutée qu'efficace pour tenir les boyards en respect. Vlad III y a régné, laissant derrière lui une réputation de sévérité qui lui a survécu des siècles durant."
+
+ aga_tr_city_buda: "Siège royal sur le Danube"
+ aga_tr_city_buda_desc: "Le palais royal de Buda domine la colline surplombant le Danube ; c'est de là que les rois de Hongrie ont régné depuis l'époque des Árpád et que Matthias Corvinus a plus tard établi une cour capable de rivaliser avec celles de l'Italie de la Renaissance. Quiconque détient Buda détient le trône de Hongrie, et pas seulement de nom."
