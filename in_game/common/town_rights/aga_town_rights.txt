@@ -2717,34 +2717,6 @@ aga_tr_city_falun = {
     color = map_swedish
 }
 
-
-# -------------------------------------------------------------
-# SCHWAZ — Tyrolean silver
-# -------------------------------------------------------------
-# TODO: schwaz is not a town at game start
-# TODO: also schwaz is not Silver ROG but Fur RGO
-#aga_tr_city_schwaz = {
-#    kept_at_conquest = yes
-#    location_modifier = {
-#        local_silver_output_modifier = 0.4
-#        local_copper_output_modifier = 0.2
-#        local_production_efficiency = 0.12
-#    }
-#    country_modifier = {
-#        minting_income_factor = 0.08
-#    }
-#    potential = {
-#        owns = location:sterzing
-#    }
-#    allow = {
-#        scope:target = {
-#            this = location:sterzing
-#        }
-#    }
-#    color = map_austrian
-#}
-
-
 # -------------------------------------------------------------
 # CERRO RICO del POTOSI — The Mountain of Silver (New World)
 # -------------------------------------------------------------
@@ -4966,4 +4938,44 @@ aga_tr_city_buda = {
         }
     }
     color = map_hungarian
+}
+
+aga_tr_city_schwaz = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_silver_output_modifier = 0.4
+        local_production_efficiency = 0.10
+    }
+    country_modifier = {
+        minting_income_factor = 0.01
+    }
+    potential = {
+        owns = location:schwaz
+    }
+    allow = {
+        scope:target = {
+            this = location:schwaz
+        }
+    }
+    color = map_austrian
+}
+
+aga_tr_city_villa_di_chiesa = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_max_rgo_size_modifier = 0.5
+        local_production_efficiency = 0.5
+    }
+    country_modifier = {
+	    minting_income_factor = 0.1
+    }
+    potential = {
+        owns = location:villa_di_chiesa
+    }
+    allow = {
+        scope:target = {
+            this = location:villa_di_chiesa
+        }
+    }
+    color = map_austrian
 }
