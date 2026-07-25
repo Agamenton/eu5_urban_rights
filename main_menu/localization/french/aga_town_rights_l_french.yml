@@ -128,7 +128,7 @@
  # =============================================================
  # DAI VIET
  # =============================================================
-aga_tr_viet_lang_bang_market: "Marché de Làng Bàng"
+ aga_tr_viet_lang_bang_market: "Marché de Làng Bàng"
  aga_tr_viet_lang_bang_market_desc: "Les marchés périodiques du Đại Việt permettaient l'échange de produits forestiers des hautes terres contre du riz des plaines et des produits manufacturés à travers les divers reliefs du pays. Ce droit officialise le rôle de la ville en tant que plaque tournante du marché de Làng Bàng, intégrant ainsi les économies des hautes terres et des plaines."
 
  aga_tr_rice_farm: "Culture du riz en rizières inondées"
@@ -146,7 +146,7 @@ aga_tr_viet_lang_bang_market: "Marché de Làng Bàng"
  # =============================================================
  # KHMER
  # =============================================================
-  aga_tr_khmer_prasat_quarter: "Quartier du temple prasat"
+ aga_tr_khmer_prasat_quarter: "Quartier du temple prasat"
  aga_tr_khmer_prasat_quarter_desc: "Le prasat, ou tour de temple en pierre, était le centre de la vie urbaine khmère, servant à la fois de sanctuaire religieux, de centre administratif et de symbole de l'autorité cosmique royale. Cette disposition établit un quartier du temple officiel au sein de la ville, liant ainsi la vie civique aux rythmes de la royauté rituelle khmère."
 
  aga_tr_khmer_baray_district: "District d'irrigation du baray"
@@ -655,3 +655,17 @@ aga_tr_viet_lang_bang_market: "Marché de Làng Bàng"
 
  aga_tr_city_buda: "Siège royal sur le Danube"
  aga_tr_city_buda_desc: "Le palais royal de Buda domine la colline surplombant le Danube ; c'est de là que les rois de Hongrie ont régné depuis l'époque des Árpád et que Matthias Corvinus a plus tard établi une cour capable de rivaliser avec celles de l'Italie de la Renaissance. Quiconque détient Buda détient le trône de Hongrie, et pas seulement de nom."
+ #+++++++++++++++++++++++++++++++++++++
+ # Missing variables added from English localization
+ aga_tr_city_mogadishu: "Queen of the Swahili Coast"
+ aga_tr_city_mogadishu_desc: "Mogadishu was the premier city of the East African coast for centuries, its merchants trading gold, ivory, and enslaved people with Arabia and India long before European ships rounded the Cape. Its prosperity is built on the monsoon winds that link Africa to the wider Indian Ocean world."
+ aga_tr_city_kilwa: "Pearl of the Indian Ocean"
+ aga_tr_city_kilwa_desc: "Kilwa Kisiwani was described by Ibn Battuta as one of the most beautiful cities in the world, its coral-stone palaces and mosques built on the profits of the gold trade from Great Zimbabwe. The city that holds Kilwa controls the southernmost node of the Indian Ocean's Swahili trading network."
+ aga_tr_city_kollam: "Pepper Capital of Malabar"
+ aga_tr_city_kollam_desc: "Kollam has been a destination for Arab, Chinese, and later European traders for centuries, drawn by the black pepper grown in the Malabar hinterland that was worth its weight in silver in European markets. Its harbor is never quiet, always busy with the loading of spice cargoes bound for a dozen distant ports."
+ aga_tr_city_vijayanagar: "City of Victory"
+ aga_tr_city_vijayanagar_desc: "Vijayanagara was one of the largest cities in the world at its height, its granite streets lined with bazaars trading diamonds, horses, and spices from across the Indian Ocean world, all dominated by the towering gopurams of the Virupaksha temple complex. The city was the sacred and political heart of the last great Hindu empire of the south."
+ aga_tr_city_schwaz: "Silver Valley"
+ aga_tr_city_schwaz_desc: "At the town's height during the 15th and 16th centuries, it was an important silver mining center, providing mineral wealth for both the Fugger banking family and, through them, for the Austrian emperors."
+ aga_tr_city_villa_di_chiesa: "Silver Mint"
+ aga_tr_city_villa_di_chiesa_desc: "Under Pisan domination, Villa di Chiesa was one of the most important and populous cities on Sardinia thanks to its lead and silver resources. At the beginning of the 14th century, its mines produced an estimated 10 percent of Europe's circulating silver."
