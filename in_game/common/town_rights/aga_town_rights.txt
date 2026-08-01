@@ -167,8 +167,9 @@ aga_tr_russian_sloboda = {
     kept_at_conquest = no
     location_modifier = {
         local_burghers_desired_pop_scaled = 0.1
-        local_production_efficiency = 0.08
+        local_production_efficiency = 0.05
         local_pop_promotion_speed_modifier = 0.1
+        local_crown_estate_power = -0.25
     }
     country_modifier = {
     }
@@ -193,7 +194,6 @@ aga_tr_russian_posad = {
         local_trade_protection_factor = 0.05
     }
     country_modifier = {
-        trade_income = 0.03
     }
     potential = {
         culture = {
@@ -212,7 +212,7 @@ aga_tr_russian_oprichnina_district = {
     kept_at_conquest = no
     location_modifier = {
         local_nobles_estate_power = -0.15
-        local_crown_estate_power = 0.1
+        local_crown_estate_power = 0.2
         local_unrest = 0.05
     }
     country_modifier = {
@@ -2107,8 +2107,10 @@ aga_tr_celt_livestock = {
 	allow = {
 		scope:target = {
 			NOT = { has_town_rights = town_rights_type:borough_customals }
-			raw_material = goods:livestock
-			raw_material = goods:wool
+            OR = {
+                raw_material = goods:livestock
+                raw_material = goods:wool
+            }
 		}
 	}
 
