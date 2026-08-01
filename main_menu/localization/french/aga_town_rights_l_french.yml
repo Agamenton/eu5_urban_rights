@@ -395,6 +395,15 @@
  aga_tr_city_adan: "Porte des larmes et de la fortune"
  aga_tr_city_adan_desc: "Aden garde l'entrée de la mer Rouge, percevant des droits de douane sur chaque navire transportant des épices indiennes vers Le Caire et les marchés méditerranéens. Son port a été un enjeu disputé tant par les Mamelouks que par les Ottomans et les Portugais, car celui qui détient Aden détient la clé du commerce de l'océan Indien."
  
+ aga_tr_city_mogadishu: "Reine de la côte swahilie"
+ aga_tr_city_mogadishu_desc: "Mogadiscio fut pendant des siècles la ville majeure de la côte est-africaine ; ses marchands y négociaient l'or, l'ivoire et les esclaves avec l'Arabie et l'Inde bien avant que les navires européens ne contournent le cap de Bonne-Espérance. Sa prospérité reposait sur les vents de mousson reliant l'Afrique au vaste monde de l'océan Indien."
+ 
+ aga_tr_city_kilwa: "Perle de l'océan Indien"
+ aga_tr_city_kilwa_desc: "Kilwa Kisiwani fut décrite par Ibn Battuta comme l'une des plus belles villes au monde ; ses palais et mosquées en pierre de corail furent bâtis grâce aux profits du commerce de l'or provenant du Grand Zimbabwe. La ville qui détient Kilwa contrôle le point le plus méridional du réseau commercial swahili de l'océan Indien."
+ 
+ aga_tr_city_kollam: "Capitale du poivre de Malabar"
+ aga_tr_city_kollam_desc: "Kollam fut pendant des siècles une destination prisée des marchands arabes, chinois puis européens, attirés par le poivre noir cultivé dans l'arrière-pays de Malabar, une épice qui valait son pesant d'argent sur les marchés européens. Son port ne connaît jamais le calme, toujours animé par le chargement d'épices à destination d'une douzaine de ports lointains."
+ 
  aga_tr_city_goa: "Le joyau du Konkan"
  aga_tr_city_goa_desc: "Le port naturel de Goa, situé sur la côte du Konkan, en a fait le principal port du Deccan occidental avant que les Portugais ne le transforment en capitale de leur Estado da India. Celui qui contrôle Goa domine les voies maritimes entre le golfe Persique et la côte des épices du Malabar."
 
@@ -530,9 +539,9 @@
  aga_tr_city_kaffa: "Porte de la steppe"
  aga_tr_city_kaffa_desc: "Kaffa était la plus importante colonie de la république de Gênes en mer Noire ; c'est par cette ville que transitaient fourrures, cuirs, céréales et esclaves issus de la steppe pontique vers les marchés méditerranéens, et ce durant deux siècles, jusqu'à ce que les Ottomans mettent fin à son indépendance."
 
- aga_tr_city_vijayan agar: "La Cité de la Victoire"
- aga_tr_city_vijayan agar_desc: "À son apogée, Vijayanagara comptait parmi les plus grandes villes du monde ; ses rues de granit étaient bordées de bazars où l'on échangeait diamants, chevaux et épices venus de tout l'espace de l'océan Indien, le tout dominé par les imposants *gopurams* du complexe du temple de Virupaksha. La cité constituait le cœur sacré et politique du dernier grand empire hindou du Sud."
-
+ aga_tr_city_vijayanagar: "Cité de la Victoire"
+ aga_tr_city_vijayanagar_desc: "À son apogée, Vijayanagara était l'une des plus grandes villes du monde ; ses rues en granit étaient bordées de bazars où l'on échangeait diamants, chevaux et épices venus de tout l'espace de l'océan Indien, le tout dominé par les imposants *gopurams* du complexe du temple de Virupaksha. La ville constituait le cœur sacré et politique du dernier grand empire hindou du sud."
+ 
  aga_tr_city_vienna: "Le grand entrepôt du Danube"
  aga_tr_city_vienna_desc: "Le Stapelrecht de Vienne figurait parmi les plus importants d'Europe centrale ; il obligeait tout marchand naviguant sur le Danube à décharger ses marchandises et à les proposer à la vente dans la ville avant de poursuivre son voyage."
 
@@ -655,17 +664,9 @@
 
  aga_tr_city_buda: "Siège royal sur le Danube"
  aga_tr_city_buda_desc: "Le palais royal de Buda domine la colline surplombant le Danube ; c'est de là que les rois de Hongrie ont régné depuis l'époque des Árpád et que Matthias Corvinus a plus tard établi une cour capable de rivaliser avec celles de l'Italie de la Renaissance. Quiconque détient Buda détient le trône de Hongrie, et pas seulement de nom."
- #+++++++++++++++++++++++++++++++++++++
- # Missing variables added from English localization
- aga_tr_city_mogadishu: "Queen of the Swahili Coast"
- aga_tr_city_mogadishu_desc: "Mogadishu was the premier city of the East African coast for centuries, its merchants trading gold, ivory, and enslaved people with Arabia and India long before European ships rounded the Cape. Its prosperity is built on the monsoon winds that link Africa to the wider Indian Ocean world."
- aga_tr_city_kilwa: "Pearl of the Indian Ocean"
- aga_tr_city_kilwa_desc: "Kilwa Kisiwani was described by Ibn Battuta as one of the most beautiful cities in the world, its coral-stone palaces and mosques built on the profits of the gold trade from Great Zimbabwe. The city that holds Kilwa controls the southernmost node of the Indian Ocean's Swahili trading network."
- aga_tr_city_kollam: "Pepper Capital of Malabar"
- aga_tr_city_kollam_desc: "Kollam has been a destination for Arab, Chinese, and later European traders for centuries, drawn by the black pepper grown in the Malabar hinterland that was worth its weight in silver in European markets. Its harbor is never quiet, always busy with the loading of spice cargoes bound for a dozen distant ports."
- aga_tr_city_vijayanagar: "City of Victory"
- aga_tr_city_vijayanagar_desc: "Vijayanagara was one of the largest cities in the world at its height, its granite streets lined with bazaars trading diamonds, horses, and spices from across the Indian Ocean world, all dominated by the towering gopurams of the Virupaksha temple complex. The city was the sacred and political heart of the last great Hindu empire of the south."
- aga_tr_city_schwaz: "Silver Valley"
- aga_tr_city_schwaz_desc: "At the town's height during the 15th and 16th centuries, it was an important silver mining center, providing mineral wealth for both the Fugger banking family and, through them, for the Austrian emperors."
- aga_tr_city_villa_di_chiesa: "Silver Mint"
- aga_tr_city_villa_di_chiesa_desc: "Under Pisan domination, Villa di Chiesa was one of the most important and populous cities on Sardinia thanks to its lead and silver resources. At the beginning of the 14th century, its mines produced an estimated 10 percent of Europe's circulating silver."
+
+ aga_tr_city_schwaz: "Vallée de l'argent"
+ aga_tr_city_schwaz_desc: "À son apogée, aux XVe et XVIe siècles, la ville était un important centre d'extraction d'argent, fournissant des richesses minérales tant à la famille de banquiers Fugger qu'aux empereurs autrichiens, par leur intermédiaire." 
+ 
+ aga_tr_city_villa_di_chiesa: "La cité de l'argent"
+ aga_tr_city_villa_di_chiesa_desc: "Sous domination pisane, Villa di Chiesa était l'une des villes les plus importantes et les plus peuplées de Sardaigne grâce à ses ressources en plomb et en argent. Au début du XIVe siècle, ses mines produisaient environ 10 % de l'argent en circulation en Europe."
