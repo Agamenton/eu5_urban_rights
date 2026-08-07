@@ -1,0 +1,672 @@
+﻿l_turkish:
+ # =============================================================
+ # OSMANLI İMPARATORLUĞU
+ # =============================================================
+ aga_tr_tur_iskele: "Osmanlı İskelesi"
+ aga_tr_tur_iskele_desc: "İskele, malların boşaltıldığı, vergilendirildiği ve imparatorluk denetimi altında yeniden dağıtıldığı resmî bir Osmanlı liman bölgesidir. Bu hakkın tanınması, kasabanın Sultan'ın deniz ticaret ağı içinde önemli bir ticaret merkezi olarak kabul edilmesini sağlar."
+ 
+ aga_tr_ottoman_vakif_endowment: "Vakıf Tahsisi"
+ aga_tr_ottoman_vakif_endowment_desc: "Vakıf; cami, medrese ve hamam gibi yapıların gelirleri belirli kaynaklardan karşılanan hayır kurumudur. Bu hak verilen kasabalar, kalıcı vakıf gelirleri sayesinde İslamî şehir yaşamının önemli merkezleri hâline gelir."
+ 
+ #aga_tr_ottoman_timar_garrison: "Timar Garnizonu"
+ #aga_tr_ottoman_timar_garrison_desc: "Timar sistemi, bir kasabanın gelirlerini askerî hizmet karşılığında bir sipahiye tahsis eder. Bu hak, kasabayı yerel timar sahibinin askerî yönetimine bırakırken doğrudan taç gelirleri pahasına savunmasını güçlendirir."
+ aga_tr_tur_janissary_garrison: "Yeniçeri Garnizonu"
+ aga_tr_tur_janissary_garrison_desc: "Yeniçeriler, Osmanlı Sultanı'nın seçkin kul piyadeleriydi. İmparatorluk genelindeki tahkim edilmiş kışlalarda konuşlanırlar, yerel beylerden ziyade doğrudan Bâb-ı Âli'ye bağlı olarak hizmet ederlerdi. Bir kasabada bulunmaları, imparatorluğun güveninin göstergesi olduğu kadar, Sultan'ın otoritesinin burada doğrudan hissedildiğinin de bir işaretidir."
+ 
+ # =============================================================
+ # RUSYA / MOSKOVA
+ # =============================================================
+ aga_tr_rus_pomor: "Pomor Balıkçı Yerleşimi"
+ aga_tr_rus_pomor_desc: "Pomorlar, Beyaz Deniz ve Arktik kıyılarına yerleşmiş, balıkçılık ve iç bölgelerle ticaret sayesinde geçimlerini sağlayan dayanıklı Rus denizcilerdir. Bu hak, kasabanın tarımsal vergilendirmenin sınırlarının ötesinde faaliyet gösteren bir sınır balıkçı topluluğu olduğunu resmen tanır."
+ 
+ aga_tr_russian_sloboda: "Serbest Yerleşim"
+ aga_tr_russian_sloboda_desc: "Sloboda, zanaatkârları, tüccarları veya özgürlüğünü kazanmış serfleri seyrek nüfuslu bölgelere çekmek amacıyla vergi muafiyeti tanınan yerleşimdir. Bu hak, kasabayı daha az yükümlülük vaat ederek nitelikli iş gücünü kendine çeken üretken bir serbest mahalleye dönüştürür."
+ 
+ aga_tr_russian_posad: "Tüccar Posadı"
+ aga_tr_russian_posad_desc: "Posad, Rus şehirlerinin vergiye tabi tüccar ve zanaatkâr nüfusunun yaşadığı ticaret mahallesidir. Bu hakkın tanınması, kasabanın pazar işlevlerini ve Moskova ticaret düzenine karşı yükümlülüklerini resmîleştirir."
+ 
+ aga_tr_russian_oprichnina_district: "Opriçnina Bölgesi"
+ aga_tr_russian_oprichnina_district_desc: "Opriçnina, Korkunç İvan'ın boyarların gücünü kırmak amacıyla oluşturduğu ve kendi adamları tarafından yönetilen doğrudan taç toprakları sistemiydi. Bu hak kapsamına alınan kasabalar, doğrudan Çar'ın siyah cüppeli görevlilerinin yönetimine girer; yerel soyluların nüfuzu zayıflarken huzursuzluk önemli ölçüde artar."
+ 
+ # =============================================================
+ # VENEDİK / İTALYA
+ # =============================================================
+ aga_tr_venetian_contrada: "Sivil Mahalle Beratı"
+ aga_tr_venetian_contrada_desc: "Contrada sistemi, İtalyan şehirlerini kendi loncalarına, ortak kurumlarına ve mahalle kimliğine sahip sivil bölgelere ayırıyordu. Bu hak, şehir burgherlerinin daha düzenli ve kurumsallaşmış bir özyönetim yapısına kavuşmasını sağlar."
+ 
+ aga_tr_venetian_arsenal_quarter: "Tersane Mahallesi"
+ aga_tr_venetian_arsenal_quarter_desc: "Büyük İtalyan denizci şehirleri; marangozların, kalafatçıların, halatçıların ve yelkencilerin devlet gözetiminde birlikte çalıştığı uzmanlaşmış tersane bölgeleri geliştirmişti. Bu bölgelerde savaş gemileri ve ticaret kadırgaları Orta Çağ'ın benzeri görülmemiş bir verimliliğiyle inşa edilirdi."
+ 
+ aga_tr_venetian_rialto_exchange: "Ticaret Borsası"
+ aga_tr_venetian_rialto_exchange_desc: "İtalyan ticaret borsası, Orta Çağ'ın en gelişmiş ticaret uygarlığının kalbiydi. Poliçeler, sigorta sözleşmeleri ve emtia fiyatları; bankacılık ağları Londra'dan İskenderiye'ye kadar uzanan tüccarlar tarafından burada müzakere edilirdi."
+ 
+ # =============================================================
+ # JAPONYA
+ # =============================================================
+ aga_tr_japanese_za_guild: "Za Lonca Beratı"
+ aga_tr_japanese_za_guild_desc: "Za, soyluların veya tapınakların himayesinde faaliyet gösteren Japon tüccar ve zanaatkâr loncalarıydı. Belirli malların üretim ve satışını ücret ve sadakat karşılığında denetlerlerdi. Bu hak, kasabanın zanaatkâr topluluğunu imtiyazlı lonca düzeni altında örgütler."
+ 
+ aga_tr_japanese_castle_town: "Kale Kasabası"
+ aga_tr_japanese_castle_town_desc: "Jōkamachi, bir derebeyinin kalesinin etrafında gelişen; sokakları kaleyi beslemek, korumak ve ona hizmet etmek üzere planlanmış yerleşimdir. Bu hak, kasabanın kimliğini ve ekonomisini feodal efendisinin askerî ihtiyaçlarına sıkı biçimde bağlar."
+
+ # =============================================================
+ # ARABS
+ # =============================================================
+ aga_tr_arab_funduq: "Funduk İmtiyazı"
+ aga_tr_arab_funduq_desc: "Funduk; yabancı tüccarların belirli şartlar altında ticaret yaptığı han, depo ve ticaret salonunun birleşimidir. Bu hakkın tanınması, kasabayı bölgeler arası ticaretin tanınmış bir merkezi haline getirir ve İslam dünyasının dört bir yanından uzun mesafe tüccarlarını çeker."
+
+ aga_tr_arab_waqf_hospital: "Vakıf Hastanesi"
+ aga_tr_arab_waqf_hospital_desc: "İslam vakıf gelirleriyle finanse edilen bimaristanlar, inanç veya maddi durum gözetmeksizin hastalara tıbbi bakım sağlardı. Bu hak, kasabada özel dini gelirlere dayanan kalıcı ve hayırsever bir tıbbi kurum kurar."
+
+ aga_tr_egy_mamluk_garrison: "Memlük Garnizonu"
+ aga_tr_egy_mamluk_garrison_desc: "Memlük sistemi, doğrudan sultanın askeri hanedanının bir uzantısı olarak belirli kasabalar tarafından barındırılan ve finanse edilen üstün eğitimli köle askerleri sahaya sürer. Bu hak, kasabaya yerel ileri gelenler yerine doğrudan tahta sadık seçkin birlikler sağlayan bir Memlük kışlası yerleştirir."
+
+ aga_tr_egy_nile_cultivation: "Nil Taşkını Hakkı"
+ aga_tr_egy_nile_cultivation_desc: "Mısır tarımı, tamamen deltanın ve vadinin üzerine zengin alüvyon bırakan Nil'in yıllık taşkınlarına bağlıdır. Bu hak, kasabanın dünyadaki en verimli tarım sistemlerinden biri olan taşkın çekilmesi sonrası tarım yönetimini resmileştirir."
+
+ aga_tr_arab_mellah: "Mellah Mahallesi"
+ aga_tr_arab_mellah_desc: "Mellah, Kuzey Afrika ve Endülüs şehirlerinde Yahudi topluluklarının vergi ve ticari hizmetler karşılığında yönetici otoritenin koruması altında yaşadığı özel bir Yahudi mahallesidir. Bu hak, yetenekleriyle kasaba ekonomisini zenginleştiren okuryazar tüccar topluluklarını çekerek resmi bir mellah kurar."
+
+ aga_tr_maghrebi_corsairs: "Korsan Limanı"
+ aga_tr_maghrebi_corsairs_desc: "Berberi korsanları, yerel yöneticilerden aldıkları korsanlık beratlarıyla Hristiyan gemilerine baskın düzenleyerek Kuzey Afrika kıyısındaki belirlenmiş limanlardan faaliyet gösterirdi. Bu hak, kasabanın bir deniz yağması üssü olma rolünü resmileştirerek denizcileri ve yatırımcıları kazançlı köle yağmalaması ekonomisine çeker."
+
+ aga_tr_maghrebi_tribes: "Kabile Entegrasyon Şartnamesi"
+ aga_tr_maghrebi_tribes_desc: "Mağrip kasabaları, etraftaki kabile konfederasyonlarıyla sürekli bir müzakere halindeydi; göçebe nüfusları pazar erişimi ve yasal tanınma yoluyla yerleşik hayata kazandırırlardı. Bu hak, kabileden gelen göçmenlerin kasaba nüfusuna entegre edilmesi için resmi mekanizmalar kurar."
+
+ # =============================================================
+ # TEUTONIC ORDER
+ # =============================================================
+ aga_tr_teutonic_komturei: "Komturei İdaresi"
+ aga_tr_teutonic_komturei_desc: "Komturei, Töton Tarikatı'nın askeri bir garnizonu Yüce Üstat'a karşı sorumlu bir komutan altındaki dini yönetimle birleştiren müstahkem bir idari birimidir. Bu hak, kasabayı doğrudan Tarikat'ın askeri ve ruhani otoritesi altına sokar."
+
+ aga_tr_teutonic_hanseatic_privilege: "Hansa Ayrıcalığı"
+ aga_tr_teutonic_hanseatic_privilege_desc: "Töton Tarikatı'nın Baltık limanları; Baltık tahılı, kehribar ve keresteyi Felemenk kumaşı ve İngiliz yünü ile takas ederek Hansa Birliği'nin ticaret ağının kritik bir parçasını oluşturuyordu. Bu hak, kasabaya Hansa ticari korumalarını sağlayarak kuzeyli tüccarları kasaba pazarlarına çeker."
+
+ # =============================================================
+ # MALI EMPIRE
+ # =============================================================
+ aga_tr_mali_dyula_market: "Dyula Pazarı"
+ aga_tr_mali_dyula_market_desc: "Dyulalar, Sahel ve orman bölgeleri boyunca ticaret ağları kurmuş yaygın bir Batı Afrika Müslüman tüccar diyasporasıdır. Bu hak, kasabayı Dyula ticari ağında bir düğüm noktası olarak resmileştirir; altın, kola fındığı ve kumaş ticareti yapan uzun mesafe tüccarlarını çeker."
+
+ aga_tr_mali_griot_quarter: "Griot Mahallesi"
+ aga_tr_mali_griot_quarter_desc: "Griotlar, Batı Afrika toplumunda tarihçi, müzisyen ve hüküm süren soy hatlarına danışman olarak hizmet eden sözlü geleneğin irsi koruyucularıdır. Tanınmış bir griot mahallesine sahip bir kasaba, Mande dünyasında kültürel hafızanın ve siyasi meşruiyetin merkezi haline gelir."
+
+ aga_tr_mali_gold_town: "Altın Kasabası Beratı"
+ aga_tr_mali_gold_town_desc: "Batı Sudan'ın altın üreten kasabaları, Sahra tüccarlarını ve Kuzey Afrikalı tüccarları pazarlarına çekerek yeryüzündeki en zengin yerler arasında yer alıyordu. Bu hak, kasabayı resmi bir altın ticareti merkezi olarak belirler ve Mali altın sahalarının olağanüstü zenginliğini kasaba pazarlarına yönlendirir."
+
+ # =============================================================
+ # CHINA
+ # =============================================================
+ aga_tr_china_lijia_system: "Lijia İdaresi"
+ aga_tr_china_lijia_system_desc: "Lijia sistemi, Çin topluluklarını imparatorluk bürokrasisi adına vergi toplama, angarya hizmeti ve yerel düzenden sorumlu hiyerarşik hane halkı birimlerine ayırırdı. Bu hak, kasabanın Konfüçyüsçü kamu ilkeleri altında özerk yönetimini resmileştirerek denetimi ve köylü refahını artırır."
+
+ aga_tr_china_examination_school: "İmparatorluk Sınav Okulu"
+ aga_tr_china_examination_school_desc: "İmparatorluk sınav sistemi, klasik edebiyat ve devlet yönetimi alanındaki çetin sınavlar aracılığıyla bürokratları seçerek Çin yönetiminin belkemiğini oluşturuyordu. Sınav okulu statüsü verilen bir kasaba, mezunları imparatorluğun bürokratik çarkını besleyen bir ilim merkezi haline gelir."
+
+ aga_tr_china_silk_guild: "İmparatorluk İpek Loncası"
+ aga_tr_china_silk_guild_desc: "Çin ipek üretimi; ipekçilikten dokumaya kadar her aşamanın imparatorluk denetimi altındaki loncalar tarafından kontrol edildiği, dünyadaki en gelişmiş tekstil sanayisiydi. Bu hak, kasabanın ipek sanayisini lonca beratı altında resmileştirerek kaliteyi garanti altına alır ve üretimi imparatorluk pazarlarına yönlendirir."
+
+ # =============================================================
+ # KYIV / RUTHENIA
+ # =============================================================
+ aga_tr_ruthenian_magdeburg: "Magdeburg Hukuku Beratı"
+ aga_tr_ruthenian_magdeburg_desc: "Magdeburg Hukuku, kökeni Almanya'ya dayanan ancak Lehistan-Litvanya ve Rutenya genelinde yaygın olarak benimsenen, kentlilere kendi mahkemeleri ve pazarları üzerinde kontrol sağlayan bir özyönetim biçimi sunuyordu. Bu hak, kasabayı bu saygın hukuki çerçeve altında özerk bir topluluk olarak kurar."
+
+ aga_tr_ruthenian_cossack_suburb: "Kazak Varoşu"
+ aga_tr_ruthenian_cossack_suburb_desc: "Rutenya kasabalarının çeperlerinde kurulan Kazak yerleşimleri, soylular yerine hetmanlarına sadakat duyan özgür insanlardan oluşan askeri bir alt kültür yarattı. Bu hak, kasaba sınırındaki Kazak topluluğunun varlığını resmileştirir ve askeri hizmet karşılığında onlara özerklik tanır."
+
+ aga_tr_ruthenian_chernozem: "Çernozyom Tarımı"
+ aga_tr_ruthenian_chernozem_desc: "Ukrayna bozkırlarının kara toprağı (çernozyom), Batı Avrupa'yı gölgede bırakan tarımsal verim sağlama kapasitesiyle dünyadaki en münbit topraklardan biridir. Bu hak, kasabanın çevresindeki çernozyom tarım arazilerinin yönetimini resmileştirerek bozkır sınırının olağanüstü verimliliğini en üst düzeye çıkarır."
+
+ # =============================================================
+ # SOMALIA
+ # =============================================================
+ aga_tr_somali_banaadir_port: "Benadir Liman Beratı"
+ aga_tr_somali_banaadir_port_desc: "Somali'nin Benadir kıyısı, Doğu Afrika'yı Arabistan, İran ve Hindistan'a bağlayan kadim Hint Okyanusu ticaret şehirleri dizisiydi. Bu hak, kasabayı Benadir ağında resmi bir antrepo olarak kurarak Batı Hint Okyanusu'nun dört bir yanından muson tüccarlarını çeker."
+
+ # =============================================================
+ # DAI VIET
+ # =============================================================
+ aga_tr_viet_lang_bang_market: "Làng Bàng Pazarı"
+ aga_tr_viet_lang_bang_market_desc: "Dai Viet'in periyodik pazarları, ülkenin çeşitli coğrafyalarında yüksek rakımlı orman ürünlerinin alçak ovalardaki pirinç ve işlenmiş mallarla takasını düzenliyordu. Bu hak, kasabanın bir làng bàng pazar merkezi olarak rolünü resmileştirerek dağlık ve ova ekonomilerini bütünleştirir."
+
+ aga_tr_rice_farm: "Sulu Pirinç Tarımı"
+ aga_tr_rice_farm_desc: "Kızılırmak ve Mekong deltalarında binlerce yıl boyunca mükemmelleştirilen Vietnam sulu pirinç tarımı, Asya'nın en yoğun kırsal nüfuslarından bazılarını beslemiştir. Bu hak, Vietnam refahının ve askeri insan gücünün temeli olan sulu pirinç tarlalarının kasaba tarafından yönetimini resmileştirir."
+
+ # =============================================================
+ # KOREA
+ # =============================================================
+ aga_tr_korean_celadon: "Seladon Fırını Beratı"
+ aga_tr_korean_celadon_desc: "Kore'ye özgü yeşim yeşili sırıyla tanınan seladon seramiği, Çin imparatorlarından Japon soylularına kadar herkesin imrendiği, Doğu Asya'nın en değerli lüks mallarından biriydi. Bu hak, kasaba fırınlarını kraliyet beratı altına alarak Goryeo'nun en ünlü sanatsal ihracatının üretimini resmileştirir."
+
+ aga_tr_korean_weaponry: "Kraliyet Cephaneliği Beratı"
+ aga_tr_korean_weaponry_desc: "Joseon, Japon ve Cürçen tehditlerine karşı ordularını temin etmek için yay, kılıç ve daha sonra ateşli silahlar üreten gelişmiş bir devlet mühimmat sanayisine sahipti. Bu hak, kasabayı bir kraliyet cephaneliği olarak belirler ve korumalı statü karşılığında zanaatkarlarını tahtın askeri ihtiyaçlarını karşılamakla yükümlü kılar."
+
+ # =============================================================
+ # KHMER
+ # =============================================================
+ aga_tr_khmer_prasat_quarter: "Prasat Tapınak Mahallesi"
+ aga_tr_khmer_prasat_quarter_desc: "Taş tapınak kulesi olan prasat, aynı anda hem dini bir mabed hem idari merkez hem de kraliyetin kozmik otoritesinin bir simgesi olarak hizmet veren Kmer kent yaşamının merkeziydi. Bu hak, kasabada resmi bir tapınak mahallesi kurarak sivil yaşamı Kmer ritüel krallığının ritimlerine bağlar."
+
+ aga_tr_khmer_baray_district: "Baray Sulama Bölgesi"
+ aga_tr_khmer_baray_district_desc: "Angkor'un büyük barayları, Kmer İmparatorluğu'nun hidrolojik tarımını ayakta tutan ve mevsimsel bir iklimde yılda birden fazla pirinç hasadına olanak tanıyan yapay su rezervuarlarıydı. Bu hak, Kmer tarımsal bolluğunun temeli olan baray sulama altyapısının kasaba tarafından yönetimini resmileştirir."
+
+ # =============================================================
+ # VIJAYANAGARA
+ # =============================================================
+ aga_tr_vijayanagara_nayaka_fort: "Nayaka Kalesi"
+ aga_tr_vijayanagara_nayaka_fort_desc: "Nayakalar, Vijayanagara tarafından fethedilen toprakları yönetmek üzere atanan askeri valilerdi; her biri bir kaleyi ve onu savunacak birlikleri korumaktan sorumluydu. Bu hak, sivil ticaret yerine Dekkan sınırının savunulmasına öncelik vererek kasabayı Nayaka yönetimi altında askerileştirir."
+
+ aga_tr_vijayanagara_diamond_market: "Elmas Pazarı Beratı"
+ aga_tr_vijayanagara_diamond_market_desc: "Dekkan'daki Golkonda ve Kollur elmas madenleri, Brezilya'daki keşiflerden önce dünyadaki tek önemli elmas kaynağıydı ve Vijayanagara'yı küresel mücevher ticaretinin merkezi haline getirmişti. Bu hak, kasabanın elmas tedarik zincirindeki rolünü resmileştirerek İran, Arabistan ve Avrupa'dan tüccarları çeker."
+
+ aga_tr_vijaya_devasthana: "Devasthana Tapınak Beratı"
+ aga_tr_vijaya_devasthana_desc: "Vijayanagara'nın büyük tapınakları birer ibadethane olmanın çok ötesindeydi; etraflarında gelişen topluluklar için aynı anda toprak sahibi, tefeci, işveren ve pazar organizatörü olarak işlev gören Güney Hindistan kasabalarının iktisadi motorlarıydı. Bu berat, tapınağın kasaba üzerindeki sivil otoritesini resmi olarak tanır."
+
+ # =============================================================
+ # BULGARIA
+ # =============================================================
+ aga_tr_bul_tarnovo_privilege: "Tırnova Beratı"
+ aga_tr_bul_tarnovo_privilege_desc: "İkinci Bulgar İmparatorluğu'nun başkenti olan Tırnova, Bulgar topraklarındaki Ortodoks kilisesinin, soyluların ve tüccar topluluklarının haklarını düzenleyen beratlar yayımlardı. Bu hak, Tırnova'nın saygın hukuki geleneğini kasabaya genişleterek din adamlarını ve sivil kurumları yükseltir."
+
+ aga_tr_bul_rose_valley: "Gül Vadisi Yetiştiriciliği"
+ aga_tr_bul_rose_valley_desc: "Balkan eteklerindeki vadiler, Karadeniz dünyasında lüks mal olarak ticareti yapılan olağanüstü kalitede güller ve tıbbi bitkiler üretir. Bu hak, kasabanın bu aromatik mahsulleri yetiştirmesini resmileştirerek tahıl tarımından farklı, müreffeh bir tarım ekonomisini idame ettirir."
+
+ aga_tr_bul_bogomil_suppression: "Bogomil Baskılanması"
+ aga_tr_bul_bogomil_suppression_desc: "Maddi dünyayı ve Ortodoks kilisesinin otoritesini reddeden Bogomil mezhebi, tekrarlanan kınamalara rağmen Bulgar kırsal toplumunda ısrarla yayıldı. Bu hak, kasabanın dini otoritelerini sapkın toplulukların kökünü kazıma konusunda yetkilendirerek yerel huzursuzluk pahasına Ortodoks uyumunu güçlendirir."
+
+ # =============================================================
+ # SERBIA
+ # =============================================================
+ aga_tr_ser_sasski_mining: "Sašski Madencilik Hakkı"
+ aga_tr_ser_sasski_mining_desc: "Sırp hükümdarları tarafından Novo Brdo ve Srebrenica'daki gümüş ve altın madenlerinde çalışmak üzere davet edilen Sakson kolonizatörler, Sırbistan'ı Orta Çağ Avrupa'sının en zengin maden üreten bölgelerinden birine dönüştüren Orta Avrupa madencilik uzmanlığını getirdiler. Bu hak, onların ayrıcalıklı statülerini resmileştirerek teknik bilgi karşılığında genişletilmiş maden çıkarma hakları tanır."
+
+ aga_tr_ser_nemanjic_grant: "Nemanjić Toprak Bağışı"
+ aga_tr_ser_nemanjic_grant_desc: "Nemanjić hanedanı, meşruiyetini Ortodoks manastırlarına gösterdiği cömert hamilikle tanımlayarak onlara Sırbistan'ın manastır kasabalarını Balkanlar'ın en güçlü kurumları arasına sokan topraklar, serfler ve hukuki muafiyetler bağışladı. Bu hak, bu geleneği manastır merkezli bir kasabaya genişleterek din adamlarını ve kültürel konumunu yükseltir."
+
+ aga_tr_ser_vlach_right: "Ulah Hayvancılık Hakkı"
+ aga_tr_ser_vlach_right_desc: "Sırp yaylalarının yarı göçebe Ulah toplulukları, sürülerini soylu topraklarında serbestçe otlatma hakkı karşılığında canlı hayvan vergisi öder ve hafif süvari birlikleri sağlardı. Bu hak, kasabayla olan ilişkilerini resmileştirerek dağların hayvancılık ekonomisini Sırp askeri sistemine entegre eder."
+
+ # =============================================================
+ # POLAND-LITHUANIA
+ # =============================================================
+ aga_tr_pol_folwark: "Folwark Malikânesi"
+ aga_tr_pol_folwark_desc: "Folwark; Baltık tahıl ticaretinin doymak bilmez talebini karşılamak adına yasal özgürlükleri sistematik olarak elinden alınmış serfleşmiş köylülerin çalıştırıldığı, Leh soylularına ait büyük bir malikâne tahıl çiftliğidir."
+
+ aga_tr_pol_ruthenian_orthodoxy: "Rutenya Ortodoks Hoşgörüsü"
+ aga_tr_pol_ruthenian_orthodoxy_desc: "Cemaatinin nüfusun önemli bir kısmını oluşturduğu kasabalarda Ortodoks kilisesinin otoritesini resmi olarak tanıyarak, aksi takdirde koruma arayışıyla doğudaki Moskova'ya yönelebilecek toplulukların sadakati karşılığında dini özerklik sunar."
+
+ aga_tr_pol_magnate: "Magnat Hâkimiyeti"
+ aga_tr_pol_magnate_desc: "Lehistan-Litvanya'nın büyük magnat aileleri; özel ordular besleyerek, kendi adaletlerini dağıtarak ve kontrol ettikleri topraklarda tahtı bir simgeden ibaret kılarak Avrupa'nın diğer soylularını gölgede bırakan bir güce sahipti."
+
+ # =============================================================
+ # GEORGIA
+ # =============================================================
+ aga_tr_geo_tamar_patent: "Kraliçe Tamara Beratı"
+ aga_tr_geo_tamar_patent_desc: "Kraliçe Tamara'nın hükümdarlığı, Tiflis'in Karadeniz'i İpek Yolu'na bağlayan Kafkasya'nın en büyük ticaret şehirlerinden biri olduğu Gürcistan'ın altın çağına işaret ediyordu. Bu berat, Gürcistan'ın en ünlü hükümdarının nüfuzundan yararlanarak tüccarları çekmek adına kasabayı kraliyetçe tanınan bir pazar merkezi olarak belirler."
+
+ aga_tr_geo_catholic_charter: "Katolikos Beratı"
+ aga_tr_geo_catholic_charter_desc: "Gürcü Ortodoks Kilisesi Katolikosu; mağara manastırlarından katedral şehirlerine kadar kasabaların dini ve eğitim hayatını yöneten beratlar yayımlayarak seküler hükümdarlarla yarışan bir otoriteye sahipti. Bu hak, kasabayı Katolikos hamiline vererek sivil kimliğini Gürcü kilisesine bağlar."
+
+ aga_tr_arm_merchant_diaspora: "Ermeni Tüccar Diyasporası"
+ aga_tr_arm_merchant_diaspora_desc: "Ermeni tüccar diyasporası; İran, Anadolu ve Levant pazarlarını birbirine bağlayarak Yakındoğu'yu kuşatan bir ticaret toplulukları ağıydı. Bu hak, kasabanın bir Ermeni ticaret merkezi olarak rolünü resmileştirerek sermayeleri ve bağlantılarıyla yerel ekonomiyi zenginleştiren tüccarları çeker."
+
+ aga_tr_cac_mountain_towers: "Dağlık Bölge Gözetleme Kuleleri"
+ aga_tr_cac_mountain_towers_desc: "Kafkasya'nın sarp kayalıklarından yükselen taş kuleler; hiçbir uzak hükümdarın doğrudan yönetemeyeceği kadar engebeli arazilerdeki her yaklaşma yolunu gözetlemek için dağlı klanlar tarafından inşa edilmiştir. Bu kulelerin nöbet tuttuğu yerlerde bir beyin otoritesi, dağların derinliklerine normalde ulaşabileceğinden çok daha fazla ulaşır."
+
+ # =============================================================
+ # HUNGARY
+ # =============================================================
+ aga_tr_hun_black_army: "Fekete Sereg Garnizonu"
+ aga_tr_hun_black_army_desc: "Matthias Corvinus, paralı asker bölüklerinin her sefer sezonunda toplanıp terhis edilmek yerine doğrudan vergilendirme yoluyla yıl boyunca ödendiği, Avrupa'nın ilk daimi profesyonel ordularından birini kurdu. Kara Ordu'ya (Fekete Sereg) garnizonluk eden bir kasaba, herhangi bir soylu sancağı yerine tahtın sikkesine sadık askerleriyle anında savaşa hazır durumda bekler."
+
+ aga_tr_hun_corvinian_court: "Corvin Rönesansı"
+ aga_tr_hun_corvinian_court_desc: "Matthias Corvinus; Budin'deki sarayını İtalyan bilginler, sanatçılar ve efsanevi Bibliotheca Corviniana'sının el yazmalarıyla doldurarak Macaristan'ı Alp Dağları'nın kuzeyinde gerçek bir Rönesans karakoluna dönüştürdü. Bu hamilikten nasibini alan bir şehir; hümanist ilmin ve saray ihtişamının Floransa veya Roma'dakilerle yarıştığı bir yer haline gelir."
+
+ aga_tr_hun_gold_mining: "Macar Altın Florini"
+ aga_tr_hun_gold_mining_desc: "Macaristan madenleri, krallığı Hristiyanlık aleminin en büyük altın kaynağı haline getirmiş; florinleri sabit saflığı sayesinde İtalya'dan Baltık'a kadar güvenle ticaret konusu olmuştur. Kremnica ve Erdel'den akan altın, Macar tahtının bastığı parayı daha küçük para birimlerinin kıyaslandığı bir ölçüt haline getirmiştir."
+
+ # =============================================================
+ # WALLACHIA / MOLDAVIA
+ # =============================================================
+ aga_tr_rom_voivodas: "Voyvoda Beratı"
+ aga_tr_rom_voivodas_desc: "Voyvoda, Rumen kasabaları üzerinde hem askeri komutayı hem de sivil otoriteyi elinde tutuyor, silahlı hizmet karşılığında yerel soyluların haklarını ve yükümlülüklerini belirleyen beratlar yayımlıyordu. Bu berat, kasabanın Voyvodalık askeri hiyerarşisindeki yerini resmileştirerek soylu birliklerini güçlendirir."
+
+ aga_tr_rom_danubian_staple: "Tuna Depolama Hakkı"
+ aga_tr_rom_danubian_staple_desc: "Tuna kıyısındaki Eflak kasabaları; Karadeniz ve Osmanlı pazarlarına doğru nehir aşağı yapılan tahıl ve canlı hayvan ihracatını kontrol ediyor, sularından geçen her mavnadan servet elde ediyordu. Bu depolama hakkı, yoldan geçen tüccarları önce yerel pazarda satış yapmaya zorlayarak nehir ticaretinin kârını kasaba pazarlarında toplar."
+
+ # =============================================================
+ # PERSIA
+ # =============================================================
+ aga_tr_ira_caravanserai: "Kervansaray Beratı"
+ aga_tr_ira_caravanserai_desc: "İran platosunun kervansaray ağı; Akdeniz ile Orta Asya arasında seyahat eden tüccarlara su, barınak ve güvenlik sağlayarak Asya'nın en elverişsiz arazilerinde kara ticaretini ayakta tutuyordu. Bu berat, kasabayı resmi bir kervansaray durağı olarak belirler ve onu İran kraliyet yol sistemine entegre eder."
+
+ aga_tr_ira_silk_loom: "İpek Tezgahı Hakkı"
+ aga_tr_ira_silk_loom_desc: "İran ipeği; Hazar kıyısındaki atölyelerde dokunan, Venedik'ten Pekin'e kadar ticareti yapılan dünyanın en değerli lüks tekstil ürünleri arasındaydı. Bu hak, kasabanın ipek dokuma sanayisini resmileştirerek tezgâhlarını Safevi ve Timur ticaret ağlarının büyük ticari damarlarına bağlar."
+
+ aga_tr_ira_shia: "Şii Vakıf Hakkı"
+ aga_tr_ira_shia_desc: "İran'ın Safeviler tarafından İmamiyye Şiiliğine döndürülmesi; kentlerdeki dini yaşamı kraliyet gelirleriyle finanse eden geniş bir türbe, medrese ve vakıf ağı oluşturdu. Bu hak, kasabada resmi bir Şii vakfı kurarak din adamlarını yetkilendirir ve topluluğun mezhepsel kimliğini derinleştirir."
+
+ aga_tr_ira_sufi: "Sufi Dergâhı Beratı"
+ aga_tr_ira_sufi_desc: "Sufi dergâhları; hayır işleri üstlenerek, anlaşmazlıklara arabuluculuk ederek ve ortodoks ulema ile halkın dini uygulamaları arasında köprü kurarak İran kasabalarının sosyal ve ruhani kalbi olarak hizmet veriyordu. Bu berat, dergâhın kasaba içindeki otoritesini tanıyarak Tasavvuf tarikatına sivil yönetimde resmi bir rol verir."
+
+ aga_tr_ira_ghulam_garrison: "Gulam Garnizonu Hakkı"
+ aga_tr_ira_ghulam_garrison_desc: "Gürcü, Ermeni ve Çerkes köle askerlerden oluşan Safevi gulam birlikleri, Şah'a çalkantılı Kızılbaş kabile soylularından bağımsız sadık bir askeri güç sağladı. Bu hak, kasabaya bir gulam garnizonu yerleştirerek soyluların ve kentlilerin özerkliği pahasına tahtın doğrudan askeri nüfuzunu genişletir."
+
+ # =============================================================
+ # ETHIOPIA
+ # =============================================================
+ aga_tr_ethiopian_negad_market: "Negadras Pazarı Beratı"
+ aga_tr_ethiopian_negad_market_desc: "Negadras ya da tüccarlar başı, büyük pazar kasabalarında ticareti denetlemek, gümrük vergilerini toplamak ve ticari anlaşmazlıkları çözmek için Etiyopya tahtı tarafından atanan bir görevliydi. Bu berat, kasaba pazarını negadras denetimi altında resmileştirerek Süleyman Hanedanı'nın ticari idaresine entegre eder."
+
+ aga_tr_ethiopian_debre_monastery: "Debre Manastırı Beratı"
+ aga_tr_ethiopian_debre_monastery_desc: "Debre Libanos'tan Debre Damo'ya kadar Etiyopya'nın 'Debre' ön ekine sahip büyük manastır kasabaları; Ge'ez ilminin, el yazması üretiminin ve Ortodoks ruhani otoritesinin merkezleri olarak hizmet verdi. Bu berat, manastırın kasabanın sivil yaşamındaki rolünü tanıyarak din adamlarını ve kültürel geleneğini yükseltir."
+
+ aga_tr_cawa_muster: "Cawa Toplanma Hakkı"
+ aga_tr_cawa_muster_desc: "Cawa; gult sistemi aracılığıyla toplanan feodal soylu birliklerinden farklı olarak, doğrudan Etiyopya imparatoruna hizmet eden seçkin kraliyet süvarileriydi. Bu hak, yerel soylu gücünün hesabına Nageş'in (Neguş) doğrudan askeri otoritesini bölgeye yayarak kasabayı bir Cawa toplanma noktası olarak belirler."
+
+ aga_tr_gult_grant: "Gult Toprak Bağışı"
+ aga_tr_gult_grant_desc: "Gult sistemi, askeri ve idari hizmet karşılığında köylülerden vergi toplama hakkını Etiyopya soylularına ve din adamlarına vererek Süleyman Hanedanı feodal yönetiminin temelini oluşturuyordu. Bu bağış, soyluların kasabanın tarımsal üretimi üzerindeki otoritesini resmileştirerek aristokrat özerkliğini derinleştirirken yerel birlikleri güçlendirir."
+
+ # =============================================================
+ # SWITZERLAND
+ # =============================================================
+ aga_tr_swi_markets: "İsviçre Menzil Kasabası"
+ aga_tr_swi_markets_desc: "İsviçre kantonları, İtalya'yı Almanya ve Fransa'ya bağlayan büyük Alp geçitlerinin üzerinde yer alır; kasabaları, dağları geçerken başka çaresi olmayan tüccarlar için birer menzil kasabası olarak zenginleşir. Bu güzergâhlar üzerindeki her panayır ve pazar kasabası, sırf bulunduğu konum sayesinde kâr elde eder."
+
+ aga_tr_swi_mountain_self_ctrl: "Landsgemeinde Özyönetimi"
+ aga_tr_swi_mountain_self_ctrl_desc: "Konfederasyonun yüksek vadilerinde hür köylüler ve çobanlar, uzak bir beyin tam olarak yönetemeyeceği kadar sarp bir arazideki izolasyon ve mecburiyetten doğan bir gelenekle, kendilerini doğrudan yönetmek için açık mecliste toplanırlar. Dağ komünleri, herhangi bir düke veya piskoposa hesap vermeden çok önce kendi meclislerine hesap verir."
+
+ # =============================================================
+ # IRELAND and SCOTLAND
+ # =============================================================
+ aga_tr_celt_livestock: "Ortak Otlatma Hakkı"
+ aga_tr_celt_livestock_desc: "Özel ayrıcalıklar, Dağlık İskoçya (Highlands) ve İrlanda genelinde büyük sürüleri pazara süren hayvancıları korur. Onların ticareti kasabayı canlı hayvanla, tüccarlarla ve mevsimlik servetle doldurur."
+
+ # =============================================================
+ # MILITARY ORDERS
+ # =============================================================
+ aga_tr_order_proselytizer: "Misyoner Haçlı Seferi"
+ aga_tr_order_proselytizer_desc: "Askeri tarikatlar, kılıç ile haçı birleştirerek fethedilen kasabaları müstahkem karakollar olduğu kadar dini dönüşümün de araçları olarak kullandılar. Bu tutkulu din değiştirme kampanyasına maruz kalan yerel halklar, tarikatın inancı daha derin kökler salsa bile genellikle baskı altında ezilir."
+
+ aga_tr_order_military: "Tarikat Kalesi Garnizonu"
+ aga_tr_order_military_desc: "Askeri tarikatlar güçlerini; kalelerini feodal tımar yerine kutsal birer emanet olarak gören disiplinli ve bekar savaşçı keşişlerin daimi garnizonları üzerine inşa ettiler. Bu kalelerden birine ev sahipliği yapan kasaba, savunması askeri zorunluluk kadar kutsal bir yemine de bağlı olan bir bastiyona dönüşür."
+
+ aga_tr_hos_medici: "Tarikat Hastanesi"
+ aga_tr_hos_medici_desc: "Hospitalier Şövalyeleri kökenlerini hasta ve fakirlerin bakımına dayandırır; tarikat heybetli bir denizci ve askeri güce dönüştüğünde bile koruması altındaki kasabalarda hastaneleri ve darüşşifaları faaliyet göstermeye devam etmiştir. Tarikat geleneğinde yetişen hekimler, Hristiyanlık aleminin en iyileri arasında sayılır."
+
+ aga_tr_hos_naval_base: "Tarikat Tersanesi"
+ aga_tr_hos_naval_base_desc: "Hospitalier Şövalyeleri itibarlarını savaş meydanında olduğu kadar denizde de inşa ettiler; kadırgaları Müslüman ticaretine darbe vurmak ve Kutsal Topraklar'a giden Hristiyan hacıları korumak için Akdeniz'de devriye gezdi. Tarikatın filosuna tahsis edilen bir liman, kızakları hiçbir zaman uzun süre boş kalmayan bir kutsal savaş tersanesine dönüşür."
+
+ # =============================================================
+ # LIQUOR BREWERS
+ # =============================================================
+ aga_tr_fra_clos_monastique: "Manastır Bağ Alanı"
+ aga_tr_fra_clos_monastique_desc: "Burgonya keşişleri; toprağın ve eğimin her ince farkını incelemekle nesiller harcamış, en iyi bağ parsellerini adeta kutsal bir adanmışlıkla bakılan 'clos' (etrafı çevrili bağlar) içine almışlardır. Onların sabırlı yetiştiriciliği, Avrupa'daki hiçbir soylu sofrası henüz adıyla talep etmeyi öğrenmeden çok önce Fransız şarabını zarafetle eş anlamlı kılmıştır."
+
+ aga_tr_ita_appassimento: "Appassimento Yöntemi"
+ aga_tr_ita_appassimento_desc: "İtalyan bağcıları, en iyi üzümlerini sonbahar havasında hasır matlar üzerine kurumaya bırakır; meyve henüz cendereden geçmeden şekerini ve lezzetini sabırla yoğunlaştırır. Bu yavaş dönüşümden elde edilen şarap, hiçbir sıradan hasadın yarışamayacağı bir zenginlik ve sertlik taşır."
+
+ aga_tr_ger_beer: "Brauhaus Geleneği"
+ aga_tr_ger_beer_desc: "Alman kasabaları bira üretimi zanaatını bir şehir gururu meselesi haline getirmiş; birahaneleri (brauhaus), İmparatorluğun her köşesinden içicileri çeken bir kıvam ve kalitede bira üretmiştir. Alman zanaatkarların standartları belirlediği yerlerde, komşu her ülke kendi birasını bununla kıyaslar."
+
+ aga_tr_boh_beer: "Pilsner Mirası"
+ aga_tr_boh_beer_desc: "Bohemya'nın biracıları, bira yapımını basit bir zanaatın ötesine taşıyarak adeta simyaya dönüştürmüştür; malt, şerbetçiotu ve su üzerindeki ustalıkları, Orta Avrupa'daki kasabaların rekabet etmek yerine Bohemya yöntemini taklit etmeye çalıştığı kadar ünlü bir bira üretir. Dünyada pek az taht biracılık geleneğine Bohemya kralları kadar şiddetle değer verir."
+
+ aga_tr_geo_wine: "Kvevri Şarapçıları"
+ aga_tr_geo_wine_desc: "Gürcü şarap üreticileri, hasatlarını toprağa gömülü devasa kilden kvevri kaplarında fermente ederler; bu yöntem, yaşayan herhangi bir hanedanın hafızasından öncesinden beri kesintisiz olarak uygulanmaktadır. Ortaya çıkan şarap, şarabın ve inancın antik çağlardan beri birlikte büyüdüğü bir toprakta Hristiyanlığın kendisinden daha eski bir geleneğin tadını taşır."
+
+ # =============================================================
+ # OCEANIA
+ # =============================================================
+ aga_tr_maj_pasisir_port: "Pasisir Limanı"
+ aga_tr_maj_pasisir_port_desc: "Cava'nın Pasisir kıyısı, takımadaların baharat üreten adalarını Hindistan, Çin ve Arabistan pazarlarına bağlayan bir ticaret kasabaları dizisiydi. Bu hak, kasabayı Pasisir ağında resmi bir antrepo olarak kurarak Hint Okyanusu'nun dört bir yanından muson tüccarlarını çeker."
+
+ # =============================================================
+ # FINLAND
+ # =============================================================
+ aga_tr_fin_tar: "Black Gold Charter"
+ aga_tr_fin_tar_desc: "Finnish tar burners work the endless pine forests to produce the sticky black pitch that seals every hull and rigging line in the Baltic and North Sea fleets. No navy in northern Europe can put to sea for long without depending, however indirectly, on the labor of these forest towns."
+ 
+ aga_tr_fin_kaski: "Kaski Clearings"
+ aga_tr_fin_kaski_desc: "Finnish settlers burn and clear patches of dense forest to plant rye and barley in the ash-enriched soil, a method that has allowed families to push settlement deep into terrain no ordinary plow could ever break. The clearings shift from year to year, but the harvests they yield have fed generations on land otherwise fit only for timber."
+ 
+ # =============================================================
+ # EXTRAS
+ # =============================================================
+ aga_tr_slave_town: "Köle İşgücü Kasabası"
+ aga_tr_slave_town_desc: "Bu kasaba tamamen zorla çalıştırma etrafında yeniden örgütlenmiştir; tarlaları ve atölyeleri, yalnızca kâr defterlerine hesap veren denetçilerin sürekli gözetimi altında köleleştirilenler tarafından işlenmektedir. Bu acımasız disiplin altında üretim artar, ancak kaybedecek başka bir şeyi olmayanlar arasındaki isyan riski de sürekli yükselir."
+
+ # =============================================================
+ # UNIQUE PER CITY
+ # =============================================================
+ aga_tr_city_hormuz: "Körfez'in Kapısı"
+ aga_tr_city_hormuz_desc: "Hürmüz, Basra Körfezi ile Hint Okyanusu arasındaki dar boğaza hükmederek burayı Arabistan, İran ve Hindistan pazarları arasındaki tüm ticaret için vazgeçilmez bir geçit noktası haline getirir. Baharat, inci veya at taşıyan her gemi onun sularından geçmeli ve hükümdarına vergi ödemelidir."
+
+ aga_tr_city_rome: "Ebedi Şehir"
+ aga_tr_city_rome_desc: "Roma, Papalığın makamı ve Latin Hristiyanlığının ruhani başkentidir; Avrupa'nın her köşesinden hacıları, bilginleri ve sanatçıları çeker. Ona sahip olmak, dünyadaki hiçbir şehrin yarışamayacağı bir prestij taşır."
+
+ aga_tr_city_venice: "Adriyatik'in Kraliçesi"
+ aga_tr_city_venice_desc: "Venedik, dünyadaki en büyük denizci ticaret cumhuriyetidir; lagünü kadırgalarla dolup taşar, Rialto'su İskenderiye'den Londra'ya kadar tüccarlarla kaynar. Denizi kontrol eden şehir, Akdeniz ticaretini de kontrol eder."
+
+ aga_tr_city_novo_brdo: "Gümüş Dağı"
+ aga_tr_city_novo_brdo_desc: "Novo Brdo, Orta Çağ Avrupa'sının en zengin gümüş yataklarından birinin üzerinde yer alır; madenleri Sırp devletini finanse eden ve kıtanın dört bir yanından Sakson madencileri çeken külçeleri üretir. Bu dağı elinde tutan kimse, Balkan refahının anahtarlarını da elinde tutar."
+
+ aga_tr_city_alexandria: "Dünyalar Arasındaki Kapı"
+ aga_tr_city_alexandria_desc: "İskenderiye, Akdeniz'in Nil deltasıyla buluştuğu yerde durur; Hint Okyanusu ticaretini Mısır pazarları üzerinden baharat ve ipeğe aç Avrupa filolarına aktarır. Eski dünyanın ticaretinin döndüğü mil noktası burasıdır."
+
+ aga_tr_city_cairo: "Bin Minareli Şehir"
+ aga_tr_city_cairo_desc: "Kahire, İslam dünyasının en büyük şehri ve Sünni medeniyetinin fikri kalbidir; yeryüzündeki en büyük medrese olan El-Ezher'e ve Timbuktu'dan Semerkant'a kadar tüccarları çeken pazarlara ev sahipliği yapar. Zenginliği ve ilmi, onu Afrika ve Yakındoğu'nun tartışmasız metropolü yapar."
+
+ aga_tr_city_hangzhou: "Yeryüzündeki Cennet"
+ aga_tr_city_hangzhou_desc: "Marco Polo, Hangzhou'yu dünyadaki en güzel ve en muhteşem şehir olarak adlandırmıştır; kanallar, ipek atölyeleri ve Avrupa'daki tüm şehirlerden daha büyük bir nüfusu besleyen bahçeler şehridir. Tezgâhları, onlarca krallığın saraylarını giydiren ipeği üretir."
+
+ aga_tr_city_wuxian: "Bahçeler ve İpek Şehri"
+ aga_tr_city_wuxian_desc: "Suzhou yakınlarındaki Wuxian, sofistike kültürü, özenli özel bahçeleri ve imparatorluk sarayına imparatorluğun en ince tekstil ürünlerini sağlayan ipek dokuma atölyeleriyle Çin genelinde ünlüdür. Zenginlik ile estetik birikimin el ele gittiği bir şehirdir."
+
+ aga_tr_city_kyoto: "Cennetin İmparatorluk Başkenti"
+ aga_tr_city_kyoto_desc: "Kyoto, yüzyıllardır Japon imparatorunun makamı olarak hizmet vermiştir; caddeleri Tang Çin başkenti model alınarak ızgara planında düzenlenmiş, tapınakları bir medeniyetin sanatsal ve ruhani mirasını biriktirmiştir. Şogunluk gerçek gücü başka yerde elinde tutsa bile Kyoto, Japonya'nın kutsal merkezi olmaya devam eder."
+
+ aga_tr_city_kutna_hora: "Gümüş Şehri"
+ aga_tr_city_kutna_hora_desc: "Kutná Hora madenleri, Bohemya krallığının zirve döneminde Orta Avrupa'daki diğer tüm yerlerden daha fazla gümüş üreterek Aziz Barbara Katedrali'nin inşasını finanse etmiş ve şehri kıtanın en zenginlerinden biri yapmıştır. Kraliyet Darphanesi, Orta Çağ Avrupa ticaretinin standart para birimi haline gelen Prag groşunu basmıştır."
+
+ aga_tr_city_falun: "Bakır Dağı"
+ aga_tr_city_falun_desc: "Falun madeni, kiliselerin çatılarını kaplayan, orduları donatan ve bir kıtanın atölyelerini besleyen metali üreten Avrupa'daki tek en büyük bakır kaynağıdır. İsveç'in büyük bir güç olarak ortaya çıkışı, askerlerinin cesareti kadar Dalarna bakırına da dayanmaktadır."
+
+ aga_tr_city_ccantumarcani: "Potosí'nin Zengin Dağı"
+ aga_tr_city_ccantumarcani_desc: "Potosí dağı o kadar devasa gümüş yatakları barındırıyordu ki keşfi küresel ekonomiyi dönüştürmüş, Avrupa pazarlarını Amerikan külçeleriyle doldurmuş ve uluslar arasındaki güç dengesini yeniden şekillendirmiştir. Ürettiği zenginlik, derinliklerinde çalışmaya zorlanan insanların ödediği korkunç insani bedellerle elde edilmiştir."
+
+ aga_tr_city_bruges: "Flandre'ın Mücevheri"
+ aga_tr_city_bruges_desc: "Brugge, iki yüzyıl boyunca Kuzey Avrupa'nın ticari başkentiydi; burada Flandre yünlü kumaşı, İtalyan bankacılığı ve Hansa kürkleri Londra'dan Lübeck'e kadar fiyatları belirleyen bir pazarda buluşuyordu. Her ne kadar Antwerp artık ona rakip olsa da, şehrin kumaş halleri ve kanal depoları hâlâ uluslararası ticaretin ritmiyle uğuldamaktadır."
+
+ aga_tr_city_antwerp: "Dünyanın Ticaret Merkezi"
+ aga_tr_city_antwerp_desc: "Antwerp, Kuzey Avrupa'nın en büyük ticaret şehri olmak için yükseldi; borsası kıtadaki her hükümdarı etkileyen faiz oranlarını belirliyor, rıhtımları Amerika, Afrika ve Asya'dan gelen malları indiriyordu. Antwerp'i kontrol eden şehir, Atlantik dünyasının finansal sinir sistemini kontrol eder."
+
+ aga_tr_city_amsterdam: "Amstel Barajı"
+ aga_tr_city_amsterdam_desc: "Amsterdam'ın korunaklı limanı ve eşsiz gemi yapım kapasitesi, onu Kuzey Denizi'nin yükselen ticari gücü haline getirdi; depoları Baltık tahılı, İber tuzu ve sömürge baharatlarıyla doldu. Bu sulara hükmeden şehir, önümüzdeki yüzyılın ticaretine de hükmedecektir."
+
+ aga_tr_city_genoa: "La Superba"
+ aga_tr_city_genoa_desc: "Ceneviz'in kadırga filoları ve cesur tüccar bankacıları, Karadeniz'den Atlantik'e uzanan ticari bir imparatorluk kurdu; kralları finanse edip adaları aynı özgüvenle kolonileştirdi. Denizcileri Afrika'nın bilinmeyen kıyılarında seyretti, finansörleri ise İspanyol tahtına borç verdi."
+
+ aga_tr_city_malacca: "Baharat Dünyasının Kavşağı"
+ aga_tr_city_malacca_desc: "Melaka, Hint Okyanusu ile Güney Çin Denizi arasındaki tüm ticaretin geçmek zorunda olduğu boğaza hükmederek burayı Asya'nın en değerli geçit noktası haline getirir. Sultanlığı, ötesindeki adalardan rıhtımlarına akan karanfil, muskat ve karabiberi vergilendirerek zenginleşti."
+
+ aga_tr_city_adan: "Gözyaşı ve Servet Kapısı"
+ aga_tr_city_adan_desc: "Aden, Kızıldeniz girişini korur; Hint baharatlarını Kahire'ye ve Akdeniz pazarlarına taşıyan her gemiden vergi toplar. Limanı Memlükler, Osmanlılar ve Portekizliler tarafından uğrunda savaşılan bir ganimet olmuştur; çünkü Aden'i tutan kimse Hint Okyanusu ticaretinin anahtarını tutar."
+
+ aga_tr_city_mogadishu: "Swahili Kıyısının Kraliçesi"
+ aga_tr_city_mogadishu_desc: "Mogadişu, yüzyıllar boyunca Doğu Afrika kıyısının en önde gelen şehriydi; tüccarları Avrupa gemileri Ümit Burnu'nu dönmeden çok önce Arabistan ve Hindistan ile altın, fildişi ve köleleştirilmiş insan ticareti yapıyordu. Refahı, Afrika'yı daha geniş Hint Okyanusu dünyasına bağlayan muson rüzgarları üzerine inşa edilmiştir."
+
+ aga_tr_city_kilwa: "Hint Okyanusu'nun İncisi"
+ aga_tr_city_kilwa_desc: "Kilwa Kisiwani, İbn Battuta tarafından dünyadaki en güzel şehirlerden biri olarak tanımlanmıştır; mercan taşından sarayları ve camileri Büyük Zimbabve'den gelen altın ticaretinin kârlarıyla inşa edilmiştir. Kilwa'yı elinde tutan şehir, Hint Okyanusu Swahili ticaret ağının en güneydeki düğüm noktasını kontrol eder."
+
+ aga_tr_city_kollam: "Malabar'ın Karabiber Başkenti"
+ aga_tr_city_kollam_desc: "Kollam; Avrupa pazarlarında gümüş ağırlığınca değer gören Malabar iç kesimlerinde yetişen karabiberin cazibesiyle yüzyıllardır Arap, Çinli ve daha sonra Avrupalı tüccarlar için bir varış noktası olmuştur. Limanı hiçbir zaman sessiz kalmaz, her zaman uzak bir düzine limana giden baharat kargolarının yüklenmesiyle meşguldür."
+
+ aga_tr_city_goa: "Konkan'ın Mücevheri"
+ aga_tr_city_goa_desc: "Goa'nın Konkan kıyısındaki doğal limanı, Portekizliler burayı Estado da India'larının başkentine dönüştürmeden önce onu Batı Dekkan'ın en önde gelen limanı yapmıştı. Goa'yı elinde tutan kimse, Basra Körfezi ile Malabar baharat kıyısı arasındaki deniz yollarına hükmeder."
+
+ aga_tr_city_samarkand: "İpek Yolu'nun Kavşağı"
+ aga_tr_city_samarkand_desc: "Semerkant; Çin, Hindistan, İran ve Akdeniz'i bağlayan büyük kara ticaret yollarının kesiştiği yerde durur; pazarları ipek, yeşim ve dünyanın ürettiği her türlü lüks malla doludur. Timur onu Orta Asya'nın en muhteşem şehri yapmış ve hatırası tüccarları da bilginleri de çekmeye devam etmektedir."
+
+ aga_tr_city_tabriz: "Azerbaycan'ın Mücevheri"
+ aga_tr_city_tabriz_desc: "Tebriz; İlhanlılar'dan Safeviler'e kadar birbirini izleyen imparatorlukların başkenti olarak hizmet vermiş, Anadolu, İran ve Kafkasya arasındaki yollardaki konumu onu Orta Doğu'nun en büyük ticaret şehirlerinden biri yapmıştır. Çarşısı mücevherleri, ipeği ve doğu ticaretinin lüks mallarıyla ünlüdür."
+
+ aga_tr_city_florence: "Rönesans'ın Beşiği"
+ aga_tr_city_florence_desc: "Floransa dünyaya Rönesans'ı armağan etti; tüccar aileleri insan medeniyetinin neleri başarabileceğini yeniden hayal eden ressamları, heykeltıraşları ve mimarları finanse etti. Dante'nin, Brunelleschi'nin ve Medici'lerin şehri, Avrupa sanatsal ve entelektüel yaşamının atan kalbidir."
+
+ aga_tr_city_milano: "İtalya'nın Cephaneliği"
+ aga_tr_city_milano_desc: "Milanolu zırhçılar Avrupa'nın en iyi plaka zırhlarını ürettiler; atölyeleri Baltık'tan Akdeniz'e kadar şövalyelere ve condottieri'lere hem mızrağı hem de arbalet okunu sektirebilen çelikler sağladı. Savaş silahlarını temin eden şehir, tek bir savaş meydanı zaferinden daha uzun süren bir gücü elinde tutar."
+
+ aga_tr_city_nuremberg: "İmparatorluğun Atölyesi"
+ aga_tr_city_nuremberg_desc: "Nürnberg zanaatkarları, hassas metal işçilikleriyle Avrupa genelinde ünlüydü; bilimsel aletler ve saat mekanizmalarından ateşli silahlara ve vitraylara kadar her şeyi üretiyorlardı. Bir İmparatorluk Özgür Şehri olarak Nürnberg, İmparator'un kendisinden başka hiçbir beye hesap vermiyordu ve şehir gururu yalnızca zanaat mükemmelliğiyle yarışabilirdi."
+
+ aga_tr_city_damascus: "Kılıçlar Şehri"
+ aga_tr_city_damascus_desc: "Şam, adını Orta Çağ dünyasının en ünlü çeliğine vermiştir; demircileri, gizli desenleri Hristiyanlık ve İslam alemindeki her zırhçıyı hayrete düşüren olağanüstü keskinlikte ve güzellikte kılıçlar dövmüştür. Şehir aynı zamanda ipek dokumacılığının ve cam üfleme sanatının büyük bir merkezidir; zanaatkarları kılıç ustaları kadar efsanevidir."
+
+ aga_tr_city_fuliang: "Dünyanın Porselen Başkenti"
+ aga_tr_city_fuliang_desc: "Orta Çağ tüccarları tarafından on bin fırın şehri olarak bilinen Jingdezhen (Fuliang), o kadar mükemmel porselenler üretiyordu ki Çin imparatorları tüm atölyeleri yalnızca imparatorluk sarayına tahsis etmişti. Yarı saydam beyaz seramiklerinin sırrı, dünyadaki en çok arzulanan sanayi sırrıydı; Avrupalı hükümdarlar için altından daha değerliydi."
+
+ aga_tr_city_bologna: "İlimlerin Anası"
+ aga_tr_city_bologna_desc: "Bologna Üniversitesi dünyadaki en eski üniversitedir; hukuk fakülteleri her İtalyan devletinin mahkemelerinde ve şansölyeliklerinde görev yapan hukukçuları ve idarecileri yetiştirmiştir. Hukukun öğretildiği bir şehir, hukuka saygı duyulan bir şehir haline gelir."
+
+ aga_tr_city_paris: "Krallığın Kalbi"
+ aga_tr_city_paris_desc: "Paris, Fransız kraliyet gücünün tartışmasız merkezidir; Île de la Cité'si Kapet hanedanına, Sol Yakası ise Kuzey Avrupa'nın en büyük üniversitesine ev sahipliği yapar. Fransa nasıl giderse Paris de öyle gider ve Paris nasıl giderse Fransa da öyle gider."
+
+ aga_tr_city_prague: "Yüz Kuleli Şehir"
+ aga_tr_city_prague_desc: "Prag; burayı bir üniversite, muazzam bir katedral ve tüm Avrupa'nın en büyük şehirlerinden biri statüsüyle donatan IV. Karl yönetiminde Kutsal Roma İmparatorluğu'nun başkenti olarak hizmet vermiştir. Kuleleri, Bohemya hırsının bir kanıtıdır."
+
+ aga_tr_city_timbuktu: "İnancın Sahra Kavşağı"
+ aga_tr_city_timbuktu_desc: "Timbuktu, hem büyük Sahra altın ve tuz ticaretinin güneydeki son durağı hem de Batı Afrika'daki İslami ilimlerin en önemli merkezidir; camileri ve medreseleri yüz binlerce el yazmasına ev sahipliği yapar. Hem altın hem de bilgi ticareti yapan bir şehir, gücü tek bir hanedanı aşan bir şehirdir."
+
+ aga_tr_city_kyiv: "Rus Şehirlerinin Anası"
+ aga_tr_city_kyiv_desc: "Kiev, Rus halklarının ata başkentidir; altın kubbeli kiliseleri ve Dinyeper üzerindeki konumu, Moğol yıkımından sonra bile onu Doğu Slav dünyasının ruhani ve tarihi kalbi yapar. Kiev'i elinde tutan kimse, tüm Rus knezliklerinin hafızası ve meşruiyeti üzerinde hak iddia eder."
+
+ aga_tr_city_angkor: "Su Krallığının Kalbi"
+ aga_tr_city_angkor_desc: "Angkor; olağanüstü su depoları ve kanal ağı sayesinde Kamboçya taşkın ovalarında her yıl birden fazla pirinç hasadı yapılmasını sağlayarak Orta Çağ Avrupa'sındaki tüm şehirlerden daha büyük bir nüfusu beslemiştir. İmparatorluk küçülmüş olsa da şehrin su altyapısı, Khmer tarımsal bolluğunun temeli olmayı sürdürmektedir."
+
+ aga_tr_city_moscow: "Üçüncü Roma"
+ aga_tr_city_moscow_desc: "Konstantinopolis'in düşüşünden sonra Moskova din adamları burayı Üçüncü Roma, hakiki Ortodoks Hristiyanlığın son muhafızı ve Roma imparatorluk geleneğinin meşru varisi ilan ettiler. Moskova Büyük Knezleri meşruiyetlerini bu kutsal tarih temeli üzerine inşa etmişlerdir."
+
+ aga_tr_city_novgorod: "Büyük Efendi Novgorod"
+ aga_tr_city_novgorod_desc: "Novgorod, yüzyıllar boyunca kendisini aristokratik bir cumhuriyet olarak yönetti; veçe meclisi ve tüccar oligarkları Baltık'tan Ural Dağları'na uzanan ticari bir imparatorluk kurdu. Moskova hakimiyeti altında bile şehrin kürk ve deri ticareti, Büyük Knez'in yok etmeyi göze alamayacağı bir refahı sürdürmektedir."
+
+ aga_tr_city_london: "Thames'in Tacı"
+ aga_tr_city_london_desc: "Londra, İngiltere'nin ticari ve siyasi başkentidir; Thames rıhtımları İngiliz ekonomisinin belkemiği olan yün ve kumaş ihracatını yürütür, kulesi ise kraliyet cephaneliğine ve hazinesine ev sahipliği yapar. Thames'i kontrol eden şehir, İngiltere'nin dış dünyaya erişimini de kontrol eder."
+
+ aga_tr_city_gdansk: "Baltık'ın Kehribar Şehri"
+ aga_tr_city_gdansk_desc: "Gdańsk, Vistül'ün ağzına hükmederek Polonya iç kesimlerinden kuzey Avrupa'daki Hansa pazarlarına akan tahıl, kereste ve kürklerden vergi toplar. Tersaneleri, Polonya'nın tarımsal üretim fazlasını Amsterdam ve Londra sofralarına taşıyan gemileri inşa eder."
+
+ aga_tr_city_hamburg: "Kuzey Denizi'nin Kapısı"
+ aga_tr_city_hamburg_desc: "Hamburg'un Elbe ağzındaki konumu, onu Atlantik ticaretinin Alman iç kesimlerine ana giriş noktası haline getirdi; serbest liman statüsü, derebeylerin vergilerinden ve kısıtlamalarından kaçınmak isteyen tüccarları çekti. Şehrin bağımsızlığı, en değerli ticari varlığıdır."
+
+ aga_tr_city_sevilla: "Amerika'nın Kapısı"
+ aga_tr_city_sevilla_desc: "Sevilla'daki Casa de Contratación, İspanyol Amerikası ile yapılan tüm ticaretin yasal tekelini elinde tutarak Potosí gümüşünün ve Karayipler şekerinin Avrupa pazarlarına aktığı bir huni görevi görür. Keşifler çağında Hristiyanlık alemindeki hiçbir şehir Sevilla'dan daha hızlı zenginleşmemiştir."
+
+ aga_tr_city_lisbon: "Deniz Yollarının Başkenti"
+ aga_tr_city_lisbon_desc: "Lizbon denizcileri, Afrika etrafından Hindistan'a ve ötesine uzanan deniz yollarını açarak şehri mütevazı bir Atlantik limanından dünyanın ilk küresel deniz imparatorluğunun başkentine dönüştürdü. Goa, Hürmüz ve Melaka'nın zenginliği Tejo Nehri'ne geri akar."
+
+ aga_tr_city_dubrovnik: "Adriyatik'in İncisi"
+ aga_tr_city_dubrovnik_desc: "Ragusa; diplomatik beceri, dikkatli tarafsızlık ve Osmanlı Balkanları ile Latin Batısı arasında ticaret yapan tüccar filosunun sağladığı refahın birleşimi sayesinde bağımsızlığını korudu. Elçileri her sarayda iyi karşılanır, çünkü Ragusa kimseyi tehdit etmez ve herkesle ticaret yapar."
+
+ aga_tr_city_bursa: "İpek ve Kervanlar Şehri"
+ aga_tr_city_bursa_desc: "Bursa, ilk Osmanlı başkenti ve İran ile Orta Asya'dan gelen İpek Yolu kervanlarının batıdaki son durağıydı; çarşıları Anadolu'nun en kaliteli ipek kumaşıyla ünlüydü. Konstantinopolis siyasi olarak onu gölgede bıraktıktan sonra bile Bursa, Osmanlı ipek ticaretinin merkezi olmaya devam etti."
+
+ aga_tr_city_edirne: "Avrupa'ya Açılan Kapı"
+ aga_tr_city_edirne_desc: "Edirne, Konstantinopolis'in fethinden önce Osmanlı başkenti olarak hizmet vermiş, Balkanlar ve Macaristan'a düzenlenen seferler için imparatorluğun en önemli askeri toplanma noktalarından biri olmaya devam etmiştir. Trakya ovasındaki konumu, onu Anadolu ile Avrupa arasında vazgeçilmez bir geçit yapar."
+
+ aga_tr_city_aleppo: "Levant'ın Kavşağı"
+ aga_tr_city_aleppo_desc: "Halep, Akdeniz kıyısını Mezopotamya ve İran'a bağlayan yolların kesiştiği yerde durur; büyük kapalı çarşılarında Hint Okyanusu'ndan Avrupa pazarlarına akan pamuk, kumaş ve baharatların ticareti yapılır. Suriye iç kesimlerinin ticari başkenti ve Osmanlı dünyasının büyük antrepolarından biridir."
+
+ aga_tr_city_jerusalem: "Üç Dinin Kutsal Şehri"
+ aga_tr_city_jerusalem_desc: "Kudüs; İslam, Hristiyanlık ve Yahudilik için aynı anda kutsaldır; kutsal mekanları üç kıtadan hacıları çeker ve ona sahip olmak dünyadaki hiçbir şehrin eşleşemeyeceği sembolik bir ağırlık taşır. Kudüs'ü elinde tutan kimse, dünyanın yarısının vicdanı üzerinde hak iddia eder."
+
+ aga_tr_city_fez: "Afrika'nın Atinası"
+ aga_tr_city_fez_desc: "Fes'teki Karaviyyin Üniversitesi, dünyada kesintisiz eğitim veren en eski yükseköğretim kurumları arasındadır; şehrin medreseleri yüzyıllar boyunca batı İslam dünyasının bilginlerini ve hukukçularını yetiştirmiştir. Tabakhaneleri, boyahaneleri ve metal işçileri, burayı hem bir ilim hem de yetenekli zanaat şehri yapar."
+
+ aga_tr_city_isfahan: "Dünyanın Yarısı"
+ aga_tr_city_isfahan_desc: "Fars atasözü 'İsfahan nısf-ı cihan' (dünyanın yarısı) der; şehrin muhteşem çarşıları, camileri ve kraliyet meydanları bu övüncü haklı çıkarır. Safeviler döneminde erken modern dünyanın büyük imparatorluk başkentlerinden biri, Fars sanatsal başarısının ve ticari canlılığının bir vitrini haline geldi."
+
+ aga_tr_city_bukhara: "Buhara-yı Şerif"
+ aga_tr_city_bukhara_desc: "Buhara, İslam medeniyetinin büyük merkezlerinden biriydi; kütüphaneleri ve medreseleri, eserleri İspanya'dan Hindistan'a kadar okunan matematik, tıp ve ilahiyat bilginleri yetiştirdi. Şehrin İpek Yolu üzerindeki konumu, burayı fikri bir merkez olduğu kadar ticari bir merkez de yaptı."
+
+ aga_tr_city_delhi_city: "Hindistan'ın Tahtı"
+ aga_tr_city_delhi_city_desc: "Delhi, Ganj ovasında birbirini izleyen imparatorlukların başkenti olmıştır; kırmızı kumtaşı kaleleri ve ulu camileri, surlarından hükmeden hanedanların hırslarına tanıklık eder. Delhi'yi elinde tutan kimse, tüm Hindistan hükümdarlığının sembolik anahtarını elinde tutar."
+
+ aga_tr_city_dadu: "Kuzey Başkenti"
+ aga_tr_city_dadu_desc: "Moğol Yuan hanedanı döneminde Dadu olarak bilinen Pekin, onu Yasak Şehir merkezli olağanüstü ölçekte planlı bir şehir olarak yeniden inşa eden Ming döneminde kalıcı imparatorluk başkenti oldu. Konumu, kuzey bozkır göçebelerinin Çin ana karasını her zaman tehdit ettiği geçitlere hükmeder."
+
+ aga_tr_city_shangyuan: "Güney Başkenti"
+ aga_tr_city_shangyuan_desc: "Nankin, Ming hanedanının ilk başkenti olarak hizmet verdi; surları dünyadaki en uzun surlardı ve nüfusu ondördüncü yüzyıldaki şehirler arasında en büyüklerdendi. Saray kuzeye, Pekin'e taşınmış olsa da şehir, Yangze deltasının idari kalbi olma statüsünü korumaktadır."
+
+ aga_tr_city_gonder: "Krallar Şehri"
+ aga_tr_city_gonder_desc: "Gondar, onyedinci yüzyılda Etiyopya imparatorluğunun sabit başkenti oldu; kraliyet kaleleri ve Tana Gölü'nün ada manastırlarına yakınlığı, onu Süleyman Hanedanı'nın siyasi ve dini yaşamının merkezi haline getirdi. Kuruluşu, Etiyopya'nın gezici bir saraydan yerleşik bir imparatorluk idaresine geçişini simgeledi."
+
+ aga_tr_city_tarnovo: "Balkanlar'ın Tacı"
+ aga_tr_city_tarnovo_desc: "Tırnova, İkinci Bulgar İmparatorluğu'nun görkemli başkentiydi; Yantra nehri üzerinde yükselen Çareveç kalesi, sanatsal ve dini hırslarıyla Konstantinopolis ile yarışan bir saraya ev sahipliği yapıyordu. Osmanlı fethinden sonra bile şehrin Ortodoks patrikhanesi, Bulgar imparatorluk görkeminin hafızasını korumaktadır."
+
+ aga_tr_city_belgrad: "Macaristan'ın Anahtarı"
+ aga_tr_city_belgrad_desc: "Belgrad; Sava ve Tuna nehirlerinin birleştiği yere hükmederek Panoniyen ovası ile Balkan yarımadası arasında kuzeye veya güneye yürüyen her ordunun ele geçirmesi ya da etrafından dolaşması gereken doğal bir geçit oluşturur. Kalesi, bölgedeki diğer tüm kalelerden daha fazla kuşatılmıştır ve surları da buna göre inşa edilmiştir."
+
+ aga_tr_city_naples_city: "Deniz Kıyısındaki Krallık"
+ aga_tr_city_naples_city_desc: "Napoli, Avrupa'nın en büyük şehirlerinden biridir; körfezi Akdeniz'in en güzel doğal limanlarından biridir ve krallığı, her hanedan değişikliğine eşlik eden siyasi çalkantılara rağmen İtalya'nın en zenginidir. Şehrin büyüklüğü, stratejik konumu ve tarımsal art ülkesi, onu her büyük gücün arzuladığı bir ganimet yapar."
+
+ aga_tr_city_palermo: "Akdeniz'in Norman İncisi"
+ aga_tr_city_palermo_desc: "Palermo'nun Norman kralları; Arap, Bizans ve Latin kültürünü tamamen benzersiz bir yapıda harmanlayan bir saray inşa ettiler ve onların gelişmiş çok kültürlü yönetim mirası, Normanların kendileri ortadan kalktıktan uzun süre sonra bile yaşadı. Sicilya'nın verimli ovaları, Palermo krallığını Avrupa'daki her hanedanı cezbedecek kadar zengin kılar."
+
+ aga_tr_city_marrakesh: "Atlas'ın Kızıl Şehri"
+ aga_tr_city_marrakesh_desc: "Marakeş, Murabıtlar tarafından Senegal'den İspanya'ya uzanan bir Sahra imparatorluğunun başkenti olarak kuruldu; sarayları, çarşıları ve Kutubiyye minaresi Batı Akdeniz'deki İslam mimarisinin büyük abideleri arasında yer alır. Atlas geçitlerine ve ötesindeki Sahra yollarına açılan kapı olarak, Kuzeybatı Afrika ticaretine hükmeder."
+
+ aga_tr_city_mecca: "Dünyanın Göbeği"
+ aga_tr_city_mecca_desc: "Mekke, İslam'ın en kutsal şehridir; dünyanın her köşesinden Müslümanları çeken hac ibadetinin varış noktası ve her Müslümanın namazda yöneldiği Kabe'nin bulunduğu yerdir. Mekke'yi elinde tutan kimse, hiçbir siyasi gücün taklit edemeyeceği bir ruhani otoriteyi müminler üzerinde elinde tutar."
+
+ aga_tr_city_harar: "Evliyalar Şehri"
+ aga_tr_city_harar_desc: "Harar, İslam'ın en kutsal şehirlerinden biridir; etrafı surlarla çevrili antik medinesi, doksan dokuz camiye ve Afrika Boynuzu genelinde hürmet gösterilen yüzlerce evliyanın türbesine ev sahipliği yapar. Pazarı aynı zamanda Etiyopya yayla ticareti ile Somali kıyısına giden yolların kesiştiği yerde yer alır, bu da burayı ruhani önemi kadar ticari açıdan da hayati kılar."
+
+ aga_tr_city_smolensk: "Doğunun Dökümhanesi"
+ aga_tr_city_smolensk_desc: "Smolensk'in metal işleme geleneği, burayı Doğu Avrupa'nın önde gelen top döküm merkezi haline getirdi; ocakları, o sırada şehri hangi büyük güç elinde tutuyorsa -Litvanyalılar, Moskovalılar veya Lehlerin hepsi Smolensk dökümhanelerinin yok edilemeyecek kadar değerli olduğunu kabul ediyordu- ona topçu temin ediyordu."
+
+ aga_tr_city_tunis: "Korsanlar Limanı"
+ aga_tr_city_tunis_desc: "Tunus, Kuzey Afrika kıyısındaki en önemli korsan üssüydü; limanı, Hristiyan Akdeniz denizciliğine korku salan ve İspanya, İtalya ve ötesinden aldığı esirlerle Mağrip köle pazarlarını besleyen Garp Ocakları donanmalarına sığınak sağlıyordu."
+
+ aga_tr_city_thessaloniki: "Ege'nin Kavşağı"
+ aga_tr_city_thessaloniki_desc: "Selanik, Bizans'ın ikinci şehriydi ve Osmanlı fethinden sonra Doğu Akdeniz'in en kozmopolit şehirlerinden biri olmaya devam etti; nüfusu Rumlar, İberya'dan sürülen Yahudiler, Türkler ve Ege dünyasının dört bir yanından gelen tüccarları barındırıyordu. Tekstil atölyeleri Levant genelinde ünlü kumaşlar üretiyor, Via Egnatia'nın başındaki konumu ise burayı Adriyatik ile Konstantinopolis arasında doğal bir geçit yapıyordu."
+
+ aga_tr_city_trebizond: "Bizans'ın Son Işığı"
+ aga_tr_city_trebizond_desc: "Trabzon İmparatorluğu, Konstantinopolis'in düşüşünden sonra sekiz yıl daha ayakta kaldı; Yunan dünyasının geri kalanı Osmanlıların eline geçerken Komnenos sarayı Karadeniz kıyısında Bizans medeniyeti geleneklerini sürdürdü. Fethinden sonra bile şehrin ipek ticareti ve İran kervan yollarının batı ucundaki konumu, burayı tüm Karadeniz'in ticari açıdan en hayati limanlarından biri yaptı."
+
+ aga_tr_city_kaffa: "Bozkırın Kapısı"
+ aga_tr_city_kaffa_desc: "Kefe, Ceneviz Cumhuriyeti'nin Karadeniz'deki en büyük kolonisiydi; Osmanlılar bağımsızlığına son vermeden önce iki yüzyıl boyunca Karadeniz bozkırlarının kürk, deri, tahıl ve kölelerinin Akdeniz pazarlarına aktığı şehir burasıydı."
+
+ aga_tr_city_vijayanagar: "Zafer Şehri"
+ aga_tr_city_vijayanagar_desc: "Vijayanagara, zirve döneminde dünyadaki en büyük şehirlerden biriydi; granit caddeleri Hint Okyanusu dünyasının dört bir yanından gelen elmas, at ve baharat ticareti yapan çarşılarla doluydu ve tüm şehre Virupaksha tapınak kompleksinin yüksek gopuramları hükmediyordu. Şehir, güneydeki son büyük Hindu imparatorluğunun kutsal ve siyasi kalbiydi."
+
+ aga_tr_city_vienna: "Tuna'nın Büyük Antreposu"
+ aga_tr_city_vienna_desc: "Viyana'nın Stapelrecht'i (pazar depolama hakkı), Orta Avrupa'daki en güçlü depolama haklarından biriydi; Tuna'da seyreden her tüccarı yolculuklarına devam etmeden önce mallarını boşaltmaya ve şehirde satışa sunmaya zorluyordu."
+
+ aga_tr_city_constantinople_orthodox: "Yeniden İhya Edilen Şehirlerin Kraliçesi"
+ aga_tr_city_constantinople_orthodox_desc: "Konstantinopolis'i yeniden Ortodoks ellerine teslim etmek, 1453'ten beri Hristiyan Doğu'da iltihaplanmış bir yaraya cevap vermektir: Patrikhane yeniden kurulmuş, Ayasofya yeniden takdis edilmiş ve Ortodoks dünyasının ruhani başkenti, son Roma imparatorunun soyunu tüketenlerin elinden geri alınmıştır."
+
+ aga_tr_city_constantinople_ottoman: "Kostantiniyye — Bâb-ı Âlî'nin Tahtı"
+ aga_tr_city_constantinople_ottoman_desc: "Topkapı'dan hükmeden Sultan; zenginliği ve stratejik hakimiyetiyle hiçbir rakip başkentin yarışamayacağı bir şehri yönetir. Osmanlı idaresi altında İstanbul, aynı anda hem dünyanın en büyük pazarı hem de Akdeniz'in en güçlü deniz kuvvetinin karargahıdır; Haliç'i savaş kadırgalarına ve baharat tüccarlarına yan yana sığınak sağlar."
+
+ aga_tr_city_constantinople: "Dünyanın Arzusu Şehir"
+ aga_tr_city_constantinople_desc: "Konstantinopolis, bin yıldır dünyada en çok arzulanan şehir olmuştur. Bütün fatihlerin devraldığı şey, bu konumun ham görkemi ve ona sahip olamayan her hükümdarın kıskançlığıdır. Dünyanın Arzusu Şehir ve bilinen dünyanın pazar merkezi olan altın surları, bir düzine imparatorluğu eskitmiştir ve bir düzinesini daha eskitecektir."
+
+ aga_tr_city_tetzcoco: "Şair Krallar Şehri"
+ aga_tr_city_tetzcoco_desc: "Tetzcoco, Üçlü İttifak'ın fikri kalbiydi; hukuki reformları ve şiirleri tüm Meksika Vadisi'nin siyasi ve kültürel yaşamını şekillendiren büyük filozof-kral Nezahualcoyotl'un eviydi. Yazıcıları ve hukukçuları, yabancı hükümdarların bile mahkemelerinden akan hukuki hikmeti taklit etmeye çalıştığı kadar saygı duyulan yönetim geleneklerini sürdürdü."
+
+ aga_tr_city_mani: "Xiu'nun Kereste Sarayı"
+ aga_tr_city_mani_desc: "Mani, Batı Yukatan'ın gür ormanlarının kalbinde yer alıyordu; kerestesi, Mayapan'ın düşüşünden sonra konaklarından hükmeden güçlü Xiu hanedanının inşaat ihtiyaçlarını karşılıyordu. Şehrin marangozları ve inşaatçıları yarımada genelinde ünlüydü, zanaatları etraftaki ormanlık alandan çekilen sonsuz kereste arzıyla destekleniyordu."
+
+ aga_tr_city_tenochtitlan_aztec: "Gölün Kalbi"
+ aga_tr_city_tenochtitlan_aztec_desc: "Tenochtitlan, Texcoco Gölü sularından, nesiller boyu süren chinampa (yüzen bahçe) tarımıyla Amerika kıtasının en verimli tarım arazilerinden birine dönüştürülmüş bir ada üzerinde yükselir. Su yolları, kanalları ve yüzen bahçeleri, tüm Meksika Vadisi boyunca dışarıya yayılan bir nüfusu ve siyasi otoriteyi besler."
+
+ aga_tr_city_tenochtitlan_colonial: "Yükselen Mexico City"
+ aga_tr_city_tenochtitlan_colonial_desc: "Yıkılan ada başkentinin harabeleri üzerinde yeni bir şehir yükseliyor; yeni bir sömürge düzeninin idari kalbi haline gelirken kanalları dolduruluyor ve tapınaklarının yerini kiliseler ile hükümet binaları alıyor. Göl havzasının zenginliği ve Büyük Okyanus'tan Meksika Körfezi kıyısına uzanan ticaret yollarının kesişimindeki konumu, hiçbir fatihin onu görmezden gelmesini mümkün kılmaz."
+
+ aga_tr_city_tzintzuntzan: "Sinek Kuşlarının Yeri"
+ aga_tr_city_tzintzuntzan_desc: "Tzintzuntzan atölyeleri Mesoamerika'daki en kaliteli metal işçiliğini üretti; demircileri, bölgedeki başka hiçbir şehrin taklit edemediği bronz döküm tekniklerinde ustalaştı. Şehir, Purépecha devletinin kendisini fethetmeye çalışan her imparatorluğa karşı silahlanmasını sağlayacak kadar gelişmiş bir zanaatkarlık geleneğini yansıtır."
+
+ aga_tr_city_chucuito: "Kutsal Gölün Kıyısı"
+ aga_tr_city_chucuito_desc: "Chucuito, yaratılışın başlangıç noktası kabul edilen Titicaca Gölü'nün kıyısında yer alır; suları hem devasa bir balıkçılık ekonomisini hem de dini bir otoriteyi besler. Hacılar ve rahipler, ruhani ağırlığı tepeden baktığı gölün enginliğiyle yarışan bir şehre çekilir."
+
+ aga_tr_city_hatunqulla: "Yaylaların Tahıl Ambarı"
+ aga_tr_city_hatunqulla_desc: "Hatunqolla'nın teraslı tarlaları o kadar bol patates üretir ki şehir, İnkalar henüz Titicaca havzasına ayak basmadan çok önce Lupaqa krallığının tarımsal belkemiği haline geldi. Soylu aileleri, güçlerini sayısız nesil boyunca mükemmelleştirilen yüksek irtifa tarım tekniklerinin dikkatli yönetimi üzerine inşa ettiler."
+
+ aga_tr_city_sana: "Naylamp Mirasçılarının Atölyesi"
+ aga_tr_city_sana_desc: "Saña, Sicán medeniyetinin olağanüstü metalurji geleneklerini miras aldı; zanaatkarları kuzey kıyısının her köşesinden takdir toplayan altın işçiliği ve ince zanaatlar üretti. Şehrin atölyeleri, halkının inancına adını veren efsanevi kurucu tanrıdan kaldığı söylenen bir beceri mirasını ileriye taşır."
+
+ aga_tr_city_chinchay: "Sal Tüccarlarının Limanı"
+ aga_tr_city_chinchay_desc: "Chinchay tüccarları, zenginliklerini And dünyası için altından daha değerli bir madde olan Spondylus deniz kabuğu arayışıyla Pasifik kıyısının uzaklarına balsa sallarıyla açılarak kurdular ve krallığı kıyının büyük ticari güçlerinden biri yapan kargolarla geri döndüler. Ticari geleneği o kadar değerlidir ki fatihler bile şehrin ticaret ağlarını dağıtmaktansa korumayı daha akıllıca bulmuşlardır."
+
+ aga_tr_city_al_mukha: "Kahve Ticaretinin Limanı"
+ aga_tr_city_al_mukha_desc: "Muha'nın Kızıldeniz'deki limanı, Yemen yaylalarında yetiştirilen ve bu rıhtımlardan Kahire'den İstanbul'a ve nihayetinde Avrupa'nın kendisine uzanan pazarlara sevk edilen kahvenin dünyadaki ana kapısı haline geldi. Rıhtımlarına uğrayan her tüccar gemisi, çağın en çok aranan mallarından biri haline gelen bir kargoyu alıp götürür."
+
+ aga_tr_city_shiraz: "Şarap ve Şiir Şehri"
+ aga_tr_city_shiraz_desc: "Şiraz bağları antik çağlardan beri ünlü şaraplar üretmiştir; ünü, şiirleri şehri meyve bahçeleri ve bahçeleri kadar kültürel zarafetiyle de ünlü kılan Hafız ve Sadi'nin mısralarına ayrılmaz bir şekilde işlenmiştir. Şiraz'ı elinde tutmak, Fars sanatsal kimliği ile tarımsal bolluğun yüzyıllardır birlikte büyüdüğü bir yeri elinde tutmaktır."
+
+ aga_tr_indo_war_elephants: "Savaş Fili Ahırları"
+ aga_tr_indo_war_elephants_desc: "Savaş fili, antik çağlardan beri Hint savaşlarının belirleyici silahı olmuştur; muazzam kütlesi ve psikolojik etkisi, hiçbir süvari hücumunun yaramayacağı düşman düzenlerini dağıtmaya ve tahkimatları ezmeye muktedirdir. Bu hayvanları yakalamak ve eğitmek için ahır beratı verilen kasabalar, İndus'tan Dekkan'a kadar orduları iki bin yıldır dehşete düşüren bir silahı tahta temin eder."
+
+ aga_tr_indo_iqta_assignment: "İkta Tahsisi"
+ aga_tr_indo_iqta_assignment_desc: "İkta sistemi, gelişmiş bir hazine olmadan orduya ödeme yapmanın pratik bir çözümü olarak, sultanın hizmetinde asker beslemesi karşılığında bir kasabanın gelirini bir askeri komutana devreder; ancak bu durum tahtın kendi toprakları üzerindeki doğrudan otoritesini giderek zayıflatır."
+
+ aga_tr_indo_conversion: "Aktif Din Değiştirme Politikası"
+ aga_tr_indo_conversion_desc: "Bazı hükümdarlar kasabalarının tapınaklarını, medreselerini ve tekkelerini yalnızca birer ibadet yeri olarak değil, dini dönüşümün araçları olarak görür; halkı hak dinin çatısı altına sokmak için din değiştirme mekanizmasını zorlarlar. Din adamları bu işi denetler, ancak zorla din değiştirme uzun süre devam eden hoşnutsuzluklar bırakır."
+
+ aga_tr_indo_dhimmi_protection: "Zimmi Koruma Beratı"
+ aga_tr_indo_dhimmi_protection_desc: "Bu berat, din değiştirmeleri için baskı yapmak yerine, Müslüman olmayan tebaanın sadakatleri ve vergileri karşılığında inançlarını rahatsız edilmeden yaşama hakkını resmen tanır; bu pratik uzlaşı, Hindu, Cayn ve diğer toplulukların nesiller boyu Müslüman yönetimi altında gelişmesine olanak tanımıştır."
+
+ aga_tr_indo_stepwells: "Bawari Basamaklı Kuyuları"
+ aga_tr_indo_stepwells_desc: "Hint-Ganj ovasının büyük basamaklı kuyuları, en sert kurak mevsimde kasabayı ayakta tutacak suya ulaşmak için kavrulmuş toprağın derinliklerine teraslı basamaklarla iner; oyulmuş galerileri, sıcaktan kaçmak için serin toplanma yerleri ve gayriresmi sığınaklar işlevi görür. Bu pratik mühendislik abideleri, musonun tek güvenilir yağmur sözü olduğu bir coğrafyada yerleşim yerlerini hayatta tutmuştur."
+
+ aga_tr_indo_mandi_markets: "Mandi Tahıl Pazarı"
+ aga_tr_indo_mandi_markets_desc: "Mandi, Hint-Ganj ovasının büyük tarımsal toptancı pazarıdır; üreticiler tahıllarını, başka yerlerde ticarete hakim olan şehirli tüccar loncalarının aracılığı olmadan doğrudan tartılmak, fiyatlandırılmak ve satılmak üzere buraya getirirler. Çiftçi ile pazar arasındaki bu doğrudan ilişki, bir Mandi kasabasının köylülerine ürün fiyatları üzerinde bir pazarlık gücü verir."
+
+ aga_tr_indo_agrahara: "Agrahara Toprak Bağışı"
+ aga_tr_indo_agrahara_desc: "Agrahara, topluluğa ritüel, eğitim ve idari hizmet karşılığında bir kasabanın toprağını ve gelirini bilgili Brahminlere ve tapınak kurumlarına devreder. Bir Agrahara'nın kök saldığı her yerde nesiller boyu Sanskritçe ilmi, astronomi ve hukuk eğitimi birikir; bu da bu tür kasabaları dini adanmışlık kadar fikri prestijin de merkezleri haline getirir."
+
+ aga_tr_bengal_muslin: "Dakka Muslin Atölyeleri"
+ aga_tr_bengal_muslin_desc: "Bengal muslini o kadar ince dokunur ki tüm bir giysi bir yüzükten geçirilebilir; bu zanaat o kadar ünlüdür ki tüccarlar antik çağda Dakka'dan Roma saraylarına ve bu çağda da Avrupa'nın moda evlerine taşımışlardır. Dünyadaki başka hiçbir kumaş, bu delta atölyelerinde üretilen bu tülbent pamuğunun fiyatına veya itibarına ulaşamaz."
+
+ aga_tr_bengal_rice_delta: "Ganj-Brahmaputra Pirinç Deltası"
+ aga_tr_bengal_rice_delta_desc: "Ganj ve Brahmaputra nehirlerinin denizle buluştuğu delta, yeryüzündeki en verimli tarım arazileri arasındadır; yıllık taşkınları, alt kıtada başka hiçbir yerle kıyaslanamayacak bollukta pirinç hasatlarını besleyen alüvyonları bırakır. Bu olağanüstü tarımsal zenginlik, Bengal'i Hindistan'ın en yoğun nüfuslu ve uğrunda en çok savaşılan bölgesi yapmıştır."
+
+ aga_tr_indoaryan_jamdani: "Camdani Dokuma Geleneği"
+ aga_tr_indoaryan_jamdani_desc: "Ganj ovasının dokumacıları, olağanüstü incelikte pamuklu kumaşlar üretir; desenli Camdani (Jamdani) teknikleri, becerileri bölgenin tekstil ürünlerini Hindistan sınırlarının çok ötesinde değerli kılan nesiller boyu zanaatkar ailelerden aktarılmıştır. Bu kasabaların tezgâhları, Bengal'in ünlü musliniyle yarışan ince bir dokuma geleneğiyle uğuldar."
+
+ aga_tr_indo_rajput_garhi: "Racput Garhi Kalesi"
+ aga_tr_indo_rajput_garhi_desc: "Garhi, Racput savaşçı klanlarının müstahkem kalesidir; burada sadakat dini bir yükümlülükten veya sultanın atamasından değil, bir klanı reisine bağlayan akrabalık ve askeri onur bağlarından doğar."
+
+ aga_tr_city_geneve: "Alpler'in Ticarethanesi"
+ aga_tr_city_geneve_desc: "Cenevre'nin Fransa, İtalya ve Alman topraklarından gelen ticaret yollarının kesişim noktasındaki konumu, Geç Orta Çağ'ın büyük panayırlarından bu yana burayı tüccarlar, sarraflar ve bankerler için doğal bir yuva haline getirmiştir. Şehrin ticarethaneleri, krediler verir ve şehrin mütevazı surlarının çok ötesindeki tüccarlara ulaşan anlaşmalara aracılık eder."
+
+ aga_tr_city_zurich: "Limmat Lonca Binası"
+ aga_tr_city_zurich_desc: "Zürih loncaları, şehrin kontrolünü eski patrisyen ailelerin elinden almış ve Alpler'in kuzeyindeki en kararlı bağımsız burjuva hükümetlerinden birini kurmuştur; zanaat ve tüccar salonları, şehrin yasalarını herhangi bir soylular konseyinin yapabileceği kadar dikte etmiştir. Şehir okuryazarlığı ve idari kayıt tutma, her şeyden önce kendi esnafına hesap veren bir hükümet altında gelişir."
+
+ aga_tr_city_edinburgh: "Kayalıktaki Kale"
+ aga_tr_city_edinburgh_desc: "Edinburgh kalesi, Forth Firth'ün üzerindeki volkanik bir kayalığı taçlandırır ve Stewart kralları onun salonlarından nesiller boyu İngilizlerin her fetih girişimine direnen bir krallığı yönetmiştir. Şehrin Kraliyet Yolu (Royal Mile), kaleyi manastıra bağlayarak tahtı ve krallığı tek bir taş ve hafıza şeridinde birleştirir."
+
+ aga_tr_city_dublin: "Pale'in Makamı"
+ aga_tr_city_dublin_desc: "Dublin, İrlanda'daki İngiliz yönetiminin idari kalbi olarak durmuştur. Şehrin limanı ve garnizonu, her İngiliz valisinin adanın iç kesimlerine güç yansıtmak için bel bağladığı sömürgeci bir dayanak noktası oluşturur."
+
+ aga_tr_city_rodos: "Hospitalierlerin Bastiyonu"
+ aga_tr_city_rodos_desc: "Rodos, nihayet 1522'de düşmeden önce limanı ve surları tekrarlanan Memlük ve Osmanlı kuşatmalarına dayanarak iki yüzyıldan fazla bir süre Hospitalier Şövalyeleri'nin ada kalesi olarak hizmet verdi. Tarikatın mühendisleri, şehri Akdeniz'in en heybetli tahkimatlarından birine, İslam dünyasının sınırındaki Hristiyan direnişinin bir sembolüne dönüştürdü."
+
+ aga_tr_city_granada_islamic: "Nasrilerin Mücevheri"
+ aga_tr_city_granada_islamic_desc: "Gırnata, İberya'daki İslami yönetimin son kalesidir; El Hamra Sarayı, dünyadaki İslam mimarisinin en zarif başarılarından biri olarak şehrin üzerinde yükselir. Şehrin su kanalları (acequias), dağ suyunu teraslı bahçelerden ve ipek bahçelerinden aşağı taşıyarak yarımadanın her köşesinden ilerleyen Reconquista'dan kaçan Müslüman mültecileri çeken rafine bir saray kültürünü besler."
+
+ aga_tr_city_granada_christian: "Reconquista'nın Tacı"
+ aga_tr_city_granada_christian_desc: "Gırnata'nın 1492'deki düşüşü, İberya'daki yaklaşık sekiz asırlık İslami yönetimin sonunu simgeledi ve Katolik Hükümdarlar o zamandan beri şehre dini ve hanedanlık anlamında büyük önem vererek El Hamra'yı bir kraliyet ikametgahına dönüştürdüler ve Capilla Real'i (Kraliyet Şapeli) ebedi istirahatgahları olarak inşa ettiler. Hristiyan İspanyası tarihindeki hiçbir fetih, bu şehrin alınması kadar büyük bir sembolik ağırlık taşımaz."
+
+ aga_tr_city_toledo: "Tajo'nun Kılıçları"
+ aga_tr_city_toledo_desc: "Toledo'nun kılıç ustaları yüzyıllardır efsanevi kalitede kılıçlar dövmüştür; çelikleri Tajo'nun sularında su verilmiş ve Hristiyanlık aleminin ve ötesinin her yerindeki şövalyeler ile hükümdarlar tarafından el üstünde tutulmuştur. Şehrin dökümhaneleri, İberya'daki hiçbir rakip atölyenin yarışamayacağı silahlar üretmek için devralınan Mağribi metalurji becerisini Kastilya zanaatkarlığıyla birleştirir."
+
+ aga_tr_city_baghdad: "Tanrı'nın Bahşettiği"
+ aga_tr_city_baghdad_desc: "Bağdat'ın adı, surlarından bir zamanlar hüküm süren büyük hilafetin ağırlığını hâlâ taşır; Beytü'l-Hikme'si (Hikmet Evi), ihtişamının zirvesindeyken İslam dünyasının her köşesinden bilginleri, şairleri ve filozofları çekmiştir. Osmanlı ve Safevi orduları şehir için tekrar tekrar savaşmış, her fatih Bağdat'ı elinde tutan kimsenin halifelerin mirası üzerinde hak iddia ettiğini anlamıştır."
+
+ aga_tr_city_basra: "Körfez'in Kapısı"
+ aga_tr_city_basra_desc: "Basra, Dicle ve Fırat'ın Basra Körfezi ile buluştuğu yerde durur; Hindistan ve Arabistan ticaretini nehirler üzerinden Bağdat'a ve ötesine aktarır. Aynı zamanda Arap Yarımadası dışında inşa edilen ilk camiye de ev sahipliği yapmaktadır."
+
+ aga_tr_city_augsburg: "Fugger Hanedanı"
+ aga_tr_city_augsburg_desc: "Augsburg, kredileri imparatorları finanse eden, papalığın endüljanslarını fonlayan ve Avrupa'nın yarısındaki savaşları destekleyen Fugger bankacılık hanedanının evidir. İmparatorluktaki hiçbir şehir, Augsburg'un ticarethanelerinden akan finansal güçle yarışamaz."
+
+ aga_tr_city_vilnius: "Gediminas Hanedanı'nın Makamı"
+ aga_tr_city_vilnius_desc: "Vilnius, Gediminas ve varisleri yönetiminde Neris kıyılarından eski Rus topraklarının geniş alanlarına hükmederek Avrupa'nın en büyük devletine dönüşen bir Büyük Dükalığın başkenti haline geldi. Burada 1387 yılında Litvanya'nın Hristiyanlığa karşı direnen son eski pagan tanrıları nihayet yerini haça bıraktı ve Büyük Dükalığın kaderini Polonya'ya ve daha geniş Katolik dünyasına bağladı."
+
+ aga_tr_city_great_zimbabwe: "Taş Evler"
+ aga_tr_city_great_zimbabwe_desc: "Büyük Zimbabve'nin harçsız taş surları harç veya çimento olmadan yükselir; bu, büyük baş hayvanlar ve Swahili kıyısına akan altın ticaretiyle zenginleşen bir krallığı sabitleyen bir mühendislik harikasıdır. Hükümdarlarının bir zamanlar saray kurduğu taş surlar, Afrika iç kesimlerinin en büyük mimari başarılarından biri olarak durmaktadır."
+
+ aga_tr_city_targoviste: "Voyvodanın Adaleti"
+ aga_tr_city_targoviste_desc: "Târgoviște, nesiller boyu Eflak'ın prenslik makamı olarak hizmet vermiştir; saray salonu, voyvodaların boyarları dize getirmekte etkili olduğu kadar korkulan bir adaleti dağıttığı yer olmuştur. III. Vlad, kendisinden sonra yüzyıllar boyunca yaşayan sert bir itibar ile bu salonlardan hükmetmiştir."
+
+ aga_tr_city_buda: "Tuna Üzerindeki Kraliyet Makamı"
+ aga_tr_city_buda_desc: "Buda Kraliyet Sarayı, Tuna nehri üzerindeki tepeyi taçlandırır; Árpádlar gününden beri Macar krallarının hükmettiği ve Matthias Corvinus'un daha sonra Rönesans İtalya'sındaki her sarayla yarışacak bir saray inşa ettiği makamdır. Buda'yı elinde tutan kimse, Macaristan tahtını sadece isimden ibaret olmayacak şekilde elinde tutar."
+ 
+ aga_tr_city_axum: "Ancient Throne"
+ aga_tr_city_axum_desc: "Axum ruled as the seat of a great kingdom in an age when Rome and Persia were the only other powers worth naming, and though its practical dominion has long since passed to other cities, its churches still guard a claim to the Ark of the Covenant that no Ethiopian emperor can ignore."
+ 
+ aga_tr_city_suceava: "Fortress of Stephen the Great"
+ aga_tr_city_suceava_desc: "Suceava's dual role as both the princely court and a significant religious center. Moldavia experience growth of dozens of monasteries and churches under the rule of Stephen the Great, many of them commissioned directly from his seat in Suceava, tying the city's identity to authority and religious importance."
+ 
