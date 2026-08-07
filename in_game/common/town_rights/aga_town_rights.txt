@@ -2396,6 +2396,59 @@ aga_tr_maj_pasisir_port = {
 	color = map_GEO
 }
 
+# =============================================================
+# FINLAND
+# =============================================================
+aga_tr_fin_tar = {
+    kept_at_conquest = yes
+    location_modifier = {
+		local_tar_output_modifier = 0.33
+		local_naval_supplies_output_modifier = 0.2
+		local_peasant_enfranchisment = 0.1
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:finnic_group
+        }
+    }
+    allow = {
+        scope:target = {
+            OR = {
+                vegetation = forest
+                vegetation = woods
+            }
+        }
+    }
+    color = map_finnish
+}
+
+aga_tr_fin_kaski = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_monthly_food_modifier = 0.15
+        local_population_growth = 0.0001
+        local_population_capacity = 20
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:finnic_group
+        }
+    }
+    allow = {
+        scope:target = {
+            OR = {
+                vegetation = forest
+                vegetation = woods
+            }
+        }
+    }
+    color = map_ITA
+}
+
 # ============================================================= =============================================================
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # UNIQUE PER CITY
@@ -4980,4 +5033,48 @@ aga_tr_city_villa_di_chiesa = {
         }
     }
     color = map_austrian
+}
+
+aga_tr_city_suceava = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_garrison_size = 0.15
+        local_nobles_desired_pop_scaled = 0.08
+        local_clergy_desired_pop_scaled = 0.08
+    }
+    country_modifier = {
+        monthly_prestige = 0.05
+        monthly_religious_influence = 0.05
+    }
+    potential = {
+        owns = location:suceava
+    }
+    allow = {
+        scope:target = {
+            this = location:suceava
+        }
+    }
+    color = map_GEO
+}
+
+aga_tr_city_axum = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_clergy_desired_pop_scaled = 0.1
+        local_cultural_tradition = 2
+        local_migration_attraction = 0.2
+    }
+    country_modifier = {
+        global_crown_estate_power = 0.1
+        monthly_religious_influence = 0.1
+    }
+    potential = {
+        owns = location:axum
+    }
+    allow = {
+        scope:target = {
+            this = location:axum
+        }
+    }
+    color = map_ethiopia
 }

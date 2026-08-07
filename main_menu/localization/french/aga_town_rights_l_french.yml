@@ -324,6 +324,15 @@
  aga_tr_maj_pasisir_port_desc: "La côte de Pasisir, à Java, était une succession de villes marchandes qui reliait les îles productrices d'épices de l'archipel aux marchés de l'Inde, de la Chine et de l'Arabie. Ce droit fait de la ville un entrepôt officiel du réseau de Pasisir, attirant les marchands de la mousson venus de tout l'océan Indien."
  
  # =============================================================
+ # FINLAND
+ # =============================================================
+ aga_tr_fin_tar: "Black Gold Charter"
+ aga_tr_fin_tar_desc: "Finnish tar burners work the endless pine forests to produce the sticky black pitch that seals every hull and rigging line in the Baltic and North Sea fleets. No navy in northern Europe can put to sea for long without depending, however indirectly, on the labor of these forest towns."
+ 
+ aga_tr_fin_kaski: "Kaski Clearings"
+ aga_tr_fin_kaski_desc: "Finnish settlers burn and clear patches of dense forest to plant rye and barley in the ash-enriched soil, a method that has allowed families to push settlement deep into terrain no ordinary plow could ever break. The clearings shift from year to year, but the harvests they yield have fed generations on land otherwise fit only for timber."
+ 
+ # =============================================================
  # EXTRAS
  # =============================================================
  aga_tr_slave_town: "Ville esclavagiste"
@@ -670,3 +679,10 @@
  
  aga_tr_city_villa_di_chiesa: "La cité de l'argent"
  aga_tr_city_villa_di_chiesa_desc: "Sous domination pisane, Villa di Chiesa était l'une des villes les plus importantes et les plus peuplées de Sardaigne grâce à ses ressources en plomb et en argent. Au début du XIVe siècle, ses mines produisaient environ 10 % de l'argent en circulation en Europe."
+ 
+ aga_tr_city_axum: "Ancient Throne"
+ aga_tr_city_axum_desc: "Axum ruled as the seat of a great kingdom in an age when Rome and Persia were the only other powers worth naming, and though its practical dominion has long since passed to other cities, its churches still guard a claim to the Ark of the Covenant that no Ethiopian emperor can ignore."
+ 
+ aga_tr_city_suceava: "Fortress of Stephen the Great"
+ aga_tr_city_suceava_desc: "Suceava's dual role as both the princely court and a significant religious center. Moldavia experience growth of dozens of monasteries and churches under the rule of Stephen the Great, many of them commissioned directly from his seat in Suceava, tying the city's identity to authority and religious importance."
+ 
