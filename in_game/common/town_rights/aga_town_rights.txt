@@ -2428,7 +2428,7 @@ aga_tr_fin_kaski = {
     kept_at_conquest = no
     location_modifier = {
         local_monthly_food_modifier = 0.15
-        local_population_growth = 0.0001
+        local_population_growth = 0.002
         local_population_capacity = 20
     }
     country_modifier = {
