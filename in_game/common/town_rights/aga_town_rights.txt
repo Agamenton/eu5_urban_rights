@@ -202,7 +202,6 @@ aga_tr_russian_posad = {
     }
     allow = {
         scope:target = {
-            is_market_center = yes
         }
     }
     color = map_wetsuweten
