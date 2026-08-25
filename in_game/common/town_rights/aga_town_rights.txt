@@ -360,9 +360,9 @@ aga_tr_japanese_za_guild = {
 #aga_tr_japanese_jinaimachi = {
 #    kept_at_conquest = no
 #    location_modifier = {
-#        local_clergy_desired_pop_scaled = 0.0005
+#        local_clergy_desired_pop_scaled = 0.005
 #        local_max_control = 0.05
-#        local_burghers_desired_pop_scaled = 0.0005
+#        local_burghers_desired_pop_scaled = 0.01
 #    }
 #    country_modifier = {
 #    }
@@ -2837,7 +2837,7 @@ aga_tr_city_antwerp = {
         local_merchant_capacity = 4
         local_market_access = 0.25
         local_trade_center_power = 0.1
-        local_burghers_desired_pop_scaled = 0.0015
+        local_burghers_desired_pop_scaled = 0.015
     }
     country_modifier = {
         bank_interest = -0.02
@@ -3560,7 +3560,7 @@ aga_tr_city_moscow = {
     kept_at_conquest = yes
     location_modifier = {
         local_crown_estate_power = 1
-        local_nobles_desired_pop_scaled = 0.001
+        local_nobles_desired_pop_scaled = 0.002
     }
     country_modifier = {
         monthly_legitimacy = 0.1
@@ -3918,7 +3918,7 @@ aga_tr_city_bukhara = {
 aga_tr_city_delhi_city = {
     kept_at_conquest = yes
     location_modifier = {
-        local_nobles_desired_pop_scaled = 0.001
+        local_nobles_desired_pop_scaled = 0.002
         local_merchant_capacity = 5
         local_monthly_literacy = 0.03
     }
@@ -3942,7 +3942,7 @@ aga_tr_city_dadu = {
     kept_at_conquest = yes
     location_modifier = {
         local_crown_estate_power = 0.5
-        local_nobles_desired_pop_scaled = 0.001
+        local_nobles_desired_pop_scaled = 0.002
         local_migration_attraction = 0.5
     }
     country_modifier = {
@@ -4514,7 +4514,7 @@ aga_tr_city_tenochtitlan_aztec = {
         local_maize_output_modifier = 0.25
         local_population_capacity = 250
         local_cultural_tradition = 2
-        local_nobles_desired_pop_scaled = 0.001
+        local_nobles_desired_pop_scaled = 0.002
     }
     country_modifier = {
         monthly_legitimacy = 0.1
@@ -4633,7 +4633,7 @@ aga_tr_city_sana = {
     location_modifier = {
         local_production_efficiency = 0.1
         local_cultural_tradition = 1
-        local_clergy_desired_pop_scaled = 0.0008
+        local_clergy_desired_pop_scaled = 0.005
     }
     country_modifier = {
         global_production_efficiency = 0.025
@@ -4718,7 +4718,7 @@ aga_tr_city_edinburgh = {
     kept_at_conquest = yes
     location_modifier = {
         local_crown_estate_power = 0.5
-        local_nobles_desired_pop_scaled = 0.0008
+        local_nobles_desired_pop_scaled = 0.004
         local_defensive = 0.1
     }
     country_modifier = {
@@ -4803,9 +4803,9 @@ aga_tr_city_granada_islamic = {
 aga_tr_city_granada_christian = {
     kept_at_conquest = yes
     location_modifier = {
-        local_clergy_desired_pop_scaled = 0.0015
+        local_clergy_desired_pop_scaled = 0.006
         local_pop_conversion_speed_modifier = 0.2
-        local_nobles_desired_pop_scaled = 0.008
+        local_nobles_desired_pop_scaled = 0.004
         local_crown_estate_power = 0.5
     }
     country_modifier = {
