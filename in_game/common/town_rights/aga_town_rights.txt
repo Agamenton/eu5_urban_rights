@@ -52,7 +52,7 @@ aga_tr_ottoman_vakif_endowment = {
     location_modifier = {
         local_monthly_literacy = 0.02
         local_pop_promotion_speed_modifier = 0.1
-        local_clergy_desired_pop_scaled = 0.05
+        local_clergy_desired_pop = 0.05
     }
     country_modifier = {
     }
@@ -166,7 +166,7 @@ aga_tr_rus_pomor = {
 aga_tr_russian_sloboda = {
     kept_at_conquest = no
     location_modifier = {
-        local_burghers_desired_pop_scaled = 0.1
+        local_burghers_desired_pop = 0.1
         local_production_efficiency = 0.05
         local_pop_promotion_speed_modifier = 0.1
         local_crown_estate_power = -0.25
@@ -238,7 +238,7 @@ aga_tr_russian_oprichnina_district = {
 aga_tr_venetian_contrada = {
     kept_at_conquest = no
     location_modifier = {
-        local_burghers_desired_pop_scaled = 0.1
+        local_burghers_desired_pop = 0.1
         local_merchant_capacity = 0.5
         local_cultural_tradition = 0.1
         local_burghers_estate_power = 0.5
@@ -339,7 +339,7 @@ aga_tr_japanese_za_guild = {
     kept_at_conquest = no
     location_modifier = {
         local_production_efficiency = 0.1
-        local_burghers_desired_pop_scaled = 0.08
+        local_burghers_desired_pop = 0.1
         local_pop_food_consumption = 0.2
     }
     country_modifier = {
@@ -360,9 +360,9 @@ aga_tr_japanese_za_guild = {
 #aga_tr_japanese_jinaimachi = {
 #    kept_at_conquest = no
 #    location_modifier = {
-#        local_clergy_desired_pop_scaled = 0.1
+#        local_clergy_desired_pop_scaled = 0.0005
 #        local_max_control = 0.05
-#        local_burghers_desired_pop_scaled = 0.05
+#        local_burghers_desired_pop_scaled = 0.0005
 #    }
 #    country_modifier = {
 #    }
@@ -384,7 +384,7 @@ aga_tr_japanese_castle_town = {
     location_modifier = {
         fort_level = 1
         local_garrison_size = 0.2
-        local_nobles_desired_pop_scaled = 0.08
+        local_nobles_desired_pop = 0.05
         local_nobles_estate_power = 0.5
     }
     country_modifier = {
@@ -520,7 +520,7 @@ aga_tr_arab_mellah = {
 aga_tr_maghrebi_corsairs = {
     kept_at_conquest = no
     location_modifier = {
-        local_slaves_desired_pop_scaled = 0.1
+        local_slaves_desired_pop_scaled = 0.001
         local_maritime_presence = 0.25
     }
     country_modifier = {
@@ -620,7 +620,7 @@ aga_tr_teutonic_hanseatic_privilege = {
     kept_at_conquest = no
     location_modifier = {
         local_merchant_capacity = 1
-        local_burghers_desired_pop_scaled = 0.1
+        local_burghers_desired_pop = 0.1
         local_trade_protection_factor = 0.08
     }
     country_modifier = {
@@ -650,7 +650,7 @@ aga_tr_mali_dyula_market = {
     location_modifier = {
         local_merchant_capacity = 2
         local_market_access = 0.1
-        local_burghers_desired_pop_scaled = 0.08
+        local_burghers_desired_pop = 0.1
     }
     country_modifier = {
     }
@@ -733,7 +733,7 @@ aga_tr_china_lijia_system = {
     location_modifier = {
         local_monthly_control = 0.1
         local_pop_promotion_speed_modifier = 0.05
-        local_peasants_desired_pop_scaled = 0.1
+        local_laborers_desired_pop_scaled = 0.01
     }
     country_modifier = {
     }
@@ -814,7 +814,7 @@ aga_tr_china_silk_guild = {
 aga_tr_ruthenian_magdeburg = {
     kept_at_conquest = yes
     location_modifier = {
-        local_burghers_desired_pop_scaled = 0.1
+        local_burghers_desired_pop = 0.1
 		local_merchant_capacity_modifier = 0.25
         local_burghers_estate_power = 0.5
         local_pop_promotion_speed_modifier = 0.1
@@ -999,7 +999,7 @@ aga_tr_korean_weaponry = {
 aga_tr_khmer_prasat_quarter = {
     kept_at_conquest = no
     location_modifier = {
-        local_clergy_desired_pop_scaled = 0.1
+        local_clergy_desired_pop = 0.05
         local_monthly_literacy = 0.02
         local_cultural_tradition = 0.05
     }
@@ -1630,7 +1630,7 @@ aga_tr_geo_tamar_patent = {
 aga_tr_geo_catholic_charter = {
     kept_at_conquest = no
     location_modifier = {
-        local_clergy_desired_pop_scaled = 0.1
+        local_clergy_desired_pop = 0.05
         local_monthly_literacy = 0.02
         local_pop_conversion_speed_modifier = 0.25
     }
@@ -1726,7 +1726,7 @@ aga_tr_hun_black_army = {
     kept_at_conquest = no
     location_modifier = {
         local_garrison_size = 0.15
-        local_soldiers_desired_pop_scaled = 0.1
+        local_soldiers_desired_pop_scaled = 0.05
         local_manpower = 0.005
     }
     country_modifier = {
@@ -1747,7 +1747,7 @@ aga_tr_hun_corvinian_court = {
     location_modifier = {
         local_cultural_tradition = 0.25
         local_max_literacy = 5
-        local_nobles_desired_pop_scaled = 0.08
+        local_nobles_desired_pop = 0.05
     }
     country_modifier = {
     }
@@ -1867,7 +1867,7 @@ aga_tr_ira_silk_loom = {
 aga_tr_ira_shia = {
     kept_at_conquest = no
     location_modifier = {
-        local_clergy_desired_pop_scaled = 0.1
+        local_clergy_desired_pop = 0.05
         local_monthly_literacy = 0.02
         local_max_literacy = 5
     }
@@ -1959,7 +1959,7 @@ aga_tr_ethiopian_negad_market = {
 aga_tr_ethiopian_debre_monastery = {
     kept_at_conquest = no
     location_modifier = {
-        local_clergy_desired_pop_scaled = 0.1
+        local_clergy_desired_pop = 0.05
         local_monthly_literacy = 0.02
         local_cultural_tradition = 0.25
     }
@@ -2152,7 +2152,7 @@ aga_tr_order_military = {
 		local_garrison_size = 0.3
 		local_defensive = 0.3
 		local_manpower = 0.01
-		local_soldiers_desired_pop_scaled = 0.2
+		local_soldiers_desired_pop_scaled = 0.05
 	}
 
 	country_modifier = {
@@ -2232,7 +2232,7 @@ aga_tr_fra_clos_monastique = {
 	location_modifier = {
 		local_wine_output_modifier = 0.25
         local_cultural_tradition = 0.25
-        local_clergy_desired_pop_scaled = 0.05
+        local_clergy_desired_pop = 0.025
 	}
 
 	country_modifier = {
@@ -2487,7 +2487,7 @@ aga_tr_city_hormuz = {
 aga_tr_city_rome = {
     kept_at_conquest = no
     location_modifier = {
-        local_clergy_desired_pop_scaled = 0.1
+        local_clergy_desired_pop_scaled = 0.001
         local_monthly_literacy = 0.05
         local_cultural_tradition = 1
         local_monthly_development_modifier = 0.25
@@ -2671,10 +2671,10 @@ aga_tr_city_kyoto = {
     kept_at_conquest = yes
     location_modifier = {
         local_cultural_tradition = 1
-        local_clergy_desired_pop_scaled = 0.15
+        local_clergy_desired_pop_scaled = 0.001
         local_monthly_literacy = 0.03
         local_max_literacy = 5
-        local_nobles_desired_pop_scaled = 0.1
+        local_nobles_desired_pop_scaled = 0.001
     }
     country_modifier = {
         monthly_prestige = 0.2
@@ -2780,7 +2780,7 @@ aga_tr_city_ccantumarcani = {
     kept_at_conquest = yes
     location_modifier = {
         local_production_efficiency = 0.1
-        local_slaves_desired_pop_scaled = 0.2
+        local_slaves_desired_pop_scaled = 0.02
         local_slaves_food_consumption = 0.1
     }
     country_modifier = {
@@ -2837,7 +2837,7 @@ aga_tr_city_antwerp = {
         local_merchant_capacity = 4
         local_market_access = 0.25
         local_trade_center_power = 0.1
-        local_burghers_desired_pop_scaled = 0.15
+        local_burghers_desired_pop_scaled = 0.0015
     }
     country_modifier = {
         bank_interest = -0.02
@@ -3295,7 +3295,7 @@ aga_tr_city_bologna = {
 #    location_modifier = {
 #        local_monthly_literacy = 0.005
 #        local_max_literacy = 0.1
-#        local_clergy_desired_pop_scaled = 0.1
+#        local_clergy_desired_pop_scaled = 0.001
 #        local_cultural_tradition = 8
 #    }
 #    country_modifier = {
@@ -3372,7 +3372,7 @@ aga_tr_city_prague = {
 #    location_modifier = {
 #        local_monthly_literacy = 0.005
 #        local_max_literacy = 0.1
-#        local_clergy_desired_pop_scaled = 0.15
+#        local_clergy_desired_pop_scaled = 0.0015
 #        local_cultural_tradition = 12
 #    }
 #    country_modifier = {
@@ -3560,7 +3560,7 @@ aga_tr_city_moscow = {
     kept_at_conquest = yes
     location_modifier = {
         local_crown_estate_power = 1
-        local_nobles_desired_pop_scaled = 0.1
+        local_nobles_desired_pop_scaled = 0.001
     }
     country_modifier = {
         monthly_legitimacy = 0.1
@@ -3689,7 +3689,7 @@ aga_tr_city_hamburg = {
 #        local_merchant_capacity = 2
 #        local_trade_center_power = 0.12
 #        local_monthly_literacy = 0.003
-#        local_clergy_desired_pop_scaled = 0.1
+#        local_clergy_desired_pop_scaled = 0.001
 #    }
 #    country_modifier = {
 #        trade_income = 0.06
@@ -3833,7 +3833,7 @@ aga_tr_city_aleppo = {
 aga_tr_city_jerusalem = {
     kept_at_conquest = yes
     location_modifier = {
-        local_clergy_desired_pop_scaled = 0.2
+        local_clergy_desired_pop_scaled = 0.002
         local_cultural_tradition = 1
     }
     country_modifier = {
@@ -3918,7 +3918,7 @@ aga_tr_city_bukhara = {
 aga_tr_city_delhi_city = {
     kept_at_conquest = yes
     location_modifier = {
-        local_nobles_desired_pop_scaled = 0.1
+        local_nobles_desired_pop_scaled = 0.001
         local_merchant_capacity = 5
         local_monthly_literacy = 0.03
     }
@@ -3942,7 +3942,7 @@ aga_tr_city_dadu = {
     kept_at_conquest = yes
     location_modifier = {
         local_crown_estate_power = 0.5
-        local_nobles_desired_pop_scaled = 0.1
+        local_nobles_desired_pop_scaled = 0.001
         local_migration_attraction = 0.5
     }
     country_modifier = {
@@ -4035,7 +4035,7 @@ aga_tr_city_gonder = {
 aga_tr_city_tarnovo = {
     kept_at_conquest = yes
     location_modifier = {
-        local_clergy_desired_pop_scaled = 0.12
+        local_clergy_desired_pop_scaled = 0.001
         local_cultural_tradition = 1
         local_max_literacy = 5
     }
@@ -4514,7 +4514,7 @@ aga_tr_city_tenochtitlan_aztec = {
         local_maize_output_modifier = 0.25
         local_population_capacity = 250
         local_cultural_tradition = 2
-        local_nobles_desired_pop_scaled = 0.10
+        local_nobles_desired_pop_scaled = 0.001
     }
     country_modifier = {
         monthly_legitimacy = 0.1
@@ -4585,7 +4585,7 @@ aga_tr_city_chucuito = {
         local_fish_output_modifier = 0.3
         local_population_capacity = 250
         local_cultural_tradition = 1
-        local_clergy_desired_pop_scaled = 0.10
+        local_clergy_desired_pop_scaled = 0.001
     }
     country_modifier = {
         change_religious_aspect_inti_cost_modifier = -0.25
@@ -4633,7 +4633,7 @@ aga_tr_city_sana = {
     location_modifier = {
         local_production_efficiency = 0.1
         local_cultural_tradition = 1
-        local_clergy_desired_pop_scaled = 0.08
+        local_clergy_desired_pop_scaled = 0.0008
     }
     country_modifier = {
         global_production_efficiency = 0.025
@@ -4718,7 +4718,7 @@ aga_tr_city_edinburgh = {
     kept_at_conquest = yes
     location_modifier = {
         local_crown_estate_power = 0.5
-        local_nobles_desired_pop_scaled = 0.08
+        local_nobles_desired_pop_scaled = 0.0008
         local_defensive = 0.1
     }
     country_modifier = {
@@ -4760,7 +4760,7 @@ aga_tr_city_rodos = {
     kept_at_conquest = yes
     location_modifier = {
 		local_defensive = 0.3
-		local_soldiers_desired_pop_scaled = 0.25
+		local_soldiers_desired_pop_scaled = 0.025
 		hostile_fleet_attrition = 2
         local_ship_build_speed = 0.25
     }
@@ -4803,9 +4803,9 @@ aga_tr_city_granada_islamic = {
 aga_tr_city_granada_christian = {
     kept_at_conquest = yes
     location_modifier = {
-        local_clergy_desired_pop_scaled = 0.15
+        local_clergy_desired_pop_scaled = 0.0015
         local_pop_conversion_speed_modifier = 0.2
-        local_nobles_desired_pop_scaled = 0.08
+        local_nobles_desired_pop_scaled = 0.008
         local_crown_estate_power = 0.5
     }
     country_modifier = {
@@ -4913,7 +4913,7 @@ aga_tr_city_vilnius = {
     kept_at_conquest = yes
     location_modifier = {
         local_cultural_tradition = 1
-        local_nobles_desired_pop_scaled = 0.10
+        local_nobles_desired_pop_scaled = 0.002
         local_max_control = 0.05
     }
     country_modifier = {
@@ -4955,7 +4955,7 @@ aga_tr_city_great_zimbabwe = {
 aga_tr_city_targoviste = {
     kept_at_conquest = yes
     location_modifier = {
-        local_nobles_desired_pop_scaled = 0.08
+        local_nobles_desired_pop_scaled = 0.004
         local_garrison_size = 0.15
         local_max_control = 0.05
     }
@@ -4977,7 +4977,7 @@ aga_tr_city_buda = {
     kept_at_conquest = yes
     location_modifier = {
         local_crown_estate_power = 0.5
-        local_nobles_desired_pop_scaled = 0.10
+        local_nobles_desired_pop_scaled = 0.002
         local_cultural_influence = 1
     }
     country_modifier = {
@@ -5038,8 +5038,8 @@ aga_tr_city_suceava = {
     kept_at_conquest = yes
     location_modifier = {
         local_garrison_size = 0.15
-        local_nobles_desired_pop_scaled = 0.08
-        local_clergy_desired_pop_scaled = 0.08
+        local_nobles_desired_pop_scaled = 0.002
+        local_clergy_desired_pop_scaled = 0.003
     }
     country_modifier = {
         monthly_prestige = 0.05
@@ -5059,7 +5059,7 @@ aga_tr_city_suceava = {
 aga_tr_city_axum = {
     kept_at_conquest = yes
     location_modifier = {
-        local_clergy_desired_pop_scaled = 0.1
+        local_clergy_desired_pop_scaled = 0.004
         local_cultural_tradition = 2
         local_migration_attraction = 0.2
     }
