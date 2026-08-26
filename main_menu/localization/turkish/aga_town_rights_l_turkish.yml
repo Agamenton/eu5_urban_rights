@@ -83,6 +83,22 @@
  aga_tr_teutonic_hanseatic_privilege_desc: "Töton Tarikatı'nın Baltık limanları; Baltık tahılı, kehribar ve keresteyi Felemenk kumaşı ve İngiliz yünü ile takas ederek Hansa Birliği'nin ticaret ağının kritik bir parçasını oluşturuyordu. Bu hak, kasabaya Hansa ticari korumalarını sağlayarak kuzeyli tüccarları kasaba pazarlarına çeker."
 
  # =============================================================
+ # PRUSSIA & GERMANY
+ # =============================================================
+ aga_tr_ger_protestant_church: "Landeskirche State Church"
+ aga_tr_ger_protestant_church_desc: "Following the principle of cuius regio, eius religio, the German princes have brought the church firmly under secular authority, appointing pastors and setting doctrine as instruments of the state rather than an independent power beside it. Bishops who once answered to Rome now answer to the prince's chancellery, and the pulpit has become as much a tool of governance as the tax collector's ledger."
+
+ aga_tr_pru_amber_coast: "Amber Gathering Operations"
+ aga_tr_pru_amber_coast_desc: "The shores of Prussia yield amber in greater abundance than anywhere else in the world, fossilized resin washed up by Baltic storms and gathered by hand to be carved, strung, and sold to merchants who carry it to every corner of Europe. The old Amber Road that once linked these coasts to Rome still echoes in the trade that sustains Prussian towns today."
+ 
+ aga_tr_pru_junker: "Junker Rittergut"
+ aga_tr_pru_junker_desc: "The Junker nobility of East Prussia have built vast grain estates worked by peasants bound ever more tightly to the land, their wealth and military tradition forming the backbone of a class that will one day fill the officer corps of a great power. Where the Junker holds his estate, the old feudal order runs deeper than anywhere else in the German lands."
+
+ aga_tr_pru_prussian_virtues: "Prussian Virtues"
+ aga_tr_pru_prussian_virtues_desc: "Discipline, thrift, and unquestioning duty are cultivated here as civic ideals rather than mere soldierly habits, instilling in the population a readiness to serve that no mercenary company could ever match. This town's sons march to the drum not for coin but from a sense of obligation bred into them since childhood."
+
+
+ # =============================================================
  # MALI EMPIRE
  # =============================================================
  aga_tr_mali_dyula_market: "Dyula Pazarı"

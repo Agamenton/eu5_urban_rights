@@ -588,9 +588,8 @@ aga_tr_slave_town = {
 
 
 # =============================================================
-# TEUTONIC ORDER / PRUSSIA
+# TEUTONIC ORDER
 # =============================================================
-
 aga_tr_teutonic_komturei = {
     kept_at_conquest = yes
     location_modifier = {
@@ -604,7 +603,7 @@ aga_tr_teutonic_komturei = {
     potential = {
         OR = {
             has_or_had_tag = TEU
-            has_or_had_tag = PRU
+            #has_or_had_tag = PRU # Prussia is secularized compared to Teutonic Order
         }
         religion.group = religion_group:christian
     }
@@ -639,6 +638,115 @@ aga_tr_teutonic_hanseatic_privilege = {
         }
     }
     color = map_nahani
+}
+
+# =============================================================
+# PRUSSIA & GERMANY
+# =============================================================
+aga_tr_ger_protestant_church = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_crown_estate_power = 0.3
+        local_clergy_estate_power = -0.2
+        local_max_literacy = 2.5
+    }
+    country_modifier = {
+    }
+    potential = {
+        culture = {
+            has_culture_group = culture_group:german_group
+        }
+        NOT = {
+            culture = {
+                has_culture_group = culture_group:bohemian_group
+            }
+        }
+		is_protestant = yes
+    }
+    allow = {
+        scope:target = {
+            OR = {
+                location_rank = location_rank:city
+                location_rank = location_rank:megalopolis
+            }
+        }
+    }
+    color = color_lutheran
+}
+
+aga_tr_pru_amber_coast = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_max_rgo_size_modifier = 0.5
+        local_market_access = 0.05
+		local_production_efficiency = town_right_efficiency_penalty
+    }
+    country_modifier = {
+    }
+    potential = {
+        OR = {
+            has_or_had_tag = PRU
+            has_or_had_tag = POM
+            has_or_had_tag = TEU
+            has_or_had_tag = WOL
+            has_or_had_tag = STE
+            culture = {
+                has_culture_group = culture_group:baltic_group
+            }
+        }
+    }
+    allow = {
+        scope:target = {
+			raw_material = goods:amber
+        }
+    }
+    color = goods_amber
+}
+
+aga_tr_pru_junker = {
+    kept_at_conquest = no
+    location_modifier = {
+        local_nobles_estate_power = 0.5
+        local_monthly_food_modifier = 0.2
+        local_peasant_enfranchisment = -0.1
+    }
+    country_modifier = {
+    }
+    potential = {
+        OR = {
+            has_or_had_tag = PRU
+            has_or_had_tag = BRA
+        }
+    }
+    allow = {
+        scope:target = {
+            raw_material = { goods_method = farming }
+        }
+    }
+    color = goods_millet
+}
+
+aga_tr_pru_prussian_virtues = {
+    kept_at_conquest = no
+    location_modifier = {
+		local_manpower = 0.01
+        local_manpower_modifier = 0.2
+		local_soldiers_desired_pop = 0.2
+		local_supply_limit_modifier = 0.15
+    }
+    country_modifier = {
+    }
+    potential = {
+        OR = {
+            has_or_had_tag = PRU
+        }
+    }
+    allow = {
+        scope:target = {
+            modifier:local_manpower > 0
+        }
+    }
+    color = map_PRU
 }
 
 # =============================================================
@@ -1990,7 +2098,7 @@ aga_tr_cawa_muster = {
         local_nobles_estate_power = -0.5
     }
     country_modifier = {
-	    nobles_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
+	    nobles_estate_target_satisfaction = small_permanent_target_satisfaction_penalty
     }
     potential = {
         culture = {
