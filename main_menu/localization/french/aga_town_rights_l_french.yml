@@ -326,11 +326,11 @@
  # =============================================================
  # FINLAND
  # =============================================================
- aga_tr_fin_tar : "La Charte de l’or noir"
- aga_tr_fin_tar_desc : "Les brûleurs de goudron finlandais exploitent les forêts de pins à perte de vue pour produire ce goudron noir et visqueux qui imperméabilise chaque coque et chaque cordage des flottes de la mer Baltique et de la mer du Nord. Aucune marine d’Europe du Nord ne peut prendre la mer pour une longue durée sans dépendre, même indirectement, du travail de ces villes forestières."
+ aga_tr_fin_tar: "La Charte de l’or noir"
+ aga_tr_fin_tar_desc: "Les brûleurs de goudron finlandais exploitent les forêts de pins à perte de vue pour produire ce goudron noir et visqueux qui imperméabilise chaque coque et chaque cordage des flottes de la mer Baltique et de la mer du Nord. Aucune marine d’Europe du Nord ne peut prendre la mer pour une longue durée sans dépendre, même indirectement, du travail de ces villes forestières."
  
- aga_tr_fin_kaski : "Les clairières de Kaski"
- aga_tr_fin_kaski_desc : "Les colons finlandais brûlent et défrichent des parcelles de forêt dense pour y planter du seigle et de l’orge dans un sol enrichi en cendres, une méthode qui a permis aux familles de pousser la colonisation au cœur d’un terrain qu’aucune charrue ordinaire n’aurait jamais pu labourer. Les clairières changent d’une année à l’autre, mais les récoltes qu’elles produisent nourrissent des générations sur des terres qui, sans cela, ne seraient bonnes qu’à la production de bois."
+ aga_tr_fin_kaski: "Les clairières de Kaski"
+ aga_tr_fin_kaski_desc: "Les colons finlandais brûlent et défrichent des parcelles de forêt dense pour y planter du seigle et de l’orge dans un sol enrichi en cendres, une méthode qui a permis aux familles de pousser la colonisation au cœur d’un terrain qu’aucune charrue ordinaire n’aurait jamais pu labourer. Les clairières changent d’une année à l’autre, mais les récoltes qu’elles produisent nourrissent des générations sur des terres qui, sans cela, ne seraient bonnes qu’à la production de bois."
  
  # =============================================================
  # EXTRAS
@@ -680,26 +680,26 @@
  aga_tr_city_villa_di_chiesa: "La cité de l'argent"
  aga_tr_city_villa_di_chiesa_desc: "Sous domination pisane, Villa di Chiesa était l'une des villes les plus importantes et les plus peuplées de Sardaigne grâce à ses ressources en plomb et en argent. Au début du XIVe siècle, ses mines produisaient environ 10 % de l'argent en circulation en Europe."
  
- aga_tr_city_axum : "Trône antique"
- aga_tr_city_axum_desc : "Axoum régnait en tant que siège d’un grand royaume à une époque où Rome et la Perse étaient les seules autres puissances dignes d’être mentionnées, et bien que son autorité effective soit depuis longtemps passée à d’autres villes, ses églises continuent de revendiquer la possession de l’Arche d’Alliance, une revendication qu’aucun empereur éthiopien ne peut ignorer."
+ aga_tr_city_axum: "Trône antique"
+ aga_tr_city_axum_desc: "Axoum régnait en tant que siège d’un grand royaume à une époque où Rome et la Perse étaient les seules autres puissances dignes d’être mentionnées, et bien que son autorité effective soit depuis longtemps passée à d’autres villes, ses églises continuent de revendiquer la possession de l’Arche d’Alliance, une revendication qu’aucun empereur éthiopien ne peut ignorer."
 
- aga_tr_city_suceava : "Forteresse de Étienne le Grand"
- aga_tr_city_suceava_desc : "Le double rôle de Suceava, à la fois cour princière et centre religieux majeur. La Moldavie a connu l’essor de dizaines de monastères et d’églises sous le règne d’Étienne le Grand, dont beaucoup ont été commandés directement depuis son siège à Suceava, liant ainsi l’identité de la ville à l’autorité et à l’importance religieuse."
+ aga_tr_city_suceava: "Forteresse de Étienne le Grand"
+ aga_tr_city_suceava_desc: "Le double rôle de Suceava, à la fois cour princière et centre religieux majeur. La Moldavie a connu l’essor de dizaines de monastères et d’églises sous le règne d’Étienne le Grand, dont beaucoup ont été commandés directement depuis son siège à Suceava, liant ainsi l’identité de la ville à l’autorité et à l’importance religieuse."
  
- aga_tr_city_bordeaux: "Cellar of the Atlantic"
- aga_tr_city_bordeaux_desc: "Bordeaux's harbor has shipped more wine to more distant markets than any other port in France, its vineyards along the Gironde estuary having built fortunes under English rule that outlasted the English crown's claim to the city itself. Ships bound for London still call this claret the finest wine money can buy."
+ aga_tr_city_bordeaux: "La cave de l'Atlantique"
+ aga_tr_city_bordeaux_desc: "Le port de Bordeaux a expédié plus de vin vers des marchés plus lointains que n'importe quel autre port français ; ses vignobles, situés le long de l'estuaire de la Gironde, ont bâti des fortunes sous la domination anglaise qui ont survécu aux prétentions de la couronne anglaise sur la ville elle-même. Les navires à destination de Londres continuent de considérer ce claret comme le meilleur vin que l'on puisse acheter."
  
- aga_tr_city_marseille: "Gateway to the Levant"
- aga_tr_city_marseille_desc: "Marseille has looked toward the Mediterranean since before France was France, its harbor welcoming merchants from Genoa, the Barbary Coast, and the ports of the Levant. The city guards a fierce independence born of centuries spent trading with everyone and answering fully to no one."
+ aga_tr_city_marseille: "Porte du Levant"
+ aga_tr_city_marseille_desc: "Marseille est tournée vers la Méditerranée depuis bien avant que la France ne soit la France ; son port accueillait déjà des marchands de Gênes, de la Côte barbaresque et des ports du Levant. La ville cultive une indépendance farouche, née de siècles passés à commercer avec tout le monde sans rendre de comptes à personne."
  
- aga_tr_city_dijon: "Court of the Valois Dukes"
- aga_tr_city_dijon_desc: "Dijon served as the glittering capital of the Duchy of Burgundy at the height of its power, its dukes commanding a court so wealthy and so magnificent that it rivaled the King of France in splendor if not in title. The tombs of the Valois dukes still rest here, monuments to an ambition that once nearly reshaped the map of Europe."
+ aga_tr_city_dijon: "La cour des ducs de Valois"
+ aga_tr_city_dijon_desc: "Dijon fut la capitale fastueuse du duché de Bourgogne à l’apogée de sa puissance ; ses ducs régnaient sur une cour si riche et si somptueuse qu’elle rivalisait avec le roi de France en matière de splendeur, à défaut de titre. Les tombeaux des ducs de Valois reposent encore ici, monuments à une ambition qui, autrefois, a failli redessiner la carte de l’Europe.»
  
- aga_tr_city_troyes: "Fairground of Champagne"
- aga_tr_city_troyes_desc: "Troyes once hosted the great fairs of Champagne, gatherings so vital to medieval trade that merchants from Flanders to Italy set their calendars by them, and though the fairs' glory has faded, the city's reputation as a crossroads of commerce and diplomacy endures. It was here, too, that a treaty once tried to hand the French crown itself to a foreign king."
- 
- aga_tr_city_reims: "Coronation City"
- aga_tr_city_reims_desc: "Every King of France since Clovis has sought the crown in Reims Cathedral, anointed with holy oil said to have descended from heaven itself for that first Merovingian baptism. No coronation held anywhere else in the kingdom carries the same weight of sacred legitimacy that Reims alone can bestow."
- 
- aga_tr_city_rouen: "Seine's Norman Capital"
- aga_tr_city_rouen_desc: "Rouen commands the Seine where Normandy's trade flows down toward the English Channel, its port and markets sustaining one of the wealthiest provinces in the kingdom. The city's old marketplace still bears the memory of Joan of Arc, burned within its walls by an English occupation that would not long outlast her."
+ aga_tr_city_troyes: "La ville des foires de Champagne"
+ aga_tr_city_troyes_desc: "Troyes accueillait autrefois les grandes foires de Champagne, des rassemblements si essentiels au commerce médiéval que les marchands, de la Flandre à l'Italie, organisaient leur calendrier en fonction d'elles. Même si la gloire de ces foires s'est estompée, la réputation de la ville en tant que carrefour du commerce et de la diplomatie perdure. C’est également ici qu’un traité a un jour tenté de céder la couronne française elle-même à un roi étranger."
+
+ aga_tr_city_reims: "La ville du couronnement"
+ aga_tr_city_reims_desc: "Depuis Clovis, tous les rois de France ont cherché à recevoir la couronne dans la cathédrale de Reims, oints d’une huile sacrée dont on dit qu’elle est descendue du ciel même pour ce premier baptême mérovingien. Aucun couronnement célébré ailleurs dans le royaume ne revêt la même légitimité sacrée que celle que seule Reims peut conférer."
+
+ aga_tr_city_rouen: "La capitale normande de la Seine"
+ aga_tr_city_rouen_desc: "Rouen domine la Seine, par laquelle le commerce normand s'écoule vers la Manche ; son port et ses marchés font de cette ville l'une des provinces les plus riches du royaume. L'ancienne place du marché de la ville garde encore le souvenir de Jeanne d'Arc, brûlée vive entre ses murs par une occupation anglaise qui ne devait pas durer bien plus longtemps qu'elle."
