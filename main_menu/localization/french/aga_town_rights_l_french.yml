@@ -326,11 +326,11 @@
  # =============================================================
  # FINLAND
  # =============================================================
- aga_tr_fin_tar: "Black Gold Charter"
- aga_tr_fin_tar_desc: "Finnish tar burners work the endless pine forests to produce the sticky black pitch that seals every hull and rigging line in the Baltic and North Sea fleets. No navy in northern Europe can put to sea for long without depending, however indirectly, on the labor of these forest towns."
+ aga_tr_fin_tar : "La Charte de l’or noir"
+ aga_tr_fin_tar_desc : "Les brûleurs de goudron finlandais exploitent les forêts de pins à perte de vue pour produire ce goudron noir et visqueux qui imperméabilise chaque coque et chaque cordage des flottes de la mer Baltique et de la mer du Nord. Aucune marine d’Europe du Nord ne peut prendre la mer pour une longue durée sans dépendre, même indirectement, du travail de ces villes forestières."
  
- aga_tr_fin_kaski: "Kaski Clearings"
- aga_tr_fin_kaski_desc: "Finnish settlers burn and clear patches of dense forest to plant rye and barley in the ash-enriched soil, a method that has allowed families to push settlement deep into terrain no ordinary plow could ever break. The clearings shift from year to year, but the harvests they yield have fed generations on land otherwise fit only for timber."
+ aga_tr_fin_kaski : "Les clairières de Kaski"
+ aga_tr_fin_kaski_desc : "Les colons finlandais brûlent et défrichent des parcelles de forêt dense pour y planter du seigle et de l’orge dans un sol enrichi en cendres, une méthode qui a permis aux familles de pousser la colonisation au cœur d’un terrain qu’aucune charrue ordinaire n’aurait jamais pu labourer. Les clairières changent d’une année à l’autre, mais les récoltes qu’elles produisent nourrissent des générations sur des terres qui, sans cela, ne seraient bonnes qu’à la production de bois."
  
  # =============================================================
  # EXTRAS
@@ -456,7 +456,7 @@
  aga_tr_city_angkor_desc: "Angkor a subvenu aux besoins d'une population plus nombreuse que celle de n'importe quelle ville médiévale européenne grâce à son extraordinaire réseau de réservoirs et de canaux, permettant plusieurs récoltes de riz par an dans les plaines inondables cambodgiennes. Bien que l'empire se soit rétréci, l'infrastructure hydraulique de la ville reste le fondement de l'abondance agricole khmère."
 
  aga_tr_city_moscow: "Troisième Rome"
- aga_tr_city_moscow_desc: "Après la chute de Constantinople, les ecclésiastiques de Moscou proclamèrent la ville "Troisième Rome", dernière gardienne du véritable christianisme orthodoxe et héritière légitime de la tradition impériale romaine. Les grands princes de Moscovie ont fondé leur légitimité sur ce socle d'histoire sacrée."
+ aga_tr_city_moscow_desc: "Après la chute de Constantinople, les ecclésiastiques de Moscou proclamèrent la ville \"Troisième Rome\", dernière gardienne du véritable christianisme orthodoxe et héritière légitime de la tradition impériale romaine. Les grands princes de Moscovie ont fondé leur légitimité sur ce socle d'histoire sacrée."
  
  aga_tr_city_novgorod: "Seigneur de Novgorod la Grande"
  aga_tr_city_novgorod_desc: "Novgorod s'est gouvernée pendant des siècles comme une république aristocratique ; son assemblée, le veche, et ses oligarques marchands ont bâti un empire commercial qui s'étendait de la Baltique aux montagnes de l'Oural. Même sous la domination moscovite, le commerce de la fourrure et du cuir de la ville assure une prospérité que le grand-prince ne peut se permettre de détruire."
@@ -680,9 +680,26 @@
  aga_tr_city_villa_di_chiesa: "La cité de l'argent"
  aga_tr_city_villa_di_chiesa_desc: "Sous domination pisane, Villa di Chiesa était l'une des villes les plus importantes et les plus peuplées de Sardaigne grâce à ses ressources en plomb et en argent. Au début du XIVe siècle, ses mines produisaient environ 10 % de l'argent en circulation en Europe."
  
- aga_tr_city_axum: "Ancient Throne"
- aga_tr_city_axum_desc: "Axum ruled as the seat of a great kingdom in an age when Rome and Persia were the only other powers worth naming, and though its practical dominion has long since passed to other cities, its churches still guard a claim to the Ark of the Covenant that no Ethiopian emperor can ignore."
+ aga_tr_city_axum : "Trône antique"
+ aga_tr_city_axum_desc : "Axoum régnait en tant que siège d’un grand royaume à une époque où Rome et la Perse étaient les seules autres puissances dignes d’être mentionnées, et bien que son autorité effective soit depuis longtemps passée à d’autres villes, ses églises continuent de revendiquer la possession de l’Arche d’Alliance, une revendication qu’aucun empereur éthiopien ne peut ignorer."
+
+ aga_tr_city_suceava : "Forteresse de Étienne le Grand"
+ aga_tr_city_suceava_desc : "Le double rôle de Suceava, à la fois cour princière et centre religieux majeur. La Moldavie a connu l’essor de dizaines de monastères et d’églises sous le règne d’Étienne le Grand, dont beaucoup ont été commandés directement depuis son siège à Suceava, liant ainsi l’identité de la ville à l’autorité et à l’importance religieuse."
  
- aga_tr_city_suceava: "Fortress of Stephen the Great"
- aga_tr_city_suceava_desc: "Suceava's dual role as both the princely court and a significant religious center. Moldavia experience growth of dozens of monasteries and churches under the rule of Stephen the Great, many of them commissioned directly from his seat in Suceava, tying the city's identity to authority and religious importance."
+ aga_tr_city_bordeaux: "Cellar of the Atlantic"
+ aga_tr_city_bordeaux_desc: "Bordeaux's harbor has shipped more wine to more distant markets than any other port in France, its vineyards along the Gironde estuary having built fortunes under English rule that outlasted the English crown's claim to the city itself. Ships bound for London still call this claret the finest wine money can buy."
  
+ aga_tr_city_marseille: "Gateway to the Levant"
+ aga_tr_city_marseille_desc: "Marseille has looked toward the Mediterranean since before France was France, its harbor welcoming merchants from Genoa, the Barbary Coast, and the ports of the Levant. The city guards a fierce independence born of centuries spent trading with everyone and answering fully to no one."
+ 
+ aga_tr_city_dijon: "Court of the Valois Dukes"
+ aga_tr_city_dijon_desc: "Dijon served as the glittering capital of the Duchy of Burgundy at the height of its power, its dukes commanding a court so wealthy and so magnificent that it rivaled the King of France in splendor if not in title. The tombs of the Valois dukes still rest here, monuments to an ambition that once nearly reshaped the map of Europe."
+ 
+ aga_tr_city_troyes: "Fairground of Champagne"
+ aga_tr_city_troyes_desc: "Troyes once hosted the great fairs of Champagne, gatherings so vital to medieval trade that merchants from Flanders to Italy set their calendars by them, and though the fairs' glory has faded, the city's reputation as a crossroads of commerce and diplomacy endures. It was here, too, that a treaty once tried to hand the French crown itself to a foreign king."
+ 
+ aga_tr_city_reims: "Coronation City"
+ aga_tr_city_reims_desc: "Every King of France since Clovis has sought the crown in Reims Cathedral, anointed with holy oil said to have descended from heaven itself for that first Merovingian baptism. No coronation held anywhere else in the kingdom carries the same weight of sacred legitimacy that Reims alone can bestow."
+ 
+ aga_tr_city_rouen: "Seine's Norman Capital"
+ aga_tr_city_rouen_desc: "Rouen commands the Seine where Normandy's trade flows down toward the English Channel, its port and markets sustaining one of the wealthiest provinces in the kingdom. The city's old marketplace still bears the memory of Joan of Arc, burned within its walls by an English occupation that would not long outlast her."
