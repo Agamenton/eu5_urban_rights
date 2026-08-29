@@ -1,4 +1,4 @@
-l_simp_chinese:
+﻿l_simp_chinese:
 
  # =============================================================
  # OTTOMAN EMPIRE (奥斯曼帝国)
@@ -645,3 +645,12 @@ l_simp_chinese:
  
  aga_tr_city_rouen: "Seine's Norman Capital"
  aga_tr_city_rouen_desc: "Rouen commands the Seine where Normandy's trade flows down toward the English Channel, its port and markets sustaining one of the wealthiest provinces in the kingdom. The city's old marketplace still bears the memory of Joan of Arc, burned within its walls by an English occupation that would not long outlast her."
+ 
+ aga_tr_city_rostock: "Northern Learning"
+ aga_tr_city_rostock_desc: "Rostock's harbor has long profited from the Baltic grain and herring trade, but the city's true distinction lies in its university, the oldest in all of Northern Europe, whose scholars have made Rostock a center of learning to rival its standing as a Hanseatic port."
+
+ aga_tr_city_wittenberg: "Cradle of the Reformation"
+ aga_tr_city_wittenberg_desc: "It was to the door of Wittenberg's Castle Church that Martin Luther nailed his Ninety-Five Theses, setting in motion a religious upheaval that would split Christendom in two. The university he taught at still draws students eager to study at the very source of the Reformation itself."
+
+ aga_tr_city_brandenburg: "German March"
+ aga_tr_city_brandenburg_desc: "Brandenburg rose from a conquered Wendish stronghold to become the founding seat of the margraves who gave the entire Electorate its name, long before Berlin ever eclipsed it in importance. The bishopric planted here among the Slavic peoples of the frontier marked the beginning of a German presence east of the Elbe that has never since receded."

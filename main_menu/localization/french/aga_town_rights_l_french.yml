@@ -719,3 +719,12 @@
 
  aga_tr_city_rouen: "La capitale normande de la Seine"
  aga_tr_city_rouen_desc: "Rouen domine la Seine, par laquelle le commerce normand s'écoule vers la Manche ; son port et ses marchés font de cette ville l'une des provinces les plus riches du royaume. L'ancienne place du marché de la ville garde encore le souvenir de Jeanne d'Arc, brûlée vive entre ses murs par une occupation anglaise qui ne devait pas durer bien plus longtemps qu'elle."
+ 
+ aga_tr_city_rostock: "Northern Learning"
+ aga_tr_city_rostock_desc: "Rostock's harbor has long profited from the Baltic grain and herring trade, but the city's true distinction lies in its university, the oldest in all of Northern Europe, whose scholars have made Rostock a center of learning to rival its standing as a Hanseatic port."
+
+ aga_tr_city_wittenberg: "Cradle of the Reformation"
+ aga_tr_city_wittenberg_desc: "It was to the door of Wittenberg's Castle Church that Martin Luther nailed his Ninety-Five Theses, setting in motion a religious upheaval that would split Christendom in two. The university he taught at still draws students eager to study at the very source of the Reformation itself."
+
+ aga_tr_city_brandenburg: "German March"
+ aga_tr_city_brandenburg_desc: "Brandenburg rose from a conquered Wendish stronghold to become the founding seat of the margraves who gave the entire Electorate its name, long before Berlin ever eclipsed it in importance. The bishopric planted here among the Slavic peoples of the frontier marked the beginning of a German presence east of the Elbe that has never since receded."

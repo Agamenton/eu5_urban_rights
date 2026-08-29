@@ -5303,3 +5303,67 @@ aga_tr_city_rouen = {
         }
     }
 }
+
+aga_tr_city_brandenburg = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_crown_estate_power = 0.3
+        local_pop_assimilation_speed = 0.1
+        local_max_control = 0.05
+    }
+    country_modifier = {
+        monthly_legitimacy = 0.05
+    }
+    potential = {
+        owns = location:brandenburg
+    }
+    allow = {
+        scope:target = {
+            this = location:brandenburg
+        }
+    }
+}
+
+aga_tr_city_rostock = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_merchant_capacity = 3
+        local_monthly_literacy = 0.02
+        local_maritime_presence = 0.5
+    }
+    country_modifier = {
+        research_speed_modifier = 0.03
+    }
+    potential = {
+        owns = location:rostock
+    }
+    allow = {
+        scope:target = {
+            this = location:rostock
+            has_building = building:university
+        }
+    }
+    color = map_hansa
+}
+
+aga_tr_city_wittenberg = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_clergy_desired_pop_scaled = 0.005
+        local_max_literacy = 5
+        local_cultural_tradition = 1
+    }
+    country_modifier = {
+        monthly_religious_influence = 0.1
+    }
+    potential = {
+        owns = location:wittenberg
+        is_protestant = yes
+    }
+    allow = {
+        scope:target = {
+            this = location:wittenberg
+        }
+    }
+    color = map_SAX
+}
