@@ -5308,7 +5308,7 @@ aga_tr_city_brandenburg = {
     kept_at_conquest = yes
     location_modifier = {
         local_crown_estate_power = 0.3
-        local_pop_assimilation_speed = 0.1
+        local_pop_assimilation_speed = 0.01
         local_max_control = 0.05
     }
     country_modifier = {
