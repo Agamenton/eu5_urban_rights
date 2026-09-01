@@ -5340,7 +5340,7 @@ aga_tr_city_rostock = {
     allow = {
         scope:target = {
             this = location:rostock
-            has_building = building:university
+            has_building = building_type:university
         }
     }
     color = map_hansa

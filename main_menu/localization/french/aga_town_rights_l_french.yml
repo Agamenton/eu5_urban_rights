@@ -86,18 +86,17 @@
  # =============================================================
  # PRUSSIA & GERMANY
  # =============================================================
- aga_tr_ger_protestant_church: "Landeskirche State Church"
- aga_tr_ger_protestant_church_desc: "Following the principle of cuius regio, eius religio, the German princes have brought the church firmly under secular authority, appointing pastors and setting doctrine as instruments of the state rather than an independent power beside it. Bishops who once answered to Rome now answer to the prince's chancellery, and the pulpit has become as much a tool of governance as the tax collector's ledger."
+ aga_tr_ger_protestant_church: "Église d'État (Landeskirche)"
+ aga_tr_ger_protestant_church_desc: "Conformément au principe "cuius regio, eius religio", les princes allemands ont placé l'Église sous l'autorité laïque, en nommant les pasteurs et en définissant la doctrine comme des instruments de l'État plutôt que comme un pouvoir indépendant à ses côtés. Les évêques, qui relevaient autrefois de Rome, relèvent désormais de la chancellerie du prince, et la chaire est devenue un outil de gouvernance au même titre que le registre du percepteur d'impôts."
 
- aga_tr_pru_amber_coast: "Amber Gathering Operations"
- aga_tr_pru_amber_coast_desc: "The shores of Prussia yield amber in greater abundance than anywhere else in the world, fossilized resin washed up by Baltic storms and gathered by hand to be carved, strung, and sold to merchants who carry it to every corner of Europe. The old Amber Road that once linked these coasts to Rome still echoes in the trade that sustains Prussian towns today."
- 
+ aga_tr_pru_amber_coast: "Exploitation de l'ambre"
+ aga_tr_pru_amber_coast_desc: "Les côtes de Prusse recèlent plus d'ambre que n'importe quel autre endroit au monde: une résine fossilisée rejetée par les tempêtes de la Baltique et ramassée à la main pour être sculptée, enfilée et vendue à des marchands qui l'acheminent aux quatre coins de l'Europe. L'ancienne Route de l'Ambre, qui reliait autrefois ces côtes à Rome, trouve encore un écho dans le commerce qui fait vivre les villes prussiennes aujourd'hui."
+
  aga_tr_pru_junker: "Junker Rittergut"
- aga_tr_pru_junker_desc: "The Junker nobility of East Prussia have built vast grain estates worked by peasants bound ever more tightly to the land, their wealth and military tradition forming the backbone of a class that will one day fill the officer corps of a great power. Where the Junker holds his estate, the old feudal order runs deeper than anywhere else in the German lands."
+ aga_tr_pru_junker_desc: "La noblesse des Junker de Prusse orientale a bâti de vastes domaines céréaliers exploités par des paysans de plus en plus étroitement liés à la terre ; leur richesse et leur tradition militaire constituent l'épine dorsale d'une classe qui, un jour, formera le corps des officiers d'une grande puissance. Là où le Junker possède son domaine, l'ancien ordre féodal est plus profondément ancré que partout ailleurs sur les terres allemandes."
 
- aga_tr_pru_prussian_virtues: "Prussian Virtues"
- aga_tr_pru_prussian_virtues_desc: "Discipline, thrift, and unquestioning duty are cultivated here as civic ideals rather than mere soldierly habits, instilling in the population a readiness to serve that no mercenary company could ever match. This town's sons march to the drum not for coin but from a sense of obligation bred into them since childhood."
-
+ aga_tr_pru_prussian_virtues: "Vertus prussiennes"
+ aga_tr_pru_prussian_virtues_desc: "La discipline, l'économie et le sens du devoir inconditionnel sont cultivés ici comme des idéaux civiques plutôt que comme de simples habitudes militaires, inculquant à la population une disposition au service qu'aucune compagnie de mercenaires ne pourrait jamais égaler. Les fils de cette ville marchent au son du tambour non pas pour l'argent, mais par sens du devoir qui leur a été inculqué depuis l'enfance."
  
  # =============================================================
  # MALI EMPIRE
@@ -342,11 +341,11 @@
  # =============================================================
  # FINLAND
  # =============================================================
- aga_tr_fin_tar: "La Charte de l’or noir"
- aga_tr_fin_tar_desc: "Les brûleurs de goudron finlandais exploitent les forêts de pins à perte de vue pour produire ce goudron noir et visqueux qui imperméabilise chaque coque et chaque cordage des flottes de la mer Baltique et de la mer du Nord. Aucune marine d’Europe du Nord ne peut prendre la mer pour une longue durée sans dépendre, même indirectement, du travail de ces villes forestières."
+ aga_tr_fin_tar: "La Charte de l'or noir"
+ aga_tr_fin_tar_desc: "Les brûleurs de goudron finlandais exploitent les forêts de pins à perte de vue pour produire ce goudron noir et visqueux qui imperméabilise chaque coque et chaque cordage des flottes de la mer Baltique et de la mer du Nord. Aucune marine d'Europe du Nord ne peut prendre la mer pour une longue durée sans dépendre, même indirectement, du travail de ces villes forestières."
  
  aga_tr_fin_kaski: "Les clairières de Kaski"
- aga_tr_fin_kaski_desc: "Les colons finlandais brûlent et défrichent des parcelles de forêt dense pour y planter du seigle et de l’orge dans un sol enrichi en cendres, une méthode qui a permis aux familles de pousser la colonisation au cœur d’un terrain qu’aucune charrue ordinaire n’aurait jamais pu labourer. Les clairières changent d’une année à l’autre, mais les récoltes qu’elles produisent nourrissent des générations sur des terres qui, sans cela, ne seraient bonnes qu’à la production de bois."
+ aga_tr_fin_kaski_desc: "Les colons finlandais brûlent et défrichent des parcelles de forêt dense pour y planter du seigle et de l'orge dans un sol enrichi en cendres, une méthode qui a permis aux familles de pousser la colonisation au cœur d'un terrain qu'aucune charrue ordinaire n'aurait jamais pu labourer. Les clairières changent d'une année à l'autre, mais les récoltes qu'elles produisent nourrissent des générations sur des terres qui, sans cela, ne seraient bonnes qu'à la production de bois."
  
  # =============================================================
  # EXTRAS
@@ -697,10 +696,10 @@
  aga_tr_city_villa_di_chiesa_desc: "Sous domination pisane, Villa di Chiesa était l'une des villes les plus importantes et les plus peuplées de Sardaigne grâce à ses ressources en plomb et en argent. Au début du XIVe siècle, ses mines produisaient environ 10 % de l'argent en circulation en Europe."
  
  aga_tr_city_axum: "Trône antique"
- aga_tr_city_axum_desc: "Axoum régnait en tant que siège d’un grand royaume à une époque où Rome et la Perse étaient les seules autres puissances dignes d’être mentionnées, et bien que son autorité effective soit depuis longtemps passée à d’autres villes, ses églises continuent de revendiquer la possession de l’Arche d’Alliance, une revendication qu’aucun empereur éthiopien ne peut ignorer."
+ aga_tr_city_axum_desc: "Axoum régnait en tant que siège d'un grand royaume à une époque où Rome et la Perse étaient les seules autres puissances dignes d'être mentionnées, et bien que son autorité effective soit depuis longtemps passée à d'autres villes, ses églises continuent de revendiquer la possession de l'Arche d'Alliance, une revendication qu'aucun empereur éthiopien ne peut ignorer."
 
  aga_tr_city_suceava: "Forteresse de Étienne le Grand"
- aga_tr_city_suceava_desc: "Le double rôle de Suceava, à la fois cour princière et centre religieux majeur. La Moldavie a connu l’essor de dizaines de monastères et d’églises sous le règne d’Étienne le Grand, dont beaucoup ont été commandés directement depuis son siège à Suceava, liant ainsi l’identité de la ville à l’autorité et à l’importance religieuse."
+ aga_tr_city_suceava_desc: "Le double rôle de Suceava, à la fois cour princière et centre religieux majeur. La Moldavie a connu l'essor de dizaines de monastères et d'églises sous le règne d'Étienne le Grand, dont beaucoup ont été commandés directement depuis son siège à Suceava, liant ainsi l'identité de la ville à l'autorité et à l'importance religieuse."
  
  aga_tr_city_bordeaux: "La cave de l'Atlantique"
  aga_tr_city_bordeaux_desc: "Le port de Bordeaux a expédié plus de vin vers des marchés plus lointains que n'importe quel autre port français ; ses vignobles, situés le long de l'estuaire de la Gironde, ont bâti des fortunes sous la domination anglaise qui ont survécu aux prétentions de la couronne anglaise sur la ville elle-même. Les navires à destination de Londres continuent de considérer ce claret comme le meilleur vin que l'on puisse acheter."
@@ -709,22 +708,22 @@
  aga_tr_city_marseille_desc: "Marseille est tournée vers la Méditerranée depuis bien avant que la France ne soit la France ; son port accueillait déjà des marchands de Gênes, de la Côte barbaresque et des ports du Levant. La ville cultive une indépendance farouche, née de siècles passés à commercer avec tout le monde sans rendre de comptes à personne."
  
  aga_tr_city_dijon: "La cour des ducs de Valois"
- aga_tr_city_dijon_desc: "Dijon fut la capitale fastueuse du duché de Bourgogne à l’apogée de sa puissance ; ses ducs régnaient sur une cour si riche et si somptueuse qu’elle rivalisait avec le roi de France en matière de splendeur, à défaut de titre. Les tombeaux des ducs de Valois reposent encore ici, monuments à une ambition qui, autrefois, a failli redessiner la carte de l’Europe.»
+ aga_tr_city_dijon_desc: "Dijon fut la capitale fastueuse du duché de Bourgogne à l'apogée de sa puissance ; ses ducs régnaient sur une cour si riche et si somptueuse qu'elle rivalisait avec le roi de France en matière de splendeur, à défaut de titre. Les tombeaux des ducs de Valois reposent encore ici, monuments à une ambition qui, autrefois, a failli redessiner la carte de l'Europe.»
  
  aga_tr_city_troyes: "La ville des foires de Champagne"
- aga_tr_city_troyes_desc: "Troyes accueillait autrefois les grandes foires de Champagne, des rassemblements si essentiels au commerce médiéval que les marchands, de la Flandre à l'Italie, organisaient leur calendrier en fonction d'elles. Même si la gloire de ces foires s'est estompée, la réputation de la ville en tant que carrefour du commerce et de la diplomatie perdure. C’est également ici qu’un traité a un jour tenté de céder la couronne française elle-même à un roi étranger."
+ aga_tr_city_troyes_desc: "Troyes accueillait autrefois les grandes foires de Champagne, des rassemblements si essentiels au commerce médiéval que les marchands, de la Flandre à l'Italie, organisaient leur calendrier en fonction d'elles. Même si la gloire de ces foires s'est estompée, la réputation de la ville en tant que carrefour du commerce et de la diplomatie perdure. C'est également ici qu'un traité a un jour tenté de céder la couronne française elle-même à un roi étranger."
 
  aga_tr_city_reims: "La ville du couronnement"
- aga_tr_city_reims_desc: "Depuis Clovis, tous les rois de France ont cherché à recevoir la couronne dans la cathédrale de Reims, oints d’une huile sacrée dont on dit qu’elle est descendue du ciel même pour ce premier baptême mérovingien. Aucun couronnement célébré ailleurs dans le royaume ne revêt la même légitimité sacrée que celle que seule Reims peut conférer."
+ aga_tr_city_reims_desc: "Depuis Clovis, tous les rois de France ont cherché à recevoir la couronne dans la cathédrale de Reims, oints d'une huile sacrée dont on dit qu'elle est descendue du ciel même pour ce premier baptême mérovingien. Aucun couronnement célébré ailleurs dans le royaume ne revêt la même légitimité sacrée que celle que seule Reims peut conférer."
 
  aga_tr_city_rouen: "La capitale normande de la Seine"
  aga_tr_city_rouen_desc: "Rouen domine la Seine, par laquelle le commerce normand s'écoule vers la Manche ; son port et ses marchés font de cette ville l'une des provinces les plus riches du royaume. L'ancienne place du marché de la ville garde encore le souvenir de Jeanne d'Arc, brûlée vive entre ses murs par une occupation anglaise qui ne devait pas durer bien plus longtemps qu'elle."
  
- aga_tr_city_rostock: "Northern Learning"
- aga_tr_city_rostock_desc: "Rostock's harbor has long profited from the Baltic grain and herring trade, but the city's true distinction lies in its university, the oldest in all of Northern Europe, whose scholars have made Rostock a center of learning to rival its standing as a Hanseatic port."
+ aga_tr_city_rostock: "Le savoir du Nord"
+ aga_tr_city_rostock_desc: "Le port de Rostock tire depuis longtemps profit du commerce des céréales et du hareng de la Baltique, mais ce qui distingue véritablement la ville, c'est son université, la plus ancienne de toute l'Europe du Nord, dont les érudits ont fait de Rostock un centre de savoir rivalisant avec son statut de port hanséatique."
 
- aga_tr_city_wittenberg: "Cradle of the Reformation"
- aga_tr_city_wittenberg_desc: "It was to the door of Wittenberg's Castle Church that Martin Luther nailed his Ninety-Five Theses, setting in motion a religious upheaval that would split Christendom in two. The university he taught at still draws students eager to study at the very source of the Reformation itself."
+ aga_tr_city_wittenberg: "Berceau de la Réforme"
+ aga_tr_city_wittenberg_desc: "C'est sur la porte de l'église du château de Wittenberg que Martin Luther a cloué ses 95 thèses, déclenchant ainsi un bouleversement religieux qui allait diviser la chrétienté en deux. L'université où il enseignait attire encore aujourd'hui des étudiants désireux d'étudier à la source même de la Réforme."
 
- aga_tr_city_brandenburg: "German March"
- aga_tr_city_brandenburg_desc: "Brandenburg rose from a conquered Wendish stronghold to become the founding seat of the margraves who gave the entire Electorate its name, long before Berlin ever eclipsed it in importance. The bishopric planted here among the Slavic peoples of the frontier marked the beginning of a German presence east of the Elbe that has never since receded."
+ aga_tr_city_brandenburg: "La Marche allemand"
+ aga_tr_city_brandenburg_desc: "Le Brandebourg, autrefois bastion wende conquis, est devenu le siège fondateur des margraves qui ont donné son nom à l'ensemble de l'électorat, bien avant que Berlin ne lui fasse de l'ombre. L'évêché établi ici, au milieu des peuples slaves de la frontière, a marqué le début d'une présence allemande à l'est de l'Elbe qui n'a jamais reculé depuis.”
