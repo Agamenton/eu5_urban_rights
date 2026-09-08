@@ -839,7 +839,7 @@ aga_tr_mali_gold_town = {
 aga_tr_china_lijia_system = {
     kept_at_conquest = no
     location_modifier = {
-        local_monthly_control = 0.1
+        local_max_control = 0.025
         local_pop_promotion_speed_modifier = 0.05
         local_laborers_desired_pop_scaled = 0.01
     }
@@ -1605,7 +1605,7 @@ aga_tr_ser_vlach_right = {
     kept_at_conquest = no
     location_modifier = {
         local_levy_size_modifier = 0.2
-        local_monthly_food_modifier = 0.1
+        local_monthly_food_modifier = 0.25
         local_max_control = -0.02
     }
     country_modifier = {
