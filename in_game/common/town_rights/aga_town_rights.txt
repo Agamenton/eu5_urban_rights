@@ -2225,6 +2225,44 @@ aga_tr_celt_livestock = {
 }
 
 # =============================================================
+# ENGLAND / GREAT BRITAIN
+# =============================================================
+aga_tr_brit_stannary_law = {
+	kept_at_conquest = no
+
+	location_modifier = {
+		local_peasant_enfranchisment = 0.20
+        local_nobles_estate_power = -0.5
+        local_crown_estate_power = -0.25
+        local_max_rgo_size_modifier = 0.75
+	}
+
+	country_modifier = {
+	}
+
+	potential = {
+        OR = {
+            culture = {
+                has_culture_group = culture_group:british_group
+            }
+            has_or_had_tag = ENG
+            has_or_had_tag = GBR
+        }
+		has_variable = stannary_law
+	}
+
+	allow = {
+		scope:target = {
+            OR = {
+                raw_material = goods:tin
+            }
+		}
+	}
+
+	color = map_GBR
+}
+
+# =============================================================
 # MILITARY ORDERS
 # =============================================================
 # generic military order conversion
@@ -5366,4 +5404,166 @@ aga_tr_city_wittenberg = {
         }
     }
     color = map_SAX
+}
+
+# portsmouth, oldest dry dock
+aga_tr_city_portsmouth = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_ship_build_speed = 0.25
+        local_maritime_presence = 0.5
+    }
+    country_modifier = {
+	    navy_maintenance_efficiency = 0.1
+    }
+    potential = {
+        owns = location:portsmouth
+        location:portsmouth = {
+            is_city = yes
+        }
+    }
+    allow = {
+        scope:target = {
+            this = location:portsmouth
+            has_building = building_type:dry_dock
+        }
+    }
+    color = map_GBR
+}
+
+
+#newcastle, coal monopoly
+aga_tr_city_newcastle = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_coal_output_modifier = 0.3
+        local_production_efficiency = 0.05
+        local_trade_protection_factor = 0.1
+    }
+    country_modifier = {
+        global_coal_output_modifier = 0.1
+    }
+    potential = {
+        owns = location:newcastle
+        location:newcastle = {
+            is_city = yes
+        }
+    }
+    allow = {
+        scope:target = {
+            this = location:newcastle
+        }
+    }
+    color = map_GBR
+}
+
+#glasgow, shipbuilding and trade
+aga_tr_city_glasgow = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_ship_build_speed = 0.2
+        local_cloth_output_modifier = 0.25
+        local_market_access = 0.1
+    }
+    country_modifier = {
+        global_trade_protection_factor = 0.05
+    }
+    potential = {
+        owns = location:glasgow
+        location:glasgow = {
+            is_city = yes
+        }
+    }
+    allow = {
+        scope:target = {
+            this = location:glasgow
+        }
+    }
+    color = map_scottish
+}
+
+#boston, main trade hub of the colonies
+aga_tr_city_boston = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_trade_center_power = 0.05
+        local_migration_attraction = 0.25
+    }
+    country_modifier = {
+	    trade_sea_efficiency = medium_trade_sea_efficiency_bonus
+    }
+    potential = {
+        owns = location:shawmut
+        location:shawmut = {
+            is_city = yes
+        }
+		culture ?= {
+			is_culture_native_american = no
+        }
+    }
+    allow = {
+        scope:target = {
+            this = location:shawmut
+        }
+    }
+    color = map_GBR
+}
+
+#philadelphia, religious freedom and independence movement
+aga_tr_city_philadelphia = {
+    kept_at_conquest = yes
+    location_modifier = {
+        local_max_literacy = 5
+        local_pop_promotion_speed_modifier = 0.2
+        local_clergy_estate_power = 0.5
+    }
+    country_modifier = {
+        monthly_religious_influence = 0.1
+        global_crown_estate_power = 0.25
+    }
+    potential = {
+        owns = location:shackamaxon
+        location:shackamaxon = {
+            is_city = yes
+        }
+        culture ?= {
+            is_culture_native_american = no
+        }
+    }
+    allow = {
+        scope:target = {
+            this = location:shackamaxon
+        }
+    }
+    color = map_GBR
+}
+
+
+#havana, anti-piracy and trade hub
+aga_tr_city_havana = {
+    kept_at_conquest = yes
+    location_modifier = {
+		local_repair_speed = 0.10
+        local_maritime_presence = 1.0
+        hostile_fleet_attrition = 1
+		blocks_privateer_raids = yes
+    }
+    country_modifier = {
+	    anti_piracy_warfare_modifier = 0.25
+    }
+    potential = {
+        owns = location:habana
+        location:habana = {
+            is_city = yes
+        }
+        culture ?= {
+            is_culture_native_american = no
+        }
+    }
+    allow = {
+        scope:target = {
+            this = location:habana
+        }
+    }
+    color = map_CAS
 }

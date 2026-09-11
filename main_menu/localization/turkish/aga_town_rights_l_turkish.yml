@@ -300,6 +300,12 @@
  aga_tr_celt_livestock_desc: "Özel ayrıcalıklar, Dağlık İskoçya (Highlands) ve İrlanda genelinde büyük sürüleri pazara süren hayvancıları korur. Onların ticareti kasabayı canlı hayvanla, tüccarlarla ve mevsimlik servetle doldurur."
 
  # =============================================================
+ # ENGLAND / GREAT BRITAIN
+ # =============================================================
+ aga_tr_brit_stannary_law: "Stannary Law"
+ aga_tr_brit_stannary_law_desc: "A charter of King John had given the tin miners of Cornwall certain legal rights which were confirmed by King Edward I in 1305. They had the rights of \"bounding\", of trial before their own stannary court, and of exemption from ordinary taxation."
+
+ # =============================================================
  # MILITARY ORDERS
  # =============================================================
  aga_tr_order_proselytizer: "Misyoner Haçlı Seferi"
@@ -712,3 +718,21 @@
 
  aga_tr_city_brandenburg: "German March"
  aga_tr_city_brandenburg_desc: "Brandenburg rose from a conquered Wendish stronghold to become the founding seat of the margraves who gave the entire Electorate its name, long before Berlin ever eclipsed it in importance. The bishopric planted here among the Slavic peoples of the frontier marked the beginning of a German presence east of the Elbe that has never since receded."
+ 
+ aga_tr_city_portsmouth: "The Great Stone Dock"
+ aga_tr_city_portsmouth_desc: "The city is home to the first drydock ever built. It was constructed on the orders of Henry VII in 1496. The world's first mass production line was established at the naval base's Block Mills which produced pulley blocks for the Royal Navy."
+
+ aga_tr_city_newcastle: "Newcastle upon Tyne"
+ aga_tr_city_newcastle_desc: "From 1530, a royal act restricted all shipments of coal from Tyneside to Newcastle Quayside, giving a monopoly in the coal trade to a cartel of Newcastle burgesses known as the Hostmen. This monopoly, which lasted for a considerable time, helped Newcastle prosper and develop into a major town."
+
+ aga_tr_city_glasgow: "Clyde Shipyards"
+ aga_tr_city_glasgow_desc: "Glasgow's shipwrights work the banks of the Clyde with a skill that rivals any yard in Britain, while the city's weavers turn out cloth that finds buyers from the Baltic to the Americas. The river that carries away its ships carries away its trade in equal measure."
+
+ aga_tr_city_boston: Hub of the Colonies"
+ aga_tr_city_boston_desc: "Boston's harbor has become the beating commercial heart of the American colonies, its merchants and shipmasters drawing settlers and cargo alike from across the Atlantic world. No other colonial port commands the same weight of trade or the same restless ambition."
+
+ aga_tr_city_philadelphia: "City of Brotherly Refuge"
+ aga_tr_city_philadelphia_desc: "Founded on the promise of religious toleration, Philadelphia has become a haven for Quakers and dissenters of every stripe who found no welcome elsewhere in the colonies. The city's meeting houses and printing presses nurture a spirit of conscience and liberty that will not stay quiet for long."
+
+ aga_tr_city_havana: "Bastion of the Spanish Main"
+ aga_tr_city_havana_desc: "Havana's harbor shelters the treasure fleets of Spain before their long crossing home, its fortifications and patrol squadrons standing as the Caribbean's foremost bulwark against corsairs and privateers alike. No pirate captain sails these waters without first reckoning the cost of Havana's guns."
