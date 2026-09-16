@@ -734,20 +734,20 @@
  aga_tr_city_brandenburg: "La Marche allemand"
  aga_tr_city_brandenburg_desc: "Le Brandebourg, autrefois bastion wende conquis, est devenu le siège fondateur des margraves qui ont donné son nom à l'ensemble de l'électorat, bien avant que Berlin ne lui fasse de l'ombre. L'évêché établi ici, au milieu des peuples slaves de la frontière, a marqué le début d'une présence allemande à l'est de l'Elbe qui n'a jamais reculé depuis.”
  
- aga_tr_city_portsmouth: "The Great Stone Dock"
- aga_tr_city_portsmouth_desc: "The city is home to the first drydock ever built. It was constructed on the orders of Henry VII in 1496. The world's first mass production line was established at the naval base's Block Mills which produced pulley blocks for the Royal Navy."
+ aga_tr_city_portsmouth: "Le Great Stone Dock"
+ aga_tr_city_portsmouth_desc: "La ville abrite la toute première cale sèche jamais construite. Elle a été érigée sur ordre d'Henri VII en 1496. La première chaîne de production en série au monde a été mise en place à Block Mills, au sein de la base navale, où étaient fabriqués des palans à poulie pour la Royal Navy."
+ 
+ aga_tr_city_newcastle: "Newcastle-upon-Tyne"
+ aga_tr_city_newcastle_desc: "À partir de 1530, une loi royale a restreint tous les transports de charbon depuis la région de Tyneside vers les quais de Newcastle, accordant ainsi le monopole du commerce du charbon à un cartel de bourgeois de Newcastle connu sous le nom d'Hostmen. Ce monopole, qui a duré un temps considérable, a contribué à la prospérité de Newcastle et à son développement en une ville majeure."
 
- aga_tr_city_newcastle: "Newcastle upon Tyne"
- aga_tr_city_newcastle_desc: "From 1530, a royal act restricted all shipments of coal from Tyneside to Newcastle Quayside, giving a monopoly in the coal trade to a cartel of Newcastle burgesses known as the Hostmen. This monopoly, which lasted for a considerable time, helped Newcastle prosper and develop into a major town."
-
- aga_tr_city_glasgow: "Clyde Shipyards"
- aga_tr_city_glasgow_desc: "Glasgow's shipwrights work the banks of the Clyde with a skill that rivals any yard in Britain, while the city's weavers turn out cloth that finds buyers from the Baltic to the Americas. The river that carries away its ships carries away its trade in equal measure."
-
- aga_tr_city_boston: Hub of the Colonies"
- aga_tr_city_boston_desc: "Boston's harbor has become the beating commercial heart of the American colonies, its merchants and shipmasters drawing settlers and cargo alike from across the Atlantic world. No other colonial port commands the same weight of trade or the same restless ambition."
-
- aga_tr_city_philadelphia: "City of Brotherly Refuge"
- aga_tr_city_philadelphia_desc: "Founded on the promise of religious toleration, Philadelphia has become a haven for Quakers and dissenters of every stripe who found no welcome elsewhere in the colonies. The city's meeting houses and printing presses nurture a spirit of conscience and liberty that will not stay quiet for long."
-
- aga_tr_city_havana: "Bastion of the Spanish Main"
- aga_tr_city_havana_desc: "Havana's harbor shelters the treasure fleets of Spain before their long crossing home, its fortifications and patrol squadrons standing as the Caribbean's foremost bulwark against corsairs and privateers alike. No pirate captain sails these waters without first reckoning the cost of Havana's guns."
+ aga_tr_city_glasgow: "Chantiers navals de la Clyde"
+ aga_tr_city_glasgow_desc: "Les charpentiers de marine de Glasgow travaillent sur les rives de la Clyde avec un savoir-faire qui rivalise avec celui de n'importe quel chantier naval de Grande-Bretagne, tandis que les tisserands de la ville produisent des tissus qui trouvent des acheteurs de la Baltique aux Amériques. Le fleuve qui emporte ses navires emporte également son commerce."
+ 
+ aga_tr_city_boston: "Le centre névralgique des colonies"
+ aga_tr_city_boston_desc: "Le port de Boston est devenu le cœur commercial battant des colonies américaines ; ses marchands et ses capitaines de navire attirent aussi bien les colons que les marchandises venues de tout le monde atlantique. Aucun autre port colonial ne jouit d'un poids commercial aussi important ni d'une ambition aussi débordante."
+ 
+ aga_tr_city_philadelphia: "Cité du refuge fraternel"
+ aga_tr_city_philadelphia_desc: "Fondée sur la promesse de la tolérance religieuse, Philadelphie est devenue un refuge pour les quakers et les dissidents de tous bords qui ne trouvaient pas d'accueil ailleurs dans les colonies. Les lieux de culte et les imprimeries de la ville nourrissent un esprit de conscience et de liberté qui ne restera pas longtemps en sommeil."
+ 
+ aga_tr_city_havana: "Bastion de la Tierra Firme"
+ aga_tr_city_havana_desc: "Le port de La Havane abrite les flottes de trésors espagnoles avant leur longue traversée vers la métropole ; ses fortifications et ses escadrons de patrouille constituent le rempart le plus important des Caraïbes contre les corsaires et les privateers. Aucun capitaine pirate ne navigue dans ces eaux sans avoir d'abord pris la mesure de la puissance de feu de La Havane."
