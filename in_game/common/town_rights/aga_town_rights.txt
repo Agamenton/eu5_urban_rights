@@ -5166,7 +5166,7 @@ aga_tr_city_villa_di_chiesa = {
     kept_at_conquest = yes
     location_modifier = {
         local_max_rgo_size_modifier = 0.5
-        local_production_efficiency = 0.5
+        local_production_efficiency = 0.05
     }
     country_modifier = {
 	    minting_income_factor = 0.1
