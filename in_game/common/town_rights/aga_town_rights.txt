@@ -1519,7 +1519,7 @@ aga_tr_bul_rose_valley = {
     kept_at_conquest = no
     location_modifier = {
         local_monthly_food_modifier = 0.1
-        local_food_decay_modifier = -0.1
+        local_food_preservation_efficiency_modifier = 0.1
     }
     country_modifier = {
     }
