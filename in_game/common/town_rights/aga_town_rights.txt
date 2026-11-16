@@ -2644,6 +2644,8 @@ aga_tr_city_rome = {
     country_modifier = {
         monthly_prestige = 0.1
         monthly_legitimacy = 0.1
+        monthly_devotion = 0.1
+        monthly_republican_tradition = 0.1
     }
     potential = {
         owns = location:rome
@@ -3713,6 +3715,8 @@ aga_tr_city_moscow = {
     }
     country_modifier = {
         monthly_legitimacy = 0.1
+        monthly_devotion = 0.1
+        monthly_republican_tradition = 0.1
     }
     potential = {
         owns = location:moscow
@@ -4073,6 +4077,8 @@ aga_tr_city_delhi_city = {
     }
     country_modifier = {
         monthly_legitimacy = 0.1
+        monthly_devotion = 0.1
+        monthly_republican_tradition = 0.1
     }
     potential = {
         owns = location:delhi
@@ -4499,6 +4505,8 @@ aga_tr_city_vijayanagar = {
     }
     country_modifier = {
         monthly_legitimacy = 0.1
+        monthly_devotion = 0.1
+        monthly_republican_tradition = 0.1
     }
     potential = {
         owns = location:vijayanagar
@@ -4570,6 +4578,8 @@ aga_tr_city_constantinople_ottoman = {
     }
     country_modifier = {
         monthly_legitimacy = 0.1
+        monthly_devotion = 0.1
+        monthly_republican_tradition = 0.1
         ship_build_speed = 0.15
     }
     potential = {
@@ -4667,6 +4677,8 @@ aga_tr_city_tenochtitlan_aztec = {
     }
     country_modifier = {
         monthly_legitimacy = 0.1
+        monthly_devotion = 0.1
+        monthly_republican_tradition = 0.1
     }
     potential = {
         owns = location:tenochtitlan
@@ -4960,6 +4972,8 @@ aga_tr_city_granada_christian = {
     }
     country_modifier = {
         monthly_legitimacy = 0.1
+        monthly_devotion = 0.1
+        monthly_republican_tradition = 0.1
     }
     potential = {
         owns = location:granada
@@ -5355,6 +5369,8 @@ aga_tr_city_brandenburg = {
     }
     country_modifier = {
         monthly_legitimacy = 0.05
+        monthly_devotion = 0.05
+        monthly_republican_tradition = 0.05
     }
     potential = {
         owns = location:brandenburg
@@ -5422,9 +5438,6 @@ aga_tr_city_portsmouth = {
     }
     potential = {
         owns = location:portsmouth
-        location:portsmouth = {
-            is_city = yes
-        }
     }
     allow = {
         scope:target = {
@@ -5449,9 +5462,6 @@ aga_tr_city_newcastle = {
     }
     potential = {
         owns = location:newcastle
-        location:newcastle = {
-            is_city = yes
-        }
     }
     allow = {
         scope:target = {
@@ -5474,9 +5484,6 @@ aga_tr_city_glasgow = {
     }
     potential = {
         owns = location:glasgow
-        location:glasgow = {
-            is_city = yes
-        }
     }
     allow = {
         scope:target = {
@@ -5498,9 +5505,6 @@ aga_tr_city_boston = {
     }
     potential = {
         owns = location:shawmut
-        location:shawmut = {
-            is_city = yes
-        }
 		culture ?= {
 			is_culture_native_american = no
         }
@@ -5527,9 +5531,6 @@ aga_tr_city_philadelphia = {
     }
     potential = {
         owns = location:shackamaxon
-        location:shackamaxon = {
-            is_city = yes
-        }
         culture ?= {
             is_culture_native_american = no
         }
@@ -5557,9 +5558,6 @@ aga_tr_city_havana = {
     }
     potential = {
         owns = location:habana
-        location:habana = {
-            is_city = yes
-        }
         culture ?= {
             is_culture_native_american = no
         }
