@@ -1,0 +1,106 @@
+
+
+# aga_tr_afr_swahili_stone_town (Stone Town Charter): coral-stone merchant houses on the Swahili coast. Lock: Swahili culture.
+# #culture_group east_african_coast_group
+aga_tr_afr_swahili_stone_town = {
+    kept_at_conquest = no
+
+    location_modifier = {
+		local_maritime_presence = 0.1
+		local_trades_per_burgher = 0.25
+        local_trade_protection_factor = 0.05
+		local_marketplace_building_levels = 5
+		local_market_upgrade_building_levels = 5
+        local_burghers_estate_power = 1.0
+    }
+
+    country_modifier = {
+    }
+
+    potential = {
+        culture = {
+            has_culture_group = culture_group:east_african_coast_group
+        }
+    }
+
+    allow = {
+        scope:target = {
+			is_port = yes
+			NOT = {
+				has_town_rights = town_rights_type:staple_port
+            }
+        }
+    }
+
+    color = map_dene
+}
+# 
+# aga_tr_afr_hausa_birni (Birni Walled City): Hausa city-state walls and market law. Lock: Hausa culture, Sahel.
+# #culture_group west_african_groaup
+aga_tr_afr_hausa_birni = {
+    kept_at_conquest = no
+
+    location_modifier = {
+		local_trades_per_burgher = 0.25
+        local_production_efficiency = small_production_efficiency_bonus
+        local_burghers_estate_power = 1.0
+        local_trade_protection_factor = 0.05
+    }
+
+    country_modifier = {
+		legislative_efficiency = -0.1
+    }
+
+    potential = {
+        culture = {
+            has_culture_group = culture_group:west_african_groaup
+        }
+    }
+
+    allow = {
+		scope:target = {
+            has_building = building_type:city_walls
+        }
+    }
+
+    color = map_dene
+}
+# 
+# aga_tr_afr_saltroute (Saharan Salt Depot): salt caravans from Taghaza or Taoudenni. Lock: Sahara with a salt resource.
+# #sahel_region
+aga_tr_afr_saltroute = {
+    kept_at_conquest = no
+
+    location_modifier = {
+        local_trade_protection_factor = 0.05
+        local_market_access = 0.1
+        local_raw_material_output = 0.33
+    }
+
+    country_modifier = {
+    }
+
+    potential = {
+		region:sahel_region = {
+			any_location_in_region = {
+				owner ?= {
+					this = scope:actor
+				}
+			}
+		}
+    }
+
+    allow = {
+		scope:target = {
+            raw_material = goods:salt
+            region = region:sahel_region
+        }
+    }
+
+    color = map_dene
+}
+# 
+# aga_tr_gen_coffeehouse (Coffeehouse Culture): social and intellectual hub. Unlock in age 4+, with Ottoman, Arab and then European variants.
+# 
+
+
