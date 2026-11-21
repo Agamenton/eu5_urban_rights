@@ -4254,7 +4254,7 @@ aga_tr_city_palermo = {
     kept_at_conquest = yes
     location_modifier = {
         local_nobles_estate_power = 0.2
-        local_monthly_prosperity = 0.001
+        local_monthly_prosperity = 0.0015
 		local_construction_speed = 0.20
         local_maritime_presence = 1
     }
@@ -4944,7 +4944,7 @@ aga_tr_city_granada_islamic = {
     kept_at_conquest = no
     location_modifier = {
         local_cultural_tradition = 2
-        local_migration_attraction = 1
+        local_migration_attraction = 0.25
         local_monthly_food_modifier = 0.15
     }
     country_modifier = {
@@ -5305,7 +5305,7 @@ aga_tr_city_troyes = {
     kept_at_conquest = yes
     location_modifier = {
         local_market_access = 0.2
-        local_monthly_prosperity = 0.001
+        local_monthly_prosperity = 0.0015
 		local_trades_per_burgher = 0.5
     }
     country_modifier = {
@@ -5569,3 +5569,902 @@ aga_tr_city_havana = {
     }
     color = map_CAS
 }
+
+
+# aga_tr_city_cologne, Stapelrecht of the Rhine (ages 1-4): the right to force passing river cargo to be unloaded and offered for sale, and a pilgrimage draw for the Three Kings relics.
+aga_tr_city_cologne = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+		local_trades_per_burgher = 0.5
+        local_merchant_capacity = 5
+        local_migration_attraction = 0.2
+    }
+
+    country_modifier = {
+        monthly_religious_influence = 0.1
+    }
+
+    potential = {
+        owns = location:cologne
+    }
+
+    allow = {
+        scope:target = {
+            this = location:cologne
+        }
+    }
+
+    color = map_dene
+}
+
+# aga_tr_city_mainz, Gutenberg’s Workshop (age 3+): the birthplace of movable-type printing, giving a strong early boost to literacy and book production.
+aga_tr_city_mainz = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+		local_monthly_literacy = 0.1
+        local_max_literacy = 5
+        local_cultural_influence = 0.5
+    }
+
+    country_modifier = {
+	    global_institution_growth_modifier = 0.20
+    }
+
+    potential = {
+        owns = location:mainz
+    }
+
+    allow = {
+        scope:target = {
+            this = location:mainz
+        }
+        has_embraced_institution = institution:printing_press
+    }
+
+    color = map_polatskian
+}
+
+# aga_tr_city_leipzig, Imperial Trade Fair (ages 3-5)-fuckit: Imperial fair privilege with a ban on rival fairs within a certain radius.
+aga_tr_city_leipzig = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_market_access = 0.1
+        local_trade_protection_factor = 0.1
+    }
+
+    country_modifier = {
+	    foreign_export_from_market_efficiency = -0.05
+    }
+
+    potential = {
+        owns = location:leipzig
+    }
+
+    allow = {
+        scope:target = {
+            this = location:leipzig
+        }
+    }
+
+    color = map_ajuran
+}
+
+# aga_tr_city_frankfurt, Coronation and Fair City (ages 2-5): imperial election and coronation site, with the Frankfurt Fair.
+aga_tr_city_frankfurt = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_market_access = 0.15
+        local_monthly_prosperity = 0.0015
+        local_crown_estate_power = 0.5
+    }
+
+    country_modifier = {
+        global_crown_estate_power = 0.1
+    }
+
+    potential = {
+        owns = location:frankfurt
+    }
+
+    allow = {
+        scope:target = {
+            this = location:frankfurt
+        }
+    }
+
+    color = map_scottish
+}
+
+# aga_tr_city_aachen, Charlemagne’s Throne (ages 1-4): ceremonial seat of the Roman King, with pilgrim crowds and legitimacy bonuses.
+aga_tr_city_aachen = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_cultural_tradition = 1
+        local_migration_attraction = 0.2
+        local_max_control = 0.05
+    }
+
+    country_modifier = {
+        monthly_legitimacy = 0.1
+        monthly_devotion = 0.1
+        monthly_republican_tradition = 0.1
+    }
+
+    potential = {
+        owns = location:aachen
+    }
+
+    allow = {
+        scope:target = {
+            this = location:aachen
+        }
+    }
+
+    color = map_hansa
+}
+
+# aga_tr_city_salzburg, Prince-Archbishop’s Salt Mines (ages 2-5): church-run salt wealth.
+aga_tr_city_salzburg = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_clergy_desired_pop_scaled = 0.001
+        local_salt_output_modifier = 0.3
+        local_crown_estate_power = 0.5
+    }
+
+    country_modifier = {
+	    global_salt_output_modifier = 0.2
+    }
+
+    potential = {
+        owns = location:salzburg
+    }
+
+    allow = {
+        scope:target = {
+            this = location:salzburg
+        }
+    }
+
+    color = map_HRE
+}
+
+# aga_tr_city_lyon, Lyon Fairs and Silk Looms (ages 3-5): banking fairs and royal silk monopoly.
+aga_tr_city_lyon = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_market_access = 0.15
+        local_trade_protection_factor = 0.1
+        local_silk_output_modifier = 0.25
+    }
+
+    country_modifier = {
+	    creditworthiness_bonus = 0.1
+    }
+
+    potential = {
+        owns = location:lyon
+    }
+
+    allow = {
+        scope:target = {
+            this = location:lyon
+        }
+        has_embraced_institution = institution:banking
+    }
+
+    color = map_burmese
+}
+
+# aga_tr_city_montpellier, School of Medicine (ages 1-4): medieval Europe’s leading medical faculty.
+aga_tr_city_montpellier = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_life_expectancy = 5
+        local_disease_resistance = 0.15
+        local_monthly_literacy = 0.02
+    }
+
+    country_modifier = {
+	    global_disease_resistance = 0.05
+    }
+
+    potential = {
+        owns = location:montpellier
+    }
+
+    allow = {
+        scope:target = {
+            this = location:montpellier
+        }
+    }
+
+    color = map_BOH
+}
+
+# aga_tr_city_ghent, Rebellious Guild Republic (ages 1-3): powerful weavers’ guilds that bring wealth and unrest in equal measure.
+aga_tr_city_ghent = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_production_efficiency = 0.1
+        local_burghers_estate_power = 0.5
+        local_crown_estate_power = -0.2
+    }
+
+    country_modifier = {
+        global_fine_cloth_output_modifier = 0.1
+    }
+
+    potential = {
+        owns = location:ghent
+    }
+
+    allow = {
+        scope:target = {
+            this = location:ghent
+        }
+    }
+
+    color = map_atka
+}
+
+# aga_tr_city_barcelona, Consolat de Mar (ages 1-3): a maritime law court and Mediterranean commercial code.
+aga_tr_city_barcelona = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_maritime_presence = 0.5
+        local_trade_protection_factor = 0.1
+		local_trades_per_burgher = 1.0
+    }
+
+    country_modifier = {
+		legislative_efficiency = 0.2
+    }
+
+    potential = {
+        owns = location:barcelona
+    }
+
+    allow = {
+        scope:target = {
+            this = location:barcelona
+        }
+    }
+
+    color = map_atka
+}
+
+# aga_tr_city_valencia, Llotja de la Seda (ages 2-4): silk exchange and Mediterranean banking.
+aga_tr_city_valencia = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_market_access = 0.15
+        local_cultural_tradition = 1
+        local_silk_output_modifier = 0.25
+    }
+
+    country_modifier = {
+	    creditworthiness_bonus = 0.1
+    }
+
+    potential = {
+        owns = location:valencia
+    }
+
+    allow = {
+        scope:target = {
+            this = location:valencia
+        }
+        has_embraced_institution = institution:banking
+    }
+
+    color = map_ARA
+}
+
+# aga_tr_city_cordoba, Mosque-Cathedral and Leather (ages 1-3): inheritance of an Umayyad capital, with leather goods and Cordovan trade.
+aga_tr_city_cordoba_christian = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_clergy_desired_pop_scaled = 0.002
+        local_leather_output_modifier = 0.3
+        local_cultural_tradition = 1
+    }
+
+    country_modifier = {
+        monthly_religious_influence = 0.1
+        global_leather_output_modifier = 0.1
+    }
+
+    potential = {
+        owns = location:cordoba
+        NOT = { religion.group = religion_group:muslim}
+    }
+
+    allow = {
+        scope:target = {
+            this = location:cordoba
+        }
+    }
+
+    color = map_HRE
+}
+
+aga_tr_city_cordoba_muslim = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_leather_output_modifier = 0.3
+        local_cultural_tradition = 1
+        local_crown_estate_power = 0.5
+    }
+
+    country_modifier = {
+        global_leather_output_modifier = 0.1
+        monthly_legitimacy = 0.1
+        monthly_devotion = 0.1
+        monthly_republican_tradition = 0.1
+    }
+
+    potential = {
+        owns = location:cordoba
+        religion.group = religion_group:muslim
+    }
+
+    allow = {
+        scope:target = {
+            this = location:cordoba
+        }
+    }
+
+    color = map_HRE
+}
+# 
+# aga_tr_city_santiago_compostela, Camino de Santiago (ages 1-4): pilgrimage income, a religious unity bonus and a travel network.
+aga_tr_city_santiago_compostela = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_clergy_desired_pop_scaled = 0.005
+        local_cultural_tradition = 1
+        local_monthly_prosperity = 0.0015
+    }
+
+    country_modifier = {
+	    global_migration_speed_modifier = 0.05
+    }
+
+    potential = {
+        owns = location:santiago_compostela
+    }
+
+    allow = {
+        scope:target = {
+            this = location:santiago_compostela
+        }
+    }
+
+    color = map_BOH
+}
+# 
+# aga_tr_city_oxford, Oxford Colleges (ages 1-5): university prestige, and a counterpart to Cambridge.
+aga_tr_city_oxford = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_max_literacy = 5
+        local_monthly_literacy = 0.02
+        local_cultural_tradition = 1
+    }
+
+    country_modifier = {
+        research_speed_modifier = 0.05
+    }
+
+    potential = {
+        owns = location:oxford
+    }
+
+    allow = {
+        scope:target = {
+            this = location:oxford
+        }
+    }
+
+    color = map_HRE
+}
+
+# aga_tr_city_york, Northern Capital (ages 1-4): Wool Staple, minster and a northern power base
+aga_tr_city_york = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_max_control = 0.1
+        local_crown_estate_power = 0.5
+        local_nobles_desired_pop_scaled = 0.002
+    }
+
+    country_modifier = {
+        legislative_efficiency = 0.2
+    }
+
+    potential = {
+        owns = location:york
+    }
+
+    allow = {
+        scope:target = {
+            this = location:york
+        }
+    }
+
+    color = map_GBR
+}
+# aga_tr_city_visby, Gotland Merchant Republic (ages 1-2): an early Baltic trade center, fading after pirates and Danish conquest.
+aga_tr_city_visby = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+		local_marketplace_building_levels = 10
+		local_market_upgrade_building_levels = 10
+        local_maritime_presence = 0.5
+        local_trade_protection_factor = 0.1
+    }
+
+    country_modifier = {
+	    trade_sea_efficiency = medium_trade_sea_efficiency_bonus
+    }
+
+    potential = {
+        owns = location:visby
+    }
+
+    allow = {
+        scope:target = {
+            this = location:visby
+        }
+    }
+
+    color = map_swedish
+}
+# aga_tr_city_riga, Livonian Staple (ages 2-4): the Russian trade gateway.
+aga_tr_city_riga = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+		harbor_suitability = 0.3
+        local_maritime_presence = 0.5
+        local_merchant_capacity = 4
+    }
+
+    country_modifier = {
+	    trade_range_modifier = 0.1
+    }
+
+    potential = {
+        owns = location:riga
+    }
+
+    allow = {
+        scope:target = {
+            this = location:riga
+        }
+    }
+
+    color = map_norwegian
+}
+# aga_tr_city_stockholm, Gateway to the Mälaren (ages 2-5): Swedish crown and copper trade.
+aga_tr_city_stockholm = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_maritime_presence = 0.5
+		local_marketplace_building_levels = 10
+		local_market_upgrade_building_levels = 10
+        local_monthly_development = 0.001
+    }
+
+    country_modifier = {
+	    trade_income = 0.05
+    }
+
+    potential = {
+        owns = location:stockholm
+    }
+
+    allow = {
+        scope:target = {
+            this = location:stockholm
+        }
+    }
+
+    color = map_swedish
+}
+# 
+# aga_tr_city_kobenhavn, Øresund Toll Fortress (ages 3-5): Sound dues and a naval base.
+aga_tr_city_kobenhavn = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_maritime_presence = 0.5
+        local_trade_protection_factor = 0.1
+        hostile_fleet_attrition = 1
+    }
+
+    country_modifier = {
+	    export_efficiency = medium_trade_efficiency_bonus
+    }
+
+    potential = {
+        owns = location:kobenhavn
+    }
+
+    allow = {
+        scope:target = {
+            this = location:kobenhavn
+        }
+    }
+
+    color = map_hungarian
+}
+# 
+# aga_tr_city_krakow, Wieliczka Salt and Jagiellonian University (ages 2-4).
+aga_tr_city_krakow = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_salt_output_modifier = 0.3
+        local_max_literacy = 5
+        local_production_efficiency = 0.05
+    }
+
+    country_modifier = {
+        global_salt_output_modifier = 0.1
+    }
+
+    potential = {
+        owns = location:krakow
+    }
+
+    allow = {
+        scope:target = {
+            this = location:krakow
+        }
+    }
+
+    color = map_POL
+}
+# aga_tr_city_lviv, Meeting of Armenian and Latin Quarters (ages 2-4): a multicultural trade center with different law codes.
+aga_tr_city_lviv = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_market_access = 0.1
+        local_cultural_influence = 1
+		local_marketplace_building_levels = 10
+		local_market_upgrade_building_levels = 10
+    }
+
+    country_modifier = {
+	    trade_land_efficiency = medium_trade_land_efficiency_bonus
+    }
+
+    potential = {
+        owns = location:lviv
+    }
+
+    allow = {
+        scope:target = {
+            this = location:lviv
+        }
+    }
+
+    color = map_halychian
+}
+# aga_tr_city_athens, Ruins of Antiquity (ages 1-4): low productivity but high prestige.
+aga_tr_city_athens = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_monthly_prosperity = 0.0015
+		local_build_buildings_efficiency = 0.25
+        local_migration_attraction = 0.15
+    }
+
+    country_modifier = {
+        monthly_prestige = 0.1
+    }
+
+    potential = {
+        owns = location:athens
+    }
+
+    allow = {
+        scope:target = {
+            this = location:athens
+        }
+    }
+
+    color = map_greek
+}
+# aga_tr_city_konya, Mevlevi Lodge (ages 1-4): a Sufi center with pilgrim tourism.
+aga_tr_city_konya = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_migration_attraction = 0.1
+        local_max_literacy = 5
+        local_clergy_desired_pop_scaled = 0.005
+    }
+
+    country_modifier = {
+		if = {
+			limit = {
+				religion.group = religion_group:muslim
+			}
+			tolerance_own = 1
+		}
+        
+		if = {
+			limit = {
+				NOT = { religion.group = religion_group:muslim }
+			}
+			tolerance_heathen = 1
+		}
+    }
+
+    potential = {
+        owns = location:konya
+    }
+
+    allow = {
+        scope:target = {
+            this = location:konya
+        }
+    }
+
+    color = map_akwe
+}
+# aga_tr_city_kairouan, Sacred City of the Maghreb (ages 1-3).
+aga_tr_city_kairouan = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_cultural_tradition = 1
+        local_max_literacy = 5
+        local_max_control = 0.05
+    }
+
+    country_modifier = {
+		if = {
+			limit = {
+				religion.group = religion_group:muslim
+			}
+			tolerance_own = 1
+		}
+        
+		if = {
+			limit = {
+				NOT = { religion.group = religion_group:muslim }
+			}
+			tolerance_heathen = 1
+		}
+    }
+
+    potential = {
+        owns = location:kairouan
+    }
+
+    allow = {
+        scope:target = {
+            this = location:kairouan
+        }
+    }
+
+    color = map_tunis
+}
+# aga_tr_city_tlemcen, Caravan Terminus (ages 1-4): a Zayyanid trade hub.
+aga_tr_city_tlemcen = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+		local_trades_per_burgher = 0.5
+		local_marketplace_building_levels = 10
+		local_market_upgrade_building_levels = 10
+        local_market_access = 0.1
+        local_burghers_estate_power = 0.75
+    }
+
+    country_modifier = {
+	    trade_land_efficiency = medium_trade_land_efficiency_bonus
+    }
+
+    potential = {
+        owns = location:tlemcen
+    }
+
+    allow = {
+        scope:target = {
+            this = location:tlemcen
+        }
+    }
+
+    color = map_tunis
+}
+# aga_tr_city_sijilmasa, Gold Caravan Gate (ages 1-3): the northern end of the Trans-Saharan gold trade.
+aga_tr_city_sijilmasa = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_merchant_capacity = 5
+        local_market_access = 0.15
+        local_trade_protection_factor = 0.1
+    }
+
+    country_modifier = {
+	    merchant_maintenance_efficiency = 0.15
+    }
+
+    potential = {
+        owns = location:sijilmasa
+    }
+
+    allow = {
+        scope:target = {
+            this = location:sijilmasa
+        }
+    }
+
+    color = map_morocco
+}
+# aga_tr_city_djenne, Great Mud Mosque and River Port (ages 1-4).
+aga_tr_city_djenne = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_market_access = 0.1
+        local_cultural_tradition = 1
+        local_max_literacy = 5
+    }
+
+    country_modifier = {
+	    cultural_tradition_modifier = 0.2
+    }
+
+    potential = {
+        owns = location:djenne
+    }
+
+    allow = {
+        scope:target = {
+            this = location:djenne
+        }
+    }
+
+    color = map_HRE
+}
+# 
+# aga_tr_city_kozhikode, Samudri’s Harbor (ages 1-3): Zamorin’s pepper port and an Arab trade quarter.
+aga_tr_city_kozhikode = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_merchant_capacity = 5
+        local_trade_protection_factor = 0.1
+		local_trades_per_burgher = 0.25
+        local_maritime_presence = 0.5
+    }
+
+    country_modifier = {
+        global_pepper_output_modifier = 0.1
+    }
+
+    potential = {
+        owns = location:kozhikode
+    }
+
+    allow = {
+        scope:target = {
+            this = location:kozhikode
+        }
+    }
+
+    color = map_HRE
+}
+# 
+# # aga_tr_city_nanjing, Southern Capital (ages 2-5): Ming first capital and treasure fleets.
+# # Already Exists, has different name
+# 
+# aga_tr_city_hakata, Gateway to Korea and China (ages 1-4).
+aga_tr_city_hakata = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+		local_marketplace_building_levels = 10
+		local_market_upgrade_building_levels = 10
+        local_maritime_presence = 0.5
+        local_trade_protection_factor = 0.1
+    }
+
+    country_modifier = {
+	    trade_sea_efficiency = medium_trade_sea_efficiency_bonus
+    }
+
+    potential = {
+        owns = location:hakata
+    }
+
+    allow = {
+        scope:target = {
+            this = location:hakata
+        }
+    }
+
+    color = map_HRE
+}
+# 
+# aga_tr_city_suzhou_fengyang, Garden and Silk Capital (ages 2-5).
+aga_tr_city_suzhou_fengyang = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_fine_cloth_output_modifier = 0.25
+        local_monthly_prosperity = 0.0015
+        local_cultural_influence = 1
+    }
+
+    country_modifier = {
+        monthly_prestige = 0.1
+    }
+
+    potential = {
+        owns = location:suzhou_fengyang
+    }
+
+    allow = {
+        scope:target = {
+            this = location:suzhou_fengyang
+        }
+    }
+
+    color = map_HRE
+}
+# 
+# aga_tr_city_namgyeong, Joseon Capital (ages 2-5): Confucian bureaucracy.
+aga_tr_city_namgyeong = {
+    kept_at_conquest = yes
+
+    location_modifier = {
+        local_max_literacy = 5
+        local_cultural_tradition = 1
+        local_monthly_literacy = 0.02
+    }
+
+    country_modifier = {
+	    global_bureaucracy_maintenance_efficiency = 0.05
+    }
+
+    potential = {
+        owns = location:namgyeong
+    }
+
+    allow = {
+        scope:target = {
+            this = location:namgyeong
+        }
+    }
+
+    color = map_tlaxcallan
+}
+# 

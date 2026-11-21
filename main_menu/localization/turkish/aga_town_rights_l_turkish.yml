@@ -736,3 +736,160 @@
 
  aga_tr_city_havana: "Bastion of the Spanish Main"
  aga_tr_city_havana_desc: "Havana's harbor shelters the treasure fleets of Spain before their long crossing home, its fortifications and patrol squadrons standing as the Caribbean's foremost bulwark against corsairs and privateers alike. No pirate captain sails these waters without first reckoning the cost of Havana's guns."
+
+ # TODO: implement
+ # # =============================================================
+ # # AFRICA
+ # # =============================================================
+ # aga_tr_afr_swahili_stone_town: "Stone Town Charter"
+ # aga_tr_afr_swahili_stone_town_desc: "The merchant families of the Swahili coast built their houses of cut coral rag and lime, a costly material that set the stone town apart from the mud-and-thatch settlements around it. Granting this right recognizes the town's wealthy trading houses and lets them turn monsoon commerce into lasting civic grandeur."
+ # 
+ # aga_tr_afr_hausa_birni: "Birni Walled City"
+ # aga_tr_afr_hausa_birni_desc: "A birni is a Hausa city enclosed by great earthen walls, within which the ruler, the market, and the craftsmen all lived under a single body of law. This right formalizes the town's ramparts and its market regulations, making it a secure and orderly center for the trade of the Sahel."
+ # 
+ # aga_tr_afr_saltroute: "Saharan Salt Depot"
+ # aga_tr_afr_saltroute_desc: "Salt cut in heavy slabs from the desert pans of Taghaza and Taoudenni was carried south by camel caravan and traded for gold and slaves. This right establishes the town as a depot where the caravans unload, rest, and sell their cargo, enriching those who control the salt route."
+ # 
+ # # =============================================================
+ # # GENERIC
+ # # =============================================================
+ # aga_tr_gen_coffeehouse: "Coffeehouse Culture"
+ # aga_tr_gen_coffeehouse_desc: "From the qahveh khaneh of Constantinople and Cairo to the coffeehouses of London and Amsterdam, these establishments became places where merchants struck deals, scholars argued, and news passed from table to table. This right makes the town a hub of conversation and information, strengthening its commerce and intellectual life."
+ # 
+ # =============================================================
+ # HOLY ROMAN EMPIRE / GERMANY
+ # =============================================================
+ aga_tr_city_cologne: "Stapelrecht of the Rhine"
+ aga_tr_city_cologne_desc: "Cologne held the right of staple, compelling merchants who traveled the Rhine to unload their goods and offer them for sale before continuing on their way. The city also drew pilgrims in great numbers to the shrine of the Three Kings, whose relics the cathedral had received from Milan."
+
+ aga_tr_city_mainz: "Gutenberg's Workshop"
+ aga_tr_city_mainz_desc: "In Mainz, Johannes Gutenberg combined a metal-casting press with movable type, and within a generation printed books had spread across Europe from the city's workshops. This right marks Mainz as the cradle of printing, giving it an early lead in the production of books and the spread of literacy."
+
+ aga_tr_city_leipzig: "Imperial Trade Fair"
+ aga_tr_city_leipzig_desc: "Leipzig's fairs grew into some of the most important in Central Europe, and the Emperor confirmed their privilege while forbidding rival markets within a wide radius around the city. This right grants the town an imperial fair, concentrating the trade of the surrounding lands in its streets."
+
+ aga_tr_city_frankfurt: "Coronation and Fair City"
+ aga_tr_city_frankfurt_desc: "The Golden Bull named Frankfurt as the place where the electors chose the King of the Romans, and its great fairs made it a center of trade and finance in the Empire. This right ties the town to the machinery of imperial politics while sustaining its merchant wealth."
+
+ aga_tr_city_aachen: "Charlemagne's Throne"
+ aga_tr_city_aachen_desc: "Aachen was the favored seat of Charlemagne, and for centuries the kings of the Romans were crowned upon his marble throne in the Palatine Chapel. This right makes the town a sacred seat of imperial legitimacy, drawing pilgrims and lending prestige to any ruler crowned within its walls."
+
+ aga_tr_city_salzburg: "Prince-Archbishop's Salt Mines"
+ aga_tr_city_salzburg_desc: "The prince-archbishops of Salzburg governed their territory as both bishops and secular rulers, and the salt mines of the surrounding Alps paid for their palaces, armies, and churches. This right places the town's salt wealth in the hands of a Church lord, funding both his government and his piety."
+
+ # =============================================================
+ # FRANCE
+ # =============================================================
+ aga_tr_city_lyon: "Lyon Fairs and Silk Looms"
+ aga_tr_city_lyon_desc: "Lyon's fairs became a center of international banking, where Italian financiers lent to kings, while the crown encouraged a silk industry in the city through privileges and monopolies. This right grants the town the commercial and financial standing needed to rival the great fair cities of the realm."
+
+ aga_tr_city_montpellier: "School of Medicine"
+ aga_tr_city_montpellier_desc: "Montpellier's medical faculty drew on Arabic, Jewish, and classical learning to become one of the leading centers of medical study in medieval Europe. Graduates of the school served at courts and in cities across the continent, spreading the town's reputation for learning."
+
+ # =============================================================
+ # LOW COUNTRIES
+ # =============================================================
+ aga_tr_city_ghent: "Rebellious Guild Republic"
+ aga_tr_city_ghent_desc: "The weavers' guilds of Ghent grew so wealthy and numerous that they could challenge counts and dukes, and the city rose in revolt again and again to defend its privileges. This right gives the town great wealth from its cloth trade, but its powerful guilds will not easily accept rule from above."
+
+ # =============================================================
+ # IBERIA
+ # =============================================================
+ aga_tr_city_barcelona: "Consolat de Mar"
+ aga_tr_city_barcelona_desc: "The Consolat de Mar was a maritime court that settled disputes between merchants and sailors, and its code of sea law was adopted by ports across the Mediterranean. This right gives the town a respected body of commercial law, drawing traders who value predictable justice."
+
+ aga_tr_city_valencia: "Llotja de la Seda"
+ aga_tr_city_valencia_desc: "Valencia's silk exchange was housed in a magnificent Gothic hall where merchants traded silk and settled accounts, backed by a municipal bank. This right establishes the town as a center of silk commerce and Mediterranean finance."
+
+ aga_tr_city_cordoba: "Mosque-Cathedral and Leather"
+ aga_tr_city_cordoba_desc: "Once the capital of the Umayyad caliphate in Iberia, Córdoba retained its great mosque, its tradition of learning, and its craftsmen, whose finely worked leather was prized across Europe. This right preserves the legacy of the old caliphal city and the trade built upon it."
+
+ aga_tr_city_cordoba_muslim: "Mosque of the Caliphs and Leather"
+ aga_tr_city_cordoba_muslim_desc: "Once the capital of the Umayyad caliphate in Iberia, Córdoba kept its great mosque, its libraries and its schools, and its craftsmen produced finely worked leather prized across the Mediterranean. Under Muslim rule the city remains a center of learning and worship, and its legacy as the seat of the caliphs lends prestige to its rulers."
+
+ aga_tr_city_cordoba_christian: "Mosque-Cathedral and Leather"
+ aga_tr_city_cordoba_christian_desc: "After the Christian conquest, the great mosque of Córdoba was consecrated as a cathedral, and the city's leatherworkers continued to supply the cordovan leather that Europe valued so highly. Under Christian rule the town balances the memory of its caliphal past against the needs of a new faith, and its trade and craft endure."
+
+ aga_tr_city_santiago_compostela: "Camino de Santiago"
+ aga_tr_city_santiago_compostela_desc: "Pilgrims from across Christendom walked the roads to Santiago de Compostela to venerate the relics of Saint James, creating a network of hospices, bridges, and market towns along the way. This right makes the town the destination of that great pilgrimage, strengthening the faith of the realm and enriching those who serve the travelers."
+
+ # =============================================================
+ # BRITISH ISLES
+ # =============================================================
+ aga_tr_city_oxford: "Oxford Colleges"
+ aga_tr_city_oxford_desc: "Oxford's colleges grew around the schools that gathered scholars from across England and beyond, forming a self-governing community of learning with its own privileges. This right makes the town an intellectual center whose graduates shape the church, the law, and the court."
+
+ aga_tr_city_york: "Northern Capital"
+ aga_tr_city_york_desc: "York was the seat of an archbishop, a major center of the wool trade, and the natural capital of the north of England, where royal authority was exercised through councils and officials. This right establishes the city as a base of power for the northern realm, supported by its Minster and its merchants."
+
+ # =============================================================
+ # SCANDINAVIA / BALTIC
+ # =============================================================
+ aga_tr_city_visby: "Gotland Merchant Republic"
+ aga_tr_city_visby_desc: "Visby was a rich merchant town on the island of Gotland, where German and Gotlandic traders built stone warehouses and churches and dominated the early Baltic trade. This right captures its brief golden age, though pirates and rival powers will in time strip the town of its prosperity."
+
+ aga_tr_city_riga: "Livonian Staple"
+ aga_tr_city_riga_desc: "Riga controlled the mouth of the Daugava and served as the gateway through which wax, furs, and grain from Russia reached the Hanseatic markets of the Baltic. This right grants the town a staple privilege over that trade, making it a point through which goods must pass."
+
+ aga_tr_city_stockholm: "Gateway to the Mälaren"
+ aga_tr_city_stockholm_desc: "Stockholm stands at the outlet of Lake Mälaren, where the copper and iron of central Sweden were brought down to be shipped across the Baltic. This right makes the town the hub of the Swedish crown's metal trade, binding the interior's mines to the sea."
+
+ aga_tr_city_kobenhavn: "Øresund Toll Fortress"
+ aga_tr_city_kobenhavn_desc: "The Danish crown claimed the right to tax every ship passing through the Sound between the North Sea and the Baltic, and its fortresses and fleet enforced that claim. This right gives the town the means to collect those dues and a naval base from which to defend them."
+
+ # =============================================================
+ # POLAND-LITHUANIA
+ # =============================================================
+ aga_tr_city_krakow: "Wieliczka Salt and Jagiellonian University"
+ aga_tr_city_krakow_desc: "Kraków drew wealth from the royal salt mines at nearby Wieliczka and prestige from its university, which educated scholars, clerics, and officials for the kingdom. This right ties together the town's mineral revenue and its academic reputation."
+
+ aga_tr_city_lviv: "Meeting of Armenian and Latin Quarters"
+ aga_tr_city_lviv_desc: "Lviv was home to Latin, Armenian, Ruthenian, and Jewish communities, each with its own quarter, church, and courts, and together they made the city a crossroads between East and West. This right recognizes that plurality of law and faith, drawing merchants from many lands to its markets."
+
+ # =============================================================
+ # GREECE
+ # =============================================================
+ aga_tr_city_athens: "Grant of Restoration"
+ aga_tr_city_athens_desc: "Athens had shrunk from a great city into a modest town beneath the Acropolis, its temples crumbling and its streets half empty. This grant authorizes the repair of its monuments, the resettlement of its quarters, and the revival of its markets, turning the memory of classical glory into a foundation for renewed prosperity."
+
+ # =============================================================
+ # MIDDLE EAST / NORTH AFRICA
+ # =============================================================
+ aga_tr_city_konya: "Mevlevi Lodge"
+ aga_tr_city_konya_desc: "Konya was the home of Rumi and the Mevlevi Sufi order, whose lodge and tomb drew pilgrims, poets, and seekers from across the Islamic world. This right makes the town a center of mystical devotion, sustained by the travelers who come to honor its saints."
+
+ aga_tr_city_kairouan: "Sacred City of the Maghreb"
+ aga_tr_city_kairouan_desc: "Founded as the first Muslim city in North Africa, Kairouan was long regarded as holy, with its Great Mosque and its tradition of Maliki scholarship. This right establishes the town as the spiritual heart of the Maghreb, respected by the faithful far beyond its walls."
+
+ aga_tr_city_tlemcen: "Caravan Terminus"
+ aga_tr_city_tlemcen_desc: "Tlemcen, capital of the Zayyanid dynasty, stood where caravans from the Sahara met the ships of the Mediterranean, and its markets handled goods flowing in both directions. This right makes the town a terminus of the western caravan routes, enriching its rulers and merchants."
+
+ aga_tr_city_sijilmasa: "Gold Caravan Gate"
+ aga_tr_city_sijilmasa_desc: "Sijilmasa lay on the northern edge of the Sahara, where the gold of West Africa was received from the camel caravans and sent on to Morocco and the Mediterranean. This right makes the town the gate through which Saharan gold enters the wider world."
+
+ # =============================================================
+ # WEST AFRICA
+ # =============================================================
+ aga_tr_city_djenne: "Great Mud Mosque and River Port"
+ aga_tr_city_djenne_desc: "Djenné rose on the Niger floodplain, where river traffic and caravan routes met, and its mud-brick Great Mosque became a symbol of Sahelian architecture and Islamic learning. This right unites the town's river commerce with its role as a center of faith and scholarship."
+
+ # =============================================================
+ # INDIA
+ # =============================================================
+ aga_tr_city_kozhikode: "Samudri's Harbor"
+ aga_tr_city_kozhikode_desc: "Calicut was the seat of the Zamorin, whose open harbor welcomed Arab, Persian, Gujarati, and Chinese ships and shipped pepper across the Indian Ocean. This right grants the town a thriving foreign merchant quarter under the ruler's protection, at the heart of the spice trade."
+
+ # =============================================================
+ # EAST ASIA
+ # =============================================================
+ aga_tr_city_nanjing: "Southern Capital"
+ aga_tr_city_nanjing_desc: "Nanjing served as the first capital of the Ming dynasty and later as its secondary capital, and its shipyards built the great treasure fleets that sailed to the Indian Ocean. This right gives the town the standing of a southern imperial capital and the resources of a great port of the Yangtze."
+
+ aga_tr_city_hakata: "Gateway to Korea and China"
+ aga_tr_city_hakata_desc: "Hakata was the port through which most Japanese trade with the Asian mainland passed, long ruled by merchants who dealt with Korean and Chinese traders. This right establishes the town as a gateway for continental goods, ideas, and diplomacy."
+
+ aga_tr_city_suzhou_fengyang: "Garden and Silk Capital"
+ aga_tr_city_suzhou_fengyang_desc: "Suzhou combined the finest silk weaving in China with the elegant gardens of retired officials and wealthy merchants, and it produced many of the empire's scholars. This right makes the town a center of luxury production and refined culture."
+
+ aga_tr_city_namgyeong: "Joseon Capital"
+ aga_tr_city_namgyeong_desc: "Hanyang was chosen as capital of the Joseon dynasty, laid out according to Confucian principles and governed by an educated bureaucracy trained through the examination system. This right makes the town the administrative and scholarly heart of the realm."
