@@ -6444,18 +6444,18 @@ aga_tr_city_hakata = {
     color = map_HRE
 }
 # 
-# aga_tr_city_suzhou_fengyang, Garden and Silk Capital (ages 2-5).
+# aga_tr_city_suzhou_fengyang, a regional grain-and-river transport hub
 aga_tr_city_suzhou_fengyang = {
     kept_at_conquest = yes
 
     location_modifier = {
-        local_fine_cloth_output_modifier = 0.25
-        local_monthly_prosperity = 0.0015
-        local_cultural_influence = 1
+        local_market_access = 0.1
+		local_food_capacity = 100
+		local_supply_limit_modifier = 0.1
     }
 
     country_modifier = {
-        monthly_prestige = 0.1
+	    global_supply_limit_modifier = 0.05
     }
 
     potential = {
